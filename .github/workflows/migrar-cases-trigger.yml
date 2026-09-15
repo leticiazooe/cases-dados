@@ -1,0 +1,100 @@
+name: Migrar cases para estrutura navegável
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+
+jobs:
+  migrar:
+    if: github.event.issue.title == 'RUN CASES MIGRATION'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout da branch de migração
+        uses: actions/checkout@v4
+        with:
+          ref: refactor/cases-navegaveis
+          fetch-depth: 0
+
+      - name: Descompactar os 24 cases
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          import shutil
+          import unicodedata
+          import zipfile
+
+          raiz = Path.cwd()
+          pasta_cases = raiz / 'cases'
+          pasta_archives = raiz / 'archives'
+          pasta_archives.mkdir(exist_ok=True)
+
+          zips = sorted(pasta_cases.glob('Case_*.zip'))
+          if len(zips) != 24:
+              raise SystemExit(f'Esperados 24 ZIPs; encontrados {len(zips)}')
+
+          def slug(nome: str) -> str:
+              base = Path(nome).stem
+              base = re.sub(r'^Case_', '', base, flags=re.I)
+              m = re.match(r'(\d+)[_-](.*)', base)
+              if m:
+                  numero, titulo = m.groups()
+              else:
+                  numero, titulo = '00', base
+              titulo = unicodedata.normalize('NFKD', titulo)
+              titulo = ''.join(c for c in titulo if not unicodedata.combining(c))
+              titulo = titulo.lower().replace('_', ' ')
+              titulo = re.sub(r'[^a-z0-9]+', '-', titulo).strip('-')
+              return f'{int(numero):02d}-{titulo}'
+
+          for zip_path in zips:
+              destino = pasta_cases / slug(zip_path.name)
+              if destino.exists():
+                  shutil.rmtree(destino)
+              destino.mkdir(parents=True, exist_ok=True)
+
+              with zipfile.ZipFile(zip_path) as zf:
+                  for info in zf.infolist():
+                      alvo = (destino / info.filename).resolve()
+                      if destino.resolve() not in alvo.parents and alvo != destino.resolve():
+                          raise RuntimeError(f'Caminho inseguro: {zip_path.name} -> {info.filename}')
+                  zf.extractall(destino)
+
+              shutil.move(str(zip_path), str(pasta_archives / zip_path.name))
+              print(f'Migrado: {zip_path.name} -> {destino.relative_to(raiz)}')
+
+      - name: Criar índice navegável
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          pasta_cases = Path('cases')
+          pastas = sorted(p for p in pasta_cases.iterdir() if p.is_dir())
+          if len(pastas) != 24:
+              raise SystemExit(f'Validação falhou: esperados 24 diretórios; encontrados {len(pastas)}')
+
+          linhas = [
+              '# Índice dos cases\n\n',
+              'Os cases estão descompactados e podem ser explorados diretamente pelo GitHub. Os arquivos ZIP originais foram preservados em `../archives/`.\n\n',
+              '| Case | Projeto |\n',
+              '|---:|---|\n',
+          ]
+          for pasta in pastas:
+              m = re.match(r'(\d+)-(.*)', pasta.name)
+              numero = m.group(1) if m else '-'
+              titulo = (m.group(2) if m else pasta.name).replace('-', ' ').title()
+              linhas.append(f'| {numero} | [{titulo}]({pasta.name}) |\n')
+          (pasta_cases / 'README.md').write_text(''.join(linhas), encoding='utf-8')
+
+      - name: Commit e push na branch do PR
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A cases archives
+          git commit -m "refactor: reorganiza 24 cases em pastas navegáveis"
+          git push origin HEAD:refactor/cases-navegaveis
