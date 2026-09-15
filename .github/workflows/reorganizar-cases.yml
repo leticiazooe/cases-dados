@@ -1,0 +1,103 @@
+name: Reorganizar cases de dados
+
+on:
+  push:
+    branches:
+      - refactor/cases-navegaveis
+    paths:
+      - .github/workflows/reorganizar-cases.yml
+
+permissions:
+  contents: write
+
+jobs:
+  reorganizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Extrair cases em pastas navegáveis
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          import shutil
+          import unicodedata
+          import zipfile
+
+          raiz = Path.cwd()
+          pasta_cases = raiz / "cases"
+          pasta_archives = raiz / "archives"
+          pasta_archives.mkdir(exist_ok=True)
+
+          zips = sorted(pasta_cases.glob("Case_*.zip"))
+          if not zips:
+              raise SystemExit("Nenhum ZIP encontrado em cases/")
+
+          def slug(nome: str) -> str:
+              base = Path(nome).stem
+              base = re.sub(r"^Case_", "", base, flags=re.I)
+              m = re.match(r"(\d+)[_-](.*)", base)
+              if m:
+                  numero, titulo = m.groups()
+              else:
+                  numero, titulo = "00", base
+              titulo = unicodedata.normalize("NFKD", titulo)
+              titulo = "".join(c for c in titulo if not unicodedata.combining(c))
+              titulo = titulo.lower().replace("_", " ")
+              titulo = re.sub(r"[^a-z0-9]+", "-", titulo).strip("-")
+              return f"{int(numero):02d}-{titulo}"
+
+          for zip_path in zips:
+              destino = pasta_cases / slug(zip_path.name)
+              if destino.exists():
+                  shutil.rmtree(destino)
+              destino.mkdir(parents=True, exist_ok=True)
+
+              with zipfile.ZipFile(zip_path) as zf:
+                  for info in zf.infolist():
+                      membro = Path(info.filename)
+                      alvo = (destino / membro).resolve()
+                      if destino.resolve() not in alvo.parents and alvo != destino.resolve():
+                          raise RuntimeError(f"Caminho inseguro no ZIP {zip_path.name}: {info.filename}")
+                  zf.extractall(destino)
+
+              shutil.move(str(zip_path), str(pasta_archives / zip_path.name))
+              print(f"OK: {zip_path.name} -> {destino.relative_to(raiz)}")
+
+      - name: Criar índice dos cases
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          raiz = Path.cwd()
+          pasta_cases = raiz / "cases"
+          pastas = sorted(p for p in pasta_cases.iterdir() if p.is_dir())
+
+          linhas = [
+              "# Índice dos cases\n",
+              "Os cases abaixo estão descompactados e podem ser explorados diretamente pelo GitHub.\n",
+              "| Case | Pasta |\n",
+              "|---:|---|\n",
+          ]
+
+          for pasta in pastas:
+              m = re.match(r"(\d+)-(.*)", pasta.name)
+              numero = m.group(1) if m else "-"
+              titulo = (m.group(2) if m else pasta.name).replace("-", " ").title()
+              linhas.append(f"| {numero} | [{titulo}]({pasta.name}) |\n")
+
+          (pasta_cases / "README.md").write_text("".join(linhas), encoding="utf-8")
+
+      - name: Commit da reorganização
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cases archives
+          git commit -m "refactor: reorganiza cases em pastas navegáveis" || exit 0
+          git push origin HEAD:refactor/cases-navegaveis
