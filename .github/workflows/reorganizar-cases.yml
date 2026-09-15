@@ -6,6 +6,11 @@ on:
       - refactor/cases-navegaveis
     paths:
       - .github/workflows/reorganizar-cases.yml
+  pull_request:
+    branches:
+      - main
+    paths:
+      - .github/workflows/reorganizar-cases.yml
 
 permissions:
   contents: write
@@ -15,9 +20,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout da branch de migração
         uses: actions/checkout@v4
         with:
+          ref: refactor/cases-navegaveis
           fetch-depth: 0
 
       - name: Extrair cases em pastas navegáveis
@@ -36,7 +42,8 @@ jobs:
 
           zips = sorted(pasta_cases.glob("Case_*.zip"))
           if not zips:
-              raise SystemExit("Nenhum ZIP encontrado em cases/")
+              print("Nenhum ZIP pendente em cases/. A migração já pode ter sido executada.")
+              raise SystemExit(0)
 
           def slug(nome: str) -> str:
               base = Path(nome).stem
@@ -80,8 +87,8 @@ jobs:
           pastas = sorted(p for p in pasta_cases.iterdir() if p.is_dir())
 
           linhas = [
-              "# Índice dos cases\n",
-              "Os cases abaixo estão descompactados e podem ser explorados diretamente pelo GitHub.\n",
+              "# Índice dos cases\n\n",
+              "Os cases abaixo estão descompactados e podem ser explorados diretamente pelo GitHub.\n\n",
               "| Case | Pasta |\n",
               "|---:|---|\n",
           ]
@@ -93,6 +100,15 @@ jobs:
               linhas.append(f"| {numero} | [{titulo}]({pasta.name}) |\n")
 
           (pasta_cases / "README.md").write_text("".join(linhas), encoding="utf-8")
+
+      - name: Validar quantidade de cases migrados
+        shell: python
+        run: |
+          from pathlib import Path
+          pastas = [p for p in Path("cases").iterdir() if p.is_dir()]
+          if len(pastas) != 24:
+              raise SystemExit(f"Esperados 24 cases; encontrados {len(pastas)}")
+          print("Validação concluída: 24 cases migrados.")
 
       - name: Commit da reorganização
         run: |
