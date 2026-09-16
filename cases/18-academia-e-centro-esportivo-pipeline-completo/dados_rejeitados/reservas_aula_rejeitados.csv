@@ -1,0 +1,4 @@
+reserva_id,aula_id,aluno_id,status,motivo_rejeicao
+7015,1556,82,Ausente,pk_duplicada
+7839,1738,341,Ausente,pk_duplicada
+3792,841,2057,Presente,pk_duplicada

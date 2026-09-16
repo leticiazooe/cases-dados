@@ -1,0 +1,446 @@
+{
+  "case": "Case_16_Escritorio_de_Contabilidade",
+  "database": "case_escritorio_contabilidade.db",
+  "tables": {
+    "clientes": {
+      "primary_key": "cliente_id",
+      "columns": [
+        "cliente_id",
+        "codigo_cliente",
+        "regime_id",
+        "setor",
+        "uf",
+        "status"
+      ],
+      "date_columns": [],
+      "numeric_columns": [
+        "cliente_id",
+        "regime_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "cliente_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "regime_id",
+          "parent_table": "regimes",
+          "parent_column": "regime_id"
+        }
+      ],
+      "expected_rows": 600,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ]
+      ]
+    },
+    "documentos": {
+      "primary_key": "documento_id",
+      "columns": [
+        "documento_id",
+        "cliente_id",
+        "competencia",
+        "tipo_documento",
+        "data_solicitacao",
+        "data_recebimento",
+        "status"
+      ],
+      "date_columns": [
+        "competencia",
+        "data_solicitacao",
+        "data_recebimento"
+      ],
+      "numeric_columns": [
+        "documento_id",
+        "cliente_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "documento_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "cliente_id",
+          "parent_table": "clientes",
+          "parent_column": "cliente_id"
+        }
+      ],
+      "expected_rows": 7200,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ]
+      ]
+    },
+    "guias": {
+      "primary_key": "guia_id",
+      "columns": [
+        "guia_id",
+        "imposto_id",
+        "valor",
+        "data_vencimento",
+        "data_pagamento",
+        "status"
+      ],
+      "date_columns": [
+        "data_vencimento",
+        "data_pagamento"
+      ],
+      "numeric_columns": [
+        "guia_id",
+        "imposto_id",
+        "valor"
+      ],
+      "nonnegative_columns": [
+        "valor"
+      ],
+      "required_columns": [
+        "guia_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "imposto_id",
+          "parent_table": "impostos",
+          "parent_column": "imposto_id"
+        }
+      ],
+      "expected_rows": 7200,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ],
+        [
+          "valor_negativo",
+          1
+        ]
+      ]
+    },
+    "honorarios": {
+      "primary_key": "honorario_id",
+      "columns": [
+        "honorario_id",
+        "cliente_id",
+        "competencia",
+        "valor",
+        "data_vencimento",
+        "data_pagamento",
+        "status"
+      ],
+      "date_columns": [
+        "competencia",
+        "data_vencimento",
+        "data_pagamento"
+      ],
+      "numeric_columns": [
+        "honorario_id",
+        "cliente_id",
+        "valor"
+      ],
+      "nonnegative_columns": [
+        "valor"
+      ],
+      "required_columns": [
+        "honorario_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "cliente_id",
+          "parent_table": "clientes",
+          "parent_column": "cliente_id"
+        }
+      ],
+      "expected_rows": 7200,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ],
+        [
+          "valor_negativo",
+          1
+        ]
+      ]
+    },
+    "impostos": {
+      "primary_key": "imposto_id",
+      "columns": [
+        "imposto_id",
+        "cliente_id",
+        "competencia",
+        "tributo",
+        "valor_apurado",
+        "data_vencimento"
+      ],
+      "date_columns": [
+        "competencia",
+        "data_vencimento"
+      ],
+      "numeric_columns": [
+        "imposto_id",
+        "cliente_id",
+        "valor_apurado"
+      ],
+      "nonnegative_columns": [
+        "valor_apurado"
+      ],
+      "required_columns": [
+        "imposto_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "cliente_id",
+          "parent_table": "clientes",
+          "parent_column": "cliente_id"
+        }
+      ],
+      "expected_rows": 7200,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ],
+        [
+          "valor_negativo",
+          1
+        ]
+      ]
+    },
+    "obrigacoes": {
+      "primary_key": "obrigacao_id",
+      "columns": [
+        "obrigacao_id",
+        "cliente_id",
+        "tipo_obrigacao_id",
+        "responsavel_id",
+        "competencia",
+        "data_limite",
+        "data_entrega",
+        "status",
+        "no_prazo"
+      ],
+      "date_columns": [
+        "competencia",
+        "data_limite",
+        "data_entrega"
+      ],
+      "numeric_columns": [
+        "obrigacao_id",
+        "cliente_id",
+        "tipo_obrigacao_id",
+        "responsavel_id",
+        "no_prazo"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "obrigacao_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "responsavel_id",
+          "parent_table": "responsaveis",
+          "parent_column": "responsavel_id"
+        },
+        {
+          "column": "tipo_obrigacao_id",
+          "parent_table": "tipos_obrigacao",
+          "parent_column": "tipo_obrigacao_id"
+        },
+        {
+          "column": "cliente_id",
+          "parent_table": "clientes",
+          "parent_column": "cliente_id"
+        }
+      ],
+      "expected_rows": 14487,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ]
+      ]
+    },
+    "pendencias": {
+      "primary_key": "pendencia_id",
+      "columns": [
+        "pendencia_id",
+        "cliente_id",
+        "responsavel_id",
+        "data_abertura",
+        "tipo",
+        "prioridade",
+        "status"
+      ],
+      "date_columns": [
+        "data_abertura"
+      ],
+      "numeric_columns": [
+        "pendencia_id",
+        "cliente_id",
+        "responsavel_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "pendencia_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "responsavel_id",
+          "parent_table": "responsaveis",
+          "parent_column": "responsavel_id"
+        },
+        {
+          "column": "cliente_id",
+          "parent_table": "clientes",
+          "parent_column": "cliente_id"
+        }
+      ],
+      "expected_rows": 1635,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ]
+      ]
+    },
+    "regimes": {
+      "primary_key": "regime_id",
+      "columns": [
+        "regime_id",
+        "regime_tributario"
+      ],
+      "date_columns": [],
+      "numeric_columns": [
+        "regime_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "regime_id"
+      ],
+      "foreign_keys": [],
+      "expected_rows": 4,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ]
+      ]
+    },
+    "responsaveis": {
+      "primary_key": "responsavel_id",
+      "columns": [
+        "responsavel_id",
+        "codigo_responsavel",
+        "equipe",
+        "senioridade"
+      ],
+      "date_columns": [],
+      "numeric_columns": [
+        "responsavel_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "responsavel_id"
+      ],
+      "foreign_keys": [],
+      "expected_rows": 35,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ]
+      ]
+    },
+    "tipos_obrigacao": {
+      "primary_key": "tipo_obrigacao_id",
+      "columns": [
+        "tipo_obrigacao_id",
+        "obrigacao",
+        "periodicidade"
+      ],
+      "date_columns": [],
+      "numeric_columns": [
+        "tipo_obrigacao_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "tipo_obrigacao_id"
+      ],
+      "foreign_keys": [],
+      "expected_rows": 12,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ]
+      ]
+    }
+  }
+}

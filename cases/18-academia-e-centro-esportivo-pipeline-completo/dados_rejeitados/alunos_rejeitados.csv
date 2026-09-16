@@ -1,0 +1,6 @@
+aluno_id,codigo_aluno,idade,genero,regiao,data_cadastro,motivo_rejeicao
+1124,ALU-01124,35,Masculino,Norte,2024-05-04,pk_duplicada
+1755,ALU-01755,37,Não informado,Norte,2025-06-19,pk_duplicada
+443,ALU-00443,60,Masculino,Norte,2023-05-12,pk_duplicada
+2302,ALU-00001,42,Masculino,Oeste,,data_invalida:data_cadastro
+2303,ALU-00001,-999,Masculino,Oeste,2023-04-17,negativo:idade

@@ -1,0 +1,73 @@
+{
+  "case": "Viagens Corporativas, Frota e Reembolsos",
+  "tables": {
+    "pessoas": {
+      "pk": "pessoa_id",
+      "dates": [],
+      "numeric": [],
+      "nonnegative": [],
+      "expected": 900
+    },
+    "veiculos": {
+      "pk": "veiculo_id",
+      "dates": [],
+      "numeric": [
+        "custo_km"
+      ],
+      "nonnegative": [
+        "custo_km"
+      ],
+      "expected": 70
+    },
+    "viagens": {
+      "pk": "viagem_id",
+      "dates": [
+        "data_solicitacao"
+      ],
+      "numeric": [
+        "orcamento"
+      ],
+      "nonnegative": [
+        "orcamento"
+      ],
+      "expected": 4200
+    },
+    "reservas_frota": {
+      "pk": "reserva_id",
+      "dates": [],
+      "numeric": [
+        "km_previsto",
+        "km_real"
+      ],
+      "nonnegative": [
+        "km_previsto",
+        "km_real"
+      ],
+      "expected": 3100
+    },
+    "despesas": {
+      "pk": "despesa_id",
+      "dates": [
+        "data_despesa"
+      ],
+      "numeric": [
+        "valor"
+      ],
+      "nonnegative": [
+        "valor"
+      ],
+      "expected": 11000
+    },
+    "aprovacoes": {
+      "pk": "aprovacao_id",
+      "dates": [],
+      "numeric": [
+        "tempo_aprovacao_h"
+      ],
+      "nonnegative": [
+        "tempo_aprovacao_h"
+      ],
+      "expected": 4200
+    }
+  }
+}

@@ -1,0 +1,7 @@
+tabela,brutas,tratadas,rejeitadas,esperadas,reconciliado
+pessoas,1504,1500,4,1500,True
+ativos,424,420,4,420,True
+cadeados,854,850,4,850,True
+bloqueios_loto,6204,6200,4,6200,True
+inspecoes_seguranca,11004,11000,4,11000,True
+acoes,2804,2800,4,2800,True

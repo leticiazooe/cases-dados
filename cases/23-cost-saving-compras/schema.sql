@@ -1,0 +1,5 @@
+-- compradores: comprador_id, equipe, senioridade
+-- fornecedores: fornecedor_id, categoria, score, status
+-- projetos_saving: projeto_id, comprador_id, fornecedor_id, data_abertura, categoria, baseline, meta_saving_pct, status
+-- mensuracoes: mensuracao_id, projeto_id, competencia, valor_realizado, saving_validado, status
+-- pedidos_compra: pedido_id, fornecedor_id, comprador_id, data_pedido, valor, prazo_dias, entregue_no_prazo

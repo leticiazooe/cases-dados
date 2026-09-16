@@ -1,0 +1,337 @@
+avaliacao_id,os_id,nota_atendimento,nota_servico,comentario_categoria,data_avaliacao,motivo_rejeicao
+22,48,5,1,Elogio,2026-04-05,fk_invalida:os_id
+26,52,1,3,Atendimento,2026-02-05,fk_invalida:os_id
+28,55,4,3,Preço,2026-02-02,fk_invalida:os_id
+30,61,3,5,Elogio,2025-05-09,fk_invalida:os_id
+32,64,3,4,Prazo,2026-07-04,fk_invalida:os_id
+45,87,3,3,Preço,2026-06-02,fk_invalida:os_id
+55,110,1,5,Elogio,2025-07-10,fk_invalida:os_id
+59,118,3,4,Atendimento,2025-01-09,fk_invalida:os_id
+63,124,3,5,Atendimento,2026-05-06,fk_invalida:os_id
+65,127,1,1,Prazo,2026-09-01,fk_invalida:os_id
+67,132,2,4,Atendimento,2025-03-12,fk_invalida:os_id
+69,135,3,4,Sem comentário,2026-09-01,fk_invalida:os_id
+82,152,3,2,Preço,2025-09-11,fk_invalida:os_id
+99,186,5,2,Atendimento,2025-03-12,fk_invalida:os_id
+109,201,4,1,Prazo,2026-03-01,fk_invalida:os_id
+112,205,5,1,Prazo,2026-03-04,fk_invalida:os_id
+118,213,2,3,Elogio,2025-05-09,fk_invalida:os_id
+121,217,1,4,Preço,2026-04-04,fk_invalida:os_id
+130,230,2,4,Sem comentário,2025-01-12,fk_invalida:os_id
+131,231,5,3,Sem comentário,2025-08-07,fk_invalida:os_id
+136,241,5,2,Preço,2025-03-09,fk_invalida:os_id
+155,278,1,2,Sem comentário,2026-06-01,fk_invalida:os_id
+171,303,1,1,Atendimento,2025-04-10,fk_invalida:os_id
+195,341,2,4,Preço,2025-08-12,fk_invalida:os_id
+204,355,2,2,Preço,2025-04-08,fk_invalida:os_id
+219,376,4,2,Preço,2026-02-01,fk_invalida:os_id
+220,377,4,5,Sem comentário,2026-04-01,fk_invalida:os_id
+221,378,5,5,Elogio,2026-05-07,fk_invalida:os_id
+244,423,4,5,Prazo,2025-01-11,fk_invalida:os_id
+256,448,5,2,Sem comentário,2026-01-07,fk_invalida:os_id
+260,456,5,1,Prazo,2025-07-10,fk_invalida:os_id
+266,466,1,2,Sem comentário,2026-01-06,fk_invalida:os_id
+269,471,5,5,Atendimento,2026-02-02,fk_invalida:os_id
+270,474,4,3,Atendimento,2026-02-06,fk_invalida:os_id
+274,478,5,5,Prazo,2025-11-08,fk_invalida:os_id
+279,484,4,3,Prazo,2025-06-11,fk_invalida:os_id
+284,491,1,5,Atendimento,2026-01-07,fk_invalida:os_id
+286,493,1,2,Preço,2025-03-10,fk_invalida:os_id
+313,536,2,3,Elogio,2026-02-03,fk_invalida:os_id
+315,538,1,3,Preço,2026-01-03,fk_invalida:os_id
+319,544,3,1,Preço,2026-05-02,fk_invalida:os_id
+325,552,5,1,Preço,2025-09-08,fk_invalida:os_id
+327,555,4,2,Sem comentário,2026-08-02,fk_invalida:os_id
+329,559,1,4,Atendimento,2026-12-06,fk_invalida:os_id
+332,562,4,5,Prazo,2026-05-01,fk_invalida:os_id
+339,573,4,4,Atendimento,2026-01-03,fk_invalida:os_id
+340,574,4,5,Atendimento,2025-10-10,fk_invalida:os_id
+345,579,4,4,Preço,2025-04-08,fk_invalida:os_id
+348,584,3,4,Prazo,2025-08-12,fk_invalida:os_id
+353,592,2,4,Atendimento,2025-08-08,fk_invalida:os_id
+355,595,5,3,Elogio,2025-04-12,fk_invalida:os_id
+361,603,4,1,Sem comentário,2025-06-10,fk_invalida:os_id
+362,604,2,4,Prazo,2025-04-10,fk_invalida:os_id
+365,610,5,1,Elogio,2026-01-03,fk_invalida:os_id
+370,618,2,2,Elogio,2025-07-11,fk_invalida:os_id
+371,620,2,2,Sem comentário,2025-03-09,fk_invalida:os_id
+376,628,2,5,Atendimento,2025-12-10,fk_invalida:os_id
+386,651,4,1,Elogio,2026-07-03,fk_invalida:os_id
+387,654,4,1,Prazo,2026-05-05,fk_invalida:os_id
+388,655,3,1,Preço,2026-06-01,fk_invalida:os_id
+411,697,5,1,Prazo,2025-02-09,fk_invalida:os_id
+416,703,4,1,Elogio,2025-06-09,fk_invalida:os_id
+423,720,1,1,Elogio,2026-08-01,fk_invalida:os_id
+432,730,1,3,Atendimento,2025-02-09,fk_invalida:os_id
+446,748,3,2,Elogio,2025-03-10,fk_invalida:os_id
+457,763,2,5,Prazo,2026-11-03,fk_invalida:os_id
+467,781,2,3,Preço,2026-01-06,fk_invalida:os_id
+473,787,1,2,Atendimento,2025-09-12,fk_invalida:os_id
+477,794,5,5,Preço,2025-02-12,fk_invalida:os_id
+482,805,3,2,Sem comentário,2026-04-02,fk_invalida:os_id
+487,818,1,4,Atendimento,2026-06-03,fk_invalida:os_id
+493,826,1,4,Preço,2026-09-04,fk_invalida:os_id
+499,835,5,2,Sem comentário,2026-02-04,fk_invalida:os_id
+506,848,3,3,Preço,2026-06-07,fk_invalida:os_id
+519,866,1,4,Sem comentário,2026-04-01,fk_invalida:os_id
+521,870,4,2,Prazo,2026-06-01,fk_invalida:os_id
+523,874,2,5,Prazo,2025-01-12,fk_invalida:os_id
+524,875,3,4,Preço,2026-04-06,fk_invalida:os_id
+529,881,3,3,Prazo,2026-01-01,fk_invalida:os_id
+537,895,4,4,Prazo,2025-11-07,fk_invalida:os_id
+550,918,2,2,Preço,2025-02-08,fk_invalida:os_id
+578,955,1,3,Prazo,2025-10-12,fk_invalida:os_id
+579,957,2,5,Preço,2025-03-12,fk_invalida:os_id
+581,959,5,5,Sem comentário,2025-09-08,fk_invalida:os_id
+585,966,4,1,Sem comentário,2026-06-06,fk_invalida:os_id
+593,976,3,5,Sem comentário,2025-05-10,fk_invalida:os_id
+603,992,2,1,Sem comentário,2026-01-04,fk_invalida:os_id
+609,1002,2,2,Atendimento,2025-05-10,fk_invalida:os_id
+625,1034,2,4,Atendimento,2026-09-06,fk_invalida:os_id
+626,1035,2,5,Elogio,2026-05-06,fk_invalida:os_id
+639,1061,3,1,Atendimento,2026-04-04,fk_invalida:os_id
+646,1075,2,4,Sem comentário,2025-05-10,fk_invalida:os_id
+650,1079,4,1,Prazo,2025-04-10,fk_invalida:os_id
+651,1081,5,5,Elogio,2025-08-12,fk_invalida:os_id
+656,1086,3,1,Elogio,2026-03-03,fk_invalida:os_id
+661,1092,3,3,Preço,2025-07-11,fk_invalida:os_id
+662,1093,3,5,Preço,2025-06-09,fk_invalida:os_id
+664,1099,3,1,Sem comentário,2025-11-09,fk_invalida:os_id
+674,1114,5,4,Sem comentário,2026-01-06,fk_invalida:os_id
+691,1142,3,2,Prazo,2026-03-01,fk_invalida:os_id
+705,1167,4,4,Atendimento,2025-12-10,fk_invalida:os_id
+711,1181,3,5,Preço,2025-12-10,fk_invalida:os_id
+714,1187,5,1,Prazo,2025-03-11,fk_invalida:os_id
+718,1192,5,5,Preço,2026-06-05,fk_invalida:os_id
+735,1220,2,2,Sem comentário,2026-07-01,fk_invalida:os_id
+743,1228,4,3,Sem comentário,2025-12-08,fk_invalida:os_id
+746,1231,1,5,Elogio,2026-03-05,fk_invalida:os_id
+751,1237,3,3,Elogio,2026-02-04,fk_invalida:os_id
+753,1239,5,5,Prazo,2026-01-02,fk_invalida:os_id
+755,1242,4,3,Prazo,2026-02-07,fk_invalida:os_id
+769,1267,3,4,Atendimento,2025-08-08,fk_invalida:os_id
+773,1273,5,3,Preço,2026-05-02,fk_invalida:os_id
+774,1275,4,3,Atendimento,2025-03-09,fk_invalida:os_id
+785,1292,5,3,Preço,2026-06-07,fk_invalida:os_id
+792,1301,5,1,Prazo,2026-11-05,fk_invalida:os_id
+810,1330,1,4,Sem comentário,2026-03-06,fk_invalida:os_id
+812,1334,1,4,Atendimento,2025-12-08,fk_invalida:os_id
+815,1338,4,4,Prazo,2026-01-02,fk_invalida:os_id
+821,1350,2,3,Sem comentário,2026-01-01,fk_invalida:os_id
+823,1359,1,1,Prazo,2026-04-06,fk_invalida:os_id
+826,1364,2,2,Atendimento,2026-07-02,fk_invalida:os_id
+833,1377,2,4,Atendimento,2026-02-07,fk_invalida:os_id
+835,1380,3,3,Preço,2025-03-08,fk_invalida:os_id
+841,1386,5,5,Preço,2025-08-12,fk_invalida:os_id
+853,1412,4,3,Elogio,2026-03-02,fk_invalida:os_id
+861,1425,3,1,Preço,2026-06-05,fk_invalida:os_id
+878,1455,1,3,Elogio,2025-05-12,fk_invalida:os_id
+887,1472,2,3,Sem comentário,2025-11-10,fk_invalida:os_id
+889,1474,4,5,Prazo,2025-01-12,fk_invalida:os_id
+890,1475,3,3,Preço,2026-07-01,fk_invalida:os_id
+891,1476,2,5,Atendimento,2026-01-04,fk_invalida:os_id
+892,1478,4,3,Elogio,2026-05-04,fk_invalida:os_id
+904,1494,3,4,Preço,2026-04-02,fk_invalida:os_id
+905,1495,1,5,Elogio,2026-02-07,fk_invalida:os_id
+913,1507,3,4,Elogio,2026-08-01,fk_invalida:os_id
+926,1532,3,2,Atendimento,2025-12-09,fk_invalida:os_id
+938,1552,2,5,Preço,2025-01-11,fk_invalida:os_id
+946,1568,1,3,Atendimento,2026-04-07,fk_invalida:os_id
+951,1573,1,2,Prazo,2026-03-04,fk_invalida:os_id
+954,1576,2,5,Atendimento,2026-04-07,fk_invalida:os_id
+960,1584,1,5,Prazo,2026-05-01,fk_invalida:os_id
+962,1588,4,2,Sem comentário,2026-01-02,fk_invalida:os_id
+967,1601,3,1,Sem comentário,2025-09-07,fk_invalida:os_id
+974,1612,2,5,Prazo,2026-11-05,fk_invalida:os_id
+976,1617,2,1,Atendimento,2026-09-03,fk_invalida:os_id
+993,1639,5,4,Prazo,2025-11-07,fk_invalida:os_id
+996,1642,1,3,Sem comentário,2025-04-11,fk_invalida:os_id
+998,1647,2,5,Preço,2025-04-12,fk_invalida:os_id
+1003,1654,1,1,Elogio,2025-01-11,fk_invalida:os_id
+1006,1659,1,4,Preço,2025-03-10,fk_invalida:os_id
+1013,1671,2,2,Elogio,2025-12-08,fk_invalida:os_id
+1014,1672,1,5,Preço,2025-01-08,fk_invalida:os_id
+1015,1673,2,1,Atendimento,2026-05-02,fk_invalida:os_id
+1018,1679,3,5,Preço,2026-03-05,fk_invalida:os_id
+1019,1681,2,1,Preço,2026-11-01,fk_invalida:os_id
+1026,1689,5,4,Elogio,2025-02-08,fk_invalida:os_id
+1050,1728,1,5,Atendimento,2025-10-08,fk_invalida:os_id
+1059,1745,1,4,Atendimento,2025-04-08,fk_invalida:os_id
+1076,1773,2,1,Prazo,2025-12-12,fk_invalida:os_id
+1101,1813,5,3,Elogio,2025-02-09,fk_invalida:os_id
+1107,1826,3,4,Sem comentário,2025-12-10,fk_invalida:os_id
+1120,1848,2,5,Preço,2026-08-04,fk_invalida:os_id
+1133,1870,1,4,Sem comentário,2026-04-06,fk_invalida:os_id
+1150,1900,1,1,Sem comentário,2026-10-06,fk_invalida:os_id
+1151,1901,5,3,Preço,2026-02-06,fk_invalida:os_id
+1157,1916,2,2,Prazo,2026-02-05,fk_invalida:os_id
+1158,1919,1,2,Preço,2025-07-12,fk_invalida:os_id
+1165,1930,1,4,Preço,2026-03-05,fk_invalida:os_id
+1170,1937,4,2,Atendimento,2025-04-09,fk_invalida:os_id
+1185,1968,4,1,Prazo,2026-12-02,fk_invalida:os_id
+1188,1973,3,2,Sem comentário,2026-12-02,fk_invalida:os_id
+1191,1976,1,5,Preço,2026-07-03,fk_invalida:os_id
+1214,2027,2,5,Prazo,2025-07-10,fk_invalida:os_id
+1215,2028,2,4,Prazo,2026-02-04,fk_invalida:os_id
+1224,2041,1,1,Prazo,2026-12-05,fk_invalida:os_id
+1225,2042,1,2,Sem comentário,2025-12-10,fk_invalida:os_id
+1227,2044,4,5,Elogio,2025-01-11,fk_invalida:os_id
+1238,2059,2,3,Preço,2025-03-08,fk_invalida:os_id
+1248,2084,2,1,Prazo,2025-01-10,fk_invalida:os_id
+1255,2093,3,3,Preço,2026-12-02,fk_invalida:os_id
+1271,2129,5,1,Prazo,2026-04-06,fk_invalida:os_id
+1273,2131,1,3,Preço,2026-02-03,fk_invalida:os_id
+1281,2142,5,4,Sem comentário,2026-07-06,fk_invalida:os_id
+1283,2145,1,3,Sem comentário,2026-04-04,fk_invalida:os_id
+1284,2147,3,5,Elogio,2026-02-05,fk_invalida:os_id
+1289,2155,4,5,Elogio,2025-06-10,fk_invalida:os_id
+1297,2166,3,4,Sem comentário,2025-10-11,fk_invalida:os_id
+1298,2167,4,1,Prazo,2026-04-05,fk_invalida:os_id
+1312,2186,2,4,Atendimento,2026-11-01,fk_invalida:os_id
+1325,2213,3,1,Prazo,2026-09-06,fk_invalida:os_id
+1330,2222,1,3,Preço,2026-05-03,fk_invalida:os_id
+1340,2239,5,4,Preço,2026-06-02,fk_invalida:os_id
+1343,2244,1,3,Prazo,2025-02-10,fk_invalida:os_id
+1344,2245,3,3,Preço,2025-08-11,fk_invalida:os_id
+1347,2251,3,2,Sem comentário,2026-04-05,fk_invalida:os_id
+1349,2253,1,1,Prazo,2026-04-05,fk_invalida:os_id
+1353,2259,5,1,Preço,2026-03-06,fk_invalida:os_id
+1362,2273,5,5,Preço,2026-04-06,fk_invalida:os_id
+1370,2287,3,1,Preço,2026-01-04,fk_invalida:os_id
+1380,2304,1,2,Prazo,2026-08-02,fk_invalida:os_id
+1385,2310,2,4,Atendimento,2026-10-02,fk_invalida:os_id
+1390,2316,2,5,Atendimento,2025-12-08,fk_invalida:os_id
+1455,2418,3,5,Preço,2026-12-05,fk_invalida:os_id
+1460,2428,3,3,Prazo,2025-08-08,fk_invalida:os_id
+1481,2461,4,4,Sem comentário,2026-12-02,fk_invalida:os_id
+1498,2491,1,4,Prazo,2025-04-10,fk_invalida:os_id
+1512,2512,3,5,Atendimento,2025-02-08,fk_invalida:os_id
+1520,2523,2,1,Preço,2026-02-02,fk_invalida:os_id
+1523,2528,1,5,Atendimento,2025-06-08,fk_invalida:os_id
+1536,2547,4,5,Elogio,2026-06-06,fk_invalida:os_id
+1540,2553,5,5,Elogio,2025-02-09,fk_invalida:os_id
+1541,2555,1,5,Sem comentário,2026-02-01,fk_invalida:os_id
+1542,2559,2,3,Prazo,2026-07-02,fk_invalida:os_id
+1566,2610,1,4,Prazo,2026-03-05,fk_invalida:os_id
+1569,2614,1,5,Sem comentário,2025-07-09,fk_invalida:os_id
+1583,2631,3,1,Elogio,2025-05-10,fk_invalida:os_id
+1588,2640,1,1,Prazo,2026-12-01,fk_invalida:os_id
+1591,2644,2,1,Elogio,2026-11-03,fk_invalida:os_id
+1598,2659,4,2,Elogio,2025-10-10,fk_invalida:os_id
+1620,2703,2,3,Sem comentário,2025-02-08,fk_invalida:os_id
+1629,2720,1,3,Sem comentário,2025-06-09,fk_invalida:os_id
+1641,2744,1,2,Preço,2025-10-09,fk_invalida:os_id
+1647,2754,1,3,Elogio,2026-10-01,fk_invalida:os_id
+1659,2776,5,5,Prazo,2025-04-08,fk_invalida:os_id
+1661,2778,2,4,Prazo,2025-04-10,fk_invalida:os_id
+1662,2779,2,5,Preço,2026-05-06,fk_invalida:os_id
+1676,2803,5,5,Preço,2026-07-03,fk_invalida:os_id
+1686,2819,3,4,Atendimento,2026-08-01,fk_invalida:os_id
+1691,2830,1,4,Preço,2026-01-07,fk_invalida:os_id
+1692,2831,1,4,Preço,2026-02-07,fk_invalida:os_id
+1705,2862,2,3,Preço,2026-03-07,fk_invalida:os_id
+1718,2882,2,3,Prazo,2026-02-02,fk_invalida:os_id
+1723,2887,4,2,Sem comentário,2025-01-12,fk_invalida:os_id
+1727,2896,1,1,Atendimento,2026-01-02,fk_invalida:os_id
+1732,2907,5,2,Elogio,2025-06-10,fk_invalida:os_id
+1745,2929,1,1,Preço,2026-08-01,fk_invalida:os_id
+1747,2933,1,4,Elogio,2026-06-01,fk_invalida:os_id
+1757,2952,2,5,Prazo,2026-10-03,fk_invalida:os_id
+1761,2957,4,1,Preço,2026-02-07,fk_invalida:os_id
+1768,2969,3,3,Atendimento,2026-12-05,fk_invalida:os_id
+1771,2973,5,5,Elogio,2025-10-07,fk_invalida:os_id
+1780,2990,3,5,Atendimento,2025-10-09,fk_invalida:os_id
+1785,2999,5,1,Sem comentário,2025-03-09,fk_invalida:os_id
+1786,3000,4,1,Preço,2025-10-08,fk_invalida:os_id
+1791,3007,1,2,Elogio,2025-11-07,fk_invalida:os_id
+1793,3011,1,1,Atendimento,2026-03-03,fk_invalida:os_id
+1799,3023,4,5,Prazo,2026-09-06,fk_invalida:os_id
+1802,3027,1,1,Prazo,2026-10-04,fk_invalida:os_id
+1804,3030,5,1,Elogio,2026-12-01,fk_invalida:os_id
+1808,3034,2,1,Atendimento,2026-04-01,fk_invalida:os_id
+1827,3064,5,3,Preço,2026-11-05,fk_invalida:os_id
+1854,3107,5,3,Preço,2026-02-07,fk_invalida:os_id
+1855,3109,1,3,Elogio,2026-11-04,fk_invalida:os_id
+1863,3121,5,3,Sem comentário,2026-03-02,fk_invalida:os_id
+1864,3122,3,2,Elogio,2026-05-02,fk_invalida:os_id
+1890,3162,5,2,Preço,2025-04-11,fk_invalida:os_id
+1896,3171,4,3,Prazo,2026-09-06,fk_invalida:os_id
+1901,3177,4,3,Atendimento,2025-10-07,fk_invalida:os_id
+1907,3192,3,2,Atendimento,2026-01-04,fk_invalida:os_id
+1911,3197,4,5,Preço,2025-08-09,fk_invalida:os_id
+1913,3200,1,1,Atendimento,2026-03-05,fk_invalida:os_id
+1920,3211,3,4,Atendimento,2025-08-09,fk_invalida:os_id
+1922,3214,2,1,Sem comentário,2026-04-05,fk_invalida:os_id
+1924,3220,2,4,Preço,2025-11-12,fk_invalida:os_id
+1928,3226,1,5,Atendimento,2025-02-12,fk_invalida:os_id
+1929,3228,1,1,Sem comentário,2025-01-10,fk_invalida:os_id
+1932,3236,4,2,Prazo,2026-01-01,fk_invalida:os_id
+1937,3244,3,1,Prazo,2026-04-05,fk_invalida:os_id
+1940,3248,2,5,Prazo,2026-03-04,fk_invalida:os_id
+1942,3254,1,2,Atendimento,2025-10-10,fk_invalida:os_id
+1946,3264,1,3,Preço,2025-02-08,fk_invalida:os_id
+1956,3291,5,1,Atendimento,2025-09-11,fk_invalida:os_id
+1958,3300,5,1,Sem comentário,2025-07-10,fk_invalida:os_id
+1961,3303,3,1,Preço,2025-02-10,fk_invalida:os_id
+1975,3327,1,2,Atendimento,2026-02-02,fk_invalida:os_id
+1982,3338,3,3,Elogio,2026-06-02,fk_invalida:os_id
+1985,3341,3,2,Prazo,2025-10-07,fk_invalida:os_id
+1996,3363,5,2,Elogio,2026-05-01,fk_invalida:os_id
+2013,3390,3,5,Prazo,2026-01-02,fk_invalida:os_id
+2016,3393,5,2,Sem comentário,2026-09-05,fk_invalida:os_id
+2022,3402,5,5,Prazo,2025-05-12,fk_invalida:os_id
+2035,3422,1,1,Sem comentário,2025-12-11,fk_invalida:os_id
+2043,3438,3,3,Elogio,2026-01-04,fk_invalida:os_id
+2046,3442,1,3,Elogio,2025-01-10,fk_invalida:os_id
+2051,3448,1,5,Atendimento,2026-12-01,fk_invalida:os_id
+2059,3461,4,1,Prazo,2026-04-04,fk_invalida:os_id
+2077,3492,3,2,Sem comentário,2025-11-09,fk_invalida:os_id
+2083,3499,5,4,Elogio,2026-02-01,fk_invalida:os_id
+2088,3504,2,4,Preço,2025-01-12,fk_invalida:os_id
+2098,3521,2,2,Sem comentário,2025-10-11,fk_invalida:os_id
+2104,3534,2,4,Atendimento,2026-03-02,fk_invalida:os_id
+2113,3552,5,3,Sem comentário,2026-06-06,fk_invalida:os_id
+2114,3554,2,5,Sem comentário,2026-01-01,fk_invalida:os_id
+2115,3555,2,3,Prazo,2025-05-09,fk_invalida:os_id
+2116,3557,3,2,Prazo,2025-06-09,fk_invalida:os_id
+2140,3594,4,5,Prazo,2025-03-09,fk_invalida:os_id
+2145,3601,4,1,Elogio,2025-02-09,fk_invalida:os_id
+2146,3602,4,4,Atendimento,2025-11-12,fk_invalida:os_id
+2156,3614,3,3,Sem comentário,2025-01-09,fk_invalida:os_id
+2173,3637,5,1,Atendimento,2025-08-10,fk_invalida:os_id
+2186,3659,4,5,Sem comentário,2026-04-04,fk_invalida:os_id
+2191,3666,4,1,Sem comentário,2025-09-10,fk_invalida:os_id
+2197,3676,1,4,Atendimento,2026-06-03,fk_invalida:os_id
+2203,3687,2,1,Elogio,2026-03-04,fk_invalida:os_id
+2208,3699,5,5,Sem comentário,2025-02-08,fk_invalida:os_id
+2210,3702,5,2,Prazo,2026-03-06,fk_invalida:os_id
+2221,3718,4,3,Sem comentário,2026-02-01,fk_invalida:os_id
+2225,3724,1,4,Sem comentário,2026-07-01,fk_invalida:os_id
+2226,3725,5,4,Preço,2026-12-05,fk_invalida:os_id
+2242,3753,5,3,Atendimento,2026-02-01,fk_invalida:os_id
+2243,3754,4,2,Atendimento,2025-11-11,fk_invalida:os_id
+2245,3758,2,1,Elogio,2026-10-05,fk_invalida:os_id
+2247,3765,1,4,Preço,2025-12-07,fk_invalida:os_id
+2260,3782,4,3,Prazo,2026-07-03,fk_invalida:os_id
+2263,3786,2,1,Preço,2026-09-05,fk_invalida:os_id
+2274,3801,3,2,Sem comentário,2026-12-07,fk_invalida:os_id
+2278,3807,5,2,Preço,2026-03-02,fk_invalida:os_id
+2279,3808,1,3,Preço,2026-03-04,fk_invalida:os_id
+2294,3833,4,3,Atendimento,2026-12-04,fk_invalida:os_id
+2298,3837,4,1,Sem comentário,2026-09-01,fk_invalida:os_id
+2299,3838,5,2,Preço,2026-09-02,fk_invalida:os_id
+2303,3842,5,1,Preço,2025-01-11,fk_invalida:os_id
+2304,3843,1,2,Elogio,2026-02-03,fk_invalida:os_id
+2338,3895,4,4,Prazo,2025-09-12,fk_invalida:os_id
+2340,3898,4,3,Sem comentário,2025-02-11,fk_invalida:os_id
+2348,3911,2,2,Sem comentário,2026-02-01,fk_invalida:os_id
+2370,3944,5,4,Prazo,2026-04-06,fk_invalida:os_id
+2374,3950,2,2,Sem comentário,2026-11-06,fk_invalida:os_id
+2376,3952,4,5,Atendimento,2025-10-10,fk_invalida:os_id
+2391,3976,4,4,Preço,2025-07-12,fk_invalida:os_id
+2392,3977,3,5,Prazo,2026-02-04,fk_invalida:os_id
+2399,3989,2,4,Preço,2025-07-11,fk_invalida:os_id
+2400,3990,5,5,Elogio,2026-06-01,fk_invalida:os_id
+2402,3993,2,4,Sem comentário,2025-05-10,fk_invalida:os_id
+2403,3994,1,1,Preço,2026-11-01,fk_invalida:os_id
+2406,3999,4,3,Prazo,2026-10-06,fk_invalida:os_id

@@ -1,0 +1,160 @@
+honorario_id,processo_id,modelo_cobranca,valor_contratado,percentual_exito,data_contrato,status,motivo_rejeicao
+8,8,Êxito,16746.96,387.93,2026-03-01,Quitado,fk_invalida:processo_id
+34,34,Misto,8383.66,91.63,2026-10-05,Quitado,fk_invalida:processo_id
+50,50,Êxito,2145.99,585.44,2025-07-08,Quitado,fk_invalida:processo_id
+75,75,Fixo,14121.18,4887.77,2026-12-02,Quitado,fk_invalida:processo_id
+85,85,Fixo,7356.71,684.3,2025-05-08,Em atraso,fk_invalida:processo_id
+87,87,Hora,32478.99,8131.22,2025-03-08,Quitado,fk_invalida:processo_id
+97,97,Êxito,7578.89,442.97,2025-09-12,Quitado,fk_invalida:processo_id
+107,107,Hora,21708.45,3456.18,2025-06-11,Quitado,fk_invalida:processo_id
+124,124,Misto,39207.71,4178.23,2026-11-04,Ativo,fk_invalida:processo_id
+129,129,Misto,36240.5,4937.07,2025-09-08,Quitado,fk_invalida:processo_id
+131,131,Hora,34688.98,11824.12,2025-05-11,Quitado,fk_invalida:processo_id
+145,145,Fixo,4742.38,784.85,2025-05-10,Ativo,fk_invalida:processo_id
+146,146,Êxito,24814.09,8378.1,2026-06-06,Em atraso,fk_invalida:processo_id
+183,183,Fixo,42988.46,7171.13,2026-04-03,Quitado,fk_invalida:processo_id
+213,213,Êxito,5097.72,1586.87,2026-09-01,Quitado,fk_invalida:processo_id
+223,223,Hora,4959.67,876.96,2025-02-08,Em atraso,fk_invalida:processo_id
+224,224,Êxito,44519.99,14199.16,2025-10-12,Em atraso,fk_invalida:processo_id
+232,232,Misto,11335.08,579.42,2026-05-06,Em atraso,fk_invalida:processo_id
+266,266,Misto,4344.6,440.37,2026-06-03,Quitado,fk_invalida:processo_id
+280,280,Hora,26172.02,1367.16,2025-02-07,Ativo,fk_invalida:processo_id
+282,282,Hora,34213.32,1000.05,2026-03-05,Quitado,fk_invalida:processo_id
+288,288,Misto,12471.16,305.69,2026-01-01,Ativo,fk_invalida:processo_id
+289,289,Fixo,10868.23,3225.31,2025-06-11,Ativo,fk_invalida:processo_id
+304,304,Misto,34250.08,3463.78,2026-07-02,Em atraso,fk_invalida:processo_id
+309,309,Fixo,40827.86,9643.87,2025-02-07,Quitado,fk_invalida:processo_id
+318,318,Misto,12295.82,2721.28,2025-08-12,Em atraso,fk_invalida:processo_id
+336,336,Fixo,43527.69,14267.23,2025-11-09,Em atraso,fk_invalida:processo_id
+338,338,Fixo,23718.62,4124.42,2025-04-10,Ativo,fk_invalida:processo_id
+341,341,Misto,22854.53,6666.58,2026-09-01,Em atraso,fk_invalida:processo_id
+344,344,Êxito,43840.52,8820.38,2025-06-09,Ativo,fk_invalida:processo_id
+384,384,Êxito,41890.28,4106.19,2026-02-01,Em atraso,fk_invalida:processo_id
+385,385,Misto,25144.81,927.25,2025-03-08,Ativo,fk_invalida:processo_id
+386,386,Êxito,21247.66,1058.55,2026-06-04,Quitado,fk_invalida:processo_id
+387,387,Êxito,17934.48,3425.53,2026-03-03,Quitado,fk_invalida:processo_id
+414,414,Êxito,19146.17,4452.22,2026-09-04,Quitado,fk_invalida:processo_id
+437,437,Êxito,28770.55,6373.33,2025-08-08,Em atraso,fk_invalida:processo_id
+443,443,Fixo,2288.58,127.64,2026-06-01,Em atraso,fk_invalida:processo_id
+449,449,Hora,22978.4,2957.86,2026-05-02,Quitado,fk_invalida:processo_id
+450,450,Fixo,24679.75,5848.31,2026-11-01,Em atraso,fk_invalida:processo_id
+479,479,Hora,7924.48,2499.31,2025-06-09,Ativo,fk_invalida:processo_id
+483,483,Hora,9593.03,1985.88,2026-08-01,Em atraso,fk_invalida:processo_id
+513,513,Êxito,22034.15,678.91,2026-03-05,Ativo,fk_invalida:processo_id
+525,525,Fixo,30940.94,7061.7,2026-09-06,Em atraso,fk_invalida:processo_id
+556,556,Fixo,21267.73,2958.25,2025-07-12,Ativo,fk_invalida:processo_id
+559,559,Misto,33900.06,366.13,2026-07-05,Em atraso,fk_invalida:processo_id
+566,566,Hora,25604.44,2743.75,2025-07-07,Em atraso,fk_invalida:processo_id
+604,604,Misto,23503.93,6050.78,2025-07-10,Em atraso,fk_invalida:processo_id
+608,608,Êxito,29374.73,1095.95,2026-12-02,Em atraso,fk_invalida:processo_id
+615,615,Misto,11831.83,1002.1,2025-08-11,Em atraso,fk_invalida:processo_id
+652,652,Hora,27633.68,9104.88,2025-07-07,Em atraso,fk_invalida:processo_id
+654,654,Êxito,34441.32,10406.66,2026-05-01,Em atraso,fk_invalida:processo_id
+660,660,Êxito,44631.38,7646.71,2026-04-02,Quitado,fk_invalida:processo_id
+666,666,Êxito,14674.78,411.7,2026-10-03,Em atraso,fk_invalida:processo_id
+679,679,Fixo,39234.28,3576.7,2025-05-10,Ativo,fk_invalida:processo_id
+682,682,Fixo,3737.9,214.31,2025-07-11,Quitado,fk_invalida:processo_id
+687,687,Misto,32573.84,2267.35,2026-01-01,Quitado,fk_invalida:processo_id
+702,702,Fixo,5766.9,316.97,2026-10-05,Em atraso,fk_invalida:processo_id
+740,740,Hora,8127.22,715.13,2026-11-06,Em atraso,fk_invalida:processo_id
+751,751,Hora,27446.61,7588.23,2026-02-05,Ativo,fk_invalida:processo_id
+764,764,Êxito,38384.5,12409.35,2025-11-08,Ativo,fk_invalida:processo_id
+773,773,Fixo,40280.98,12745.79,2026-12-02,Quitado,fk_invalida:processo_id
+774,774,Hora,14503.92,1742.52,2025-10-07,Quitado,fk_invalida:processo_id
+808,808,Êxito,14976.57,2871.19,2026-02-01,Ativo,fk_invalida:processo_id
+810,810,Hora,9956.4,632.59,2026-11-01,Ativo,fk_invalida:processo_id
+815,815,Hora,28414.86,1380.16,2026-03-02,Quitado,fk_invalida:processo_id
+835,835,Fixo,43152.98,5605.92,2026-09-03,Em atraso,fk_invalida:processo_id
+867,867,Hora,27468.56,1863.33,2025-03-11,Quitado,fk_invalida:processo_id
+870,870,Hora,14999.9,63.94,2026-09-01,Ativo,fk_invalida:processo_id
+873,873,Fixo,34468.74,11144.31,2026-07-06,Quitado,fk_invalida:processo_id
+907,907,Fixo,1916.25,533.58,2026-04-05,Quitado,fk_invalida:processo_id
+918,918,Misto,15975.35,4052.06,2026-08-04,Em atraso,fk_invalida:processo_id
+939,939,Hora,18151.4,4066.27,2026-07-04,Em atraso,fk_invalida:processo_id
+951,951,Misto,28064.32,9745.28,2026-04-01,Quitado,fk_invalida:processo_id
+954,954,Êxito,13513.03,214.94,2026-08-06,Quitado,fk_invalida:processo_id
+982,982,Hora,35827.81,8326.4,2025-08-08,Quitado,fk_invalida:processo_id
+989,989,Misto,11947.41,2011.77,2025-12-08,Em atraso,fk_invalida:processo_id
+997,997,Hora,13714.77,154.07,2026-09-04,Quitado,fk_invalida:processo_id
+1010,1010,Hora,17930.79,1105.08,2025-10-10,Ativo,fk_invalida:processo_id
+1022,1022,Fixo,31957.78,5354.86,2025-07-12,Ativo,fk_invalida:processo_id
+1067,1067,Fixo,35086.27,12275.45,2026-10-02,Em atraso,fk_invalida:processo_id
+1087,1087,Êxito,16800.28,3763.47,2025-10-08,Quitado,fk_invalida:processo_id
+1151,1151,Hora,8610.3,382.35,2025-07-07,Em atraso,fk_invalida:processo_id
+1158,1158,Fixo,33358.83,4930.49,2025-10-10,Quitado,fk_invalida:processo_id
+1165,1165,Hora,30704.52,2712.84,2025-01-07,Quitado,fk_invalida:processo_id
+1170,1170,Misto,39342.8,3878.73,2025-01-08,Em atraso,fk_invalida:processo_id
+1174,1174,Êxito,22342.31,1346.97,2026-06-06,Em atraso,fk_invalida:processo_id
+1189,1189,Fixo,6542.17,2060.41,2025-03-11,Em atraso,fk_invalida:processo_id
+1199,1199,Misto,36150.64,5172.2,2026-08-01,Quitado,fk_invalida:processo_id
+1202,1202,Fixo,24914.75,4888.27,2026-07-03,Em atraso,fk_invalida:processo_id
+1271,1271,Hora,39583.39,5201.3,2026-10-02,Ativo,fk_invalida:processo_id
+1279,1279,Hora,27724.79,8638.45,2026-10-05,Em atraso,fk_invalida:processo_id
+1283,1283,Fixo,33758.24,8432.68,2026-10-06,Ativo,fk_invalida:processo_id
+1290,1290,Hora,26398.68,8914.06,2026-04-01,Quitado,fk_invalida:processo_id
+1312,1312,Hora,13892.28,4252.04,2026-06-04,Ativo,fk_invalida:processo_id
+1315,1315,Fixo,18520.76,439.53,2026-03-02,Em atraso,fk_invalida:processo_id
+1316,1316,Êxito,29941.8,7785.91,2026-12-05,Ativo,fk_invalida:processo_id
+1326,1326,Fixo,37653.0,2996.11,2025-10-09,Em atraso,fk_invalida:processo_id
+1341,1341,Misto,30294.81,3764.32,2026-09-01,Quitado,fk_invalida:processo_id
+1342,1342,Misto,5655.13,1483.9,2026-11-05,Quitado,fk_invalida:processo_id
+1356,1356,Êxito,37008.4,8753.16,2025-05-09,Ativo,fk_invalida:processo_id
+1380,1380,Êxito,35233.9,11939.85,2025-09-07,Em atraso,fk_invalida:processo_id
+1383,1383,Hora,34907.0,3867.94,2026-06-01,Quitado,fk_invalida:processo_id
+1391,1391,Hora,36851.66,12047.63,2026-09-01,Ativo,fk_invalida:processo_id
+1396,1396,Hora,34444.99,5757.81,2025-04-08,Quitado,fk_invalida:processo_id
+1430,1430,Hora,36110.43,10901.41,2025-12-08,Ativo,fk_invalida:processo_id
+1449,1449,Hora,6406.63,255.28,2025-01-08,Ativo,fk_invalida:processo_id
+1454,1454,Êxito,29181.03,1963.31,2026-01-06,Quitado,fk_invalida:processo_id
+1460,1460,Êxito,20307.76,2812.87,2026-11-06,Ativo,fk_invalida:processo_id
+1461,1461,Êxito,7497.24,1195.12,2026-08-02,Quitado,fk_invalida:processo_id
+1466,1466,Fixo,35570.0,44.43,2026-04-01,Em atraso,fk_invalida:processo_id
+1482,1482,Fixo,11531.97,3035.22,2025-03-12,Quitado,fk_invalida:processo_id
+1507,1507,Misto,35543.74,8574.61,2025-10-12,Em atraso,fk_invalida:processo_id
+1535,1535,Fixo,12411.12,2609.17,2026-05-06,Ativo,fk_invalida:processo_id
+1538,1538,Êxito,36305.06,4564.8,2025-08-12,Ativo,fk_invalida:processo_id
+1550,1550,Misto,18382.05,973.95,2025-09-09,Em atraso,fk_invalida:processo_id
+1621,1621,Fixo,4502.07,227.44,2025-05-10,Ativo,fk_invalida:processo_id
+1622,1622,Êxito,4376.59,198.01,2025-10-11,Quitado,fk_invalida:processo_id
+1625,1625,Misto,39387.79,392.31,2025-06-09,Quitado,fk_invalida:processo_id
+1633,1633,Misto,12192.64,3410.19,2025-04-08,Quitado,fk_invalida:processo_id
+1635,1635,Fixo,40800.26,6195.03,2025-05-11,Ativo,fk_invalida:processo_id
+1641,1641,Misto,32488.17,1297.8,2026-10-04,Ativo,fk_invalida:processo_id
+1646,1646,Êxito,3243.1,138.82,2025-03-09,Ativo,fk_invalida:processo_id
+1688,1688,Fixo,23846.04,7246.49,2026-06-01,Ativo,fk_invalida:processo_id
+1731,1731,Misto,29673.58,1157.37,2026-06-03,Ativo,fk_invalida:processo_id
+1767,1767,Hora,22464.34,1674.27,2026-04-06,Ativo,fk_invalida:processo_id
+1777,1777,Hora,8072.9,1268.65,2025-07-08,Quitado,fk_invalida:processo_id
+1792,1792,Misto,16287.55,382.49,2025-02-07,Quitado,fk_invalida:processo_id
+1812,1812,Hora,7973.34,1198.6,2025-05-10,Em atraso,fk_invalida:processo_id
+1817,1817,Fixo,33599.15,3591.71,2026-06-01,Quitado,fk_invalida:processo_id
+1826,1826,Fixo,39183.84,11003.06,2025-10-09,Ativo,fk_invalida:processo_id
+1832,1832,Hora,14438.56,3705.67,2026-08-06,Ativo,fk_invalida:processo_id
+1843,1843,Hora,2392.95,345.47,2026-03-05,Ativo,fk_invalida:processo_id
+1857,1857,Êxito,22359.9,7703.81,2025-05-12,Em atraso,fk_invalida:processo_id
+1868,1868,Misto,5576.76,216.05,2026-08-03,Em atraso,fk_invalida:processo_id
+1893,1893,Fixo,42306.7,9494.42,2026-07-06,Ativo,fk_invalida:processo_id
+1899,1899,Hora,27263.98,3353.92,2025-07-11,Em atraso,fk_invalida:processo_id
+1926,1926,Misto,5421.38,1831.3,2026-02-02,Ativo,fk_invalida:processo_id
+1932,1932,Misto,6604.03,1427.57,2025-12-10,Em atraso,fk_invalida:processo_id
+1933,1933,Fixo,13492.92,3543.13,2025-08-10,Quitado,fk_invalida:processo_id
+1937,1937,Êxito,8012.27,1299.26,2025-11-12,Quitado,fk_invalida:processo_id
+1949,1949,Hora,24672.07,6884.18,2026-10-02,Em atraso,fk_invalida:processo_id
+1970,1970,Misto,11572.3,3052.85,2025-09-11,Em atraso,fk_invalida:processo_id
+1993,1993,Êxito,27089.1,1200.07,2025-09-07,Em atraso,fk_invalida:processo_id
+2005,2005,Fixo,42611.39,7817.66,2026-04-03,Quitado,fk_invalida:processo_id
+2007,2007,Hora,18609.02,181.16,2026-11-02,Quitado,fk_invalida:processo_id
+2019,2019,Hora,7180.35,1703.56,2025-09-09,Ativo,fk_invalida:processo_id
+2030,2030,Êxito,9831.93,2492.02,2026-10-05,Ativo,fk_invalida:processo_id
+2035,2035,Misto,37856.34,3899.06,2025-12-07,Ativo,fk_invalida:processo_id
+2073,2073,Hora,29364.26,3947.5,2025-06-07,Em atraso,fk_invalida:processo_id
+2096,2096,Êxito,5852.3,845.15,2025-12-11,Quitado,fk_invalida:processo_id
+2104,2104,Hora,29816.69,1623.31,2026-02-05,Quitado,fk_invalida:processo_id
+2107,2107,Misto,26828.81,8358.77,2025-07-10,Ativo,fk_invalida:processo_id
+2127,2127,Hora,44819.85,741.13,2026-01-02,Quitado,fk_invalida:processo_id
+2134,2134,Misto,27024.32,8085.97,2026-12-06,Ativo,fk_invalida:processo_id
+2143,2143,Êxito,6991.54,2374.76,2025-03-12,Ativo,fk_invalida:processo_id
+2148,2148,Hora,9836.28,1651.54,2025-05-11,Em atraso,fk_invalida:processo_id
+2149,2149,Fixo,6947.39,297.06,2026-12-06,Ativo,fk_invalida:processo_id
+2158,2158,Fixo,24140.57,3313.94,2026-04-04,Ativo,fk_invalida:processo_id
+2162,2162,Hora,33398.02,7841.09,2025-12-10,Ativo,fk_invalida:processo_id

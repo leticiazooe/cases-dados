@@ -1,0 +1,12 @@
+﻿tabela,arquivo_bruto,arquivo_tratado,linhas_brutas,linhas_tratadas,linhas_rejeitadas
+alunos,dados_brutos/alunos.csv,dados_tratados_pipeline/alunos.csv,2205,2200,5
+aulas,dados_brutos/aulas.csv,dados_tratados_pipeline/aulas.csv,1805,1800,5
+avaliacoes_fisicas,dados_brutos/avaliacoes_fisicas.csv,dados_tratados_pipeline/avaliacoes_fisicas.csv,4418,4413,5
+cancelamentos,dados_brutos/cancelamentos.csv,dados_tratados_pipeline/cancelamentos.csv,469,465,7
+frequencias,dados_brutos/frequencias.csv,dados_tratados_pipeline/frequencias.csv,12128,12123,5
+matriculas,dados_brutos/matriculas.csv,dados_tratados_pipeline/matriculas.csv,2205,2200,5
+modalidades,dados_brutos/modalidades.csv,dados_tratados_pipeline/modalidades.csv,15,12,3
+pagamentos,dados_brutos/pagamentos.csv,dados_tratados_pipeline/pagamentos.csv,26405,26400,7666
+planos,dados_brutos/planos.csv,dados_tratados_pipeline/planos.csv,12,8,4
+profissionais,dados_brutos/profissionais.csv,dados_tratados_pipeline/profissionais.csv,44,40,4
+reservas_aula,dados_brutos/reservas_aula.csv,dados_tratados_pipeline/reservas_aula.csv,8103,8100,8086

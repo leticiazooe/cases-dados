@@ -1,0 +1,4 @@
+tipo_id,tipo_equipamento,motivo_rejeicao
+3,Desktop,pk_duplicada
+7,Impressora,pk_duplicada
+2,Notebook,pk_duplicada

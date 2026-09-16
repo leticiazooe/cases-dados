@@ -1,0 +1,13 @@
+{
+  "case": 21,
+  "title": "Calibracao e Gestao Metrologica",
+  "tables": [
+    "calibracoes",
+    "equipamentos",
+    "laboratorios",
+    "medicoes",
+    "nao_conformidades"
+  ],
+  "source": "SQLite preservado + dados brutos do case",
+  "recovery": true
+}

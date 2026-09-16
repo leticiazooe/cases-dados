@@ -1,0 +1,5 @@
+equipamento_id,cliente_id,tipo_id,marca_id,modelo,numero_serie_ficticio,ano_fabricacao,motivo_rejeicao
+1017,858,5,4,MOD-432,SER-0001017,2024,pk_duplicada
+2254,685,3,10,MOD-943,SER-0002254,2020,pk_duplicada
+244,213,3,8,MOD-959,SER-0000244,2023,pk_duplicada
+4103,186,5,5,MOD-951,SER-0000001,-999,negativo:ano_fabricacao

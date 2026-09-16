@@ -1,0 +1,5 @@
+equipamento_id,tipo,unidade,criticidade,periodicidade_dias,motivo_rejeicao
+EQ00804,Manômetro,Jaboticabal,Baixa,180,pk_duplicada
+EQ01288,Termômetro,Jaboticabal,Média,90,pk_duplicada
+EQ00893,Balança,Guarulhos,Média,365,pk_duplicada
+ERRO_equipamentos_1,Manômetro,Jaboticabal,Alta,-999,valor_negativo:periodicidade_dias

@@ -1,0 +1,6 @@
+imposto_id,cliente_id,competencia,tributo,valor_apurado,data_vencimento,motivo_rejeicao
+1098,92,2025-11-01,INSS,42173.77,2025-12-20,pk_duplicada
+6925,578,2025-07-01,IRPJ/CSLL,49584.17,2025-07-20,pk_duplicada
+7043,587,2026-04-01,ISS,13773.66,2026-05-08,pk_duplicada
+7302,1,,IRPJ/CSLL,17190.51,2025-07-16,data_invalida:competencia
+7303,1,2025-07-01,IRPJ/CSLL,-999.0,2025-07-16,negativo:valor_apurado

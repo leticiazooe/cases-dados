@@ -1,0 +1,6 @@
+honorario_id,processo_id,modelo_cobranca,valor_contratado,percentual_exito,data_contrato,status,motivo_rejeicao
+1124,1124,Hora,44602.92,11422.45,2026-04-16,Ativo,pk_duplicada
+1755,1755,Fixo,31056.38,2219.59,2025-08-24,Ativo,pk_duplicada
+443,443,Fixo,2288.58,127.64,2026-01-06,Em atraso,pk_duplicada
+2302,1,Misto,3583.01,426.68,,Quitado,data_invalida:data_contrato
+2303,1,Misto,-999.0,426.68,2025-11-03,Quitado,negativo:valor_contratado

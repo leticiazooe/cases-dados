@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1490" height="760"><rect width="100%" height="100%" fill="#FAFAF7"/><text x="30" y="30" font-family="Arial" font-size="22" font-weight="700" fill="#3A4B3C">ERD - Dashboard Imobiliário</text><g stroke="#8A9B8C" stroke-width="2" fill="none">
+<path d="M 305 97 C 355.0 97, 355.0 272, 405 272"/>
+<path d="M 305 292 C 355.0 292, 355.0 272, 405 272"/>
+<path d="M 305 472 C 355.0 472, 355.0 272, 405 272"/>
+<path d="M 685 272 C 737.5 272, 737.5 72, 790 72"/>
+<path d="M 685 272 C 737.5 272, 737.5 252, 790 252"/>
+<path d="M 685 272 C 737.5 272, 737.5 432, 790 432"/>
+<path d="M 685 272 C 737.5 272, 737.5 632, 790 632"/>
+<path d="M 685 272 C 922.5 272, 922.5 142, 1160 142"/>
+<path d="M 305 642 C 547.5 642, 547.5 432, 790 432"/>
+<path d="M 305 642 C 732.5 642, 732.5 142, 1160 142"/>
+<path d="M 305 642 C 732.5 642, 732.5 402, 1160 402"/>
+<path d="M 1070 252 C 1115.0 252, 1115.0 402, 1160 402"/>
+</g>
+<rect x="25" y="55" width="280" height="140" rx="8" fill="white" stroke="#B0B9B1"/>
+<rect x="25" y="55" width="280" height="36" rx="8" fill="#3A4B3C"/>
+<text x="37" y="79" font-family="Arial" font-size="14" font-weight="700" fill="white">dim_localizacao</text>
+<text x="37" y="112" font-family="Arial" font-size="12" fill="#B45309">PK localizacao_id</text>
+<text x="37" y="137" font-family="Arial" font-size="12" fill="#334155">bairro</text>
+<text x="37" y="162" font-family="Arial" font-size="12" fill="#334155">cidade</text>
+<text x="37" y="187" font-family="Arial" font-size="12" fill="#334155">preco_m2</text>
+<rect x="25" y="250" width="280" height="115" rx="8" fill="white" stroke="#B0B9B1"/>
+<rect x="25" y="250" width="280" height="36" rx="8" fill="#3A4B3C"/>
+<text x="37" y="274" font-family="Arial" font-size="14" font-weight="700" fill="white">dim_tipo_imovel</text>
+<text x="37" y="307" font-family="Arial" font-size="12" fill="#B45309">PK tipo_id</text>
+<text x="37" y="332" font-family="Arial" font-size="12" fill="#334155">nome</text>
+<text x="37" y="357" font-family="Arial" font-size="12" fill="#334155">segmento</text>
+<rect x="25" y="430" width="280" height="90" rx="8" fill="white" stroke="#B0B9B1"/>
+<rect x="25" y="430" width="280" height="36" rx="8" fill="#3A4B3C"/>
+<text x="37" y="454" font-family="Arial" font-size="14" font-weight="700" fill="white">dim_proprietario</text>
+<text x="37" y="487" font-family="Arial" font-size="12" fill="#B45309">PK proprietario_id</text>
+<text x="37" y="512" font-family="Arial" font-size="12" fill="#334155">perfil</text>
+<rect x="25" y="600" width="280" height="115" rx="8" fill="white" stroke="#B0B9B1"/>
+<rect x="25" y="600" width="280" height="36" rx="8" fill="#3A4B3C"/>
+<text x="37" y="624" font-family="Arial" font-size="14" font-weight="700" fill="white">dim_cliente</text>
+<text x="37" y="657" font-family="Arial" font-size="12" fill="#B45309">PK cliente_id</text>
+<text x="37" y="682" font-family="Arial" font-size="12" fill="#334155">perfil</text>
+<text x="37" y="707" font-family="Arial" font-size="12" fill="#334155">orçamento</text>
+<rect x="405" y="230" width="280" height="215" rx="8" fill="white" stroke="#B0B9B1"/>
+<rect x="405" y="230" width="280" height="36" rx="8" fill="#3A4B3C"/>
+<text x="417" y="254" font-family="Arial" font-size="14" font-weight="700" fill="white">fato_imovel</text>
+<text x="417" y="287" font-family="Arial" font-size="12" fill="#B45309">PK imovel_id</text>
+<text x="417" y="312" font-family="Arial" font-size="12" fill="#2563EB">FK proprietário</text>
+<text x="417" y="337" font-family="Arial" font-size="12" fill="#2563EB">FK localização</text>
+<text x="417" y="362" font-family="Arial" font-size="12" fill="#2563EB">FK tipo</text>
+<text x="417" y="387" font-family="Arial" font-size="12" fill="#334155">área</text>
+<text x="417" y="412" font-family="Arial" font-size="12" fill="#334155">valor</text>
+<text x="417" y="437" font-family="Arial" font-size="12" fill="#334155">aluguel</text>
+<rect x="790" y="30" width="280" height="140" rx="8" fill="white" stroke="#B0B9B1"/>
+<rect x="790" y="30" width="280" height="36" rx="8" fill="#3A4B3C"/>
+<text x="802" y="54" font-family="Arial" font-size="14" font-weight="700" fill="white">fato_historico_preco</text>
+<text x="802" y="87" font-family="Arial" font-size="12" fill="#B45309">PK historico_id</text>
+<text x="802" y="112" font-family="Arial" font-size="12" fill="#2563EB">FK imovel_id</text>
+<text x="802" y="137" font-family="Arial" font-size="12" fill="#334155">competência</text>
+<text x="802" y="162" font-family="Arial" font-size="12" fill="#334155">preço m²</text>
+<rect x="790" y="210" width="280" height="165" rx="8" fill="white" stroke="#B0B9B1"/>
+<rect x="790" y="210" width="280" height="36" rx="8" fill="#3A4B3C"/>
+<text x="802" y="234" font-family="Arial" font-size="14" font-weight="700" fill="white">fato_anuncio</text>
+<text x="802" y="267" font-family="Arial" font-size="12" fill="#B45309">PK anuncio_id</text>
+<text x="802" y="292" font-family="Arial" font-size="12" fill="#2563EB">FK imovel_id</text>
+<text x="802" y="317" font-family="Arial" font-size="12" fill="#334155">preço</text>
+<text x="802" y="342" font-family="Arial" font-size="12" fill="#334155">canal</text>
+<text x="802" y="367" font-family="Arial" font-size="12" fill="#334155">leads</text>
+<rect x="790" y="390" width="280" height="165" rx="8" fill="white" stroke="#B0B9B1"/>
+<rect x="790" y="390" width="280" height="36" rx="8" fill="#3A4B3C"/>
+<text x="802" y="414" font-family="Arial" font-size="14" font-weight="700" fill="white">fato_contrato_aluguel</text>
+<text x="802" y="447" font-family="Arial" font-size="12" fill="#B45309">PK contrato_id</text>
+<text x="802" y="472" font-family="Arial" font-size="12" fill="#2563EB">FK imovel_id</text>
+<text x="802" y="497" font-family="Arial" font-size="12" fill="#2563EB">FK cliente_id</text>
+<text x="802" y="522" font-family="Arial" font-size="12" fill="#334155">aluguel</text>
+<text x="802" y="547" font-family="Arial" font-size="12" fill="#334155">status</text>
+<rect x="790" y="590" width="280" height="140" rx="8" fill="white" stroke="#B0B9B1"/>
+<rect x="790" y="590" width="280" height="36" rx="8" fill="#3A4B3C"/>
+<text x="802" y="614" font-family="Arial" font-size="14" font-weight="700" fill="white">fato_vacancia</text>
+<text x="802" y="647" font-family="Arial" font-size="12" fill="#B45309">PK vacancia_id</text>
+<text x="802" y="672" font-family="Arial" font-size="12" fill="#2563EB">FK imovel_id</text>
+<text x="802" y="697" font-family="Arial" font-size="12" fill="#334155">datas</text>
+<text x="802" y="722" font-family="Arial" font-size="12" fill="#334155">dias</text>
+<rect x="1160" y="100" width="280" height="140" rx="8" fill="white" stroke="#B0B9B1"/>
+<rect x="1160" y="100" width="280" height="36" rx="8" fill="#3A4B3C"/>
+<text x="1172" y="124" font-family="Arial" font-size="14" font-weight="700" fill="white">fato_transacao</text>
+<text x="1172" y="157" font-family="Arial" font-size="12" fill="#B45309">PK transacao_id</text>
+<text x="1172" y="182" font-family="Arial" font-size="12" fill="#2563EB">FK imovel_id</text>
+<text x="1172" y="207" font-family="Arial" font-size="12" fill="#2563EB">FK cliente_id</text>
+<text x="1172" y="232" font-family="Arial" font-size="12" fill="#334155">preço venda</text>
+<rect x="1160" y="360" width="280" height="140" rx="8" fill="white" stroke="#B0B9B1"/>
+<rect x="1160" y="360" width="280" height="36" rx="8" fill="#3A4B3C"/>
+<text x="1172" y="384" font-family="Arial" font-size="14" font-weight="700" fill="white">fato_proposta</text>
+<text x="1172" y="417" font-family="Arial" font-size="12" fill="#B45309">PK proposta_id</text>
+<text x="1172" y="442" font-family="Arial" font-size="12" fill="#2563EB">FK anuncio_id</text>
+<text x="1172" y="467" font-family="Arial" font-size="12" fill="#2563EB">FK cliente_id</text>
+<text x="1172" y="492" font-family="Arial" font-size="12" fill="#334155">valor</text>
+</svg>

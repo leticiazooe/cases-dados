@@ -1,0 +1,5 @@
+terceiro_id,empresa_id,funcao,data_inicio,data_fim,status,motivo_rejeicao
+TE01989,EM181,Motorista,2026-07-08,2024-03-30,Bloqueado,pk_duplicada
+TE01624,EM066,Inspetor,2025-09-21,2024-07-25,Ativo,pk_duplicada
+TE02126,EM041,Motorista,2024-02-19,2026-02-15,Ativo,pk_duplicada
+ERRO_terceiros_1,EM200,Consultor,,2024-06-22,Ativo,data_invalida:data_inicio

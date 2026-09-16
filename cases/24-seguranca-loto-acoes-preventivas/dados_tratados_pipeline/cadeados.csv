@@ -1,0 +1,851 @@
+cadeado_id,pessoa_id,cor,status
+CD0001,P00251,Vermelho,Em uso
+CD0002,P00568,Azul,Disponível
+CD0003,P00049,Azul,Disponível
+CD0004,P00060,Amarelo,Disponível
+CD0005,P00153,Amarelo,Bloqueado
+CD0006,P00999,Vermelho,Disponível
+CD0007,P00087,Vermelho,Disponível
+CD0008,P00842,Vermelho,Disponível
+CD0009,P00127,Verde,Disponível
+CD0010,P00940,Vermelho,Em uso
+CD0011,P00181,Amarelo,Disponível
+CD0012,P00730,Amarelo,Em uso
+CD0013,P00137,Azul,Em uso
+CD0014,P00296,Amarelo,Em uso
+CD0015,P00946,Vermelho,Em uso
+CD0016,P00860,Amarelo,Disponível
+CD0017,P00903,Azul,Em uso
+CD0018,P00402,Verde,Disponível
+CD0019,P01160,Vermelho,Bloqueado
+CD0020,P00924,Verde,Em uso
+CD0021,P00072,Azul,Em uso
+CD0022,P01433,Azul,Bloqueado
+CD0023,P00604,Amarelo,Em uso
+CD0024,P01322,Azul,Em uso
+CD0025,P01072,Azul,Disponível
+CD0026,P00877,Verde,Em uso
+CD0027,P00592,Amarelo,Em uso
+CD0028,P00941,Azul,Em uso
+CD0029,P01285,Verde,Em uso
+CD0030,P00610,Vermelho,Disponível
+CD0031,P00223,Azul,Disponível
+CD0032,P00148,Verde,Disponível
+CD0033,P01221,Verde,Bloqueado
+CD0034,P01321,Vermelho,Disponível
+CD0035,P00334,Vermelho,Em uso
+CD0036,P01026,Verde,Disponível
+CD0037,P00572,Azul,Bloqueado
+CD0038,P00397,Amarelo,Bloqueado
+CD0039,P00640,Amarelo,Disponível
+CD0040,P00614,Azul,Disponível
+CD0041,P01267,Amarelo,Bloqueado
+CD0042,P01307,Vermelho,Disponível
+CD0043,P00383,Verde,Disponível
+CD0044,P00150,Verde,Bloqueado
+CD0045,P00640,Verde,Bloqueado
+CD0046,P01428,Amarelo,Bloqueado
+CD0047,P01224,Azul,Bloqueado
+CD0048,P00531,Verde,Disponível
+CD0049,P01350,Azul,Disponível
+CD0050,P01418,Amarelo,Bloqueado
+CD0051,P00998,Vermelho,Em uso
+CD0052,P00846,Vermelho,Bloqueado
+CD0053,P01218,Verde,Disponível
+CD0054,P00431,Vermelho,Bloqueado
+CD0055,P00547,Verde,Disponível
+CD0056,P00207,Vermelho,Em uso
+CD0057,P00610,Azul,Disponível
+CD0058,P01058,Verde,Em uso
+CD0059,P01080,Vermelho,Bloqueado
+CD0060,P00962,Amarelo,Bloqueado
+CD0061,P01462,Vermelho,Em uso
+CD0062,P00801,Azul,Disponível
+CD0063,P00927,Amarelo,Em uso
+CD0064,P01199,Verde,Disponível
+CD0065,P00164,Azul,Bloqueado
+CD0066,P00063,Vermelho,Disponível
+CD0067,P00563,Amarelo,Em uso
+CD0068,P00896,Azul,Em uso
+CD0069,P00029,Amarelo,Em uso
+CD0070,P00462,Verde,Disponível
+CD0071,P00464,Amarelo,Bloqueado
+CD0072,P00184,Azul,Bloqueado
+CD0073,P00701,Verde,Bloqueado
+CD0074,P00534,Azul,Bloqueado
+CD0075,P00199,Verde,Bloqueado
+CD0076,P01444,Vermelho,Disponível
+CD0077,P00923,Amarelo,Bloqueado
+CD0078,P00653,Vermelho,Bloqueado
+CD0079,P00770,Verde,Em uso
+CD0080,P01311,Amarelo,Disponível
+CD0081,P01102,Amarelo,Em uso
+CD0082,P00313,Amarelo,Bloqueado
+CD0083,P00485,Amarelo,Bloqueado
+CD0084,P01002,Vermelho,Bloqueado
+CD0085,P00366,Azul,Bloqueado
+CD0086,P01223,Verde,Disponível
+CD0087,P01406,Verde,Bloqueado
+CD0088,P00745,Vermelho,Em uso
+CD0089,P01348,Amarelo,Em uso
+CD0090,P01342,Amarelo,Bloqueado
+CD0091,P00023,Amarelo,Em uso
+CD0092,P00062,Vermelho,Em uso
+CD0093,P01087,Azul,Em uso
+CD0094,P00180,Azul,Em uso
+CD0095,P00235,Amarelo,Bloqueado
+CD0096,P00128,Verde,Em uso
+CD0097,P00585,Azul,Em uso
+CD0098,P01492,Verde,Em uso
+CD0099,P00622,Amarelo,Em uso
+CD0100,P00035,Vermelho,Bloqueado
+CD0101,P00541,Azul,Bloqueado
+CD0102,P01339,Azul,Em uso
+CD0103,P00475,Amarelo,Bloqueado
+CD0104,P00277,Verde,Em uso
+CD0105,P00463,Amarelo,Em uso
+CD0106,P00319,Verde,Bloqueado
+CD0107,P00844,Amarelo,Disponível
+CD0108,P00399,Vermelho,Disponível
+CD0109,P01107,Amarelo,Disponível
+CD0110,P00194,Vermelho,Disponível
+CD0111,P01240,Azul,Bloqueado
+CD0112,P00616,Azul,Em uso
+CD0113,P01362,Verde,Disponível
+CD0114,P01270,Vermelho,Em uso
+CD0115,P01038,Vermelho,Disponível
+CD0116,P00712,Azul,Disponível
+CD0117,P00544,Azul,Bloqueado
+CD0118,P01210,Azul,Em uso
+CD0119,P00813,Azul,Bloqueado
+CD0120,P00319,Amarelo,Disponível
+CD0121,P00358,Vermelho,Bloqueado
+CD0122,P00701,Azul,Disponível
+CD0123,P00830,Vermelho,Em uso
+CD0124,P00015,Verde,Bloqueado
+CD0125,P00694,Azul,Em uso
+CD0126,P01385,Amarelo,Bloqueado
+CD0127,P00085,Amarelo,Em uso
+CD0128,P00161,Verde,Bloqueado
+CD0129,P01054,Amarelo,Disponível
+CD0130,P00471,Vermelho,Em uso
+CD0131,P00929,Azul,Em uso
+CD0132,P01427,Verde,Em uso
+CD0133,P00759,Vermelho,Disponível
+CD0134,P00959,Verde,Bloqueado
+CD0135,P00878,Amarelo,Em uso
+CD0136,P00770,Amarelo,Bloqueado
+CD0137,P00925,Vermelho,Bloqueado
+CD0138,P00929,Azul,Bloqueado
+CD0139,P00883,Verde,Disponível
+CD0140,P00322,Verde,Disponível
+CD0141,P00913,Vermelho,Disponível
+CD0142,P01009,Verde,Em uso
+CD0143,P00774,Vermelho,Em uso
+CD0144,P00935,Amarelo,Disponível
+CD0145,P00582,Amarelo,Disponível
+CD0146,P00498,Vermelho,Bloqueado
+CD0147,P01491,Amarelo,Bloqueado
+CD0148,P00256,Azul,Em uso
+CD0149,P01317,Amarelo,Disponível
+CD0150,P01174,Verde,Disponível
+CD0151,P00882,Amarelo,Em uso
+CD0152,P00828,Verde,Bloqueado
+CD0153,P01047,Amarelo,Bloqueado
+CD0154,P00513,Vermelho,Em uso
+CD0155,P00127,Verde,Disponível
+CD0156,P00765,Vermelho,Bloqueado
+CD0157,P00722,Amarelo,Em uso
+CD0158,P00291,Verde,Bloqueado
+CD0159,P00892,Verde,Bloqueado
+CD0160,P00978,Verde,Bloqueado
+CD0161,P01349,Amarelo,Disponível
+CD0162,P00019,Verde,Disponível
+CD0163,P01293,Amarelo,Disponível
+CD0164,P00012,Amarelo,Disponível
+CD0165,P00252,Azul,Em uso
+CD0166,P00398,Verde,Bloqueado
+CD0167,P00916,Amarelo,Bloqueado
+CD0168,P00410,Vermelho,Bloqueado
+CD0169,P01391,Vermelho,Disponível
+CD0170,P00308,Azul,Disponível
+CD0171,P00955,Verde,Disponível
+CD0172,P01099,Azul,Bloqueado
+CD0173,P00634,Vermelho,Em uso
+CD0174,P00111,Amarelo,Disponível
+CD0175,P01320,Vermelho,Bloqueado
+CD0176,P00637,Azul,Disponível
+CD0177,P00585,Amarelo,Em uso
+CD0178,P01214,Azul,Em uso
+CD0179,P00246,Azul,Em uso
+CD0180,P00228,Amarelo,Disponível
+CD0181,P00185,Amarelo,Bloqueado
+CD0182,P01274,Vermelho,Disponível
+CD0183,P00226,Verde,Em uso
+CD0184,P01257,Azul,Disponível
+CD0185,P00131,Azul,Disponível
+CD0186,P00752,Azul,Em uso
+CD0187,P00204,Vermelho,Disponível
+CD0188,P00941,Azul,Bloqueado
+CD0189,P01146,Azul,Em uso
+CD0190,P01244,Verde,Em uso
+CD0191,P00344,Vermelho,Em uso
+CD0192,P00544,Verde,Disponível
+CD0193,P00805,Amarelo,Bloqueado
+CD0194,P01259,Azul,Em uso
+CD0195,P01371,Vermelho,Bloqueado
+CD0196,P01038,Azul,Bloqueado
+CD0197,P01198,Verde,Disponível
+CD0198,P00513,Verde,Bloqueado
+CD0199,P00917,Amarelo,Em uso
+CD0200,P00243,Azul,Em uso
+CD0201,P01432,Amarelo,Em uso
+CD0202,P00881,Vermelho,Disponível
+CD0203,P01170,Amarelo,Disponível
+CD0204,P00141,Azul,Em uso
+CD0205,P00626,Amarelo,Bloqueado
+CD0206,P00766,Azul,Em uso
+CD0207,P01428,Azul,Em uso
+CD0208,P00066,Amarelo,Disponível
+CD0209,P00930,Vermelho,Disponível
+CD0210,P00682,Azul,Disponível
+CD0211,P01146,Azul,Em uso
+CD0212,P00631,Azul,Disponível
+CD0213,P00249,Verde,Disponível
+CD0214,P01345,Amarelo,Disponível
+CD0215,P00024,Azul,Disponível
+CD0216,P00552,Vermelho,Disponível
+CD0217,P01398,Azul,Bloqueado
+CD0218,P01184,Amarelo,Bloqueado
+CD0219,P01447,Verde,Bloqueado
+CD0220,P01155,Amarelo,Bloqueado
+CD0221,P00752,Vermelho,Disponível
+CD0222,P01134,Amarelo,Disponível
+CD0223,P00169,Azul,Em uso
+CD0224,P01259,Amarelo,Em uso
+CD0225,P00294,Verde,Bloqueado
+CD0226,P00369,Verde,Bloqueado
+CD0227,P01377,Verde,Em uso
+CD0228,P01368,Amarelo,Em uso
+CD0229,P01137,Azul,Bloqueado
+CD0230,P01472,Amarelo,Bloqueado
+CD0231,P00437,Verde,Em uso
+CD0232,P01304,Azul,Disponível
+CD0233,P01168,Azul,Em uso
+CD0234,P00157,Verde,Em uso
+CD0235,P00363,Vermelho,Bloqueado
+CD0236,P01015,Azul,Disponível
+CD0237,P00531,Azul,Bloqueado
+CD0238,P00779,Azul,Bloqueado
+CD0239,P00509,Amarelo,Bloqueado
+CD0240,P00575,Azul,Disponível
+CD0241,P01492,Amarelo,Bloqueado
+CD0242,P00765,Azul,Bloqueado
+CD0243,P00715,Verde,Em uso
+CD0244,P00428,Azul,Disponível
+CD0245,P01168,Verde,Em uso
+CD0246,P00193,Amarelo,Bloqueado
+CD0247,P00592,Vermelho,Bloqueado
+CD0248,P00687,Azul,Disponível
+CD0249,P01296,Amarelo,Disponível
+CD0250,P01388,Vermelho,Em uso
+CD0251,P01039,Azul,Disponível
+CD0252,P01082,Verde,Bloqueado
+CD0253,P01280,Amarelo,Em uso
+CD0254,P00461,Amarelo,Bloqueado
+CD0255,P01236,Amarelo,Disponível
+CD0256,P00850,Azul,Em uso
+CD0257,P01041,Verde,Em uso
+CD0258,P00674,Vermelho,Disponível
+CD0259,P00216,Vermelho,Bloqueado
+CD0260,P00878,Amarelo,Disponível
+CD0261,P00100,Verde,Disponível
+CD0262,P00430,Azul,Bloqueado
+CD0263,P00041,Azul,Em uso
+CD0264,P00831,Amarelo,Disponível
+CD0265,P00653,Azul,Disponível
+CD0266,P00548,Vermelho,Bloqueado
+CD0267,P00996,Amarelo,Bloqueado
+CD0268,P00136,Vermelho,Bloqueado
+CD0269,P01489,Verde,Disponível
+CD0270,P00256,Amarelo,Em uso
+CD0271,P01104,Verde,Bloqueado
+CD0272,P00144,Azul,Disponível
+CD0273,P01117,Azul,Em uso
+CD0274,P00006,Vermelho,Em uso
+CD0275,P00283,Vermelho,Em uso
+CD0276,P01448,Azul,Bloqueado
+CD0277,P00834,Azul,Disponível
+CD0278,P01446,Amarelo,Bloqueado
+CD0279,P00090,Azul,Em uso
+CD0280,P01329,Azul,Em uso
+CD0281,P00752,Azul,Disponível
+CD0282,P00824,Vermelho,Disponível
+CD0283,P01437,Verde,Disponível
+CD0284,P00598,Verde,Bloqueado
+CD0285,P00993,Verde,Bloqueado
+CD0286,P01128,Vermelho,Disponível
+CD0287,P00773,Amarelo,Bloqueado
+CD0288,P00725,Verde,Em uso
+CD0289,P01223,Vermelho,Em uso
+CD0290,P01158,Vermelho,Bloqueado
+CD0291,P00134,Vermelho,Em uso
+CD0292,P00032,Verde,Bloqueado
+CD0293,P00993,Azul,Em uso
+CD0294,P01258,Verde,Bloqueado
+CD0295,P00721,Verde,Em uso
+CD0296,P00985,Azul,Disponível
+CD0297,P00056,Azul,Bloqueado
+CD0298,P00572,Amarelo,Disponível
+CD0299,P00685,Amarelo,Em uso
+CD0300,P00891,Amarelo,Bloqueado
+CD0301,P00077,Azul,Disponível
+CD0302,P01060,Vermelho,Bloqueado
+CD0303,P00402,Azul,Disponível
+CD0304,P00745,Azul,Disponível
+CD0305,P01054,Azul,Disponível
+CD0306,P00866,Vermelho,Em uso
+CD0307,P00255,Amarelo,Disponível
+CD0308,P01200,Vermelho,Disponível
+CD0309,P00431,Vermelho,Em uso
+CD0310,P01427,Verde,Disponível
+CD0311,P00566,Azul,Em uso
+CD0312,P00853,Amarelo,Em uso
+CD0313,P01386,Azul,Bloqueado
+CD0314,P01155,Amarelo,Em uso
+CD0315,P01452,Verde,Bloqueado
+CD0316,P00229,Verde,Em uso
+CD0317,P00299,Amarelo,Disponível
+CD0318,P01135,Verde,Em uso
+CD0319,P01185,Vermelho,Disponível
+CD0320,P01415,Vermelho,Em uso
+CD0321,P00307,Verde,Em uso
+CD0322,P01452,Vermelho,Bloqueado
+CD0323,P00234,Verde,Disponível
+CD0324,P01267,Verde,Disponível
+CD0325,P00480,Verde,Em uso
+CD0326,P00119,Verde,Disponível
+CD0327,P00134,Vermelho,Disponível
+CD0328,P00924,Vermelho,Em uso
+CD0329,P00328,Amarelo,Disponível
+CD0330,P00979,Verde,Disponível
+CD0331,P01033,Amarelo,Bloqueado
+CD0332,P00427,Amarelo,Bloqueado
+CD0333,P01422,Amarelo,Em uso
+CD0334,P00975,Verde,Em uso
+CD0335,P01244,Azul,Bloqueado
+CD0336,P00888,Verde,Disponível
+CD0337,P01419,Amarelo,Em uso
+CD0338,P00708,Amarelo,Disponível
+CD0339,P00216,Vermelho,Em uso
+CD0340,P00013,Vermelho,Bloqueado
+CD0341,P00675,Azul,Em uso
+CD0342,P00202,Vermelho,Em uso
+CD0343,P00111,Azul,Em uso
+CD0344,P00913,Verde,Bloqueado
+CD0345,P01126,Vermelho,Em uso
+CD0346,P01482,Azul,Em uso
+CD0347,P01049,Vermelho,Bloqueado
+CD0348,P00965,Verde,Em uso
+CD0349,P00132,Vermelho,Bloqueado
+CD0350,P00314,Amarelo,Disponível
+CD0351,P00623,Azul,Bloqueado
+CD0352,P00323,Vermelho,Disponível
+CD0353,P00324,Amarelo,Disponível
+CD0354,P00330,Azul,Bloqueado
+CD0355,P00600,Vermelho,Em uso
+CD0356,P00031,Amarelo,Bloqueado
+CD0357,P00348,Azul,Bloqueado
+CD0358,P00658,Vermelho,Em uso
+CD0359,P00364,Amarelo,Bloqueado
+CD0360,P01261,Vermelho,Em uso
+CD0361,P00929,Vermelho,Bloqueado
+CD0362,P00946,Vermelho,Bloqueado
+CD0363,P00051,Verde,Bloqueado
+CD0364,P01455,Azul,Disponível
+CD0365,P00072,Amarelo,Em uso
+CD0366,P00255,Vermelho,Disponível
+CD0367,P00206,Azul,Disponível
+CD0368,P00396,Vermelho,Em uso
+CD0369,P00442,Azul,Bloqueado
+CD0370,P01363,Amarelo,Em uso
+CD0371,P00048,Vermelho,Disponível
+CD0372,P01139,Verde,Em uso
+CD0373,P00769,Vermelho,Em uso
+CD0374,P01280,Verde,Disponível
+CD0375,P01199,Verde,Bloqueado
+CD0376,P01267,Amarelo,Em uso
+CD0377,P01057,Vermelho,Bloqueado
+CD0378,P01421,Amarelo,Bloqueado
+CD0379,P00989,Azul,Bloqueado
+CD0380,P00419,Amarelo,Em uso
+CD0381,P01321,Vermelho,Disponível
+CD0382,P01307,Amarelo,Em uso
+CD0383,P01077,Azul,Bloqueado
+CD0384,P01460,Verde,Disponível
+CD0385,P00434,Vermelho,Bloqueado
+CD0386,P00272,Amarelo,Em uso
+CD0387,P00922,Amarelo,Bloqueado
+CD0388,P00597,Amarelo,Disponível
+CD0389,P00442,Azul,Bloqueado
+CD0390,P00502,Vermelho,Em uso
+CD0391,P01400,Azul,Bloqueado
+CD0392,P00853,Verde,Disponível
+CD0393,P01412,Verde,Disponível
+CD0394,P01140,Vermelho,Em uso
+CD0395,P00199,Vermelho,Em uso
+CD0396,P01332,Vermelho,Disponível
+CD0397,P01133,Amarelo,Bloqueado
+CD0398,P01021,Vermelho,Bloqueado
+CD0399,P01198,Azul,Disponível
+CD0400,P01216,Amarelo,Em uso
+CD0401,P00545,Vermelho,Bloqueado
+CD0402,P00600,Vermelho,Bloqueado
+CD0403,P01023,Amarelo,Disponível
+CD0404,P00275,Amarelo,Disponível
+CD0405,P01309,Amarelo,Disponível
+CD0406,P00123,Verde,Disponível
+CD0407,P00891,Vermelho,Em uso
+CD0408,P00132,Amarelo,Em uso
+CD0409,P01489,Amarelo,Disponível
+CD0410,P00839,Azul,Em uso
+CD0411,P00159,Verde,Bloqueado
+CD0412,P00838,Amarelo,Bloqueado
+CD0413,P00520,Verde,Em uso
+CD0414,P00254,Azul,Em uso
+CD0415,P00736,Azul,Bloqueado
+CD0416,P00256,Azul,Disponível
+CD0417,P01171,Verde,Disponível
+CD0418,P01171,Verde,Bloqueado
+CD0419,P00238,Azul,Bloqueado
+CD0420,P01007,Amarelo,Bloqueado
+CD0421,P00804,Amarelo,Disponível
+CD0422,P00924,Azul,Disponível
+CD0423,P00384,Vermelho,Bloqueado
+CD0424,P00859,Amarelo,Em uso
+CD0425,P01304,Vermelho,Bloqueado
+CD0426,P00026,Azul,Em uso
+CD0427,P00481,Azul,Bloqueado
+CD0428,P00879,Amarelo,Em uso
+CD0429,P00771,Amarelo,Em uso
+CD0430,P00904,Verde,Em uso
+CD0431,P00630,Amarelo,Bloqueado
+CD0432,P00125,Verde,Disponível
+CD0433,P01385,Azul,Bloqueado
+CD0434,P00723,Amarelo,Disponível
+CD0435,P01207,Azul,Em uso
+CD0436,P00842,Verde,Em uso
+CD0437,P00685,Azul,Disponível
+CD0438,P00644,Azul,Disponível
+CD0439,P00196,Vermelho,Disponível
+CD0440,P00854,Vermelho,Disponível
+CD0441,P01346,Verde,Em uso
+CD0442,P00853,Vermelho,Bloqueado
+CD0443,P01246,Azul,Bloqueado
+CD0444,P00493,Vermelho,Em uso
+CD0445,P00704,Verde,Disponível
+CD0446,P00767,Verde,Disponível
+CD0447,P01075,Azul,Disponível
+CD0448,P01414,Azul,Em uso
+CD0449,P00298,Vermelho,Em uso
+CD0450,P00952,Verde,Bloqueado
+CD0451,P00120,Amarelo,Em uso
+CD0452,P00457,Vermelho,Disponível
+CD0453,P00754,Amarelo,Em uso
+CD0454,P00267,Vermelho,Em uso
+CD0455,P01481,Vermelho,Bloqueado
+CD0456,P00689,Amarelo,Em uso
+CD0457,P00196,Azul,Bloqueado
+CD0458,P01497,Verde,Disponível
+CD0459,P00474,Vermelho,Em uso
+CD0460,P01446,Vermelho,Disponível
+CD0461,P00165,Vermelho,Em uso
+CD0462,P00236,Azul,Bloqueado
+CD0463,P01324,Vermelho,Disponível
+CD0464,P00355,Amarelo,Bloqueado
+CD0465,P01393,Vermelho,Em uso
+CD0466,P00507,Amarelo,Bloqueado
+CD0467,P01097,Amarelo,Em uso
+CD0468,P00192,Azul,Bloqueado
+CD0469,P00476,Vermelho,Bloqueado
+CD0470,P00854,Vermelho,Em uso
+CD0471,P00215,Amarelo,Em uso
+CD0472,P00420,Azul,Disponível
+CD0473,P01318,Verde,Bloqueado
+CD0474,P00400,Azul,Disponível
+CD0475,P00872,Verde,Em uso
+CD0476,P01197,Azul,Disponível
+CD0477,P00617,Azul,Em uso
+CD0478,P00642,Amarelo,Bloqueado
+CD0479,P01430,Verde,Em uso
+CD0480,P00799,Vermelho,Em uso
+CD0481,P00653,Azul,Bloqueado
+CD0482,P00304,Vermelho,Bloqueado
+CD0483,P01194,Vermelho,Bloqueado
+CD0484,P00755,Vermelho,Disponível
+CD0485,P00359,Amarelo,Disponível
+CD0486,P00592,Azul,Em uso
+CD0487,P01135,Amarelo,Disponível
+CD0488,P00889,Verde,Bloqueado
+CD0489,P01136,Azul,Disponível
+CD0490,P00219,Verde,Bloqueado
+CD0491,P00399,Amarelo,Em uso
+CD0492,P00854,Amarelo,Disponível
+CD0493,P00305,Amarelo,Em uso
+CD0494,P00985,Vermelho,Bloqueado
+CD0495,P00202,Vermelho,Bloqueado
+CD0496,P00971,Vermelho,Disponível
+CD0497,P01150,Vermelho,Em uso
+CD0498,P00174,Azul,Disponível
+CD0499,P00088,Azul,Bloqueado
+CD0500,P00611,Azul,Em uso
+CD0501,P00936,Azul,Bloqueado
+CD0502,P01307,Vermelho,Em uso
+CD0503,P00254,Azul,Disponível
+CD0504,P00570,Amarelo,Bloqueado
+CD0505,P00422,Vermelho,Em uso
+CD0506,P00480,Azul,Bloqueado
+CD0507,P01421,Verde,Bloqueado
+CD0508,P01073,Verde,Disponível
+CD0509,P00003,Azul,Bloqueado
+CD0510,P00945,Amarelo,Em uso
+CD0511,P01100,Amarelo,Disponível
+CD0512,P00621,Amarelo,Em uso
+CD0513,P00543,Azul,Em uso
+CD0514,P01498,Vermelho,Disponível
+CD0515,P00487,Vermelho,Em uso
+CD0516,P01344,Azul,Bloqueado
+CD0517,P01173,Azul,Disponível
+CD0518,P01491,Verde,Disponível
+CD0519,P01082,Verde,Disponível
+CD0520,P00852,Amarelo,Bloqueado
+CD0521,P00546,Verde,Disponível
+CD0522,P01322,Verde,Disponível
+CD0523,P00235,Amarelo,Em uso
+CD0524,P01206,Azul,Disponível
+CD0525,P01095,Vermelho,Disponível
+CD0526,P00929,Amarelo,Bloqueado
+CD0527,P01420,Verde,Em uso
+CD0528,P00040,Amarelo,Bloqueado
+CD0529,P01174,Amarelo,Bloqueado
+CD0530,P00434,Amarelo,Bloqueado
+CD0531,P00806,Verde,Em uso
+CD0532,P00484,Amarelo,Em uso
+CD0533,P01223,Amarelo,Disponível
+CD0534,P00963,Vermelho,Em uso
+CD0535,P00870,Verde,Disponível
+CD0536,P01081,Amarelo,Em uso
+CD0537,P00597,Vermelho,Em uso
+CD0538,P01125,Verde,Disponível
+CD0539,P00563,Amarelo,Disponível
+CD0540,P00090,Amarelo,Bloqueado
+CD0541,P01282,Vermelho,Disponível
+CD0542,P01381,Vermelho,Em uso
+CD0543,P01401,Vermelho,Disponível
+CD0544,P01196,Amarelo,Bloqueado
+CD0545,P00094,Azul,Disponível
+CD0546,P01093,Vermelho,Em uso
+CD0547,P00776,Azul,Disponível
+CD0548,P00436,Verde,Bloqueado
+CD0549,P00807,Vermelho,Em uso
+CD0550,P01469,Verde,Bloqueado
+CD0551,P01170,Azul,Disponível
+CD0552,P01457,Azul,Bloqueado
+CD0553,P00676,Amarelo,Em uso
+CD0554,P00630,Amarelo,Disponível
+CD0555,P01105,Verde,Em uso
+CD0556,P00666,Amarelo,Em uso
+CD0557,P01303,Azul,Disponível
+CD0558,P01334,Amarelo,Disponível
+CD0559,P00152,Amarelo,Disponível
+CD0560,P00956,Azul,Em uso
+CD0561,P01196,Verde,Em uso
+CD0562,P00624,Amarelo,Em uso
+CD0563,P00838,Vermelho,Disponível
+CD0564,P00343,Azul,Bloqueado
+CD0565,P00191,Amarelo,Bloqueado
+CD0566,P00303,Verde,Disponível
+CD0567,P00175,Amarelo,Bloqueado
+CD0568,P01142,Verde,Em uso
+CD0569,P00780,Verde,Em uso
+CD0570,P00504,Verde,Bloqueado
+CD0571,P00080,Verde,Disponível
+CD0572,P01011,Verde,Bloqueado
+CD0573,P00449,Amarelo,Bloqueado
+CD0574,P00951,Vermelho,Em uso
+CD0575,P00349,Azul,Bloqueado
+CD0576,P00041,Amarelo,Bloqueado
+CD0577,P00106,Vermelho,Bloqueado
+CD0578,P00565,Verde,Disponível
+CD0579,P00837,Amarelo,Bloqueado
+CD0580,P00799,Amarelo,Em uso
+CD0581,P00396,Azul,Disponível
+CD0582,P00458,Vermelho,Em uso
+CD0583,P00152,Verde,Disponível
+CD0584,P01302,Amarelo,Em uso
+CD0585,P00688,Azul,Disponível
+CD0586,P01182,Vermelho,Em uso
+CD0587,P00407,Azul,Em uso
+CD0588,P00205,Vermelho,Disponível
+CD0589,P00015,Azul,Em uso
+CD0590,P01195,Vermelho,Disponível
+CD0591,P01200,Verde,Disponível
+CD0592,P01276,Amarelo,Bloqueado
+CD0593,P01271,Verde,Bloqueado
+CD0594,P00031,Vermelho,Disponível
+CD0595,P00484,Verde,Bloqueado
+CD0596,P00910,Verde,Bloqueado
+CD0597,P00982,Vermelho,Disponível
+CD0598,P00637,Azul,Bloqueado
+CD0599,P00708,Azul,Bloqueado
+CD0600,P01122,Vermelho,Disponível
+CD0601,P00530,Vermelho,Bloqueado
+CD0602,P00857,Verde,Em uso
+CD0603,P00368,Vermelho,Bloqueado
+CD0604,P00853,Amarelo,Em uso
+CD0605,P00445,Vermelho,Disponível
+CD0606,P00552,Vermelho,Disponível
+CD0607,P00270,Vermelho,Em uso
+CD0608,P01270,Vermelho,Em uso
+CD0609,P00487,Amarelo,Disponível
+CD0610,P00329,Azul,Disponível
+CD0611,P00214,Verde,Disponível
+CD0612,P01036,Amarelo,Bloqueado
+CD0613,P01393,Amarelo,Bloqueado
+CD0614,P01029,Amarelo,Bloqueado
+CD0615,P00429,Azul,Em uso
+CD0616,P00273,Azul,Em uso
+CD0617,P01121,Verde,Disponível
+CD0618,P00020,Vermelho,Em uso
+CD0619,P00894,Amarelo,Em uso
+CD0620,P01217,Verde,Em uso
+CD0621,P00009,Verde,Disponível
+CD0622,P00673,Amarelo,Disponível
+CD0623,P01459,Verde,Disponível
+CD0624,P00095,Verde,Bloqueado
+CD0625,P01221,Azul,Em uso
+CD0626,P01356,Vermelho,Disponível
+CD0627,P00413,Vermelho,Bloqueado
+CD0628,P00368,Verde,Em uso
+CD0629,P00199,Amarelo,Bloqueado
+CD0630,P00321,Vermelho,Bloqueado
+CD0631,P00768,Amarelo,Bloqueado
+CD0632,P01006,Amarelo,Disponível
+CD0633,P00381,Verde,Em uso
+CD0634,P00348,Amarelo,Bloqueado
+CD0635,P00002,Azul,Bloqueado
+CD0636,P00133,Verde,Bloqueado
+CD0637,P00990,Vermelho,Disponível
+CD0638,P01003,Amarelo,Bloqueado
+CD0639,P00172,Amarelo,Disponível
+CD0640,P00876,Azul,Disponível
+CD0641,P00653,Azul,Em uso
+CD0642,P01067,Vermelho,Em uso
+CD0643,P00611,Azul,Bloqueado
+CD0644,P01075,Verde,Em uso
+CD0645,P00861,Amarelo,Disponível
+CD0646,P00856,Verde,Disponível
+CD0647,P00807,Amarelo,Disponível
+CD0648,P00068,Vermelho,Disponível
+CD0649,P01124,Amarelo,Bloqueado
+CD0650,P01285,Amarelo,Em uso
+CD0651,P00635,Verde,Em uso
+CD0652,P00717,Verde,Em uso
+CD0653,P00099,Amarelo,Disponível
+CD0654,P00439,Amarelo,Disponível
+CD0655,P01399,Azul,Em uso
+CD0656,P01153,Verde,Disponível
+CD0657,P00620,Amarelo,Em uso
+CD0658,P00871,Vermelho,Bloqueado
+CD0659,P00922,Amarelo,Bloqueado
+CD0660,P00360,Amarelo,Em uso
+CD0661,P00062,Amarelo,Disponível
+CD0662,P00807,Vermelho,Disponível
+CD0663,P00576,Verde,Em uso
+CD0664,P01265,Azul,Em uso
+CD0665,P00734,Azul,Disponível
+CD0666,P00626,Amarelo,Em uso
+CD0667,P00238,Vermelho,Bloqueado
+CD0668,P01095,Vermelho,Bloqueado
+CD0669,P00740,Amarelo,Bloqueado
+CD0670,P00543,Amarelo,Bloqueado
+CD0671,P01392,Vermelho,Disponível
+CD0672,P00603,Verde,Disponível
+CD0673,P01157,Amarelo,Disponível
+CD0674,P00449,Vermelho,Disponível
+CD0675,P01191,Amarelo,Bloqueado
+CD0676,P00846,Verde,Em uso
+CD0677,P00466,Amarelo,Em uso
+CD0678,P01269,Vermelho,Em uso
+CD0679,P00849,Amarelo,Disponível
+CD0680,P00044,Verde,Bloqueado
+CD0681,P01091,Verde,Disponível
+CD0682,P01483,Amarelo,Disponível
+CD0683,P00434,Verde,Disponível
+CD0684,P01144,Vermelho,Bloqueado
+CD0685,P00750,Azul,Bloqueado
+CD0686,P01349,Vermelho,Em uso
+CD0687,P00275,Amarelo,Em uso
+CD0688,P00710,Azul,Disponível
+CD0689,P00007,Verde,Disponível
+CD0690,P00023,Azul,Em uso
+CD0691,P01482,Azul,Disponível
+CD0692,P00384,Azul,Bloqueado
+CD0693,P01426,Verde,Disponível
+CD0694,P00299,Vermelho,Bloqueado
+CD0695,P01444,Amarelo,Em uso
+CD0696,P01466,Amarelo,Em uso
+CD0697,P01132,Azul,Bloqueado
+CD0698,P00966,Amarelo,Em uso
+CD0699,P01139,Amarelo,Bloqueado
+CD0700,P00613,Azul,Em uso
+CD0701,P00625,Verde,Em uso
+CD0702,P01354,Azul,Bloqueado
+CD0703,P01025,Vermelho,Disponível
+CD0704,P01032,Amarelo,Bloqueado
+CD0705,P00366,Azul,Em uso
+CD0706,P00063,Azul,Em uso
+CD0707,P00940,Amarelo,Bloqueado
+CD0708,P00175,Azul,Disponível
+CD0709,P00696,Azul,Em uso
+CD0710,P00031,Azul,Disponível
+CD0711,P00315,Vermelho,Disponível
+CD0712,P00663,Amarelo,Bloqueado
+CD0713,P00965,Amarelo,Em uso
+CD0714,P00670,Vermelho,Em uso
+CD0715,P00257,Azul,Bloqueado
+CD0716,P00753,Amarelo,Bloqueado
+CD0717,P00730,Vermelho,Bloqueado
+CD0718,P00749,Azul,Disponível
+CD0719,P00973,Amarelo,Em uso
+CD0720,P00441,Verde,Disponível
+CD0721,P00979,Azul,Bloqueado
+CD0722,P00948,Azul,Disponível
+CD0723,P01388,Azul,Bloqueado
+CD0724,P00660,Verde,Disponível
+CD0725,P00218,Vermelho,Em uso
+CD0726,P01459,Vermelho,Disponível
+CD0727,P00175,Azul,Bloqueado
+CD0728,P00377,Azul,Disponível
+CD0729,P00498,Amarelo,Em uso
+CD0730,P01392,Azul,Disponível
+CD0731,P01112,Verde,Disponível
+CD0732,P01240,Amarelo,Disponível
+CD0733,P01378,Verde,Bloqueado
+CD0734,P00530,Azul,Disponível
+CD0735,P00627,Verde,Em uso
+CD0736,P00468,Azul,Bloqueado
+CD0737,P01052,Azul,Disponível
+CD0738,P00082,Vermelho,Disponível
+CD0739,P00718,Amarelo,Disponível
+CD0740,P00101,Amarelo,Bloqueado
+CD0741,P01004,Amarelo,Em uso
+CD0742,P00925,Verde,Bloqueado
+CD0743,P01460,Verde,Em uso
+CD0744,P00345,Vermelho,Em uso
+CD0745,P00038,Azul,Disponível
+CD0746,P01437,Verde,Disponível
+CD0747,P00021,Azul,Bloqueado
+CD0748,P01391,Azul,Bloqueado
+CD0749,P00951,Amarelo,Bloqueado
+CD0750,P00988,Vermelho,Disponível
+CD0751,P00414,Verde,Bloqueado
+CD0752,P00703,Amarelo,Disponível
+CD0753,P00056,Azul,Disponível
+CD0754,P00704,Vermelho,Disponível
+CD0755,P01223,Verde,Disponível
+CD0756,P01392,Vermelho,Em uso
+CD0757,P00049,Azul,Em uso
+CD0758,P00927,Vermelho,Bloqueado
+CD0759,P01135,Vermelho,Bloqueado
+CD0760,P00503,Azul,Disponível
+CD0761,P00123,Verde,Disponível
+CD0762,P00868,Verde,Em uso
+CD0763,P00612,Verde,Bloqueado
+CD0764,P00834,Amarelo,Em uso
+CD0765,P00988,Amarelo,Disponível
+CD0766,P01254,Vermelho,Disponível
+CD0767,P00694,Azul,Disponível
+CD0768,P00107,Azul,Bloqueado
+CD0769,P01375,Verde,Disponível
+CD0770,P00717,Azul,Disponível
+CD0771,P00223,Verde,Em uso
+CD0772,P01219,Verde,Em uso
+CD0773,P01201,Verde,Em uso
+CD0774,P00777,Verde,Em uso
+CD0775,P00574,Amarelo,Bloqueado
+CD0776,P00759,Vermelho,Em uso
+CD0777,P00256,Amarelo,Disponível
+CD0778,P00959,Vermelho,Disponível
+CD0779,P00455,Amarelo,Em uso
+CD0780,P00541,Vermelho,Bloqueado
+CD0781,P00595,Amarelo,Bloqueado
+CD0782,P00975,Amarelo,Disponível
+CD0783,P00853,Azul,Disponível
+CD0784,P01071,Vermelho,Em uso
+CD0785,P01014,Amarelo,Disponível
+CD0786,P01264,Verde,Em uso
+CD0787,P00509,Azul,Bloqueado
+CD0788,P00350,Verde,Disponível
+CD0789,P01317,Verde,Disponível
+CD0790,P01127,Verde,Bloqueado
+CD0791,P00118,Verde,Bloqueado
+CD0792,P01457,Amarelo,Disponível
+CD0793,P00845,Azul,Disponível
+CD0794,P00503,Azul,Disponível
+CD0795,P00422,Azul,Bloqueado
+CD0796,P00499,Verde,Disponível
+CD0797,P00660,Verde,Bloqueado
+CD0798,P00821,Verde,Disponível
+CD0799,P01481,Vermelho,Disponível
+CD0800,P01447,Amarelo,Disponível
+CD0801,P00998,Vermelho,Em uso
+CD0802,P00991,Azul,Em uso
+CD0803,P00289,Amarelo,Disponível
+CD0804,P00310,Verde,Bloqueado
+CD0805,P00567,Azul,Em uso
+CD0806,P00570,Verde,Em uso
+CD0807,P00533,Verde,Em uso
+CD0808,P01370,Vermelho,Bloqueado
+CD0809,P01233,Azul,Disponível
+CD0810,P01450,Vermelho,Em uso
+CD0811,P00843,Vermelho,Bloqueado
+CD0812,P01176,Vermelho,Disponível
+CD0813,P00605,Vermelho,Disponível
+CD0814,P00895,Vermelho,Em uso
+CD0815,P00561,Amarelo,Em uso
+CD0816,P00989,Verde,Bloqueado
+CD0817,P00170,Azul,Bloqueado
+CD0818,P00712,Amarelo,Em uso
+CD0819,P01280,Verde,Bloqueado
+CD0820,P01076,Vermelho,Bloqueado
+CD0821,P01293,Verde,Em uso
+CD0822,P00218,Verde,Bloqueado
+CD0823,P01166,Vermelho,Disponível
+CD0824,P01347,Vermelho,Bloqueado
+CD0825,P00057,Verde,Em uso
+CD0826,P01188,Azul,Em uso
+CD0827,P00791,Amarelo,Disponível
+CD0828,P01440,Verde,Bloqueado
+CD0829,P01184,Verde,Bloqueado
+CD0830,P01312,Amarelo,Bloqueado
+CD0831,P00534,Verde,Disponível
+CD0832,P00158,Vermelho,Em uso
+CD0833,P01059,Azul,Bloqueado
+CD0834,P00293,Azul,Disponível
+CD0835,P00172,Azul,Em uso
+CD0836,P01303,Vermelho,Em uso
+CD0837,P00148,Amarelo,Bloqueado
+CD0838,P00373,Verde,Disponível
+CD0839,P01414,Azul,Em uso
+CD0840,P00657,Amarelo,Bloqueado
+CD0841,P01367,Azul,Em uso
+CD0842,P00775,Vermelho,Bloqueado
+CD0843,P01360,Azul,Bloqueado
+CD0844,P00522,Azul,Bloqueado
+CD0845,P01245,Verde,Bloqueado
+CD0846,P01484,Azul,Disponível
+CD0847,P00268,Verde,Bloqueado
+CD0848,P00759,Verde,Em uso
+CD0849,P00122,Vermelho,Bloqueado
+CD0850,P00302,Azul,Em uso

@@ -1,0 +1,6 @@
+﻿tabela,arquivo_bruto,arquivo_tratado,linhas_brutas,linhas_tratadas,linhas_rejeitadas
+calibracoes,dados_brutos/calibracoes.csv,dados_tratados_pipeline/calibracoes.csv,7204,7200,4
+equipamentos,dados_brutos/equipamentos.csv,dados_tratados_pipeline/equipamentos.csv,1404,1400,4
+laboratorios,dados_brutos/laboratorios.csv,dados_tratados_pipeline/laboratorios.csv,29,25,4
+medicoes,dados_brutos/medicoes.csv,dados_tratados_pipeline/medicoes.csv,21004,21000,4
+nao_conformidades,dados_brutos/nao_conformidades.csv,dados_tratados_pipeline/nao_conformidades.csv,754,750,4

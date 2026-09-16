@@ -1,0 +1,6 @@
+reparo_id,os_id,data_inicio,data_fim,solucao,horas_tecnicas,resultado,motivo_rejeicao
+2257,2257,2025-12-23,2025-12-27,Troca de componente,20.0,Resolvido,pk_duplicada
+323,323,2026-02-13,2026-02-16,Troca de componente,8.4,Resolvido,pk_duplicada
+2361,2361,2026-03-31,2026-04-05,Limpeza técnica,21.7,Resolvido,pk_duplicada
+4102,1,,2025-09-04,Troca de componente,9.9,Resolvido,data_invalida:data_inicio
+4103,1,2025-08-29,2025-09-04,Troca de componente,-999.0,Resolvido,negativo:horas_tecnicas

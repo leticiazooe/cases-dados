@@ -1,0 +1,5 @@
+diagnostico_id,os_id,defeito_relatado,causa,taxa_diagnostico,data_diagnostico,motivo_rejeicao
+1017,1017,Superaquecimento,Impacto,188.88,2026-03-16,pk_duplicada
+2254,2254,Não carrega,Desgaste,151.21,2025-11-19,pk_duplicada
+244,244,Não liga,Software,79.29,2025-09-23,pk_duplicada
+4102,1,Lento,Oxidação,83.04,,data_invalida:data_diagnostico

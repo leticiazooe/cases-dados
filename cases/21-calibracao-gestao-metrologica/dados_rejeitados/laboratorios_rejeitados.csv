@@ -1,0 +1,5 @@
+laboratorio_id,laboratorio,acreditado,lead_time_dias,motivo_rejeicao
+LB017,Laboratório 17,Sim,20,pk_duplicada
+LB007,Laboratório 7,Sim,19,pk_duplicada
+LB023,Laboratório 23,Sim,20,pk_duplicada
+ERRO_laboratorios_1,Laboratório 1,Sim,-999,valor_negativo:lead_time_dias

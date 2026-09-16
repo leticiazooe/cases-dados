@@ -1,0 +1,5 @@
+obrigacao_id,cliente_id,tipo_obrigacao_id,responsavel_id,competencia,data_limite,data_entrega,status,no_prazo,motivo_rejeicao
+965,41,4,13,2025-10-01,2025-11-17,2025-11-16,Entregue,1,pk_duplicada
+14394,596,4,1,2026-02-01,2026-03-11,2026-03-17,Entregue,0,pk_duplicada
+2390,100,1,18,2026-02-01,2026-03-17,2026-03-05,Entregue,1,pk_duplicada
+14589,1,2,16,,2025-07-16,2025-07-12,Entregue,1,data_invalida:competencia

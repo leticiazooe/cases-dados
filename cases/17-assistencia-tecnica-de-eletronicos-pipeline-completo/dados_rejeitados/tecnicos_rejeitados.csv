@@ -1,0 +1,4 @@
+tecnico_id,codigo_tecnico,especialidade,senioridade,motivo_rejeicao
+17,TEC-017,Informática,Pleno,pk_duplicada
+23,TEC-023,Áudio e vídeo,Pleno,pk_duplicada
+3,TEC-003,Mobile,Júnior,pk_duplicada

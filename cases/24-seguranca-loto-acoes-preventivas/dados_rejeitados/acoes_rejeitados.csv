@@ -1,0 +1,5 @@
+acao_id,inspecao_id,responsavel_id,prazo,status,custo,motivo_rejeicao
+AO00409,IS10357,P00642,2026-05-27,Concluída,9078.92,pk_duplicada
+AO02686,IS07768,P01035,2024-07-01,Em execução,14759.83,pk_duplicada
+AO02220,IS07561,P00545,2026-05-31,Concluída,3933.92,pk_duplicada
+ERRO_acoes_1,IS06329,P01185,,Concluída,2293.13,data_invalida:prazo

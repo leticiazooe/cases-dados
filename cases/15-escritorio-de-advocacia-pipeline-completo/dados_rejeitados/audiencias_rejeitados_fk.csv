@@ -1,0 +1,2 @@
+audiencia_id,processo_id,data_audiencia,tipo,modalidade,status,resultado,motivo_rejeicao
+2,3,2026-05-06,Conciliação,Virtual,Realizada,Adiada,fk_invalida:processo_id

@@ -1,0 +1,6 @@
+Receita Liquida = SUM(fato_vendas[receita_liquida])
+Margem = SUM(fato_vendas[margem])
+Margem % = DIVIDE([Margem], [Receita Liquida])
+OTIF Vendas % = AVERAGE(fato_vendas[entrega_no_prazo])
+Refugo % = DIVIDE(SUM(fato_producao[refugo_kg]), SUM(fato_producao[quantidade_produzida]))
+Taxa Aprovacao = DIVIDE(CALCULATE(COUNTROWS(fato_qualidade), fato_qualidade[resultado]="Aprovado"), COUNTROWS(fato_qualidade))

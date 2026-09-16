@@ -1,0 +1,6 @@
+-- pessoas: pessoa_id, unidade, area, status
+-- ativos: ativo_id, tipo, unidade, criticidade
+-- cadeados: cadeado_id, pessoa_id, cor, status
+-- bloqueios_loto: loto_id, ativo_id, pessoa_id, cadeado_id, data_inicio, data_fim, motivo, status
+-- inspecoes_seguranca: inspecao_id, pessoa_id, data_inspecao, area, condicao_insegura, criticidade
+-- acoes: acao_id, inspecao_id, responsavel_id, prazo, status, custo

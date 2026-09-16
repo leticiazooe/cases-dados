@@ -1,0 +1,9 @@
+produto_id,produto,familia,unidade_medida,preco_lista,custo_padrao
+P001,Adesivo PU 40,Adesivos,KG,18.5,7.4
+P002,Selante Silicone Neutro,Selantes,UN,22.9,9.1
+P003,Resina Epoxi Industrial,Resinas,KG,42.0,19.8
+P004,Desengraxante Alcalino,Tratamento de Superficie,L,13.4,5.8
+P005,Primer Anticorrosivo,Revestimentos,L,31.7,14.2
+P006,Catalisador CX-10,Catalisadores,KG,55.0,25.5
+P007,Argamassa Quimica AQ,Construcao,KG,9.8,4.1
+P008,Fluido Protetivo FP,Manutencao,L,17.6,7.9

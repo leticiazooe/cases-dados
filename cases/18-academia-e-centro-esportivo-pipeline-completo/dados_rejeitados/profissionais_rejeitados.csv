@@ -1,0 +1,5 @@
+profissional_id,codigo_profissional,modalidade_id,funcao,motivo_rejeicao
+31,PROF-031,8,Professor,pk_duplicada
+21,PROF-021,10,Avaliador,pk_duplicada
+17,PROF-017,12,Avaliador,pk_duplicada
+143,PROF-001,-999,Avaliador,negativo:modalidade_id

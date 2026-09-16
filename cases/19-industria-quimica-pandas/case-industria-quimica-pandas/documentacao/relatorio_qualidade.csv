@@ -1,0 +1,5 @@
+dominio,regra,quantidade
+vendas,linhas_brutas,12065
+vendas,duplicidades_removidas,65
+vendas,linhas_rejeitadas,148
+qualidade,outliers_ph_quarentena,35

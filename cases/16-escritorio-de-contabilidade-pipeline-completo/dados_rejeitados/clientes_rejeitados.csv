@@ -1,0 +1,4 @@
+cliente_id,codigo_cliente,regime_id,setor,uf,status,motivo_rejeicao
+161,EMP-00161,2,Comércio,RJ,Ativo,pk_duplicada
+492,EMP-00492,3,Serviços,PR,Ativo,pk_duplicada
+301,EMP-00301,3,Serviços,MG,Ativo,pk_duplicada

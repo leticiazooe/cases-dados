@@ -1,0 +1,4 @@
+responsavel_id,codigo_responsavel,equipe,senioridade,motivo_rejeicao
+27,COL-027,Fiscal,Júnior,pk_duplicada
+19,COL-019,Societário,Sênior,pk_duplicada
+26,COL-026,Fiscal,Pleno,pk_duplicada

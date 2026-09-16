@@ -1,0 +1,5 @@
+pessoa_id,unidade,area,status,motivo_rejeicao
+P00562,Joinville,TI,Ativo,pk_duplicada
+P00906,Jaboticabal,Compras,Ativo,pk_duplicada
+P00351,Guarulhos,Engenharia,Ativo,pk_duplicada
+,Camaçari,Compras,Ativo,pk_nula

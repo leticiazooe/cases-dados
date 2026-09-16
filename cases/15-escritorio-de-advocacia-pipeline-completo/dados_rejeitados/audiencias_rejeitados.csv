@@ -1,0 +1,5 @@
+audiencia_id,processo_id,data_audiencia,tipo,modalidade,status,resultado,motivo_rejeicao
+584,820,2025-12-10,Instrução,Presencial,Agendada,Acordo,pk_duplicada
+973,1377,2026-11-15,Julgamento,Virtual,Realizada,Pendente,pk_duplicada
+1055,1484,2027-04-21,Julgamento,Presencial,Cancelada,Acordo,pk_duplicada
+1648,1,,Instrução,Presencial,Cancelada,Acordo,data_invalida:data_audiencia

@@ -1,0 +1,12 @@
+Total Ativos = COUNTROWS(fato_ativo)
+Ativos em Uso = CALCULATE([Total Ativos], fato_ativo[status] = "Em uso")
+Custo de Aquisição = SUM(fato_ativo[custo_aquisicao])
+Valor Contábil = SUM(fato_ativo[valor_contabil])
+Depreciação Acumulada = [Custo de Aquisição] - [Valor Contábil]
+Garantias Vencidas = CALCULATE([Total Ativos], fato_ativo[fim_garantia] < TODAY(), fato_ativo[status] <> "Baixado")
+Ativos Depreciados em Uso = CALCULATE([Total Ativos], fato_ativo[valor_contabil] = 0, fato_ativo[status] = "Em uso")
+Custo de Manutenção = SUM(fato_manutencao[custo])
+Ativos sem Responsável = COUNTROWS(FILTER(fato_ativo, fato_ativo[status] = "Em uso" && ISBLANK(RELATED(fato_atribuicao[colaborador_id]))))
+Licenças Adquiridas = SUM(fato_contrato_licenca[quantidade_adquirida])
+Licenças Utilizadas = CALCULATE(COUNTROWS(fato_alocacao_licenca), fato_alocacao_licenca[status] = "Ativa")
+Utilização de Licenças = DIVIDE([Licenças Utilizadas], [Licenças Adquiridas])

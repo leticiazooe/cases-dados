@@ -1,0 +1,6 @@
+tabela,brutas,tratadas,rejeitadas,esperadas,reconciliado
+empresas,224,220,4,220,True
+terceiros,3204,3200,4,3200,True
+documentos,9004,9000,4,9000,True
+visitas,9504,9500,4,9500,True
+acessos,28004,28000,4,28000,True

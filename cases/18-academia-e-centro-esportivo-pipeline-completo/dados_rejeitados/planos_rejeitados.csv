@@ -1,0 +1,5 @@
+plano_id,plano,valor_referencia,motivo_rejeicao
+3,Semestral,699,pk_duplicada
+4,Anual,1199,pk_duplicada
+2,Trimestral,399,pk_duplicada
+111,Mensal,-999,negativo:valor_referencia

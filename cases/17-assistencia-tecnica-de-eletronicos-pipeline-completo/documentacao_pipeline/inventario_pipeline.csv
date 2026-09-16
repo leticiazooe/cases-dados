@@ -1,0 +1,14 @@
+tabela,linhas_referencia,linhas_brutas,problemas_injetados
+avaliacoes,2407,2412,9
+clientes,1200,1203,7
+diagnosticos,4000,4004,8
+equipamentos,4000,4004,8
+garantias,3225,3229,8
+marcas,12,15,7
+orcamentos,4000,4005,9
+ordens_servico,4000,4004,8
+pecas,80,84,8
+pecas_utilizadas,6424,6428,4
+reparos,3225,3230,9
+tecnicos,25,28,7
+tipos_equipamento,10,13,7

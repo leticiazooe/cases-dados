@@ -1,0 +1,5 @@
+pessoa_id,unidade,area,status,motivo_rejeicao
+P00603,Jaboticabal,Compras,Ativo,pk_duplicada
+P00175,Jaboticabal,Logística,Ativo,pk_duplicada
+P00308,Guarulhos,Engenharia,Ativo,pk_duplicada
+,Guarulhos,Produção,Ativo,pk_nula

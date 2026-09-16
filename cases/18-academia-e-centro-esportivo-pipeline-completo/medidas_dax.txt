@@ -1,0 +1,6 @@
+Total Alunos = COUNTROWS(alunos)
+Matriculas Ativas = CALCULATE(COUNTROWS(matriculas), matriculas[status] = "Ativa")
+Receita = SUM(pagamentos[valor])
+Pagamentos Em Aberto = CALCULATE(COUNTROWS(pagamentos), pagamentos[status] <> "Pago")
+Taxa Ocupacao = DIVIDE(SUM(aulas[participantes]), SUM(aulas[capacidade]))
+Frequencias = COUNTROWS(frequencias)

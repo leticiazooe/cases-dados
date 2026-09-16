@@ -1,0 +1,13 @@
+tipo_obrigacao_id,obrigacao,periodicidade
+1,DCTFWeb,Trimestral
+2,EFD-Reinf,Mensal
+3,eSocial,Mensal
+4,SPED Fiscal,Mensal
+5,SPED Contábil,Trimestral
+6,DEFIS,Trimestral
+7,ECF,Anual
+8,ECD,Trimestral
+9,FGTS Digital,Mensal
+10,ISS,Anual
+11,ICMS,Anual
+12,IRPJ/CSLL,Trimestral

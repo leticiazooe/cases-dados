@@ -1,0 +1,7 @@
+Total Obrigações = COUNTROWS(obrigacoes)
+Obrigações no Prazo % = AVERAGE(obrigacoes[no_prazo])
+Obrigações Vencidas = CALCULATE([Total Obrigações], obrigacoes[status] = "Vencida")
+Documentos Pendentes = CALCULATE(COUNTROWS(documentos), documentos[status] = "Pendente")
+Impostos Apurados = SUM(impostos[valor_apurado])
+Guias Vencidas = CALCULATE(SUM(guias[valor]), guias[status] = "Vencido")
+Pendências Abertas = CALCULATE(COUNTROWS(pendencias), pendencias[status] = "Aberta")

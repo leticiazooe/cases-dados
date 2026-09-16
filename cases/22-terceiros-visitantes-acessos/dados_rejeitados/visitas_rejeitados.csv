@@ -1,0 +1,5 @@
+visita_id,terceiro_id,data_visita,unidade,motivo,status,motivo_rejeicao
+VI04145,TE00815,2024-04-11,Joinville,Reunião,Realizada,pk_duplicada
+VI02625,TE01277,2025-08-29,Joinville,Entrega,Agendada,pk_duplicada
+VI05726,TE00754,2024-06-01,Guarulhos,Serviço,Realizada,pk_duplicada
+ERRO_visitas_1,TE00833,,Jaboticabal,Auditoria,Realizada,data_invalida:data_visita

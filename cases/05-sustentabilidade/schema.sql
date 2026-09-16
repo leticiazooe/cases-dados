@@ -1,0 +1,14 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE dim_unidade(id_unidade INTEGER PRIMARY KEY,unidade TEXT,cidade TEXT,uf TEXT);
+CREATE TABLE dim_fonte_energia(id_fonte INTEGER PRIMARY KEY,fonte TEXT,renovavel INTEGER,fator_emissao NUMERIC);
+CREATE TABLE fato_consumo_energia(id_consumo INTEGER PRIMARY KEY,data_referencia DATE,id_unidade INTEGER REFERENCES dim_unidade,id_fonte INTEGER REFERENCES dim_fonte_energia,consumo_mwh NUMERIC,custo NUMERIC,producao_unidades INTEGER);
+CREATE TABLE fato_consumo_agua(id_consumo INTEGER PRIMARY KEY,data_referencia DATE,id_unidade INTEGER REFERENCES dim_unidade,volume_m3 NUMERIC,custo NUMERIC,volume_reutilizado_m3 NUMERIC);
+CREATE TABLE dim_tipo_residuo(id_tipo_residuo INTEGER PRIMARY KEY,residuo TEXT,classificacao TEXT,perigoso INTEGER,unidade_medida TEXT);
+CREATE TABLE fato_residuo(id_movimento INTEGER PRIMARY KEY,data_referencia DATE,id_unidade INTEGER REFERENCES dim_unidade,id_tipo_residuo INTEGER REFERENCES dim_tipo_residuo,quantidade_ton NUMERIC,destinacao TEXT,custo_receita NUMERIC,certificado_destinacao INTEGER);
+CREATE TABLE dim_fonte_emissao(id_fonte_emissao INTEGER PRIMARY KEY,fonte_emissao TEXT,escopo INTEGER,unidade_atividade TEXT,fator_emissao NUMERIC);
+CREATE TABLE fato_emissao(id_emissao INTEGER PRIMARY KEY,data_referencia DATE,id_unidade INTEGER REFERENCES dim_unidade,id_fonte_emissao INTEGER REFERENCES dim_fonte_emissao,atividade NUMERIC,emissao_tco2e NUMERIC);
+CREATE TABLE fato_meta_ambiental(id_meta INTEGER PRIMARY KEY,ano INTEGER,indicador TEXT,unidade_medida TEXT,valor_base NUMERIC,meta NUMERIC,realizado NUMERIC,status TEXT);
+CREATE TABLE fato_iniciativa(id_iniciativa INTEGER PRIMARY KEY,iniciativa TEXT,categoria TEXT,data_inicio DATE,data_fim DATE,investimento NUMERIC,economia_anual NUMERIC,reducao_tco2e NUMERIC,status TEXT);
+CREATE TABLE dim_fornecedor(id_fornecedor INTEGER PRIMARY KEY,fornecedor_ficticio TEXT,categoria TEXT,nota_esg NUMERIC,possui_certificacao INTEGER,status TEXT);
+CREATE TABLE dim_calendario(data DATE PRIMARY KEY,dia INTEGER,mes INTEGER,nome_mes TEXT,trimestre INTEGER,ano INTEGER,semana INTEGER,dia_semana TEXT);
+CREATE INDEX idx_energia_data ON fato_consumo_energia(data_referencia);CREATE INDEX idx_emissao_data ON fato_emissao(data_referencia);CREATE VIEW vw_pegada_unidade AS SELECT u.unidade,SUM(e.emissao_tco2e) emissao_tco2e FROM fato_emissao e JOIN dim_unidade u ON u.id_unidade=e.id_unidade GROUP BY u.unidade;

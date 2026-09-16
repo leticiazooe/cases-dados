@@ -1,0 +1,6 @@
+﻿tabela,linhas_brutas,linhas_tratadas,linhas_rejeitadas,status
+calibracoes,7204,7200,4,RECUPERADO
+equipamentos,1404,1400,4,RECUPERADO
+laboratorios,29,25,4,RECUPERADO
+medicoes,21004,21000,4,RECUPERADO
+nao_conformidades,754,750,4,RECUPERADO

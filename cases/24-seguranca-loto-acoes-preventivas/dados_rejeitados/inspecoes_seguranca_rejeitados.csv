@@ -1,0 +1,5 @@
+inspecao_id,pessoa_id,data_inspecao,area,condicao_insegura,criticidade,motivo_rejeicao
+IS05710,P00322,2024-01-28,Logística,0,Alta,pk_duplicada
+IS10890,P01137,2026-01-10,Produção,0,Média,pk_duplicada
+IS07687,P00304,2026-01-17,Logística,1,Média,pk_duplicada
+ERRO_inspecoes_seguranca_1,P01130,,Logística,1,Média,data_invalida:data_inspecao

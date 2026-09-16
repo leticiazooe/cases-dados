@@ -1,0 +1,19 @@
+{
+  "case": 18,
+  "title": "Academia e Centro Esportivo",
+  "tables": [
+    "alunos",
+    "aulas",
+    "avaliacoes_fisicas",
+    "cancelamentos",
+    "frequencias",
+    "matriculas",
+    "modalidades",
+    "pagamentos",
+    "planos",
+    "profissionais",
+    "reservas_aula"
+  ],
+  "source": "SQLite preservado + dados brutos do case",
+  "recovery": true
+}

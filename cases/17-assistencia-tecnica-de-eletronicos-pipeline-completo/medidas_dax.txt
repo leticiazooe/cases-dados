@@ -1,0 +1,7 @@
+Total OS = COUNTROWS(ordens_servico)
+SLA Cumprido % = AVERAGE(ordens_servico[dentro_sla])
+Orçamentos Aprovados % = DIVIDE(CALCULATE(COUNTROWS(orcamentos), orcamentos[status] = "Aprovado"), COUNTROWS(orcamentos))
+Receita Orçada = CALCULATE(SUM(orcamentos[valor_total]), orcamentos[status] = "Aprovado")
+Custo de Peças = SUM(pecas_utilizadas[custo_total])
+Retorno em Garantia % = AVERAGE(garantias[retorno])
+Nota Média Serviço = AVERAGE(avaliacoes[nota_servico])

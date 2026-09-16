@@ -1,0 +1,4 @@
+modalidade_id,modalidade,motivo_rejeicao
+12,Alongamento,pk_duplicada
+7,Dança,pk_duplicada
+3,Funcional,pk_duplicada

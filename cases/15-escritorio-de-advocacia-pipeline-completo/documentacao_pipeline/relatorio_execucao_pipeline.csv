@@ -1,0 +1,10 @@
+tabela,brutas,tratadas_pre_fk,rejeitadas,duplicadas,tratadas_finais,esperadas,reconciliado
+advogados,44,40,4,3,40,40,True
+areas_juridicas,11,8,3,3,8,8,True
+audiencias,1550,1546,4,3,1546,1546,True
+clientes,704,700,4,3,700,700,True
+honorarios,2205,2200,5,3,2200,2200,True
+movimentacoes,7668,7664,4,3,7664,7664,True
+pagamentos,6545,6540,5,3,6540,6540,True
+prazos,5533,5529,4,3,5529,5529,True
+processos,2205,2200,5,3,2200,2200,True

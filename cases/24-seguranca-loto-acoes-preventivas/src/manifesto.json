@@ -1,0 +1,62 @@
+{
+  "case": "Segurança Industrial, LOTO e Ações Preventivas",
+  "tables": {
+    "pessoas": {
+      "pk": "pessoa_id",
+      "dates": [],
+      "numeric": [],
+      "nonnegative": [],
+      "expected": 1500
+    },
+    "ativos": {
+      "pk": "ativo_id",
+      "dates": [],
+      "numeric": [],
+      "nonnegative": [],
+      "expected": 420
+    },
+    "cadeados": {
+      "pk": "cadeado_id",
+      "dates": [],
+      "numeric": [],
+      "nonnegative": [],
+      "expected": 850
+    },
+    "bloqueios_loto": {
+      "pk": "loto_id",
+      "dates": [
+        "data_inicio",
+        "data_fim"
+      ],
+      "numeric": [],
+      "nonnegative": [],
+      "expected": 6200
+    },
+    "inspecoes_seguranca": {
+      "pk": "inspecao_id",
+      "dates": [
+        "data_inspecao"
+      ],
+      "numeric": [
+        "condicao_insegura"
+      ],
+      "nonnegative": [
+        "condicao_insegura"
+      ],
+      "expected": 11000
+    },
+    "acoes": {
+      "pk": "acao_id",
+      "dates": [
+        "prazo"
+      ],
+      "numeric": [
+        "custo"
+      ],
+      "nonnegative": [
+        "custo"
+      ],
+      "expected": 2800
+    }
+  }
+}

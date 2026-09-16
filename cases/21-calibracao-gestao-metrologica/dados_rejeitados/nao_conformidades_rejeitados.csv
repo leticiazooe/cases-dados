@@ -1,0 +1,5 @@
+nao_conformidade_id,calibracao_id,tipo,criticidade,status,motivo_rejeicao
+NC00432,CA06104,Certificado incompleto,Média,Tratada,pk_duplicada
+NC00078,CA06254,Fora de tolerância,Alta,Tratada,pk_duplicada
+NC00513,CA01470,Certificado incompleto,Alta,Em análise,pk_duplicada
+,CA03367,Certificado incompleto,Alta,Tratada,pk_nula

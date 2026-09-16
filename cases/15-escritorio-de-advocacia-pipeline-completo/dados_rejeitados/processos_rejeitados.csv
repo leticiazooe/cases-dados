@@ -1,0 +1,6 @@
+processo_id,codigo_processo,cliente_id,area_id,advogado_id,data_abertura,data_encerramento,status,risco,valor_causa,desfecho,motivo_rejeicao
+1124,PROC-001124,605,5,22,2026-04-16,,Ativo,Médio,127719.24,,pk_duplicada
+1755,PROC-001755,25,4,13,2025-08-24,,Suspenso,Médio,58229.3,,pk_duplicada
+443,PROC-000443,452,2,20,2026-01-06,2026-09-26,Encerrado,Baixo,157541.81,Favorável,pk_duplicada
+2302,PROC-000001,312,5,20,,,Ativo,Médio,482532.19,,data_invalida:data_abertura
+2303,PROC-000001,312,5,20,2025-11-03,,Ativo,Médio,-999.0,,negativo:valor_causa

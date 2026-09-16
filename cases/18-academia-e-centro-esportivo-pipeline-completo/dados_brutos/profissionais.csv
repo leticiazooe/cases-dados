@@ -1,0 +1,45 @@
+profissional_id;codigo_profissional;modalidade_id;funcao
+1;  PROF-001  ;9;Avaliador
+2;  PROF-002  ;1;Avaliador
+3;  PROF-003  ;6;Personal
+4;  PROF-004  ;6;Avaliador
+5;PROF-005;12;Avaliador
+6;PROF-006;9;Personal
+7;PROF-007;4;Avaliador
+8;PROF-008;11;Avaliador
+9;PROF-009;2;Professor
+10;PROF-010;6;Personal
+11;PROF-011;9;Avaliador
+12;PROF-012;9;Avaliador
+13;PROF-013;6;Personal
+14;PROF-014;6;Professor
+15;PROF-015;4;Personal
+16;PROF-016;8;Avaliador
+17;PROF-017;12;Avaliador
+18;PROF-018;7;Personal
+19;PROF-019;3;Personal
+20;PROF-020;6;Personal
+21;PROF-021;10;Avaliador
+22;PROF-022;4;Personal
+23;PROF-023;10;Avaliador
+24;PROF-024;6;Avaliador
+25;PROF-025;12;Professor
+26;PROF-026;6;Professor
+27;PROF-027;4;Avaliador
+28;PROF-028;12;Personal
+29;PROF-029;1;Professor
+30;PROF-030;1;Personal
+31;PROF-031;8;Professor
+32;PROF-032;1;Personal
+33;PROF-033;4;Professor
+34;PROF-034;9;Professor
+35;PROF-035;4;Professor
+36;PROF-036;3;Personal
+37;PROF-037;4;Professor
+38;PROF-038;11;Personal
+39;PROF-039;3;Professor
+40;PROF-040;11;Professor
+31;PROF-031;8;Professor
+21;PROF-021;10;Avaliador
+17;PROF-017;12;Avaliador
+143;PROF-001;-999;Avaliador

@@ -1,0 +1,5 @@
+aprovacao_id,viagem_id,nivel,tempo_aprovacao_h,resultado,motivo_rejeicao
+AP04165,VG04165,Gestor,18.4,Aprovada,pk_duplicada
+AP01582,VG01582,Gestor,21.6,Aprovada,pk_duplicada
+AP03571,VG03571,Diretoria,24.5,Aprovada,pk_duplicada
+ERRO_aprovacoes_1,VG00001,Gestor,-999.0,Aprovada,valor_negativo:tempo_aprovacao_h

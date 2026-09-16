@@ -1,0 +1,9 @@
+Produção ktep = CALCULATE(SUM(fato_fluxo_energetico[valor_ktep]), fato_fluxo_energetico[operacao] = "Produção")
+Importação ktep = CALCULATE(SUM(fato_fluxo_energetico[valor_ktep]), fato_fluxo_energetico[operacao] = "Importação")
+Exportação ktep = CALCULATE(SUM(fato_fluxo_energetico[valor_ktep]), fato_fluxo_energetico[operacao] = "Exportação")
+Saldo Físico ktep = [Exportação ktep] - [Importação ktep]
+Razão Exp/Imp = DIVIDE([Exportação ktep], [Importação ktep])
+Oferta Aparente ktep = [Produção ktep] + [Importação ktep] - [Exportação ktep]
+Produção Renovável ktep = CALCULATE([Produção ktep], dim_fonte_energia[classificacao] = "Renovável")
+Participação Renovável = DIVIDE([Produção Renovável ktep], [Produção ktep])
+Variação Produção YoY = DIVIDE([Produção ktep] - CALCULATE([Produção ktep], DATEADD(dim_tempo[ano],-1,YEAR)), CALCULATE([Produção ktep], DATEADD(dim_tempo[ano],-1,YEAR)))

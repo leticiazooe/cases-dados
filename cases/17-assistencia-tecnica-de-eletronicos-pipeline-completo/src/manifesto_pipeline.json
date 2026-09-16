@@ -1,0 +1,573 @@
+{
+  "case": "Case_17_Assistencia_Tecnica_de_Eletronicos",
+  "database": "case_assistencia_tecnica_eletronicos.db",
+  "tables": {
+    "avaliacoes": {
+      "primary_key": "avaliacao_id",
+      "columns": [
+        "avaliacao_id",
+        "os_id",
+        "nota_atendimento",
+        "nota_servico",
+        "comentario_categoria",
+        "data_avaliacao"
+      ],
+      "date_columns": [
+        "data_avaliacao"
+      ],
+      "numeric_columns": [
+        "avaliacao_id",
+        "os_id",
+        "nota_atendimento",
+        "nota_servico"
+      ],
+      "nonnegative_columns": [
+        "nota_atendimento",
+        "nota_servico"
+      ],
+      "required_columns": [
+        "avaliacao_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "os_id",
+          "parent_table": "ordens_servico",
+          "parent_column": "os_id"
+        }
+      ],
+      "expected_rows": 2407,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ],
+        [
+          "valor_negativo",
+          1
+        ]
+      ]
+    },
+    "clientes": {
+      "primary_key": "cliente_id",
+      "columns": [
+        "cliente_id",
+        "codigo_cliente",
+        "tipo_cliente",
+        "uf"
+      ],
+      "date_columns": [],
+      "numeric_columns": [
+        "cliente_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "cliente_id"
+      ],
+      "foreign_keys": [],
+      "expected_rows": 1200,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ]
+      ]
+    },
+    "diagnosticos": {
+      "primary_key": "diagnostico_id",
+      "columns": [
+        "diagnostico_id",
+        "os_id",
+        "defeito_relatado",
+        "causa",
+        "taxa_diagnostico",
+        "data_diagnostico"
+      ],
+      "date_columns": [
+        "data_diagnostico"
+      ],
+      "numeric_columns": [
+        "diagnostico_id",
+        "os_id",
+        "taxa_diagnostico"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "diagnostico_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "os_id",
+          "parent_table": "ordens_servico",
+          "parent_column": "os_id"
+        }
+      ],
+      "expected_rows": 4000,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ]
+      ]
+    },
+    "equipamentos": {
+      "primary_key": "equipamento_id",
+      "columns": [
+        "equipamento_id",
+        "cliente_id",
+        "tipo_id",
+        "marca_id",
+        "modelo",
+        "numero_serie_ficticio",
+        "ano_fabricacao"
+      ],
+      "date_columns": [],
+      "numeric_columns": [
+        "equipamento_id",
+        "cliente_id",
+        "tipo_id",
+        "marca_id",
+        "ano_fabricacao"
+      ],
+      "nonnegative_columns": [
+        "ano_fabricacao"
+      ],
+      "required_columns": [
+        "equipamento_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "marca_id",
+          "parent_table": "marcas",
+          "parent_column": "marca_id"
+        },
+        {
+          "column": "tipo_id",
+          "parent_table": "tipos_equipamento",
+          "parent_column": "tipo_id"
+        },
+        {
+          "column": "cliente_id",
+          "parent_table": "clientes",
+          "parent_column": "cliente_id"
+        }
+      ],
+      "expected_rows": 4000,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "valor_negativo",
+          1
+        ]
+      ]
+    },
+    "garantias": {
+      "primary_key": "garantia_id",
+      "columns": [
+        "garantia_id",
+        "reparo_id",
+        "inicio",
+        "fim",
+        "status",
+        "retorno"
+      ],
+      "date_columns": [
+        "inicio",
+        "fim"
+      ],
+      "numeric_columns": [
+        "garantia_id",
+        "reparo_id",
+        "retorno"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "garantia_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "reparo_id",
+          "parent_table": "reparos",
+          "parent_column": "reparo_id"
+        }
+      ],
+      "expected_rows": 3225,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ]
+      ]
+    },
+    "marcas": {
+      "primary_key": "marca_id",
+      "columns": [
+        "marca_id",
+        "marca"
+      ],
+      "date_columns": [],
+      "numeric_columns": [
+        "marca_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "marca_id"
+      ],
+      "foreign_keys": [],
+      "expected_rows": 12,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ]
+      ]
+    },
+    "orcamentos": {
+      "primary_key": "orcamento_id",
+      "columns": [
+        "orcamento_id",
+        "os_id",
+        "valor_pecas",
+        "valor_mao_obra",
+        "valor_total",
+        "data_orcamento",
+        "status"
+      ],
+      "date_columns": [
+        "data_orcamento"
+      ],
+      "numeric_columns": [
+        "orcamento_id",
+        "os_id",
+        "valor_pecas",
+        "valor_mao_obra",
+        "valor_total"
+      ],
+      "nonnegative_columns": [
+        "valor_pecas",
+        "valor_mao_obra",
+        "valor_total"
+      ],
+      "required_columns": [
+        "orcamento_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "os_id",
+          "parent_table": "ordens_servico",
+          "parent_column": "os_id"
+        }
+      ],
+      "expected_rows": 4000,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ],
+        [
+          "valor_negativo",
+          1
+        ]
+      ]
+    },
+    "ordens_servico": {
+      "primary_key": "os_id",
+      "columns": [
+        "os_id",
+        "codigo_os",
+        "equipamento_id",
+        "tecnico_id",
+        "data_abertura",
+        "data_prometida",
+        "data_fechamento",
+        "status",
+        "dentro_sla",
+        "canal"
+      ],
+      "date_columns": [
+        "data_abertura",
+        "data_prometida",
+        "data_fechamento"
+      ],
+      "numeric_columns": [
+        "os_id",
+        "equipamento_id",
+        "tecnico_id",
+        "dentro_sla"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "os_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "tecnico_id",
+          "parent_table": "tecnicos",
+          "parent_column": "tecnico_id"
+        },
+        {
+          "column": "equipamento_id",
+          "parent_table": "equipamentos",
+          "parent_column": "equipamento_id"
+        }
+      ],
+      "expected_rows": 4000,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ]
+      ]
+    },
+    "pecas": {
+      "primary_key": "peca_id",
+      "columns": [
+        "peca_id",
+        "peca",
+        "categoria",
+        "custo_unitario",
+        "estoque_atual"
+      ],
+      "date_columns": [],
+      "numeric_columns": [
+        "peca_id",
+        "custo_unitario",
+        "estoque_atual"
+      ],
+      "nonnegative_columns": [
+        "custo_unitario",
+        "estoque_atual"
+      ],
+      "required_columns": [
+        "peca_id"
+      ],
+      "foreign_keys": [],
+      "expected_rows": 80,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "valor_negativo",
+          1
+        ]
+      ]
+    },
+    "pecas_utilizadas": {
+      "primary_key": "uso_id",
+      "columns": [
+        "uso_id",
+        "reparo_id",
+        "peca_id",
+        "quantidade",
+        "custo_total"
+      ],
+      "date_columns": [],
+      "numeric_columns": [
+        "uso_id",
+        "reparo_id",
+        "peca_id",
+        "quantidade",
+        "custo_total"
+      ],
+      "nonnegative_columns": [
+        "quantidade",
+        "custo_total"
+      ],
+      "required_columns": [
+        "uso_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "peca_id",
+          "parent_table": "pecas",
+          "parent_column": "peca_id"
+        },
+        {
+          "column": "reparo_id",
+          "parent_table": "reparos",
+          "parent_column": "reparo_id"
+        }
+      ],
+      "expected_rows": 6424,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "valor_negativo",
+          1
+        ]
+      ]
+    },
+    "reparos": {
+      "primary_key": "reparo_id",
+      "columns": [
+        "reparo_id",
+        "os_id",
+        "data_inicio",
+        "data_fim",
+        "solucao",
+        "horas_tecnicas",
+        "resultado"
+      ],
+      "date_columns": [
+        "data_inicio",
+        "data_fim"
+      ],
+      "numeric_columns": [
+        "reparo_id",
+        "os_id",
+        "horas_tecnicas"
+      ],
+      "nonnegative_columns": [
+        "horas_tecnicas"
+      ],
+      "required_columns": [
+        "reparo_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "os_id",
+          "parent_table": "ordens_servico",
+          "parent_column": "os_id"
+        }
+      ],
+      "expected_rows": 3225,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ],
+        [
+          "valor_negativo",
+          1
+        ]
+      ]
+    },
+    "tecnicos": {
+      "primary_key": "tecnico_id",
+      "columns": [
+        "tecnico_id",
+        "codigo_tecnico",
+        "especialidade",
+        "senioridade"
+      ],
+      "date_columns": [],
+      "numeric_columns": [
+        "tecnico_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "tecnico_id"
+      ],
+      "foreign_keys": [],
+      "expected_rows": 25,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ]
+      ]
+    },
+    "tipos_equipamento": {
+      "primary_key": "tipo_id",
+      "columns": [
+        "tipo_id",
+        "tipo_equipamento"
+      ],
+      "date_columns": [],
+      "numeric_columns": [
+        "tipo_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "tipo_id"
+      ],
+      "foreign_keys": [],
+      "expected_rows": 10,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+Processos Ativos = CALCULATE(COUNTROWS(processos), processos[status] = "Ativo")
+Prazos Vencidos = CALCULATE(COUNTROWS(prazos), prazos[status] = "Vencido")
+Honorários Contratados = SUM(honorarios[valor_contratado])
+Recebimentos = CALCULATE(SUM(pagamentos[valor]), pagamentos[status] = "Pago")
+Inadimplência % = DIVIDE(CALCULATE(SUM(pagamentos[valor]), pagamentos[status] = "Vencido"), SUM(pagamentos[valor]))
+Taxa de Êxito = DIVIDE(CALCULATE(COUNTROWS(processos), processos[desfecho] = "Favorável"), CALCULATE(COUNTROWS(processos), processos[status] = "Encerrado"))

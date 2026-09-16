@@ -1,0 +1,6 @@
+avaliacao_id,matricula_id,profissional_id,data_avaliacao,imc,gordura_pct,peso_kg,objetivo,motivo_rejeicao
+1403,698,40,2026-06-06,34.6,33.4,77.6,Emagrecimento,pk_duplicada
+544,266,26,2025-12-15,27.9,20.3,47.8,Condicionamento,pk_duplicada
+3935,1972,30,2025-09-23,28.6,23.4,60.8,Hipertrofia,pk_duplicada
+4515,1,12,,20.1,18.0,59.3,Condicionamento,data_invalida:data_avaliacao
+4516,1,12,2025-09-28,-999.0,18.0,59.3,Condicionamento,negativo:imc

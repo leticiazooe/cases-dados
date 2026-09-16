@@ -1,0 +1,6 @@
+-- pessoas: pessoa_id, unidade, area, status
+-- veiculos: veiculo_id, categoria, custo_km, status
+-- viagens: viagem_id, pessoa_id, data_solicitacao, destino, finalidade, status, orcamento
+-- reservas_frota: reserva_id, viagem_id, veiculo_id, km_previsto, km_real
+-- despesas: despesa_id, viagem_id, tipo, valor, data_despesa, status
+-- aprovacoes: aprovacao_id, viagem_id, nivel, tempo_aprovacao_h, resultado

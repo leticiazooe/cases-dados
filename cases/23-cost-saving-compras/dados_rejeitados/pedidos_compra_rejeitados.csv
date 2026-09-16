@@ -1,0 +1,5 @@
+pedido_id,fornecedor_id,comprador_id,data_pedido,valor,prazo_dias,entregue_no_prazo,motivo_rejeicao
+PC05822,FO0285,CB026,2024-12-01,1168.85,38,1,pk_duplicada
+PC02517,FO0162,CB004,2025-03-31,2509.02,22,1,pk_duplicada
+PC04283,FO0169,CB037,2026-07-30,1161.7,11,1,pk_duplicada
+ERRO_pedidos_compra_1,FO0091,CB015,,400.56,33,1,data_invalida:data_pedido

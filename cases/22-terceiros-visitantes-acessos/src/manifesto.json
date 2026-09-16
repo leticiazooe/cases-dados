@@ -1,0 +1,49 @@
+{
+  "case": "Terceiros, Visitantes e Controle de Acessos",
+  "tables": {
+    "empresas": {
+      "pk": "empresa_id",
+      "dates": [],
+      "numeric": [],
+      "nonnegative": [],
+      "expected": 220
+    },
+    "terceiros": {
+      "pk": "terceiro_id",
+      "dates": [
+        "data_inicio",
+        "data_fim"
+      ],
+      "numeric": [],
+      "nonnegative": [],
+      "expected": 3200
+    },
+    "documentos": {
+      "pk": "documento_id",
+      "dates": [
+        "validade"
+      ],
+      "numeric": [],
+      "nonnegative": [],
+      "expected": 9000
+    },
+    "visitas": {
+      "pk": "visita_id",
+      "dates": [
+        "data_visita"
+      ],
+      "numeric": [],
+      "nonnegative": [],
+      "expected": 9500
+    },
+    "acessos": {
+      "pk": "acesso_id",
+      "dates": [
+        "data_hora"
+      ],
+      "numeric": [],
+      "nonnegative": [],
+      "expected": 28000
+    }
+  }
+}

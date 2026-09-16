@@ -1,0 +1,5 @@
+comprador_id,equipe,senioridade,motivo_rejeicao
+CB032,Diretos,Júnior,pk_duplicada
+CB026,Serviços,Sênior,pk_duplicada
+CB040,Diretos,Pleno,pk_duplicada
+,Indiretos,Júnior,pk_nula
