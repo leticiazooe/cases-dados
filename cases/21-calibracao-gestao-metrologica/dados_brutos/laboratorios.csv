@@ -1,0 +1,30 @@
+laboratorio_id;laboratorio;acreditado;lead_time_dias
+LB001;  Laboratório 1  ;Sim;16
+LB002;  Laboratório 2  ;Não;24
+LB003;  Laboratório 3  ;Sim;5
+LB004;  Laboratório 4  ;Sim;4
+LB005;Laboratório 5;Sim;15
+LB006;Laboratório 6;Sim;7
+LB007;Laboratório 7;Sim;19
+LB008;Laboratório 8;Sim;10
+LB009;Laboratório 9;Sim;12
+LB010;Laboratório 10;Sim;10
+LB011;Laboratório 11;Não;13
+LB012;Laboratório 12;Não;8
+LB013;Laboratório 13;Não;15
+LB014;Laboratório 14;Sim;14
+LB015;Laboratório 15;Sim;14
+LB016;Laboratório 16;Sim;18
+LB017;Laboratório 17;Sim;20
+LB018;Laboratório 18;Sim;7
+LB019;Laboratório 19;Sim;10
+LB020;Laboratório 20;Sim;14
+LB021;Laboratório 21;Não;5
+LB022;Laboratório 22;Não;21
+LB023;Laboratório 23;Sim;20
+LB024;Laboratório 24;Sim;6
+LB025;Laboratório 25;Sim;6
+LB017;Laboratório 17;Sim;20
+LB007;Laboratório 7;Sim;19
+LB023;Laboratório 23;Sim;20
+ERRO_laboratorios_1;Laboratório 1;Sim;-999

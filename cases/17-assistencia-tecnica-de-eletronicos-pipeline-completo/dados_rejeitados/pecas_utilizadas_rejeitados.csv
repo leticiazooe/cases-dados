@@ -1,0 +1,5 @@
+uso_id,reparo_id,peca_id,quantidade,custo_total,motivo_rejeicao
+3869.0,2390.0,56.0,1.0,215.76,pk_duplicada
+6086.0,3798.0,20.0,1.0,32.43,pk_duplicada
+5080.0,3173.0,6.0,2.0,468.02,pk_duplicada
+6527.0,1.0,57.0,-999.0,465.22,negativo:quantidade

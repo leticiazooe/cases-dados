@@ -1,0 +1,6 @@
+matricula_id,aluno_id,plano_id,data_inicio,data_fim,status,canal_aquisicao,motivo_rejeicao
+1124,1124,8,2024-12-24,,Ativa,Passante,pk_duplicada
+1755,1755,8,2024-04-01,,Ativa,Empresa,pk_duplicada
+443,443,7,2024-09-22,2025-10-16,Cancelada,Passante,pk_duplicada
+2302,1,4,,,Ativa,Indicação,data_invalida:data_inicio
+2303,1,-999,2025-01-19,,Ativa,Indicação,negativo:plano_id

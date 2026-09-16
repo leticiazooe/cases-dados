@@ -1,0 +1,15 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE dim_unidade(id_unidade INTEGER PRIMARY KEY,unidade TEXT,cidade TEXT,uf TEXT);
+CREATE TABLE dim_setor(id_setor INTEGER PRIMARY KEY,id_unidade INTEGER REFERENCES dim_unidade,id_nome TEXT);
+CREATE TABLE dim_colaborador(id_colaborador INTEGER PRIMARY KEY,matricula TEXT UNIQUE,nome_ficticio TEXT,id_setor INTEGER REFERENCES dim_setor,cargo TEXT,data_admissao DATE,status TEXT);
+CREATE TABLE dim_risco(id_risco INTEGER PRIMARY KEY,grupo_risco TEXT,agente TEXT,severidade INTEGER,probabilidade INTEGER,nivel_risco TEXT);
+CREATE TABLE fato_incidente(id_incidente INTEGER PRIMARY KEY,data_incidente DATE,id_unidade INTEGER REFERENCES dim_unidade,id_setor INTEGER REFERENCES dim_setor,id_risco INTEGER REFERENCES dim_risco,tipo_incidente TEXT,gravidade TEXT,dias_afastamento INTEGER,horas_trabalhadas_periodo INTEGER,causa_imediata TEXT,causa_raiz TEXT,status_investigacao TEXT);
+CREATE TABLE dim_epi(id_epi INTEGER PRIMARY KEY,epi TEXT,ca_numero_ficticio TEXT,grupo_protecao TEXT,validade_meses INTEGER,custo_unitario NUMERIC);
+CREATE TABLE fato_entrega_epi(id_entrega INTEGER PRIMARY KEY,id_colaborador INTEGER REFERENCES dim_colaborador,id_epi INTEGER REFERENCES dim_epi,data_entrega DATE,data_validade DATE,quantidade INTEGER,status_epi TEXT,termo_assinado INTEGER);
+CREATE TABLE dim_treinamento(id_treinamento INTEGER PRIMARY KEY,treinamento TEXT,categoria TEXT,carga_horaria INTEGER,obrigatorio INTEGER,validade_meses INTEGER);
+CREATE TABLE fato_participacao_treinamento(id_participacao INTEGER PRIMARY KEY,id_colaborador INTEGER REFERENCES dim_colaborador,id_treinamento INTEGER REFERENCES dim_treinamento,data_realizacao DATE,data_validade DATE,status TEXT,nota NUMERIC);
+CREATE TABLE fato_auditoria(id_auditoria INTEGER PRIMARY KEY,data_auditoria DATE,id_unidade INTEGER REFERENCES dim_unidade,id_setor INTEGER REFERENCES dim_setor,tipo_auditoria TEXT,auditor_ficticio TEXT,nota NUMERIC,status TEXT);
+CREATE TABLE fato_nao_conformidade(id_nc INTEGER PRIMARY KEY,id_auditoria INTEGER REFERENCES fato_auditoria,categoria TEXT,descricao TEXT,severidade TEXT,prazo DATE,status TEXT);
+CREATE TABLE fato_plano_acao(id_acao INTEGER PRIMARY KEY,id_incidente INTEGER REFERENCES fato_incidente,id_nc INTEGER REFERENCES fato_nao_conformidade,acao TEXT,responsavel_ficticio TEXT,prazo DATE,data_conclusao DATE,status TEXT,eficaz INTEGER);
+CREATE TABLE dim_calendario(data DATE PRIMARY KEY,dia INTEGER,mes INTEGER,nome_mes TEXT,trimestre INTEGER,ano INTEGER,semana INTEGER,dia_semana TEXT);
+CREATE INDEX idx_inc_data ON fato_incidente(data_incidente); CREATE INDEX idx_epi_col ON fato_entrega_epi(id_colaborador); CREATE VIEW vw_indicadores_sst AS SELECT u.unidade,s.id_nome setor,i.tipo_incidente,i.gravidade,COUNT(*) eventos,SUM(i.dias_afastamento) dias_afastamento FROM fato_incidente i JOIN dim_unidade u ON u.id_unidade=i.id_unidade JOIN dim_setor s ON s.id_setor=i.id_setor GROUP BY u.unidade,s.id_nome,i.tipo_incidente,i.gravidade;

@@ -1,0 +1,5 @@
+reserva_id,viagem_id,veiculo_id,km_previsto,km_real,motivo_rejeicao
+RV02840,VG01658,VE055,1162,519,pk_duplicada
+RV02520,VG01921,VE055,937,332,pk_duplicada
+RV00283,VG03526,VE023,931,1118,pk_duplicada
+ERRO_reservas_frota_1,VG03618,VE011,-999,674,valor_negativo:km_previsto

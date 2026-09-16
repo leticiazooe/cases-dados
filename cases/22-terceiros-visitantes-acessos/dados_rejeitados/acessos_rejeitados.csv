@@ -1,0 +1,5 @@
+acesso_id,visita_id,data_hora,ponto,evento,motivo_rejeicao
+AC01535,VI08676,2025-02-18,Portaria,Saída,pk_duplicada
+AC25850,VI00673,2025-11-22,Almoxarifado,Saída,pk_duplicada
+AC10262,VI06477,2026-02-16,Portaria,Saída,pk_duplicada
+ERRO_acessos_1,VI07040,,Laboratório,Saída,data_invalida:data_hora

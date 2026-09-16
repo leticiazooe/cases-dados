@@ -1,0 +1,6 @@
+frequencia_id,matricula_id,data_acesso,hora_acesso,modalidade_id,duracao_minutos,motivo_rejeicao
+936,166,2025-07-12,12:00,9,45,pk_duplicada
+6561,1197,2026-06-08,18:00,10,75,pk_duplicada
+1589,287,2025-10-26,12:00,7,68,pk_duplicada
+12225,1,,20:00,8,93,data_invalida:data_acesso
+12226,1,2025-08-15,20:00,-999,93,negativo:modalidade_id

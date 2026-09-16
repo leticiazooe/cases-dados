@@ -1,0 +1,3 @@
+orcamento_id,os_id,valor_pecas,valor_mao_obra,valor_total,data_orcamento,status,motivo_rejeicao
+2,2,993.85,253.23,1247.08,2025-09-14,Aprovado,fk_invalida:os_id
+3,3,498.06,530.29,1028.35,2026-06-20,Recusado,fk_invalida:os_id

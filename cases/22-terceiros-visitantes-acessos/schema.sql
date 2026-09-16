@@ -1,0 +1,5 @@
+-- empresas: empresa_id, segmento, risco, status
+-- terceiros: terceiro_id, empresa_id, funcao, data_inicio, data_fim, status
+-- documentos: documento_id, terceiro_id, tipo, validade, status
+-- visitas: visita_id, terceiro_id, data_visita, unidade, motivo, status
+-- acessos: acesso_id, visita_id, data_hora, ponto, evento

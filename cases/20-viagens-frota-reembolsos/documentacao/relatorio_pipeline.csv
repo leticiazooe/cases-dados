@@ -1,0 +1,7 @@
+tabela,brutas,tratadas,rejeitadas,esperadas,reconciliado
+pessoas,904,900,4,900,True
+veiculos,74,70,4,70,True
+viagens,4204,4200,4,4200,True
+reservas_frota,3104,3100,4,3100,True
+despesas,11004,11000,4,11000,True
+aprovacoes,4204,4200,4,4200,True

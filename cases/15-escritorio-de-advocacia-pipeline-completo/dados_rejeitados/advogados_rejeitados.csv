@@ -1,0 +1,5 @@
+advogado_id,codigo_advogado,area_id,senioridade,valor_hora,motivo_rejeicao
+31,ADV-031,3,Sênior,124.19,pk_duplicada
+21,ADV-021,2,Sênior,205.63,pk_duplicada
+17,ADV-017,2,Pleno,228.24,pk_duplicada
+143,ADV-001,2,Pleno,-999.0,negativo:valor_hora

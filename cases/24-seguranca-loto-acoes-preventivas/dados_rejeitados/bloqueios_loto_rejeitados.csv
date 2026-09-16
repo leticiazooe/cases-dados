@@ -1,0 +1,5 @@
+loto_id,ativo_id,pessoa_id,cadeado_id,data_inicio,data_fim,motivo,status,motivo_rejeicao
+LO01749,AT0001,P00173,CD0244,2025-03-22,2024-04-08,Manutenção,Concluído,pk_duplicada
+LO01591,AT0349,P00333,CD0163,2026-04-19,2026-03-07,Inspeção,Concluído,pk_duplicada
+LO05301,AT0197,P00607,CD0806,2024-10-28,2024-08-18,Manutenção,Concluído,pk_duplicada
+ERRO_bloqueios_loto_1,AT0330,P01377,CD0159,,2026-04-30,Inspeção,Cancelado,data_invalida:data_inicio

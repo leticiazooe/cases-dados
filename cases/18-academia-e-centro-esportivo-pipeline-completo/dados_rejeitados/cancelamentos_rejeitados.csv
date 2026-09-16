@@ -1,0 +1,5 @@
+cancelamento_id,matricula_id,data_cancelamento,motivo,tentativa_retencao,motivo_rejeicao
+372,1675,2025-12-14,Preço,Sim,pk_duplicada
+384,1752,2026-05-12,Mudança,Sim,pk_duplicada
+251,1174,2025-10-24,Falta de tempo,Sim,pk_duplicada
+567,2,,Saúde,Não,data_invalida:data_cancelamento

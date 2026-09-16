@@ -1,0 +1,5 @@
+viagem_id,pessoa_id,data_solicitacao,destino,finalidade,status,orcamento,motivo_rejeicao
+VG04165,P00285,2024-02-25,Campinas,Treinamento,Concluída,2672.53,pk_duplicada
+VG01582,P00547,2024-08-01,Rio de Janeiro,Auditoria,Concluída,1600.23,pk_duplicada
+VG03571,P00754,2026-06-22,São Paulo,Cliente,Concluída,2929.45,pk_duplicada
+ERRO_viagens_1,P00487,,Curitiba,Projeto,Em análise,2054.4,data_invalida:data_solicitacao

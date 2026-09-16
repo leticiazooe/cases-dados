@@ -1,0 +1,11 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE dim_unidade(unidade_id INTEGER PRIMARY KEY,unidade TEXT,cidade TEXT,uf TEXT);
+CREATE TABLE dim_equipe(equipe_id INTEGER PRIMARY KEY,equipe TEXT,escopo TEXT);
+CREATE TABLE dim_categoria(categoria_id INTEGER PRIMARY KEY,categoria TEXT,grupo TEXT,equipe_id INTEGER,FOREIGN KEY(equipe_id) REFERENCES dim_equipe);
+CREATE TABLE dim_politica_sla(prioridade_id INTEGER PRIMARY KEY,prioridade TEXT,sla_resposta_h REAL,sla_resolucao_h REAL);
+CREATE TABLE dim_usuario(usuario_id INTEGER PRIMARY KEY,registro TEXT UNIQUE,usuario TEXT,unidade_id INTEGER,area TEXT,FOREIGN KEY(unidade_id) REFERENCES dim_unidade);
+CREATE TABLE dim_tecnico(tecnico_id INTEGER PRIMARY KEY,registro TEXT UNIQUE,tecnico TEXT,equipe_id INTEGER,senioridade TEXT,FOREIGN KEY(equipe_id) REFERENCES dim_equipe);
+CREATE TABLE fato_chamado(chamado_id INTEGER PRIMARY KEY,protocolo TEXT UNIQUE,usuario_id INTEGER,categoria_id INTEGER,abertura TEXT,primeira_resposta TEXT,resolucao TEXT,fechamento TEXT,prioridade_id INTEGER,equipe_id INTEGER,tecnico_id INTEGER,status TEXT,titulo TEXT,canal TEXT,tempo_resposta_h REAL,tempo_resolucao_h REAL,sla_resposta_cumprido INTEGER,sla_resolucao_cumprido INTEGER,reincidente INTEGER,chamado_original_id INTEGER,solucao TEXT,FOREIGN KEY(usuario_id) REFERENCES dim_usuario,FOREIGN KEY(categoria_id) REFERENCES dim_categoria,FOREIGN KEY(prioridade_id) REFERENCES dim_politica_sla,FOREIGN KEY(equipe_id) REFERENCES dim_equipe,FOREIGN KEY(tecnico_id) REFERENCES dim_tecnico,FOREIGN KEY(chamado_original_id) REFERENCES fato_chamado);
+CREATE TABLE fato_interacao(interacao_id INTEGER PRIMARY KEY,chamado_id INTEGER,data_interacao TEXT,tipo TEXT,autor_tipo TEXT,duracao_min INTEGER,FOREIGN KEY(chamado_id) REFERENCES fato_chamado);
+CREATE TABLE fato_satisfacao(pesquisa_id INTEGER PRIMARY KEY,chamado_id INTEGER UNIQUE,nota INTEGER,classificacao TEXT,data_resposta TEXT,FOREIGN KEY(chamado_id) REFERENCES fato_chamado);
+CREATE INDEX idx_chamado_abertura ON fato_chamado(abertura);CREATE INDEX idx_chamado_sla ON fato_chamado(sla_resolucao_cumprido);CREATE INDEX idx_chamado_categoria ON fato_chamado(categoria_id);

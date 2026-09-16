@@ -1,0 +1,11 @@
+tabela,linhas_referencia,linhas_brutas,problemas_injetados
+clientes,600,603,7
+documentos,7200,7204,8
+guias,7200,7205,9
+honorarios,7200,7205,9
+impostos,7200,7205,9
+obrigacoes,14487,14491,8
+pendencias,1635,1639,8
+regimes,4,7,7
+responsaveis,35,38,7
+tipos_obrigacao,12,15,7

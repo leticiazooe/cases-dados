@@ -1,0 +1,6 @@
+guia_id,imposto_id,valor,data_vencimento,data_pagamento,status,motivo_rejeicao
+1098,1098,42173.77,2025-12-20,,Vencido,pk_duplicada
+6925,6925,49584.17,2025-07-20,2025-08-03,Pago,pk_duplicada
+7043,7043,13773.66,2026-05-08,2026-05-23,Pago,pk_duplicada
+7302,1,17190.51,,2025-07-28,Pago,data_invalida:data_vencimento
+7303,1,-999.0,2025-07-16,2025-07-28,Pago,negativo:valor

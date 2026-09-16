@@ -1,0 +1,70 @@
+{
+  "case": "Cost Saving e Performance de Compras",
+  "tables": {
+    "compradores": {
+      "pk": "comprador_id",
+      "dates": [],
+      "numeric": [],
+      "nonnegative": [],
+      "expected": 40
+    },
+    "fornecedores": {
+      "pk": "fornecedor_id",
+      "dates": [],
+      "numeric": [
+        "score"
+      ],
+      "nonnegative": [
+        "score"
+      ],
+      "expected": 320
+    },
+    "projetos_saving": {
+      "pk": "projeto_id",
+      "dates": [
+        "data_abertura"
+      ],
+      "numeric": [
+        "baseline",
+        "meta_saving_pct"
+      ],
+      "nonnegative": [
+        "baseline",
+        "meta_saving_pct"
+      ],
+      "expected": 3800
+    },
+    "mensuracoes": {
+      "pk": "mensuracao_id",
+      "dates": [
+        "competencia"
+      ],
+      "numeric": [
+        "valor_realizado",
+        "saving_validado"
+      ],
+      "nonnegative": [
+        "valor_realizado",
+        "saving_validado"
+      ],
+      "expected": 7600
+    },
+    "pedidos_compra": {
+      "pk": "pedido_id",
+      "dates": [
+        "data_pedido"
+      ],
+      "numeric": [
+        "valor",
+        "prazo_dias",
+        "entregue_no_prazo"
+      ],
+      "nonnegative": [
+        "valor",
+        "prazo_dias",
+        "entregue_no_prazo"
+      ],
+      "expected": 10000
+    }
+  }
+}

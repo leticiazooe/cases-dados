@@ -1,0 +1,755 @@
+nao_conformidade_id;calibracao_id;tipo;criticidade;status
+NC00001;  CA03367  ;Certificado incompleto;Alta;Tratada
+NC00002;  CA05121  ;Fora de tolerância;Alta;Tratada
+NC00003;  CA01864  ;Certificado incompleto;Baixa;Aberta
+NC00004;  CA05876  ;Dano físico;Baixa;Aberta
+NC00005;CA06740;Dano físico;Média;Tratada
+NC00006;CA02649;Dano físico;Alta;Tratada
+NC00007;CA02457;Dano físico;Alta;Em análise
+NC00008;CA02799;Fora de tolerância;Média;Tratada
+NC00009;CA00863;Dano físico;Alta;Aberta
+NC00010;CA06433;Dano físico;Alta;Tratada
+NC00011;CA03856;Fora de tolerância;Baixa;Em análise
+NC00012;CA04111;Dano físico;Média;Tratada
+NC00013;CA01224;Dano físico;Alta;Tratada
+NC00014;CA04941;Fora de tolerância;Média;Aberta
+NC00015;CA01476;Dano físico;Alta;Aberta
+NC00016;CA05412;Certificado incompleto;Média;Tratada
+NC00017;CA07008;Fora de tolerância;Média;Tratada
+NC00018;CA04429;Dano físico;Alta;Em análise
+NC00019;CA06818;Fora de tolerância;Alta;Aberta
+NC00020;CA01296;Dano físico;Média;Tratada
+NC00021;CA06813;Fora de tolerância;Baixa;Tratada
+NC00022;CA00346;Fora de tolerância;Média;Em análise
+NC00023;CA04550;Dano físico;Alta;Tratada
+NC00024;CA00288;Fora de tolerância;Alta;Aberta
+NC00025;CA06772;Certificado incompleto;Baixa;Aberta
+NC00026;CA01446;Certificado incompleto;Baixa;Aberta
+NC00027;CA05378;Certificado incompleto;Baixa;Tratada
+NC00028;CA01913;Fora de tolerância;Média;Aberta
+NC00029;CA05176;Certificado incompleto;Média;Em análise
+NC00030;CA06013;Dano físico;Alta;Tratada
+NC00031;CA04786;Certificado incompleto;Baixa;Em análise
+NC00032;CA02150;Dano físico;Média;Em análise
+NC00033;CA01520;Fora de tolerância;Baixa;Em análise
+NC00034;CA04321;Fora de tolerância;Média;Em análise
+NC00035;CA06141;Certificado incompleto;Baixa;Em análise
+NC00036;CA00583;Certificado incompleto;Alta;Aberta
+NC00037;CA05532;Certificado incompleto;Média;Tratada
+NC00038;CA00796;Fora de tolerância;Alta;Em análise
+NC00039;CA05721;Fora de tolerância;Média;Tratada
+NC00040;CA01237;Certificado incompleto;Baixa;Em análise
+NC00041;CA03519;Fora de tolerância;Alta;Tratada
+NC00042;CA01794;Certificado incompleto;Média;Em análise
+NC00043;CA02276;Certificado incompleto;Alta;Tratada
+NC00044;CA05286;Certificado incompleto;Alta;Em análise
+NC00045;CA05077;Dano físico;Média;Em análise
+NC00046;CA00752;Certificado incompleto;Média;Tratada
+NC00047;CA03423;Certificado incompleto;Média;Aberta
+NC00048;CA05730;Certificado incompleto;Alta;Tratada
+NC00049;CA04553;Certificado incompleto;Baixa;Em análise
+NC00050;CA03365;Fora de tolerância;Baixa;Em análise
+NC00051;CA00428;Dano físico;Baixa;Tratada
+NC00052;CA05998;Dano físico;Baixa;Tratada
+NC00053;CA03814;Dano físico;Baixa;Aberta
+NC00054;CA01625;Fora de tolerância;Média;Tratada
+NC00055;CA01754;Dano físico;Média;Aberta
+NC00056;CA06271;Dano físico;Alta;Aberta
+NC00057;CA01014;Fora de tolerância;Média;Em análise
+NC00058;CA04106;Dano físico;Baixa;Tratada
+NC00059;CA02843;Dano físico;Média;Tratada
+NC00060;CA02843;Certificado incompleto;Média;Tratada
+NC00061;CA02385;Fora de tolerância;Média;Em análise
+NC00062;CA01166;Fora de tolerância;Média;Em análise
+NC00063;CA01139;Certificado incompleto;Baixa;Aberta
+NC00064;CA03038;Certificado incompleto;Alta;Em análise
+NC00065;CA05154;Fora de tolerância;Média;Em análise
+NC00066;CA01661;Certificado incompleto;Alta;Aberta
+NC00067;CA06725;Fora de tolerância;Baixa;Tratada
+NC00068;CA06324;Certificado incompleto;Média;Em análise
+NC00069;CA06536;Fora de tolerância;Baixa;Aberta
+NC00070;CA05854;Dano físico;Média;Tratada
+NC00071;CA05358;Fora de tolerância;Alta;Aberta
+NC00072;CA03606;Dano físico;Média;Tratada
+NC00073;CA05378;Fora de tolerância;Alta;Tratada
+NC00074;CA04410;Certificado incompleto;Média;Aberta
+NC00075;CA06045;Dano físico;Alta;Aberta
+NC00076;CA04246;Fora de tolerância;Baixa;Tratada
+NC00077;CA01010;Fora de tolerância;Baixa;Aberta
+NC00078;CA06254;Fora de tolerância;Alta;Tratada
+NC00079;CA04766;Dano físico;Alta;Tratada
+NC00080;CA00674;Certificado incompleto;Média;Tratada
+NC00081;CA01843;Fora de tolerância;Baixa;Aberta
+NC00082;CA03178;Dano físico;Alta;Aberta
+NC00083;CA06018;Certificado incompleto;Baixa;Em análise
+NC00084;CA04708;Fora de tolerância;Baixa;Tratada
+NC00085;CA00678;Fora de tolerância;Alta;Em análise
+NC00086;CA02378;Fora de tolerância;Média;Aberta
+NC00087;CA01385;Certificado incompleto;Alta;Tratada
+NC00088;CA01096;Fora de tolerância;Média;Tratada
+NC00089;CA06650;Fora de tolerância;Baixa;Aberta
+NC00090;CA06974;Dano físico;Alta;Aberta
+NC00091;CA06214;Certificado incompleto;Baixa;Em análise
+NC00092;CA01697;Certificado incompleto;Alta;Em análise
+NC00093;CA04866;Certificado incompleto;Alta;Aberta
+NC00094;CA01344;Dano físico;Alta;Aberta
+NC00095;CA03921;Fora de tolerância;Baixa;Aberta
+NC00096;CA01892;Dano físico;Alta;Em análise
+NC00097;CA04059;Certificado incompleto;Alta;Aberta
+NC00098;CA01244;Certificado incompleto;Média;Em análise
+NC00099;CA04794;Dano físico;Alta;Aberta
+NC00100;CA06229;Certificado incompleto;Alta;Em análise
+NC00101;CA02089;Fora de tolerância;Média;Em análise
+NC00102;CA00263;Fora de tolerância;Alta;Tratada
+NC00103;CA03396;Dano físico;Média;Tratada
+NC00104;CA04517;Fora de tolerância;Baixa;Aberta
+NC00105;CA02789;Fora de tolerância;Alta;Em análise
+NC00106;CA00189;Certificado incompleto;Média;Aberta
+NC00107;CA00595;Dano físico;Média;Aberta
+NC00108;CA01420;Dano físico;Alta;Em análise
+NC00109;CA04724;Fora de tolerância;Baixa;Em análise
+NC00110;CA03865;Dano físico;Média;Aberta
+NC00111;CA06389;Dano físico;Baixa;Aberta
+NC00112;CA01430;Certificado incompleto;Alta;Em análise
+NC00113;CA05971;Certificado incompleto;Alta;Aberta
+NC00114;CA07072;Fora de tolerância;Média;Tratada
+NC00115;CA07150;Dano físico;Baixa;Tratada
+NC00116;CA03488;Dano físico;Alta;Aberta
+NC00117;CA05048;Dano físico;Alta;Aberta
+NC00118;CA03357;Certificado incompleto;Média;Aberta
+NC00119;CA04851;Fora de tolerância;Média;Aberta
+NC00120;CA00559;Fora de tolerância;Baixa;Em análise
+NC00121;CA00426;Certificado incompleto;Média;Aberta
+NC00122;CA05907;Certificado incompleto;Média;Aberta
+NC00123;CA02968;Dano físico;Média;Em análise
+NC00124;CA00649;Certificado incompleto;Alta;Em análise
+NC00125;CA01735;Dano físico;Média;Em análise
+NC00126;CA01065;Dano físico;Média;Aberta
+NC00127;CA06142;Certificado incompleto;Alta;Em análise
+NC00128;CA00965;Dano físico;Média;Tratada
+NC00129;CA03288;Fora de tolerância;Baixa;Em análise
+NC00130;CA05086;Dano físico;Alta;Tratada
+NC00131;CA05361;Dano físico;Média;Tratada
+NC00132;CA06411;Dano físico;Alta;Aberta
+NC00133;CA05701;Dano físico;Baixa;Em análise
+NC00134;CA06438;Fora de tolerância;Média;Aberta
+NC00135;CA00494;Fora de tolerância;Alta;Aberta
+NC00136;CA00993;Certificado incompleto;Média;Tratada
+NC00137;CA03106;Certificado incompleto;Baixa;Aberta
+NC00138;CA04243;Fora de tolerância;Alta;Aberta
+NC00139;CA05310;Certificado incompleto;Baixa;Em análise
+NC00140;CA03186;Certificado incompleto;Baixa;Em análise
+NC00141;CA06518;Certificado incompleto;Baixa;Tratada
+NC00142;CA05268;Fora de tolerância;Baixa;Aberta
+NC00143;CA02135;Fora de tolerância;Alta;Aberta
+NC00144;CA04266;Dano físico;Média;Aberta
+NC00145;CA05446;Certificado incompleto;Alta;Aberta
+NC00146;CA01802;Fora de tolerância;Média;Tratada
+NC00147;CA01872;Certificado incompleto;Baixa;Tratada
+NC00148;CA04695;Fora de tolerância;Baixa;Tratada
+NC00149;CA02360;Certificado incompleto;Alta;Aberta
+NC00150;CA00245;Fora de tolerância;Baixa;Aberta
+NC00151;CA02571;Fora de tolerância;Média;Aberta
+NC00152;CA05586;Dano físico;Alta;Tratada
+NC00153;CA04126;Dano físico;Média;Aberta
+NC00154;CA05353;Dano físico;Baixa;Em análise
+NC00155;CA01951;Certificado incompleto;Baixa;Tratada
+NC00156;CA01547;Certificado incompleto;Média;Em análise
+NC00157;CA05030;Dano físico;Média;Em análise
+NC00158;CA01975;Fora de tolerância;Baixa;Aberta
+NC00159;CA01441;Dano físico;Alta;Em análise
+NC00160;CA06383;Dano físico;Baixa;Em análise
+NC00161;CA00697;Fora de tolerância;Alta;Aberta
+NC00162;CA03355;Certificado incompleto;Média;Em análise
+NC00163;CA04367;Fora de tolerância;Alta;Aberta
+NC00164;CA06917;Dano físico;Baixa;Tratada
+NC00165;CA05874;Fora de tolerância;Alta;Aberta
+NC00166;CA04998;Certificado incompleto;Média;Tratada
+NC00167;CA03260;Dano físico;Média;Tratada
+NC00168;CA06524;Dano físico;Alta;Tratada
+NC00169;CA06525;Fora de tolerância;Alta;Em análise
+NC00170;CA02946;Dano físico;Média;Tratada
+NC00171;CA01246;Fora de tolerância;Baixa;Aberta
+NC00172;CA02743;Fora de tolerância;Baixa;Tratada
+NC00173;CA00188;Fora de tolerância;Média;Tratada
+NC00174;CA00884;Certificado incompleto;Média;Aberta
+NC00175;CA05916;Dano físico;Média;Tratada
+NC00176;CA05670;Certificado incompleto;Alta;Tratada
+NC00177;CA02676;Certificado incompleto;Baixa;Tratada
+NC00178;CA02616;Fora de tolerância;Média;Aberta
+NC00179;CA00654;Fora de tolerância;Baixa;Em análise
+NC00180;CA04995;Certificado incompleto;Baixa;Tratada
+NC00181;CA07050;Dano físico;Média;Em análise
+NC00182;CA05163;Certificado incompleto;Média;Aberta
+NC00183;CA01226;Dano físico;Média;Em análise
+NC00184;CA00922;Fora de tolerância;Baixa;Em análise
+NC00185;CA05167;Certificado incompleto;Baixa;Aberta
+NC00186;CA02507;Fora de tolerância;Baixa;Tratada
+NC00187;CA05833;Dano físico;Média;Tratada
+NC00188;CA02750;Certificado incompleto;Média;Em análise
+NC00189;CA00454;Dano físico;Alta;Aberta
+NC00190;CA01249;Fora de tolerância;Média;Em análise
+NC00191;CA03660;Fora de tolerância;Alta;Em análise
+NC00192;CA00470;Certificado incompleto;Alta;Aberta
+NC00193;CA06367;Certificado incompleto;Baixa;Aberta
+NC00194;CA02237;Dano físico;Média;Tratada
+NC00195;CA07078;Dano físico;Alta;Tratada
+NC00196;CA06216;Dano físico;Baixa;Aberta
+NC00197;CA02108;Certificado incompleto;Média;Tratada
+NC00198;CA02857;Certificado incompleto;Alta;Em análise
+NC00199;CA04702;Dano físico;Média;Aberta
+NC00200;CA05041;Fora de tolerância;Alta;Tratada
+NC00201;CA05283;Fora de tolerância;Alta;Aberta
+NC00202;CA06812;Dano físico;Alta;Tratada
+NC00203;CA02951;Certificado incompleto;Alta;Em análise
+NC00204;CA01719;Certificado incompleto;Alta;Tratada
+NC00205;CA05085;Fora de tolerância;Média;Em análise
+NC00206;CA05947;Fora de tolerância;Alta;Em análise
+NC00207;CA03823;Certificado incompleto;Média;Tratada
+NC00208;CA01577;Certificado incompleto;Alta;Aberta
+NC00209;CA01249;Fora de tolerância;Baixa;Tratada
+NC00210;CA02338;Dano físico;Média;Aberta
+NC00211;CA06255;Certificado incompleto;Média;Aberta
+NC00212;CA04637;Certificado incompleto;Média;Tratada
+NC00213;CA04924;Dano físico;Média;Em análise
+NC00214;CA01617;Fora de tolerância;Média;Aberta
+NC00215;CA01871;Fora de tolerância;Média;Em análise
+NC00216;CA04793;Certificado incompleto;Média;Aberta
+NC00217;CA05793;Certificado incompleto;Alta;Tratada
+NC00218;CA04445;Certificado incompleto;Alta;Tratada
+NC00219;CA04657;Fora de tolerância;Média;Em análise
+NC00220;CA02335;Fora de tolerância;Alta;Tratada
+NC00221;CA02154;Dano físico;Baixa;Tratada
+NC00222;CA05997;Certificado incompleto;Alta;Em análise
+NC00223;CA00403;Dano físico;Alta;Em análise
+NC00224;CA06452;Dano físico;Alta;Tratada
+NC00225;CA00625;Fora de tolerância;Alta;Em análise
+NC00226;CA00598;Fora de tolerância;Média;Aberta
+NC00227;CA01778;Dano físico;Alta;Em análise
+NC00228;CA07056;Fora de tolerância;Alta;Em análise
+NC00229;CA04291;Fora de tolerância;Baixa;Aberta
+NC00230;CA05728;Certificado incompleto;Baixa;Aberta
+NC00231;CA06866;Certificado incompleto;Baixa;Em análise
+NC00232;CA02288;Fora de tolerância;Baixa;Aberta
+NC00233;CA02723;Dano físico;Média;Em análise
+NC00234;CA04141;Dano físico;Média;Em análise
+NC00235;CA02057;Fora de tolerância;Baixa;Em análise
+NC00236;CA01796;Dano físico;Baixa;Tratada
+NC00237;CA05227;Fora de tolerância;Média;Aberta
+NC00238;CA03534;Dano físico;Alta;Aberta
+NC00239;CA02565;Certificado incompleto;Alta;Aberta
+NC00240;CA05955;Dano físico;Baixa;Tratada
+NC00241;CA05472;Dano físico;Baixa;Tratada
+NC00242;CA04898;Fora de tolerância;Alta;Tratada
+NC00243;CA05850;Dano físico;Média;Tratada
+NC00244;CA01995;Fora de tolerância;Alta;Em análise
+NC00245;CA01922;Dano físico;Alta;Aberta
+NC00246;CA06079;Dano físico;Alta;Tratada
+NC00247;CA06628;Dano físico;Média;Em análise
+NC00248;CA03513;Dano físico;Média;Em análise
+NC00249;CA06544;Dano físico;Baixa;Tratada
+NC00250;CA00139;Certificado incompleto;Média;Aberta
+NC00251;CA01161;Fora de tolerância;Alta;Em análise
+NC00252;CA01369;Certificado incompleto;Média;Em análise
+NC00253;CA02599;Fora de tolerância;Média;Aberta
+NC00254;CA07187;Fora de tolerância;Baixa;Aberta
+NC00255;CA00505;Certificado incompleto;Média;Aberta
+NC00256;CA04060;Certificado incompleto;Alta;Tratada
+NC00257;CA01528;Fora de tolerância;Baixa;Aberta
+NC00258;CA05507;Fora de tolerância;Baixa;Em análise
+NC00259;CA03929;Fora de tolerância;Alta;Em análise
+NC00260;CA05571;Certificado incompleto;Alta;Aberta
+NC00261;CA01636;Fora de tolerância;Alta;Aberta
+NC00262;CA04438;Certificado incompleto;Baixa;Em análise
+NC00263;CA05420;Dano físico;Baixa;Em análise
+NC00264;CA04950;Fora de tolerância;Baixa;Aberta
+NC00265;CA04331;Dano físico;Alta;Em análise
+NC00266;CA01410;Fora de tolerância;Baixa;Em análise
+NC00267;CA00741;Dano físico;Média;Em análise
+NC00268;CA02878;Fora de tolerância;Baixa;Aberta
+NC00269;CA04756;Dano físico;Baixa;Aberta
+NC00270;CA04465;Dano físico;Média;Em análise
+NC00271;CA01962;Dano físico;Média;Tratada
+NC00272;CA03563;Dano físico;Baixa;Aberta
+NC00273;CA06125;Fora de tolerância;Baixa;Aberta
+NC00274;CA02604;Dano físico;Alta;Aberta
+NC00275;CA06346;Dano físico;Baixa;Tratada
+NC00276;CA04888;Dano físico;Média;Em análise
+NC00277;CA02919;Dano físico;Alta;Tratada
+NC00278;CA04132;Fora de tolerância;Baixa;Em análise
+NC00279;CA05330;Fora de tolerância;Alta;Em análise
+NC00280;CA00365;Fora de tolerância;Baixa;Em análise
+NC00281;CA01662;Dano físico;Alta;Tratada
+NC00282;CA04448;Dano físico;Alta;Em análise
+NC00283;CA04489;Fora de tolerância;Baixa;Tratada
+NC00284;CA00247;Certificado incompleto;Alta;Aberta
+NC00285;CA03860;Dano físico;Alta;Tratada
+NC00286;CA02649;Fora de tolerância;Alta;Aberta
+NC00287;CA02657;Certificado incompleto;Média;Tratada
+NC00288;CA06125;Certificado incompleto;Baixa;Tratada
+NC00289;CA00804;Dano físico;Média;Em análise
+NC00290;CA03398;Fora de tolerância;Baixa;Tratada
+NC00291;CA01027;Certificado incompleto;Média;Aberta
+NC00292;CA01720;Fora de tolerância;Baixa;Aberta
+NC00293;CA01416;Dano físico;Baixa;Tratada
+NC00294;CA04352;Certificado incompleto;Média;Aberta
+NC00295;CA04859;Dano físico;Baixa;Em análise
+NC00296;CA07106;Certificado incompleto;Alta;Tratada
+NC00297;CA02172;Fora de tolerância;Baixa;Em análise
+NC00298;CA04266;Dano físico;Média;Aberta
+NC00299;CA04497;Dano físico;Alta;Aberta
+NC00300;CA04510;Certificado incompleto;Alta;Em análise
+NC00301;CA00213;Dano físico;Baixa;Em análise
+NC00302;CA05226;Dano físico;Baixa;Tratada
+NC00303;CA02248;Dano físico;Baixa;Em análise
+NC00304;CA03270;Fora de tolerância;Média;Aberta
+NC00305;CA02448;Fora de tolerância;Baixa;Tratada
+NC00306;CA02880;Certificado incompleto;Baixa;Aberta
+NC00307;CA05308;Certificado incompleto;Alta;Em análise
+NC00308;CA03498;Fora de tolerância;Baixa;Tratada
+NC00309;CA04220;Fora de tolerância;Baixa;Em análise
+NC00310;CA01695;Dano físico;Média;Tratada
+NC00311;CA05808;Dano físico;Baixa;Tratada
+NC00312;CA02689;Dano físico;Média;Tratada
+NC00313;CA00785;Fora de tolerância;Baixa;Aberta
+NC00314;CA04397;Dano físico;Alta;Aberta
+NC00315;CA01095;Dano físico;Baixa;Tratada
+NC00316;CA02765;Fora de tolerância;Baixa;Tratada
+NC00317;CA02506;Fora de tolerância;Média;Aberta
+NC00318;CA04346;Fora de tolerância;Média;Aberta
+NC00319;CA00426;Certificado incompleto;Média;Tratada
+NC00320;CA00517;Dano físico;Alta;Aberta
+NC00321;CA06460;Certificado incompleto;Baixa;Tratada
+NC00322;CA05607;Dano físico;Baixa;Aberta
+NC00323;CA03014;Dano físico;Média;Aberta
+NC00324;CA02794;Dano físico;Média;Em análise
+NC00325;CA05755;Certificado incompleto;Alta;Tratada
+NC00326;CA01813;Fora de tolerância;Média;Aberta
+NC00327;CA01833;Fora de tolerância;Baixa;Tratada
+NC00328;CA04507;Fora de tolerância;Alta;Tratada
+NC00329;CA04449;Certificado incompleto;Média;Em análise
+NC00330;CA01403;Dano físico;Baixa;Em análise
+NC00331;CA04070;Fora de tolerância;Média;Tratada
+NC00332;CA04590;Fora de tolerância;Baixa;Tratada
+NC00333;CA01189;Dano físico;Média;Tratada
+NC00334;CA02806;Fora de tolerância;Alta;Tratada
+NC00335;CA04670;Certificado incompleto;Média;Tratada
+NC00336;CA02479;Certificado incompleto;Média;Em análise
+NC00337;CA07026;Fora de tolerância;Baixa;Aberta
+NC00338;CA01864;Dano físico;Baixa;Aberta
+NC00339;CA04956;Certificado incompleto;Alta;Aberta
+NC00340;CA01857;Dano físico;Baixa;Em análise
+NC00341;CA03256;Dano físico;Baixa;Em análise
+NC00342;CA06870;Certificado incompleto;Alta;Tratada
+NC00343;CA02979;Certificado incompleto;Baixa;Tratada
+NC00344;CA01103;Certificado incompleto;Baixa;Aberta
+NC00345;CA03121;Dano físico;Baixa;Tratada
+NC00346;CA00619;Certificado incompleto;Alta;Em análise
+NC00347;CA05701;Dano físico;Média;Em análise
+NC00348;CA00229;Dano físico;Alta;Aberta
+NC00349;CA02311;Fora de tolerância;Média;Tratada
+NC00350;CA03633;Dano físico;Média;Tratada
+NC00351;CA01956;Certificado incompleto;Baixa;Aberta
+NC00352;CA05320;Certificado incompleto;Baixa;Aberta
+NC00353;CA00512;Fora de tolerância;Média;Aberta
+NC00354;CA06376;Certificado incompleto;Alta;Tratada
+NC00355;CA04037;Fora de tolerância;Alta;Tratada
+NC00356;CA02576;Certificado incompleto;Alta;Em análise
+NC00357;CA03214;Fora de tolerância;Alta;Aberta
+NC00358;CA03370;Fora de tolerância;Baixa;Em análise
+NC00359;CA06451;Fora de tolerância;Alta;Aberta
+NC00360;CA05842;Certificado incompleto;Baixa;Aberta
+NC00361;CA02462;Certificado incompleto;Alta;Aberta
+NC00362;CA00953;Dano físico;Baixa;Em análise
+NC00363;CA00294;Certificado incompleto;Alta;Aberta
+NC00364;CA05631;Dano físico;Baixa;Tratada
+NC00365;CA00448;Dano físico;Alta;Em análise
+NC00366;CA02524;Dano físico;Média;Tratada
+NC00367;CA04958;Fora de tolerância;Baixa;Tratada
+NC00368;CA04733;Dano físico;Média;Tratada
+NC00369;CA02931;Dano físico;Alta;Em análise
+NC00370;CA03700;Certificado incompleto;Média;Em análise
+NC00371;CA06299;Dano físico;Alta;Tratada
+NC00372;CA04042;Certificado incompleto;Média;Tratada
+NC00373;CA05372;Fora de tolerância;Baixa;Tratada
+NC00374;CA00210;Certificado incompleto;Baixa;Tratada
+NC00375;CA05959;Fora de tolerância;Baixa;Em análise
+NC00376;CA04106;Fora de tolerância;Média;Tratada
+NC00377;CA06220;Fora de tolerância;Baixa;Tratada
+NC00378;CA04193;Certificado incompleto;Média;Em análise
+NC00379;CA00382;Dano físico;Média;Em análise
+NC00380;CA02975;Fora de tolerância;Baixa;Em análise
+NC00381;CA05490;Fora de tolerância;Média;Aberta
+NC00382;CA07044;Certificado incompleto;Média;Aberta
+NC00383;CA03664;Certificado incompleto;Baixa;Em análise
+NC00384;CA04392;Dano físico;Alta;Em análise
+NC00385;CA01208;Fora de tolerância;Alta;Aberta
+NC00386;CA03577;Certificado incompleto;Média;Aberta
+NC00387;CA05375;Certificado incompleto;Alta;Aberta
+NC00388;CA03807;Dano físico;Média;Tratada
+NC00389;CA06342;Certificado incompleto;Baixa;Tratada
+NC00390;CA06553;Certificado incompleto;Média;Tratada
+NC00391;CA00480;Dano físico;Alta;Tratada
+NC00392;CA02389;Certificado incompleto;Alta;Em análise
+NC00393;CA00167;Dano físico;Baixa;Aberta
+NC00394;CA05786;Dano físico;Média;Tratada
+NC00395;CA02821;Certificado incompleto;Baixa;Em análise
+NC00396;CA01257;Fora de tolerância;Alta;Em análise
+NC00397;CA05938;Dano físico;Alta;Em análise
+NC00398;CA01067;Fora de tolerância;Média;Tratada
+NC00399;CA02414;Dano físico;Alta;Em análise
+NC00400;CA06645;Dano físico;Baixa;Em análise
+NC00401;CA02076;Fora de tolerância;Alta;Aberta
+NC00402;CA04859;Certificado incompleto;Alta;Tratada
+NC00403;CA04306;Dano físico;Alta;Aberta
+NC00404;CA00316;Fora de tolerância;Baixa;Aberta
+NC00405;CA05327;Certificado incompleto;Média;Aberta
+NC00406;CA03322;Fora de tolerância;Alta;Aberta
+NC00407;CA02218;Fora de tolerância;Alta;Tratada
+NC00408;CA06399;Certificado incompleto;Média;Em análise
+NC00409;CA01915;Dano físico;Alta;Em análise
+NC00410;CA01002;Dano físico;Baixa;Em análise
+NC00411;CA04508;Dano físico;Baixa;Tratada
+NC00412;CA05303;Certificado incompleto;Alta;Aberta
+NC00413;CA00835;Certificado incompleto;Alta;Em análise
+NC00414;CA05668;Certificado incompleto;Alta;Aberta
+NC00415;CA02933;Dano físico;Alta;Tratada
+NC00416;CA06649;Dano físico;Baixa;Aberta
+NC00417;CA05731;Dano físico;Baixa;Tratada
+NC00418;CA05367;Fora de tolerância;Baixa;Tratada
+NC00419;CA06377;Dano físico;Média;Em análise
+NC00420;CA03681;Dano físico;Alta;Tratada
+NC00421;CA01143;Dano físico;Alta;Aberta
+NC00422;CA01575;Dano físico;Baixa;Em análise
+NC00423;CA01709;Fora de tolerância;Baixa;Em análise
+NC00424;CA04675;Dano físico;Baixa;Aberta
+NC00425;CA03704;Fora de tolerância;Baixa;Aberta
+NC00426;CA05724;Certificado incompleto;Média;Aberta
+NC00427;CA05834;Fora de tolerância;Alta;Em análise
+NC00428;CA05573;Fora de tolerância;Alta;Tratada
+NC00429;CA01372;Dano físico;Baixa;Em análise
+NC00430;CA04448;Dano físico;Alta;Tratada
+NC00431;CA06357;Dano físico;Alta;Tratada
+NC00432;CA06104;Certificado incompleto;Média;Tratada
+NC00433;CA00539;Dano físico;Baixa;Tratada
+NC00434;CA04375;Fora de tolerância;Média;Em análise
+NC00435;CA02709;Certificado incompleto;Média;Aberta
+NC00436;CA03722;Fora de tolerância;Baixa;Tratada
+NC00437;CA07068;Fora de tolerância;Alta;Tratada
+NC00438;CA03984;Fora de tolerância;Média;Aberta
+NC00439;CA05121;Dano físico;Baixa;Em análise
+NC00440;CA00770;Fora de tolerância;Alta;Em análise
+NC00441;CA01587;Fora de tolerância;Alta;Aberta
+NC00442;CA02670;Certificado incompleto;Baixa;Aberta
+NC00443;CA07067;Certificado incompleto;Baixa;Em análise
+NC00444;CA06180;Fora de tolerância;Baixa;Aberta
+NC00445;CA04601;Certificado incompleto;Média;Em análise
+NC00446;CA06182;Dano físico;Baixa;Em análise
+NC00447;CA01249;Certificado incompleto;Alta;Tratada
+NC00448;CA04577;Dano físico;Média;Aberta
+NC00449;CA03707;Certificado incompleto;Média;Aberta
+NC00450;CA05911;Certificado incompleto;Média;Aberta
+NC00451;CA05023;Certificado incompleto;Alta;Aberta
+NC00452;CA05748;Dano físico;Média;Tratada
+NC00453;CA00526;Dano físico;Média;Em análise
+NC00454;CA05791;Dano físico;Baixa;Aberta
+NC00455;CA06912;Certificado incompleto;Baixa;Aberta
+NC00456;CA01140;Certificado incompleto;Média;Aberta
+NC00457;CA00565;Dano físico;Alta;Em análise
+NC00458;CA03896;Dano físico;Alta;Tratada
+NC00459;CA01571;Dano físico;Média;Aberta
+NC00460;CA02418;Certificado incompleto;Média;Tratada
+NC00461;CA05946;Certificado incompleto;Média;Tratada
+NC00462;CA04222;Certificado incompleto;Média;Tratada
+NC00463;CA03855;Fora de tolerância;Baixa;Em análise
+NC00464;CA03567;Certificado incompleto;Baixa;Aberta
+NC00465;CA03226;Fora de tolerância;Média;Tratada
+NC00466;CA05885;Dano físico;Alta;Em análise
+NC00467;CA00071;Dano físico;Média;Tratada
+NC00468;CA04444;Fora de tolerância;Baixa;Em análise
+NC00469;CA06793;Dano físico;Alta;Aberta
+NC00470;CA05146;Certificado incompleto;Baixa;Tratada
+NC00471;CA02548;Dano físico;Alta;Aberta
+NC00472;CA06609;Fora de tolerância;Baixa;Tratada
+NC00473;CA05963;Fora de tolerância;Baixa;Tratada
+NC00474;CA02533;Fora de tolerância;Baixa;Aberta
+NC00475;CA03228;Certificado incompleto;Baixa;Em análise
+NC00476;CA02916;Dano físico;Alta;Tratada
+NC00477;CA00119;Dano físico;Alta;Tratada
+NC00478;CA00764;Fora de tolerância;Baixa;Aberta
+NC00479;CA06544;Certificado incompleto;Média;Tratada
+NC00480;CA04724;Fora de tolerância;Alta;Tratada
+NC00481;CA05020;Fora de tolerância;Alta;Tratada
+NC00482;CA05451;Certificado incompleto;Alta;Em análise
+NC00483;CA04968;Fora de tolerância;Média;Tratada
+NC00484;CA04842;Dano físico;Baixa;Aberta
+NC00485;CA05051;Certificado incompleto;Baixa;Tratada
+NC00486;CA01707;Certificado incompleto;Média;Aberta
+NC00487;CA03640;Fora de tolerância;Alta;Em análise
+NC00488;CA01393;Fora de tolerância;Média;Aberta
+NC00489;CA02917;Fora de tolerância;Média;Tratada
+NC00490;CA03985;Certificado incompleto;Alta;Aberta
+NC00491;CA00702;Dano físico;Alta;Em análise
+NC00492;CA04491;Certificado incompleto;Alta;Aberta
+NC00493;CA01438;Fora de tolerância;Alta;Em análise
+NC00494;CA05439;Dano físico;Alta;Aberta
+NC00495;CA02944;Dano físico;Baixa;Aberta
+NC00496;CA03734;Certificado incompleto;Alta;Aberta
+NC00497;CA04431;Fora de tolerância;Média;Em análise
+NC00498;CA01576;Dano físico;Alta;Tratada
+NC00499;CA01351;Dano físico;Alta;Aberta
+NC00500;CA04726;Dano físico;Baixa;Aberta
+NC00501;CA06786;Fora de tolerância;Baixa;Aberta
+NC00502;CA02163;Dano físico;Média;Em análise
+NC00503;CA02928;Certificado incompleto;Alta;Tratada
+NC00504;CA05204;Fora de tolerância;Média;Aberta
+NC00505;CA00367;Fora de tolerância;Baixa;Em análise
+NC00506;CA04814;Dano físico;Média;Aberta
+NC00507;CA05167;Certificado incompleto;Baixa;Em análise
+NC00508;CA05439;Fora de tolerância;Baixa;Aberta
+NC00509;CA03972;Certificado incompleto;Baixa;Em análise
+NC00510;CA00389;Fora de tolerância;Média;Em análise
+NC00511;CA05588;Fora de tolerância;Alta;Em análise
+NC00512;CA03565;Fora de tolerância;Alta;Aberta
+NC00513;CA01470;Certificado incompleto;Alta;Em análise
+NC00514;CA01614;Fora de tolerância;Alta;Em análise
+NC00515;CA05857;Dano físico;Alta;Em análise
+NC00516;CA04100;Certificado incompleto;Baixa;Aberta
+NC00517;CA05284;Dano físico;Baixa;Em análise
+NC00518;CA05915;Dano físico;Baixa;Aberta
+NC00519;CA06886;Dano físico;Baixa;Tratada
+NC00520;CA06008;Dano físico;Baixa;Aberta
+NC00521;CA06977;Certificado incompleto;Alta;Tratada
+NC00522;CA03918;Certificado incompleto;Baixa;Em análise
+NC00523;CA03585;Certificado incompleto;Alta;Aberta
+NC00524;CA05386;Dano físico;Alta;Tratada
+NC00525;CA00274;Certificado incompleto;Média;Em análise
+NC00526;CA04240;Certificado incompleto;Baixa;Tratada
+NC00527;CA00678;Certificado incompleto;Média;Em análise
+NC00528;CA07046;Dano físico;Baixa;Aberta
+NC00529;CA04304;Fora de tolerância;Média;Em análise
+NC00530;CA05241;Fora de tolerância;Média;Tratada
+NC00531;CA01904;Fora de tolerância;Alta;Aberta
+NC00532;CA05745;Dano físico;Alta;Aberta
+NC00533;CA02089;Certificado incompleto;Alta;Tratada
+NC00534;CA00951;Dano físico;Média;Aberta
+NC00535;CA02364;Fora de tolerância;Média;Aberta
+NC00536;CA01494;Fora de tolerância;Média;Tratada
+NC00537;CA06987;Fora de tolerância;Baixa;Aberta
+NC00538;CA02497;Dano físico;Média;Aberta
+NC00539;CA02142;Certificado incompleto;Média;Aberta
+NC00540;CA03442;Certificado incompleto;Baixa;Em análise
+NC00541;CA02964;Fora de tolerância;Média;Em análise
+NC00542;CA00489;Dano físico;Média;Em análise
+NC00543;CA04360;Certificado incompleto;Baixa;Em análise
+NC00544;CA04218;Fora de tolerância;Média;Tratada
+NC00545;CA06796;Certificado incompleto;Média;Tratada
+NC00546;CA00298;Dano físico;Baixa;Aberta
+NC00547;CA03555;Certificado incompleto;Média;Tratada
+NC00548;CA02035;Dano físico;Média;Tratada
+NC00549;CA05631;Fora de tolerância;Baixa;Aberta
+NC00550;CA04403;Fora de tolerância;Alta;Aberta
+NC00551;CA03665;Certificado incompleto;Baixa;Em análise
+NC00552;CA05928;Certificado incompleto;Alta;Em análise
+NC00553;CA04600;Dano físico;Média;Aberta
+NC00554;CA06329;Certificado incompleto;Baixa;Em análise
+NC00555;CA00545;Dano físico;Alta;Em análise
+NC00556;CA03051;Fora de tolerância;Alta;Aberta
+NC00557;CA04965;Certificado incompleto;Média;Tratada
+NC00558;CA06283;Certificado incompleto;Alta;Aberta
+NC00559;CA00451;Fora de tolerância;Baixa;Em análise
+NC00560;CA02636;Dano físico;Alta;Aberta
+NC00561;CA02114;Fora de tolerância;Média;Aberta
+NC00562;CA03958;Certificado incompleto;Alta;Aberta
+NC00563;CA00765;Fora de tolerância;Baixa;Aberta
+NC00564;CA03917;Certificado incompleto;Alta;Em análise
+NC00565;CA04281;Dano físico;Baixa;Aberta
+NC00566;CA07107;Certificado incompleto;Baixa;Tratada
+NC00567;CA04097;Certificado incompleto;Alta;Em análise
+NC00568;CA03396;Dano físico;Alta;Aberta
+NC00569;CA05898;Dano físico;Alta;Tratada
+NC00570;CA02519;Certificado incompleto;Média;Em análise
+NC00571;CA03499;Fora de tolerância;Média;Aberta
+NC00572;CA02931;Certificado incompleto;Alta;Em análise
+NC00573;CA03481;Fora de tolerância;Alta;Em análise
+NC00574;CA04739;Certificado incompleto;Baixa;Aberta
+NC00575;CA00424;Certificado incompleto;Alta;Em análise
+NC00576;CA07027;Fora de tolerância;Média;Aberta
+NC00577;CA01134;Fora de tolerância;Baixa;Aberta
+NC00578;CA04080;Certificado incompleto;Média;Aberta
+NC00579;CA00149;Certificado incompleto;Alta;Tratada
+NC00580;CA06792;Fora de tolerância;Baixa;Tratada
+NC00581;CA04195;Certificado incompleto;Média;Em análise
+NC00582;CA02607;Dano físico;Baixa;Em análise
+NC00583;CA04821;Dano físico;Média;Aberta
+NC00584;CA02128;Fora de tolerância;Alta;Tratada
+NC00585;CA04133;Dano físico;Alta;Aberta
+NC00586;CA04995;Dano físico;Média;Em análise
+NC00587;CA05226;Certificado incompleto;Alta;Aberta
+NC00588;CA00871;Dano físico;Média;Tratada
+NC00589;CA06770;Fora de tolerância;Alta;Em análise
+NC00590;CA01748;Dano físico;Média;Em análise
+NC00591;CA03108;Dano físico;Média;Tratada
+NC00592;CA00346;Fora de tolerância;Média;Aberta
+NC00593;CA03325;Certificado incompleto;Alta;Em análise
+NC00594;CA03860;Certificado incompleto;Média;Em análise
+NC00595;CA01051;Dano físico;Alta;Aberta
+NC00596;CA00059;Fora de tolerância;Média;Aberta
+NC00597;CA02965;Certificado incompleto;Alta;Tratada
+NC00598;CA07161;Certificado incompleto;Média;Aberta
+NC00599;CA03828;Dano físico;Baixa;Aberta
+NC00600;CA05359;Dano físico;Baixa;Tratada
+NC00601;CA06681;Fora de tolerância;Média;Em análise
+NC00602;CA00398;Fora de tolerância;Alta;Aberta
+NC00603;CA05614;Fora de tolerância;Alta;Tratada
+NC00604;CA05539;Fora de tolerância;Baixa;Aberta
+NC00605;CA02581;Fora de tolerância;Alta;Tratada
+NC00606;CA06505;Dano físico;Média;Tratada
+NC00607;CA00883;Certificado incompleto;Alta;Aberta
+NC00608;CA05520;Certificado incompleto;Alta;Em análise
+NC00609;CA03620;Fora de tolerância;Alta;Tratada
+NC00610;CA06694;Fora de tolerância;Alta;Aberta
+NC00611;CA06592;Dano físico;Alta;Aberta
+NC00612;CA06639;Certificado incompleto;Média;Em análise
+NC00613;CA04309;Certificado incompleto;Baixa;Aberta
+NC00614;CA07171;Fora de tolerância;Média;Aberta
+NC00615;CA03932;Fora de tolerância;Média;Aberta
+NC00616;CA02856;Fora de tolerância;Alta;Em análise
+NC00617;CA04891;Fora de tolerância;Baixa;Em análise
+NC00618;CA02448;Fora de tolerância;Alta;Tratada
+NC00619;CA05848;Dano físico;Baixa;Em análise
+NC00620;CA00850;Certificado incompleto;Média;Tratada
+NC00621;CA03818;Dano físico;Baixa;Aberta
+NC00622;CA00522;Fora de tolerância;Média;Aberta
+NC00623;CA06025;Fora de tolerância;Média;Tratada
+NC00624;CA06298;Fora de tolerância;Baixa;Tratada
+NC00625;CA04999;Fora de tolerância;Baixa;Aberta
+NC00626;CA06457;Dano físico;Alta;Aberta
+NC00627;CA07123;Dano físico;Alta;Tratada
+NC00628;CA05996;Fora de tolerância;Alta;Tratada
+NC00629;CA07020;Certificado incompleto;Alta;Aberta
+NC00630;CA03589;Dano físico;Média;Tratada
+NC00631;CA04299;Dano físico;Alta;Aberta
+NC00632;CA00963;Dano físico;Alta;Aberta
+NC00633;CA00937;Certificado incompleto;Média;Tratada
+NC00634;CA06472;Fora de tolerância;Alta;Em análise
+NC00635;CA06197;Fora de tolerância;Baixa;Em análise
+NC00636;CA02329;Certificado incompleto;Baixa;Tratada
+NC00637;CA04405;Fora de tolerância;Média;Em análise
+NC00638;CA05373;Fora de tolerância;Média;Em análise
+NC00639;CA03494;Certificado incompleto;Alta;Em análise
+NC00640;CA01056;Fora de tolerância;Baixa;Em análise
+NC00641;CA05445;Certificado incompleto;Alta;Tratada
+NC00642;CA04930;Dano físico;Média;Aberta
+NC00643;CA04845;Dano físico;Média;Aberta
+NC00644;CA01482;Dano físico;Alta;Em análise
+NC00645;CA00825;Fora de tolerância;Baixa;Em análise
+NC00646;CA00123;Certificado incompleto;Alta;Tratada
+NC00647;CA00297;Fora de tolerância;Média;Em análise
+NC00648;CA02768;Certificado incompleto;Média;Aberta
+NC00649;CA00639;Certificado incompleto;Baixa;Em análise
+NC00650;CA04553;Fora de tolerância;Média;Tratada
+NC00651;CA01586;Certificado incompleto;Alta;Em análise
+NC00652;CA07165;Certificado incompleto;Alta;Tratada
+NC00653;CA05653;Dano físico;Média;Aberta
+NC00654;CA01312;Dano físico;Baixa;Tratada
+NC00655;CA02692;Dano físico;Alta;Tratada
+NC00656;CA05537;Fora de tolerância;Baixa;Em análise
+NC00657;CA01816;Fora de tolerância;Baixa;Tratada
+NC00658;CA06492;Fora de tolerância;Alta;Em análise
+NC00659;CA03760;Certificado incompleto;Média;Em análise
+NC00660;CA00461;Certificado incompleto;Média;Tratada
+NC00661;CA06431;Certificado incompleto;Média;Aberta
+NC00662;CA03160;Dano físico;Baixa;Tratada
+NC00663;CA01781;Fora de tolerância;Alta;Em análise
+NC00664;CA02279;Dano físico;Média;Tratada
+NC00665;CA06255;Certificado incompleto;Baixa;Aberta
+NC00666;CA01506;Certificado incompleto;Média;Aberta
+NC00667;CA02831;Dano físico;Média;Tratada
+NC00668;CA02857;Dano físico;Baixa;Em análise
+NC00669;CA03752;Dano físico;Alta;Em análise
+NC00670;CA05986;Dano físico;Baixa;Aberta
+NC00671;CA00483;Fora de tolerância;Média;Em análise
+NC00672;CA06748;Dano físico;Alta;Aberta
+NC00673;CA00091;Certificado incompleto;Média;Aberta
+NC00674;CA05159;Dano físico;Média;Aberta
+NC00675;CA01512;Certificado incompleto;Alta;Tratada
+NC00676;CA02813;Fora de tolerância;Baixa;Tratada
+NC00677;CA01308;Certificado incompleto;Média;Tratada
+NC00678;CA05029;Certificado incompleto;Alta;Aberta
+NC00679;CA00263;Fora de tolerância;Média;Aberta
+NC00680;CA03059;Fora de tolerância;Média;Aberta
+NC00681;CA06643;Dano físico;Alta;Tratada
+NC00682;CA03936;Dano físico;Média;Tratada
+NC00683;CA01834;Dano físico;Alta;Tratada
+NC00684;CA05660;Fora de tolerância;Baixa;Em análise
+NC00685;CA05007;Certificado incompleto;Média;Aberta
+NC00686;CA01016;Fora de tolerância;Média;Tratada
+NC00687;CA02603;Fora de tolerância;Alta;Aberta
+NC00688;CA01282;Dano físico;Baixa;Em análise
+NC00689;CA06414;Dano físico;Média;Tratada
+NC00690;CA06148;Dano físico;Média;Aberta
+NC00691;CA04501;Certificado incompleto;Alta;Tratada
+NC00692;CA03032;Dano físico;Média;Em análise
+NC00693;CA00627;Dano físico;Média;Aberta
+NC00694;CA05957;Certificado incompleto;Baixa;Tratada
+NC00695;CA05428;Certificado incompleto;Média;Em análise
+NC00696;CA05308;Dano físico;Média;Aberta
+NC00697;CA06268;Certificado incompleto;Média;Em análise
+NC00698;CA04791;Dano físico;Média;Em análise
+NC00699;CA00976;Fora de tolerância;Baixa;Tratada
+NC00700;CA03052;Certificado incompleto;Alta;Em análise
+NC00701;CA03389;Fora de tolerância;Alta;Aberta
+NC00702;CA03545;Fora de tolerância;Baixa;Em análise
+NC00703;CA06728;Certificado incompleto;Média;Tratada
+NC00704;CA00668;Certificado incompleto;Baixa;Aberta
+NC00705;CA00206;Fora de tolerância;Baixa;Aberta
+NC00706;CA02156;Certificado incompleto;Média;Tratada
+NC00707;CA05679;Dano físico;Média;Aberta
+NC00708;CA05932;Dano físico;Alta;Aberta
+NC00709;CA04530;Certificado incompleto;Baixa;Aberta
+NC00710;CA00792;Fora de tolerância;Baixa;Aberta
+NC00711;CA02747;Dano físico;Baixa;Em análise
+NC00712;CA04180;Dano físico;Baixa;Tratada
+NC00713;CA00438;Certificado incompleto;Alta;Tratada
+NC00714;CA05662;Certificado incompleto;Baixa;Em análise
+NC00715;CA04768;Dano físico;Média;Aberta
+NC00716;CA04019;Certificado incompleto;Média;Em análise
+NC00717;CA00792;Fora de tolerância;Média;Aberta
+NC00718;CA00011;Fora de tolerância;Alta;Em análise
+NC00719;CA06213;Fora de tolerância;Média;Aberta
+NC00720;CA00024;Certificado incompleto;Média;Aberta
+NC00721;CA06938;Dano físico;Média;Tratada
+NC00722;CA03635;Certificado incompleto;Média;Tratada
+NC00723;CA01399;Certificado incompleto;Alta;Aberta
+NC00724;CA02428;Certificado incompleto;Alta;Tratada
+NC00725;CA05646;Dano físico;Média;Aberta
+NC00726;CA03805;Fora de tolerância;Baixa;Aberta
+NC00727;CA01210;Dano físico;Baixa;Em análise
+NC00728;CA03586;Certificado incompleto;Média;Em análise
+NC00729;CA03719;Certificado incompleto;Alta;Aberta
+NC00730;CA00941;Certificado incompleto;Média;Aberta
+NC00731;CA05683;Certificado incompleto;Alta;Aberta
+NC00732;CA02827;Fora de tolerância;Média;Em análise
+NC00733;CA06550;Fora de tolerância;Média;Aberta
+NC00734;CA00900;Dano físico;Média;Em análise
+NC00735;CA06112;Certificado incompleto;Baixa;Tratada
+NC00736;CA06643;Certificado incompleto;Alta;Aberta
+NC00737;CA04798;Dano físico;Baixa;Aberta
+NC00738;CA04374;Certificado incompleto;Média;Em análise
+NC00739;CA03449;Certificado incompleto;Alta;Aberta
+NC00740;CA05461;Fora de tolerância;Alta;Tratada
+NC00741;CA06038;Fora de tolerância;Alta;Em análise
+NC00742;CA00284;Fora de tolerância;Baixa;Tratada
+NC00743;CA01825;Fora de tolerância;Alta;Tratada
+NC00744;CA06941;Dano físico;Média;Aberta
+NC00745;CA04507;Certificado incompleto;Média;Tratada
+NC00746;CA04011;Fora de tolerância;Média;Em análise
+NC00747;CA04418;Certificado incompleto;Alta;Em análise
+NC00748;CA04680;Dano físico;Alta;Tratada
+NC00749;CA04617;Fora de tolerância;Alta;Aberta
+NC00750;CA01158;Dano físico;Baixa;Aberta
+NC00432;CA06104;Certificado incompleto;Média;Tratada
+NC00078;CA06254;Fora de tolerância;Alta;Tratada
+NC00513;CA01470;Certificado incompleto;Alta;Em análise
+;CA03367;Certificado incompleto;Alta;Tratada

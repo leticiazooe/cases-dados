@@ -1,0 +1,5 @@
+calibracao_id,equipamento_id,laboratorio_id,data_programada,data_realizada,custo,resultado,motivo_rejeicao
+CA05860,EQ00860,LB003,2024-05-23,2025-07-17,952.93,Ajustado,pk_duplicada
+CA06523,EQ01342,LB007,2026-06-01,2025-05-03,585.79,Ajustado,pk_duplicada
+CA06225,EQ00476,LB006,2025-11-11,2025-03-26,1588.05,Aprovado,pk_duplicada
+ERRO_calibracoes_1,EQ01138,LB017,,2025-09-27,899.7,Aprovado,data_invalida:data_programada

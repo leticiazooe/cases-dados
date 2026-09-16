@@ -1,0 +1,5 @@
+peca_id,peca,categoria,custo_unitario,estoque_atual,motivo_rejeicao
+75,Peça 075,Placa,619.32,78,pk_duplicada
+31,Peça 031,Armazenamento,746.14,18,pk_duplicada
+37,Peça 037,Cabo,46.73,9,pk_duplicada
+183,Peça 001,Fonte,-999.0,38,negativo:custo_unitario

@@ -1,0 +1,6 @@
+Total Equipamentos = COUNTROWS(equipamentos)
+Total Calibracoes = COUNTROWS(calibracoes)
+Custo Calibracoes = SUM(calibracoes[custo])
+Calibracoes Aprovadas = CALCULATE(COUNTROWS(calibracoes), calibracoes[resultado] = "Aprovado")
+Erro Medio = AVERAGE(medicoes[erro])
+NC Abertas = CALCULATE(COUNTROWS(nao_conformidades), nao_conformidades[status] <> "Fechada")

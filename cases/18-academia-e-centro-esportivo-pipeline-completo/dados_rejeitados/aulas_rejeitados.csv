@@ -1,0 +1,6 @@
+aula_id,modalidade_id,profissional_id,data_aula,horario,capacidade,participantes,status,motivo_rejeicao
+733,12,26,2025-07-03,08:00,20,19,Cancelada,pk_duplicada
+1017,1,32,2025-07-29,08:00,20,7,Realizada,pk_duplicada
+1572,8,38,2025-10-30,12:00,20,4,Cancelada,pk_duplicada
+1902,5,38,,08:00,12,10,Cancelada,data_invalida:data_aula
+1903,-999,38,2026-04-13,08:00,12,10,Cancelada,negativo:modalidade_id

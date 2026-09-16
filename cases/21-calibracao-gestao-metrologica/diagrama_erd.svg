@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="464" viewBox="0 0 1020 464">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="35" font-family="Arial" font-size="24" font-weight="bold">Calibracao e Gestao Metrologica</text>
+<rect x="30" y="60" width="300" height="162" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="30" y="60" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="40" y="81" font-family="Arial" font-size="15" font-weight="bold">calibracoes</text>
+<text x="42" y="110" font-family="Arial" font-size="12">calibracao_id</text>
+<text x="42" y="128" font-family="Arial" font-size="12">equipamento_id</text>
+<text x="42" y="146" font-family="Arial" font-size="12">laboratorio_id</text>
+<text x="42" y="164" font-family="Arial" font-size="12">data_programada</text>
+<text x="42" y="182" font-family="Arial" font-size="12">data_realizada</text>
+<text x="42" y="200" font-family="Arial" font-size="12">custo</text>
+<text x="42" y="218" font-family="Arial" font-size="12">resultado</text>
+<rect x="360" y="60" width="300" height="162" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="360" y="60" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="370" y="81" font-family="Arial" font-size="15" font-weight="bold">equipamentos</text>
+<text x="372" y="110" font-family="Arial" font-size="12">equipamento_id</text>
+<text x="372" y="128" font-family="Arial" font-size="12">tipo</text>
+<text x="372" y="146" font-family="Arial" font-size="12">unidade</text>
+<text x="372" y="164" font-family="Arial" font-size="12">criticidade</text>
+<text x="372" y="182" font-family="Arial" font-size="12">periodicidade_dias</text>
+<rect x="690" y="60" width="300" height="162" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="690" y="60" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="700" y="81" font-family="Arial" font-size="15" font-weight="bold">laboratorios</text>
+<text x="702" y="110" font-family="Arial" font-size="12">laboratorio_id</text>
+<text x="702" y="128" font-family="Arial" font-size="12">laboratorio</text>
+<text x="702" y="146" font-family="Arial" font-size="12">acreditado</text>
+<text x="702" y="164" font-family="Arial" font-size="12">lead_time_dias</text>
+<rect x="30" y="252" width="300" height="162" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="30" y="252" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="40" y="273" font-family="Arial" font-size="15" font-weight="bold">medicoes</text>
+<text x="42" y="302" font-family="Arial" font-size="12">medicao_id</text>
+<text x="42" y="320" font-family="Arial" font-size="12">calibracao_id</text>
+<text x="42" y="338" font-family="Arial" font-size="12">ponto</text>
+<text x="42" y="356" font-family="Arial" font-size="12">erro</text>
+<text x="42" y="374" font-family="Arial" font-size="12">tolerancia</text>
+<rect x="360" y="252" width="300" height="162" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="360" y="252" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="370" y="273" font-family="Arial" font-size="15" font-weight="bold">nao_conformidades</text>
+<text x="372" y="302" font-family="Arial" font-size="12">nao_conformidade_id</text>
+<text x="372" y="320" font-family="Arial" font-size="12">calibracao_id</text>
+<text x="372" y="338" font-family="Arial" font-size="12">tipo</text>
+<text x="372" y="356" font-family="Arial" font-size="12">criticidade</text>
+<text x="372" y="374" font-family="Arial" font-size="12">status</text>
+</svg>

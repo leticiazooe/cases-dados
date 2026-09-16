@@ -1,0 +1,5 @@
+ativo_id,tipo,unidade,criticidade,motivo_rejeicao
+AT0416,Esteira,Guarulhos,Baixa,pk_duplicada
+AT0089,Prensa,Jaboticabal,Alta,pk_duplicada
+AT0077,Injetora,Joinville,Alta,pk_duplicada
+,Misturador,Joinville,Baixa,pk_nula

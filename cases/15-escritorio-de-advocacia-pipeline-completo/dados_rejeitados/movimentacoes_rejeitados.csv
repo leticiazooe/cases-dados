@@ -1,0 +1,5 @@
+movimentacao_id,processo_id,data_movimentacao,tipo,origem,motivo_rejeicao
+4902,1402,2026-01-23,Petição,Tribunal,pk_duplicada
+5019,1437,2027-01-15,Petição,Tribunal,pk_duplicada
+768,214,2026-04-09,Recurso,Parte contrária,pk_duplicada
+7766,1,,Sentença,Tribunal,data_invalida:data_movimentacao

@@ -1,0 +1,470 @@
+cancelamento_id;matricula_id;data_cancelamento;motivo;tentativa_retencao
+1;2;  2026-03-29  ;Saúde;Não
+2;17;  2025-09-06  ;Mudança;Não
+3;24;  2026-03-18  ;Insatisfação;Não
+4;27;  2025-08-08  ;Mudança;Não
+5;35;2026-01-11;Preço;Sim
+6;39;2025-08-16;Insatisfação;Não
+7;40;2025-07-28;Preço;Não
+8;41;2025-12-06;Preço;Não
+9;42;2025-12-28;Mudança;Sim
+10;50;2025-10-10;Insatisfação;Sim
+11;53;2026-03-19;Mudança;Não
+12;56;2025-11-15;Falta de tempo;Sim
+13;57;2025-09-12;Concorrência;Sim
+14;64;2025-11-14;Saúde;Não
+15;67;2026-01-05;Mudança;Não
+16;70;2026-01-14;Concorrência;Sim
+17;74;2026-04-09;Preço;Não
+18;84;2026-01-15;Concorrência;Sim
+19;96;2026-04-23;Falta de tempo;Não
+20;111;2026-03-06;Falta de tempo;Sim
+21;116;2026-06-18;Preço;Não
+22;118;2025-10-14;Insatisfação;Sim
+23;123;2025-08-05;Saúde;Sim
+24;124;2025-09-08;Mudança;Sim
+25;126;2025-07-28;Mudança;Sim
+26;131;2025-10-28;Mudança;Não
+27;137;2025-09-11;Concorrência;Sim
+28;141;2026-06-15;Concorrência;Não
+29;142;2025-08-29;Insatisfação;Não
+30;146;2026-06-01;Preço;Sim
+31;154;2025-09-28;Falta de tempo;Não
+32;157;2025-11-13;Insatisfação;Sim
+33;175;2026-02-28;Insatisfação;Sim
+34;180;2026-03-18;Preço;Não
+35;181;2025-10-12;Mudança;Não
+36;194;2026-01-09;Preço;Sim
+37;195;2026-01-13;Falta de tempo;Não
+38;197;2025-07-17;Insatisfação;Não
+39;207;2026-03-26;Preço;Não
+40;212;2025-10-22;Mudança;Sim
+41;214;2026-01-31;Saúde;Não
+42;220;2025-07-14;Falta de tempo;Sim
+43;221;2025-10-31;Saúde;Sim
+44;223;2025-10-26;Saúde;Sim
+45;224;2025-09-12;Insatisfação;Não
+46;226;2025-08-02;Preço;Não
+47;227;2026-02-02;Saúde;Sim
+48;230;2026-03-29;Falta de tempo;Sim
+49;231;2025-12-09;Saúde;Não
+50;234;2026-03-01;Insatisfação;Não
+51;240;2025-11-02;Concorrência;Não
+52;242;2025-11-27;Saúde;Sim
+53;244;2025-10-31;Preço;Não
+54;253;2025-12-15;Preço;Não
+55;266;2025-10-19;Preço;Não
+56;271;2026-01-09;Concorrência;Sim
+57;273;2025-07-09;Saúde;Sim
+58;279;2026-04-13;Preço;Sim
+59;281;2025-08-11;Falta de tempo;Sim
+60;289;2025-10-05;Mudança;Não
+61;294;2026-04-13;Saúde;Sim
+62;305;2026-01-06;Mudança;Sim
+63;308;2026-03-08;Concorrência;Sim
+64;309;2025-11-24;Saúde;Não
+65;312;2026-06-03;Concorrência;Não
+66;315;2026-06-15;Concorrência;Não
+67;322;2025-07-25;Falta de tempo;Sim
+68;324;2025-11-03;Mudança;Sim
+69;326;2025-10-19;Mudança;Não
+70;330;2026-04-10;Concorrência;Não
+71;333;2026-01-03;Mudança;Sim
+72;337;2025-10-16;Insatisfação;Sim
+73;338;2025-10-31;Concorrência;Não
+74;345;2026-04-18;Saúde;Sim
+75;347;2025-07-05;Preço;Sim
+76;350;2025-08-02;Falta de tempo;Não
+77;352;2026-06-10;Preço;Não
+78;354;2025-09-27;Saúde;Não
+79;356;2026-02-03;Preço;Sim
+80;365;2025-11-10;Concorrência;Sim
+81;368;2025-11-27;Preço;Não
+82;372;2025-07-04;Falta de tempo;Sim
+83;385;2026-04-09;Falta de tempo;Não
+84;387;2025-09-22;Saúde;Sim
+85;389;2026-01-08;Saúde;Sim
+86;396;2026-06-25;Preço;Sim
+87;401;2025-11-24;Saúde;Sim
+88;404;2026-05-29;Concorrência;Não
+89;405;2026-02-09;Preço;Não
+90;406;2026-03-21;Insatisfação;Não
+91;413;2025-09-11;Mudança;Não
+92;414;2025-08-19;Mudança;Sim
+93;416;2026-04-08;Falta de tempo;Sim
+94;418;2025-08-27;Saúde;Sim
+95;425;2025-12-22;Saúde;Sim
+96;427;2025-12-31;Falta de tempo;Sim
+97;428;2026-03-25;Mudança;Sim
+98;434;2025-08-29;Mudança;Não
+99;437;2026-01-21;Mudança;Não
+100;442;2026-06-05;Mudança;Sim
+101;443;2025-10-16;Falta de tempo;Não
+102;457;2026-04-19;Mudança;Sim
+103;458;2025-09-17;Mudança;Sim
+104;460;2025-08-11;Preço;Sim
+105;467;2025-08-07;Insatisfação;Não
+106;469;2026-04-25;Saúde;Sim
+107;479;2026-04-13;Concorrência;Não
+108;493;2025-12-14;Preço;Sim
+109;494;2025-07-07;Saúde;Não
+110;501;2025-12-29;Preço;Sim
+111;504;2025-12-03;Saúde;Não
+112;508;2026-02-07;Mudança;Não
+113;521;2025-10-20;Insatisfação;Não
+114;528;2025-09-19;Mudança;Não
+115;534;2025-08-24;Saúde;Sim
+116;539;2026-05-06;Falta de tempo;Sim
+117;545;2026-05-20;Saúde;Não
+118;546;2026-01-07;Falta de tempo;Sim
+119;549;2026-01-28;Mudança;Não
+120;553;2026-04-23;Insatisfação;Não
+121;568;2026-06-06;Insatisfação;Sim
+122;578;2026-06-11;Concorrência;Sim
+123;579;2026-04-22;Falta de tempo;Sim
+124;580;2025-07-02;Insatisfação;Não
+125;582;2025-11-19;Falta de tempo;Não
+126;585;2025-12-31;Mudança;Não
+127;587;2026-04-23;Insatisfação;Sim
+128;596;2026-06-12;Mudança;Sim
+129;598;2026-01-08;Preço;Não
+130;600;2025-11-30;Saúde;Sim
+131;611;2025-10-24;Falta de tempo;Não
+132;612;2025-08-11;Preço;Sim
+133;615;2025-10-01;Mudança;Não
+134;616;2025-12-29;Concorrência;Sim
+135;618;2026-05-20;Saúde;Não
+136;621;2025-11-03;Insatisfação;Sim
+137;624;2025-10-13;Preço;Sim
+138;630;2025-09-09;Falta de tempo;Sim
+139;632;2025-10-01;Saúde;Sim
+140;633;2026-06-21;Insatisfação;Não
+141;637;2026-02-07;Saúde;Não
+142;639;2025-12-14;Preço;Não
+143;640;2026-03-15;Preço;Não
+144;642;2026-02-12;Concorrência;Sim
+145;646;2025-09-22;Mudança;Não
+146;648;2026-01-01;Mudança;Não
+147;651;2025-07-30;Saúde;Sim
+148;660;2026-03-10;Mudança;Sim
+149;664;2025-10-24;Saúde;Sim
+150;669;2026-03-05;Insatisfação;Sim
+151;671;2025-07-07;Saúde;Sim
+152;673;2025-08-01;Falta de tempo;Não
+153;679;2025-08-22;Insatisfação;Sim
+154;681;2025-12-23;Concorrência;Sim
+155;685;2026-06-28;Mudança;Não
+156;686;2026-06-30;Falta de tempo;Sim
+157;688;2025-10-05;Mudança;Não
+158;698;2025-08-03;Preço;Sim
+159;714;2025-10-04;Mudança;Não
+160;717;2026-01-24;Insatisfação;Sim
+161;725;2025-11-16;Mudança;Sim
+162;728;2026-03-06;Concorrência;Não
+163;732;2026-02-10;Preço;Sim
+164;733;2025-11-28;Insatisfação;Sim
+165;734;2025-09-10;Insatisfação;Sim
+166;741;2026-05-28;Mudança;Não
+167;743;2025-08-20;Falta de tempo;Não
+168;750;2026-03-11;Saúde;Sim
+169;754;2026-03-14;Saúde;Sim
+170;755;2025-11-06;Preço;Não
+171;761;2025-12-23;Concorrência;Não
+172;762;2025-10-04;Concorrência;Não
+173;768;2026-01-15;Mudança;Não
+174;769;2026-02-20;Insatisfação;Não
+175;771;2026-01-30;Mudança;Sim
+176;783;2026-03-06;Insatisfação;Sim
+177;786;2025-07-14;Mudança;Sim
+178;791;2026-02-13;Falta de tempo;Sim
+179;794;2026-06-25;Mudança;Sim
+180;795;2026-01-18;Preço;Sim
+181;803;2025-10-06;Falta de tempo;Sim
+182;814;2026-06-27;Falta de tempo;Não
+183;817;2025-07-17;Saúde;Não
+184;823;2026-02-06;Concorrência;Não
+185;831;2026-05-14;Saúde;Não
+186;837;2025-07-02;Mudança;Não
+187;839;2025-07-13;Saúde;Sim
+188;852;2025-07-30;Preço;Sim
+189;853;2026-06-16;Insatisfação;Sim
+190;855;2025-08-29;Saúde;Sim
+191;863;2026-01-17;Falta de tempo;Não
+192;868;2026-04-23;Concorrência;Sim
+193;871;2026-04-24;Mudança;Sim
+194;875;2026-05-05;Preço;Não
+195;890;2026-01-26;Mudança;Não
+196;894;2025-09-26;Preço;Não
+197;895;2026-04-13;Insatisfação;Não
+198;903;2026-02-10;Falta de tempo;Não
+199;907;2026-05-19;Falta de tempo;Sim
+200;912;2025-08-09;Preço;Sim
+201;916;2025-07-17;Falta de tempo;Não
+202;917;2025-11-18;Insatisfação;Sim
+203;919;2025-10-09;Concorrência;Não
+204;924;2025-08-01;Insatisfação;Sim
+205;932;2025-11-25;Preço;Não
+206;934;2025-09-27;Mudança;Não
+207;937;2026-05-05;Preço;Não
+208;939;2025-11-05;Insatisfação;Não
+209;946;2026-06-09;Concorrência;Não
+210;947;2026-05-01;Mudança;Não
+211;950;2025-09-29;Mudança;Sim
+212;956;2025-12-19;Saúde;Não
+213;968;2026-04-23;Saúde;Sim
+214;972;2025-10-16;Insatisfação;Não
+215;978;2026-03-17;Mudança;Sim
+216;983;2025-11-05;Falta de tempo;Sim
+217;984;2026-05-05;Falta de tempo;Não
+218;985;2025-07-11;Saúde;Não
+219;993;2025-11-03;Concorrência;Sim
+220;996;2026-05-25;Preço;Não
+221;1026;2026-05-09;Falta de tempo;Não
+222;1027;2025-11-28;Insatisfação;Sim
+223;1031;2025-12-04;Preço;Sim
+224;1033;2026-03-16;Concorrência;Sim
+225;1045;2025-08-17;Saúde;Sim
+226;1054;2026-01-22;Concorrência;Não
+227;1063;2026-02-22;Falta de tempo;Sim
+228;1068;2026-01-13;Preço;Sim
+229;1069;2025-09-21;Insatisfação;Sim
+230;1072;2025-10-31;Preço;Sim
+231;1080;2025-12-26;Falta de tempo;Sim
+232;1088;2026-01-12;Insatisfação;Sim
+233;1095;2025-10-13;Mudança;Não
+234;1097;2025-10-16;Falta de tempo;Sim
+235;1109;2026-03-11;Falta de tempo;Não
+236;1113;2026-03-17;Mudança;Sim
+237;1114;2026-05-07;Mudança;Sim
+238;1116;2026-01-07;Saúde;Não
+239;1118;2025-12-03;Preço;Não
+240;1128;2026-05-09;Mudança;Sim
+241;1129;2025-07-27;Falta de tempo;Não
+242;1130;2026-03-17;Falta de tempo;Sim
+243;1137;2026-04-15;Insatisfação;Não
+244;1139;2026-06-27;Falta de tempo;Sim
+245;1145;2026-01-10;Saúde;Sim
+246;1146;2025-12-16;Concorrência;Sim
+247;1162;2025-07-31;Saúde;Sim
+248;1163;2026-05-22;Insatisfação;Não
+249;1164;2025-08-30;Saúde;Sim
+250;1166;2026-02-26;Concorrência;Não
+251;1174;2025-10-24;Falta de tempo;Sim
+252;1178;2026-03-16;Concorrência;Sim
+253;1179;2025-08-16;Saúde;Sim
+254;1182;2025-09-10;Saúde;Não
+255;1183;2026-01-09;Concorrência;Sim
+256;1184;2026-04-26;Concorrência;Sim
+257;1194;2026-01-02;Insatisfação;Sim
+258;1196;2025-09-19;Mudança;Sim
+259;1207;2026-02-08;Preço;Não
+260;1208;2025-09-30;Preço;Sim
+261;1211;2026-02-17;Saúde;Não
+262;1214;2026-03-14;Saúde;Sim
+263;1219;2026-01-21;Falta de tempo;Sim
+264;1226;2025-08-21;Concorrência;Não
+265;1231;2025-12-31;Concorrência;Sim
+266;1232;2025-08-18;Mudança;Sim
+267;1235;2026-01-15;Preço;Sim
+268;1237;2026-01-24;Mudança;Não
+269;1238;2026-06-30;Saúde;Sim
+270;1239;2025-08-15;Preço;Não
+271;1247;2026-05-01;Falta de tempo;Não
+272;1249;2026-05-12;Insatisfação;Não
+273;1250;2026-05-03;Insatisfação;Sim
+274;1252;2025-08-09;Insatisfação;Sim
+275;1258;2026-01-17;Concorrência;Sim
+276;1260;2026-06-23;Insatisfação;Sim
+277;1266;2026-03-19;Insatisfação;Sim
+278;1267;2025-11-30;Mudança;Sim
+279;1269;2025-12-29;Insatisfação;Sim
+280;1274;2025-08-21;Saúde;Sim
+281;1277;2026-05-31;Concorrência;Sim
+282;1278;2026-04-02;Falta de tempo;Não
+283;1281;2025-07-10;Falta de tempo;Sim
+284;1282;2026-01-08;Falta de tempo;Não
+285;1284;2026-06-26;Preço;Não
+286;1286;2025-08-18;Falta de tempo;Não
+287;1287;2026-05-03;Falta de tempo;Sim
+288;1292;2026-01-14;Mudança;Sim
+289;1297;2025-11-13;Falta de tempo;Não
+290;1302;2026-04-09;Concorrência;Sim
+291;1303;2026-04-27;Falta de tempo;Não
+292;1304;2025-12-27;Concorrência;Sim
+293;1310;2026-03-18;Concorrência;Não
+294;1314;2025-11-09;Falta de tempo;Não
+295;1315;2025-11-11;Preço;Sim
+296;1320;2026-05-12;Preço;Não
+297;1332;2025-12-15;Saúde;Sim
+298;1335;2025-09-11;Mudança;Não
+299;1339;2025-10-27;Saúde;Não
+300;1341;2026-04-27;Preço;Sim
+301;1342;2026-03-01;Concorrência;Sim
+302;1344;2025-11-17;Preço;Sim
+303;1345;2026-03-27;Saúde;Sim
+304;1348;2025-12-16;Concorrência;Não
+305;1355;2025-12-28;Saúde;Não
+306;1357;2026-05-23;Insatisfação;Sim
+307;1363;2025-08-06;Saúde;Sim
+308;1367;2026-04-22;Concorrência;Sim
+309;1374;2026-04-07;Concorrência;Sim
+310;1376;2026-04-03;Saúde;Não
+311;1381;2025-10-10;Saúde;Não
+312;1382;2025-12-27;Preço;Sim
+313;1388;2025-08-05;Preço;Não
+314;1389;2026-03-03;Concorrência;Sim
+315;1395;2026-05-03;Saúde;Sim
+316;1398;2025-09-27;Preço;Não
+317;1399;2026-01-14;Concorrência;Sim
+318;1400;2025-10-11;Concorrência;Não
+319;1403;2025-12-23;Mudança;Sim
+320;1405;2026-01-25;Falta de tempo;Não
+321;1410;2025-11-22;Falta de tempo;Não
+322;1411;2025-08-01;Saúde;Não
+323;1414;2026-06-25;Insatisfação;Não
+324;1418;2026-05-28;Falta de tempo;Não
+325;1422;2026-04-23;Falta de tempo;Não
+326;1425;2026-04-12;Preço;Não
+327;1431;2025-07-31;Mudança;Não
+328;1432;2025-08-11;Mudança;Não
+329;1439;2026-01-13;Preço;Sim
+330;1451;2025-07-15;Saúde;Não
+331;1454;2025-10-28;Concorrência;Não
+332;1460;2025-09-06;Insatisfação;Sim
+333;1461;2025-10-19;Falta de tempo;Não
+334;1466;2026-03-21;Saúde;Sim
+335;1469;2026-06-27;Insatisfação;Sim
+336;1471;2025-11-16;Mudança;Não
+337;1476;2025-10-23;Concorrência;Sim
+338;1477;2026-01-12;Falta de tempo;Não
+339;1479;2025-08-25;Preço;Sim
+340;1484;2025-07-07;Falta de tempo;Sim
+341;1486;2025-11-17;Concorrência;Sim
+342;1494;2025-07-07;Mudança;Não
+343;1496;2025-12-20;Concorrência;Sim
+344;1498;2026-02-03;Concorrência;Sim
+345;1507;2025-08-22;Mudança;Sim
+346;1518;2026-03-23;Mudança;Não
+347;1523;2025-12-23;Concorrência;Sim
+348;1525;2026-03-18;Preço;Sim
+349;1532;2026-05-03;Mudança;Sim
+350;1537;2026-01-07;Falta de tempo;Não
+351;1545;2025-12-28;Concorrência;Sim
+352;1549;2025-08-29;Falta de tempo;Sim
+353;1554;2026-01-02;Preço;Não
+354;1559;2026-05-08;Insatisfação;Sim
+355;1564;2025-07-04;Preço;Não
+356;1567;2025-08-01;Preço;Não
+357;1569;2025-12-05;Insatisfação;Sim
+358;1575;2025-09-09;Insatisfação;Não
+359;1616;2025-07-25;Preço;Não
+360;1621;2026-01-01;Saúde;Sim
+361;1635;2026-05-19;Concorrência;Sim
+362;1636;2026-02-14;Mudança;Sim
+363;1638;2025-12-22;Insatisfação;Sim
+364;1642;2026-03-29;Concorrência;Sim
+365;1649;2026-06-26;Mudança;Sim
+366;1655;2025-11-23;Saúde;Não
+367;1658;2026-04-23;Insatisfação;Não
+368;1667;2026-05-07;Saúde;Não
+369;1670;2025-07-29;Falta de tempo;Sim
+370;1672;2026-01-06;Falta de tempo;Sim
+371;1674;2025-07-25;Insatisfação;Não
+372;1675;2025-12-14;Preço;Sim
+373;1678;2026-01-21;Falta de tempo;Não
+374;1683;2025-12-27;Saúde;Sim
+375;1684;2025-12-08;Concorrência;Não
+376;1686;2025-10-26;Preço;Não
+377;1698;2026-06-02;Saúde;Não
+378;1705;2025-12-08;Saúde;Sim
+379;1708;2026-06-23;Preço;Sim
+380;1715;2025-09-06;Mudança;Sim
+381;1732;2026-04-17;Falta de tempo;Sim
+382;1737;2026-06-18;Mudança;Não
+383;1739;2026-06-03;Concorrência;Sim
+384;1752;2026-05-12;Mudança;Sim
+385;1760;2026-05-06;Falta de tempo;Sim
+386;1767;2025-10-30;Insatisfação;Não
+387;1768;2025-08-07;Mudança;Sim
+388;1773;2025-08-26;Concorrência;Sim
+389;1774;2025-08-18;Falta de tempo;Não
+390;1788;2025-07-08;Mudança;Sim
+391;1790;2026-01-20;Falta de tempo;Sim
+392;1792;2026-04-28;Mudança;Sim
+393;1799;2025-09-10;Insatisfação;Não
+394;1800;2025-10-20;Insatisfação;Sim
+395;1828;2026-01-04;Concorrência;Sim
+396;1848;2025-10-11;Mudança;Sim
+397;1860;2025-10-23;Falta de tempo;Não
+398;1864;2026-03-05;Falta de tempo;Não
+399;1866;2026-02-23;Saúde;Sim
+400;1872;2025-08-04;Insatisfação;Não
+401;1873;2025-09-07;Insatisfação;Sim
+402;1877;2025-12-17;Falta de tempo;Não
+403;1880;2026-04-01;Concorrência;Sim
+404;1881;2026-01-09;Insatisfação;Sim
+405;1883;2026-01-31;Mudança;Não
+406;1888;2026-03-27;Concorrência;Sim
+407;1892;2026-01-09;Preço;Não
+408;1898;2026-05-28;Preço;Sim
+409;1906;2026-03-27;Mudança;Sim
+410;1908;2025-09-19;Insatisfação;Sim
+411;1915;2025-09-03;Insatisfação;Não
+412;1916;2025-12-13;Mudança;Não
+413;1918;2026-06-21;Saúde;Sim
+414;1919;2026-01-16;Preço;Não
+415;1920;2026-04-07;Saúde;Sim
+416;1924;2026-05-31;Preço;Sim
+417;1926;2025-07-15;Falta de tempo;Não
+418;1928;2026-05-22;Insatisfação;Não
+419;1931;2025-08-27;Concorrência;Sim
+420;1942;2025-10-16;Insatisfação;Não
+421;1947;2025-09-16;Preço;Não
+422;1949;2025-08-22;Falta de tempo;Não
+423;1954;2026-06-26;Falta de tempo;Sim
+424;1961;2026-03-16;Preço;Não
+425;1969;2026-01-25;Falta de tempo;Não
+426;1977;2025-10-26;Saúde;Não
+427;1980;2025-07-09;Concorrência;Não
+428;1982;2025-07-01;Insatisfação;Sim
+429;2001;2026-05-31;Concorrência;Sim
+430;2010;2026-02-25;Preço;Sim
+431;2012;2025-11-19;Concorrência;Não
+432;2017;2025-07-19;Saúde;Sim
+433;2019;2026-05-15;Concorrência;Não
+434;2021;2025-07-25;Saúde;Sim
+435;2026;2026-04-17;Falta de tempo;Sim
+436;2033;2026-01-25;Saúde;Sim
+437;2037;2025-12-29;Saúde;Sim
+438;2043;2025-09-25;Insatisfação;Não
+439;2050;2025-10-15;Insatisfação;Sim
+440;2057;2025-10-23;Concorrência;Não
+441;2059;2026-02-24;Mudança;Sim
+442;2070;2026-04-16;Mudança;Sim
+443;2073;2025-07-19;Falta de tempo;Sim
+444;2076;2026-05-30;Insatisfação;Sim
+445;2079;2025-08-01;Concorrência;Sim
+446;2080;2026-04-03;Preço;Não
+447;2088;2025-10-07;Concorrência;Sim
+448;2089;2025-07-16;Saúde;Não
+449;2093;2025-11-08;Mudança;Sim
+450;2096;2025-11-23;Preço;Sim
+451;2105;2025-10-09;Falta de tempo;Não
+452;2112;2026-04-20;Falta de tempo;Sim
+453;2127;2026-04-18;Falta de tempo;Sim
+454;2128;2026-02-22;Falta de tempo;Sim
+455;2134;2025-10-02;Preço;Não
+456;2136;2025-12-20;Preço;Não
+457;2142;2026-04-28;Saúde;Sim
+458;2152;2025-10-24;Falta de tempo;Sim
+459;2155;2025-07-22;Preço;Não
+460;2158;2026-04-19;Concorrência;Sim
+461;2160;2025-10-23;Falta de tempo;Não
+462;2187;2026-03-04;Mudança;Não
+463;2190;2025-08-16;Falta de tempo;Sim
+464;2194;2025-07-28;Saúde;Não
+465;2199;2025-11-21;Preço;Não
+372;1675;2025-12-14;Preço;Sim
+384;1752;2026-05-12;Mudança;Sim
+251;1174;2025-10-24;Falta de tempo;Sim
+567;2;31/02/2026;Saúde;Não

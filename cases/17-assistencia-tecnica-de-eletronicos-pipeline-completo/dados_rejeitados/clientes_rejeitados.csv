@@ -1,0 +1,4 @@
+cliente_id,codigo_cliente,tipo_cliente,uf,motivo_rejeicao
+120,CLI-00120,Empresa,PR,pk_duplicada
+902,CLI-00902,Empresa,SP,pk_duplicada
+914,CLI-00914,Empresa,PR,pk_duplicada

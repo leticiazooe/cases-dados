@@ -1,0 +1,6 @@
+pagamento_id,honorario_id,parcela,valor,data_vencimento,data_pagamento,status,motivo_rejeicao
+1441,495,4,4942.36,2026-04-11,2026-05-06,Pago,pk_duplicada
+5471,1836,1,8409.56,2025-12-27,,Vencido,pk_duplicada
+2370,813,1,13317.52,2025-08-21,2025-08-29,Pago,pk_duplicada
+6642,1,1,895.75,,2025-12-26,Pago,data_invalida:data_vencimento
+6643,1,-999,895.75,2025-12-03,2025-12-26,Pago,negativo:parcela

@@ -1,0 +1,425 @@
+ativo_id;tipo;unidade;criticidade
+AT0001;  Misturador  ;Joinville;Baixa
+AT0002;  Painel elétrico  ;Guarulhos;Alta
+AT0003;  Prensa  ;Jaboticabal;Alta
+AT0004;  Misturador  ;Guarulhos;Alta
+AT0005;Misturador;Joinville;Baixa
+AT0006;Prensa;Joinville;Baixa
+AT0007;Painel elétrico;Jaboticabal;Alta
+AT0008;Prensa;Guarulhos;Média
+AT0009;Prensa;Guarulhos;Baixa
+AT0010;Prensa;Guarulhos;Alta
+AT0011;Prensa;Joinville;Alta
+AT0012;Misturador;Guarulhos;Média
+AT0013;Esteira;Joinville;Alta
+AT0014;Injetora;Guarulhos;Baixa
+AT0015;Painel elétrico;Joinville;Alta
+AT0016;Esteira;Joinville;Baixa
+AT0017;Misturador;Guarulhos;Baixa
+AT0018;Esteira;Joinville;Alta
+AT0019;Misturador;Jaboticabal;Média
+AT0020;Prensa;Jaboticabal;Baixa
+AT0021;Painel elétrico;Guarulhos;Alta
+AT0022;Injetora;Jaboticabal;Média
+AT0023;Painel elétrico;Joinville;Alta
+AT0024;Misturador;Jaboticabal;Alta
+AT0025;Painel elétrico;Jaboticabal;Alta
+AT0026;Painel elétrico;Joinville;Alta
+AT0027;Misturador;Guarulhos;Média
+AT0028;Injetora;Guarulhos;Alta
+AT0029;Esteira;Joinville;Baixa
+AT0030;Painel elétrico;Jaboticabal;Média
+AT0031;Misturador;Guarulhos;Média
+AT0032;Prensa;Guarulhos;Alta
+AT0033;Prensa;Jaboticabal;Alta
+AT0034;Painel elétrico;Joinville;Alta
+AT0035;Prensa;Joinville;Média
+AT0036;Painel elétrico;Joinville;Alta
+AT0037;Painel elétrico;Guarulhos;Baixa
+AT0038;Prensa;Guarulhos;Média
+AT0039;Esteira;Guarulhos;Média
+AT0040;Misturador;Guarulhos;Alta
+AT0041;Painel elétrico;Joinville;Alta
+AT0042;Misturador;Joinville;Baixa
+AT0043;Misturador;Jaboticabal;Média
+AT0044;Esteira;Guarulhos;Alta
+AT0045;Painel elétrico;Guarulhos;Média
+AT0046;Painel elétrico;Guarulhos;Alta
+AT0047;Painel elétrico;Jaboticabal;Alta
+AT0048;Esteira;Joinville;Baixa
+AT0049;Misturador;Jaboticabal;Alta
+AT0050;Injetora;Jaboticabal;Alta
+AT0051;Prensa;Guarulhos;Alta
+AT0052;Injetora;Joinville;Alta
+AT0053;Misturador;Joinville;Alta
+AT0054;Misturador;Joinville;Média
+AT0055;Esteira;Joinville;Baixa
+AT0056;Esteira;Joinville;Alta
+AT0057;Injetora;Joinville;Baixa
+AT0058;Painel elétrico;Joinville;Média
+AT0059;Esteira;Jaboticabal;Baixa
+AT0060;Prensa;Guarulhos;Alta
+AT0061;Misturador;Jaboticabal;Média
+AT0062;Misturador;Joinville;Alta
+AT0063;Misturador;Jaboticabal;Média
+AT0064;Painel elétrico;Guarulhos;Baixa
+AT0065;Esteira;Jaboticabal;Alta
+AT0066;Esteira;Jaboticabal;Média
+AT0067;Injetora;Guarulhos;Alta
+AT0068;Painel elétrico;Jaboticabal;Baixa
+AT0069;Injetora;Joinville;Baixa
+AT0070;Prensa;Jaboticabal;Média
+AT0071;Misturador;Jaboticabal;Média
+AT0072;Misturador;Guarulhos;Média
+AT0073;Prensa;Joinville;Baixa
+AT0074;Esteira;Joinville;Média
+AT0075;Injetora;Jaboticabal;Alta
+AT0076;Misturador;Guarulhos;Baixa
+AT0077;Injetora;Joinville;Alta
+AT0078;Esteira;Guarulhos;Baixa
+AT0079;Prensa;Joinville;Média
+AT0080;Misturador;Jaboticabal;Média
+AT0081;Esteira;Guarulhos;Média
+AT0082;Prensa;Guarulhos;Alta
+AT0083;Esteira;Jaboticabal;Baixa
+AT0084;Misturador;Joinville;Baixa
+AT0085;Misturador;Joinville;Alta
+AT0086;Prensa;Guarulhos;Média
+AT0087;Esteira;Jaboticabal;Alta
+AT0088;Prensa;Guarulhos;Alta
+AT0089;Prensa;Jaboticabal;Alta
+AT0090;Injetora;Jaboticabal;Alta
+AT0091;Injetora;Joinville;Alta
+AT0092;Esteira;Jaboticabal;Média
+AT0093;Misturador;Jaboticabal;Média
+AT0094;Injetora;Jaboticabal;Média
+AT0095;Esteira;Jaboticabal;Baixa
+AT0096;Painel elétrico;Joinville;Alta
+AT0097;Prensa;Joinville;Média
+AT0098;Misturador;Guarulhos;Média
+AT0099;Painel elétrico;Joinville;Média
+AT0100;Misturador;Joinville;Alta
+AT0101;Injetora;Guarulhos;Alta
+AT0102;Painel elétrico;Joinville;Média
+AT0103;Injetora;Joinville;Média
+AT0104;Injetora;Joinville;Média
+AT0105;Painel elétrico;Joinville;Baixa
+AT0106;Injetora;Jaboticabal;Baixa
+AT0107;Prensa;Guarulhos;Baixa
+AT0108;Painel elétrico;Guarulhos;Baixa
+AT0109;Prensa;Joinville;Alta
+AT0110;Esteira;Joinville;Baixa
+AT0111;Misturador;Joinville;Alta
+AT0112;Esteira;Joinville;Média
+AT0113;Injetora;Joinville;Baixa
+AT0114;Esteira;Jaboticabal;Baixa
+AT0115;Painel elétrico;Joinville;Alta
+AT0116;Prensa;Joinville;Média
+AT0117;Misturador;Joinville;Média
+AT0118;Injetora;Joinville;Baixa
+AT0119;Painel elétrico;Guarulhos;Baixa
+AT0120;Misturador;Guarulhos;Alta
+AT0121;Prensa;Jaboticabal;Baixa
+AT0122;Painel elétrico;Jaboticabal;Baixa
+AT0123;Esteira;Jaboticabal;Média
+AT0124;Esteira;Jaboticabal;Baixa
+AT0125;Painel elétrico;Jaboticabal;Média
+AT0126;Injetora;Jaboticabal;Média
+AT0127;Esteira;Jaboticabal;Alta
+AT0128;Misturador;Guarulhos;Média
+AT0129;Misturador;Joinville;Baixa
+AT0130;Painel elétrico;Jaboticabal;Baixa
+AT0131;Esteira;Guarulhos;Baixa
+AT0132;Prensa;Joinville;Baixa
+AT0133;Esteira;Joinville;Alta
+AT0134;Misturador;Joinville;Média
+AT0135;Esteira;Jaboticabal;Média
+AT0136;Esteira;Joinville;Média
+AT0137;Misturador;Guarulhos;Média
+AT0138;Prensa;Joinville;Alta
+AT0139;Painel elétrico;Joinville;Alta
+AT0140;Esteira;Joinville;Alta
+AT0141;Painel elétrico;Guarulhos;Alta
+AT0142;Prensa;Guarulhos;Baixa
+AT0143;Injetora;Joinville;Alta
+AT0144;Esteira;Guarulhos;Baixa
+AT0145;Esteira;Joinville;Média
+AT0146;Injetora;Joinville;Baixa
+AT0147;Misturador;Guarulhos;Baixa
+AT0148;Misturador;Guarulhos;Média
+AT0149;Injetora;Guarulhos;Média
+AT0150;Esteira;Joinville;Média
+AT0151;Injetora;Jaboticabal;Baixa
+AT0152;Injetora;Guarulhos;Média
+AT0153;Misturador;Jaboticabal;Média
+AT0154;Injetora;Jaboticabal;Média
+AT0155;Prensa;Joinville;Baixa
+AT0156;Prensa;Joinville;Média
+AT0157;Esteira;Guarulhos;Alta
+AT0158;Prensa;Jaboticabal;Média
+AT0159;Painel elétrico;Guarulhos;Alta
+AT0160;Misturador;Guarulhos;Baixa
+AT0161;Painel elétrico;Jaboticabal;Alta
+AT0162;Misturador;Joinville;Baixa
+AT0163;Misturador;Jaboticabal;Baixa
+AT0164;Injetora;Joinville;Baixa
+AT0165;Misturador;Jaboticabal;Média
+AT0166;Esteira;Joinville;Alta
+AT0167;Esteira;Jaboticabal;Alta
+AT0168;Esteira;Joinville;Média
+AT0169;Misturador;Jaboticabal;Alta
+AT0170;Prensa;Guarulhos;Média
+AT0171;Painel elétrico;Jaboticabal;Baixa
+AT0172;Misturador;Joinville;Média
+AT0173;Injetora;Guarulhos;Baixa
+AT0174;Esteira;Jaboticabal;Baixa
+AT0175;Esteira;Jaboticabal;Baixa
+AT0176;Esteira;Jaboticabal;Baixa
+AT0177;Injetora;Joinville;Alta
+AT0178;Misturador;Jaboticabal;Alta
+AT0179;Prensa;Guarulhos;Baixa
+AT0180;Injetora;Guarulhos;Alta
+AT0181;Prensa;Jaboticabal;Baixa
+AT0182;Misturador;Joinville;Alta
+AT0183;Esteira;Guarulhos;Alta
+AT0184;Misturador;Joinville;Média
+AT0185;Painel elétrico;Guarulhos;Baixa
+AT0186;Painel elétrico;Jaboticabal;Alta
+AT0187;Painel elétrico;Guarulhos;Média
+AT0188;Misturador;Guarulhos;Média
+AT0189;Prensa;Guarulhos;Baixa
+AT0190;Misturador;Jaboticabal;Baixa
+AT0191;Prensa;Joinville;Média
+AT0192;Misturador;Guarulhos;Baixa
+AT0193;Injetora;Joinville;Média
+AT0194;Injetora;Jaboticabal;Alta
+AT0195;Esteira;Guarulhos;Média
+AT0196;Misturador;Jaboticabal;Baixa
+AT0197;Prensa;Jaboticabal;Baixa
+AT0198;Painel elétrico;Joinville;Baixa
+AT0199;Prensa;Joinville;Média
+AT0200;Prensa;Jaboticabal;Alta
+AT0201;Esteira;Guarulhos;Alta
+AT0202;Misturador;Guarulhos;Média
+AT0203;Injetora;Jaboticabal;Alta
+AT0204;Painel elétrico;Jaboticabal;Média
+AT0205;Esteira;Guarulhos;Alta
+AT0206;Prensa;Guarulhos;Média
+AT0207;Misturador;Joinville;Baixa
+AT0208;Esteira;Guarulhos;Média
+AT0209;Misturador;Guarulhos;Média
+AT0210;Esteira;Guarulhos;Baixa
+AT0211;Painel elétrico;Joinville;Baixa
+AT0212;Prensa;Guarulhos;Média
+AT0213;Injetora;Guarulhos;Alta
+AT0214;Prensa;Jaboticabal;Baixa
+AT0215;Esteira;Guarulhos;Baixa
+AT0216;Injetora;Jaboticabal;Alta
+AT0217;Injetora;Jaboticabal;Baixa
+AT0218;Misturador;Joinville;Alta
+AT0219;Esteira;Guarulhos;Baixa
+AT0220;Injetora;Joinville;Baixa
+AT0221;Prensa;Jaboticabal;Média
+AT0222;Injetora;Guarulhos;Baixa
+AT0223;Painel elétrico;Jaboticabal;Média
+AT0224;Injetora;Jaboticabal;Média
+AT0225;Injetora;Jaboticabal;Média
+AT0226;Painel elétrico;Jaboticabal;Baixa
+AT0227;Esteira;Guarulhos;Baixa
+AT0228;Esteira;Joinville;Baixa
+AT0229;Injetora;Guarulhos;Alta
+AT0230;Esteira;Jaboticabal;Baixa
+AT0231;Esteira;Jaboticabal;Baixa
+AT0232;Prensa;Guarulhos;Alta
+AT0233;Misturador;Joinville;Alta
+AT0234;Esteira;Jaboticabal;Baixa
+AT0235;Misturador;Jaboticabal;Alta
+AT0236;Injetora;Guarulhos;Alta
+AT0237;Misturador;Jaboticabal;Média
+AT0238;Prensa;Guarulhos;Baixa
+AT0239;Esteira;Joinville;Baixa
+AT0240;Misturador;Guarulhos;Alta
+AT0241;Prensa;Jaboticabal;Média
+AT0242;Misturador;Guarulhos;Baixa
+AT0243;Esteira;Guarulhos;Alta
+AT0244;Misturador;Jaboticabal;Alta
+AT0245;Injetora;Guarulhos;Alta
+AT0246;Injetora;Guarulhos;Baixa
+AT0247;Injetora;Jaboticabal;Baixa
+AT0248;Misturador;Jaboticabal;Média
+AT0249;Injetora;Jaboticabal;Baixa
+AT0250;Painel elétrico;Joinville;Alta
+AT0251;Painel elétrico;Guarulhos;Média
+AT0252;Prensa;Jaboticabal;Média
+AT0253;Misturador;Guarulhos;Alta
+AT0254;Misturador;Joinville;Baixa
+AT0255;Misturador;Joinville;Baixa
+AT0256;Prensa;Joinville;Baixa
+AT0257;Misturador;Jaboticabal;Média
+AT0258;Misturador;Guarulhos;Alta
+AT0259;Prensa;Guarulhos;Alta
+AT0260;Esteira;Joinville;Alta
+AT0261;Esteira;Jaboticabal;Média
+AT0262;Misturador;Jaboticabal;Alta
+AT0263;Prensa;Jaboticabal;Alta
+AT0264;Misturador;Jaboticabal;Média
+AT0265;Injetora;Jaboticabal;Média
+AT0266;Injetora;Joinville;Média
+AT0267;Esteira;Joinville;Baixa
+AT0268;Injetora;Guarulhos;Baixa
+AT0269;Misturador;Joinville;Alta
+AT0270;Misturador;Joinville;Média
+AT0271;Injetora;Guarulhos;Média
+AT0272;Injetora;Jaboticabal;Alta
+AT0273;Prensa;Joinville;Alta
+AT0274;Injetora;Guarulhos;Baixa
+AT0275;Injetora;Joinville;Alta
+AT0276;Esteira;Jaboticabal;Média
+AT0277;Painel elétrico;Jaboticabal;Baixa
+AT0278;Esteira;Jaboticabal;Baixa
+AT0279;Esteira;Joinville;Alta
+AT0280;Prensa;Jaboticabal;Baixa
+AT0281;Prensa;Guarulhos;Alta
+AT0282;Esteira;Guarulhos;Média
+AT0283;Misturador;Guarulhos;Baixa
+AT0284;Esteira;Guarulhos;Alta
+AT0285;Prensa;Joinville;Alta
+AT0286;Esteira;Jaboticabal;Alta
+AT0287;Painel elétrico;Jaboticabal;Média
+AT0288;Misturador;Joinville;Alta
+AT0289;Prensa;Joinville;Média
+AT0290;Prensa;Jaboticabal;Alta
+AT0291;Painel elétrico;Guarulhos;Baixa
+AT0292;Misturador;Jaboticabal;Alta
+AT0293;Misturador;Guarulhos;Baixa
+AT0294;Injetora;Guarulhos;Baixa
+AT0295;Prensa;Jaboticabal;Baixa
+AT0296;Painel elétrico;Joinville;Média
+AT0297;Painel elétrico;Jaboticabal;Alta
+AT0298;Prensa;Guarulhos;Alta
+AT0299;Esteira;Guarulhos;Alta
+AT0300;Misturador;Joinville;Alta
+AT0301;Prensa;Jaboticabal;Baixa
+AT0302;Painel elétrico;Guarulhos;Baixa
+AT0303;Misturador;Joinville;Média
+AT0304;Prensa;Guarulhos;Baixa
+AT0305;Esteira;Joinville;Baixa
+AT0306;Painel elétrico;Joinville;Baixa
+AT0307;Painel elétrico;Guarulhos;Baixa
+AT0308;Injetora;Jaboticabal;Baixa
+AT0309;Painel elétrico;Joinville;Alta
+AT0310;Painel elétrico;Joinville;Baixa
+AT0311;Injetora;Guarulhos;Alta
+AT0312;Injetora;Joinville;Baixa
+AT0313;Esteira;Guarulhos;Alta
+AT0314;Prensa;Guarulhos;Baixa
+AT0315;Injetora;Guarulhos;Média
+AT0316;Misturador;Joinville;Baixa
+AT0317;Injetora;Jaboticabal;Alta
+AT0318;Injetora;Guarulhos;Baixa
+AT0319;Misturador;Jaboticabal;Baixa
+AT0320;Misturador;Jaboticabal;Baixa
+AT0321;Esteira;Jaboticabal;Média
+AT0322;Painel elétrico;Jaboticabal;Média
+AT0323;Prensa;Joinville;Média
+AT0324;Esteira;Jaboticabal;Média
+AT0325;Painel elétrico;Guarulhos;Média
+AT0326;Misturador;Joinville;Baixa
+AT0327;Painel elétrico;Guarulhos;Baixa
+AT0328;Prensa;Jaboticabal;Média
+AT0329;Esteira;Joinville;Média
+AT0330;Misturador;Guarulhos;Alta
+AT0331;Prensa;Joinville;Alta
+AT0332;Misturador;Joinville;Baixa
+AT0333;Esteira;Joinville;Alta
+AT0334;Esteira;Guarulhos;Alta
+AT0335;Painel elétrico;Guarulhos;Média
+AT0336;Esteira;Guarulhos;Média
+AT0337;Painel elétrico;Jaboticabal;Alta
+AT0338;Injetora;Guarulhos;Média
+AT0339;Painel elétrico;Joinville;Baixa
+AT0340;Prensa;Guarulhos;Média
+AT0341;Misturador;Jaboticabal;Baixa
+AT0342;Esteira;Joinville;Média
+AT0343;Prensa;Joinville;Alta
+AT0344;Misturador;Jaboticabal;Baixa
+AT0345;Painel elétrico;Joinville;Baixa
+AT0346;Misturador;Joinville;Baixa
+AT0347;Prensa;Joinville;Média
+AT0348;Esteira;Joinville;Alta
+AT0349;Injetora;Jaboticabal;Alta
+AT0350;Esteira;Joinville;Baixa
+AT0351;Painel elétrico;Guarulhos;Alta
+AT0352;Esteira;Guarulhos;Alta
+AT0353;Misturador;Guarulhos;Média
+AT0354;Prensa;Jaboticabal;Média
+AT0355;Prensa;Jaboticabal;Alta
+AT0356;Injetora;Jaboticabal;Baixa
+AT0357;Prensa;Joinville;Baixa
+AT0358;Esteira;Guarulhos;Alta
+AT0359;Esteira;Joinville;Média
+AT0360;Misturador;Guarulhos;Alta
+AT0361;Prensa;Jaboticabal;Média
+AT0362;Misturador;Guarulhos;Baixa
+AT0363;Painel elétrico;Joinville;Baixa
+AT0364;Injetora;Jaboticabal;Baixa
+AT0365;Prensa;Joinville;Baixa
+AT0366;Painel elétrico;Jaboticabal;Alta
+AT0367;Injetora;Joinville;Baixa
+AT0368;Painel elétrico;Joinville;Alta
+AT0369;Injetora;Guarulhos;Alta
+AT0370;Esteira;Jaboticabal;Baixa
+AT0371;Misturador;Joinville;Média
+AT0372;Prensa;Jaboticabal;Média
+AT0373;Esteira;Guarulhos;Baixa
+AT0374;Painel elétrico;Guarulhos;Média
+AT0375;Esteira;Jaboticabal;Baixa
+AT0376;Esteira;Guarulhos;Baixa
+AT0377;Painel elétrico;Joinville;Média
+AT0378;Painel elétrico;Jaboticabal;Baixa
+AT0379;Misturador;Guarulhos;Baixa
+AT0380;Painel elétrico;Guarulhos;Alta
+AT0381;Painel elétrico;Guarulhos;Média
+AT0382;Injetora;Guarulhos;Baixa
+AT0383;Esteira;Jaboticabal;Alta
+AT0384;Misturador;Guarulhos;Alta
+AT0385;Painel elétrico;Joinville;Alta
+AT0386;Esteira;Guarulhos;Baixa
+AT0387;Esteira;Jaboticabal;Alta
+AT0388;Esteira;Jaboticabal;Baixa
+AT0389;Painel elétrico;Joinville;Média
+AT0390;Injetora;Guarulhos;Alta
+AT0391;Painel elétrico;Jaboticabal;Baixa
+AT0392;Prensa;Jaboticabal;Baixa
+AT0393;Misturador;Guarulhos;Média
+AT0394;Esteira;Joinville;Baixa
+AT0395;Painel elétrico;Joinville;Alta
+AT0396;Injetora;Jaboticabal;Baixa
+AT0397;Misturador;Guarulhos;Baixa
+AT0398;Painel elétrico;Joinville;Média
+AT0399;Prensa;Joinville;Alta
+AT0400;Painel elétrico;Jaboticabal;Baixa
+AT0401;Injetora;Joinville;Baixa
+AT0402;Injetora;Joinville;Média
+AT0403;Prensa;Jaboticabal;Média
+AT0404;Prensa;Jaboticabal;Alta
+AT0405;Injetora;Guarulhos;Baixa
+AT0406;Prensa;Jaboticabal;Média
+AT0407;Esteira;Guarulhos;Alta
+AT0408;Esteira;Jaboticabal;Média
+AT0409;Painel elétrico;Joinville;Média
+AT0410;Painel elétrico;Jaboticabal;Baixa
+AT0411;Misturador;Jaboticabal;Alta
+AT0412;Prensa;Guarulhos;Média
+AT0413;Misturador;Jaboticabal;Alta
+AT0414;Prensa;Joinville;Média
+AT0415;Misturador;Jaboticabal;Alta
+AT0416;Esteira;Guarulhos;Baixa
+AT0417;Esteira;Joinville;Média
+AT0418;Misturador;Jaboticabal;Baixa
+AT0419;Prensa;Guarulhos;Alta
+AT0420;Misturador;Guarulhos;Média
+AT0416;Esteira;Guarulhos;Baixa
+AT0089;Prensa;Jaboticabal;Alta
+AT0077;Injetora;Joinville;Alta
+;Misturador;Joinville;Baixa

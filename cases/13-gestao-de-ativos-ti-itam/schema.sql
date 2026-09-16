@@ -1,0 +1,14 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE dim_unidade(unidade_id INTEGER PRIMARY KEY,unidade TEXT,cidade TEXT,uf TEXT);
+CREATE TABLE dim_localizacao(localizacao_id INTEGER PRIMARY KEY,unidade_id INTEGER,local TEXT,area TEXT,FOREIGN KEY(unidade_id) REFERENCES dim_unidade);
+CREATE TABLE dim_tipo_ativo(tipo_id INTEGER PRIMARY KEY,tipo TEXT,categoria TEXT,vida_util_anos INTEGER);
+CREATE TABLE dim_fornecedor(fornecedor_id INTEGER PRIMARY KEY,fornecedor TEXT);
+CREATE TABLE dim_colaborador(colaborador_id INTEGER PRIMARY KEY,registro TEXT UNIQUE,nome TEXT,unidade_id INTEGER,area TEXT,status TEXT,FOREIGN KEY(unidade_id) REFERENCES dim_unidade);
+CREATE TABLE fato_ativo(ativo_id INTEGER PRIMARY KEY,patrimonio TEXT UNIQUE,tipo_id INTEGER,fornecedor_id INTEGER,modelo TEXT,numero_serie TEXT UNIQUE,hostname TEXT,localizacao_id INTEGER,data_compra TEXT,custo_aquisicao REAL,fim_garantia TEXT,vida_util_anos INTEGER,valor_contabil REAL,status TEXT,estado_conservacao TEXT,perfil_uso TEXT,FOREIGN KEY(tipo_id) REFERENCES dim_tipo_ativo,FOREIGN KEY(fornecedor_id) REFERENCES dim_fornecedor,FOREIGN KEY(localizacao_id) REFERENCES dim_localizacao);
+CREATE TABLE fato_atribuicao(atribuicao_id INTEGER PRIMARY KEY,ativo_id INTEGER,colaborador_id INTEGER,data_inicio TEXT,data_fim TEXT,observacao TEXT,FOREIGN KEY(ativo_id) REFERENCES fato_ativo,FOREIGN KEY(colaborador_id) REFERENCES dim_colaborador);
+CREATE TABLE fato_movimentacao(movimentacao_id INTEGER PRIMARY KEY,ativo_id INTEGER,data_movimentacao TEXT,origem_id INTEGER,destino_id INTEGER,tipo TEXT,responsavel TEXT,FOREIGN KEY(ativo_id) REFERENCES fato_ativo,FOREIGN KEY(origem_id) REFERENCES dim_localizacao,FOREIGN KEY(destino_id) REFERENCES dim_localizacao);
+CREATE TABLE fato_manutencao(manutencao_id INTEGER PRIMARY KEY,ativo_id INTEGER,data_manutencao TEXT,tipo TEXT,status TEXT,custo REAL,motivo TEXT,indisponibilidade_dias INTEGER,FOREIGN KEY(ativo_id) REFERENCES fato_ativo);
+CREATE TABLE dim_software(software_id INTEGER PRIMARY KEY,software TEXT,categoria TEXT,fornecedor_id INTEGER,modelo_licenciamento TEXT,FOREIGN KEY(fornecedor_id) REFERENCES dim_fornecedor);
+CREATE TABLE fato_contrato_licenca(contrato_id INTEGER PRIMARY KEY,software_id INTEGER,codigo TEXT UNIQUE,quantidade_adquirida INTEGER,custo_total REAL,data_inicio TEXT,data_fim TEXT,status TEXT,FOREIGN KEY(software_id) REFERENCES dim_software);
+CREATE TABLE fato_alocacao_licenca(alocacao_id INTEGER PRIMARY KEY,contrato_id INTEGER,colaborador_id INTEGER,ativo_id INTEGER,data_alocacao TEXT,status TEXT,FOREIGN KEY(contrato_id) REFERENCES fato_contrato_licenca,FOREIGN KEY(colaborador_id) REFERENCES dim_colaborador,FOREIGN KEY(ativo_id) REFERENCES fato_ativo);
+CREATE INDEX idx_ativo_status ON fato_ativo(status);CREATE INDEX idx_ativo_garantia ON fato_ativo(fim_garantia);CREATE INDEX idx_ativo_tipo ON fato_ativo(tipo_id);

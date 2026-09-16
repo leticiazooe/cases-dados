@@ -1,0 +1,5 @@
+fornecedor_id,categoria,score,status,motivo_rejeicao
+FO0062,Embalagens,0.683,Ativo,pk_duplicada
+FO0219,Químicos,0.932,Ativo,pk_duplicada
+FO0073,Serviços,0.88,Ativo,pk_duplicada
+ERRO_fornecedores_1,Logística,-999.0,Ativo,valor_negativo:score

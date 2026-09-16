@@ -1,0 +1,11 @@
+tabela,brutas,tratadas_pre_fk,rejeitadas,duplicadas,tratadas_finais,esperadas,reconciliado
+clientes,603,600,3,3,600,600,True
+documentos,7204,7200,4,3,7200,7200,True
+guias,7205,7200,5,3,7200,7200,True
+honorarios,7205,7200,5,3,7200,7200,True
+impostos,7205,7200,5,3,7200,7200,True
+obrigacoes,14491,14487,4,3,14487,14487,True
+pendencias,1639,1635,4,3,1635,1635,True
+regimes,7,4,3,3,4,4,True
+responsaveis,38,35,3,3,35,35,True
+tipos_obrigacao,15,12,3,3,12,12,True

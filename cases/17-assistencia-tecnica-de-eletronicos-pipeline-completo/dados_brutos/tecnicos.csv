@@ -1,0 +1,29 @@
+tecnico_id;codigo_tecnico;especialidade;senioridade
+1;  TEC-001  ;Redes;Pleno
+2;  TEC-002  ;Áudio e vídeo;Pleno
+3;  TEC-003  ;Mobile;Júnior
+4;  TEC-004  ;Informática;Sênior
+5;TEC-005;Áudio e vídeo;Pleno
+6;TEC-006;Mobile;Sênior
+7;TEC-007;Informática;Sênior
+8;TEC-008;Mobile;Pleno
+9;TEC-009;Áudio e vídeo;Pleno
+10;TEC-010;Redes;Sênior
+11;TEC-011;Mobile;Sênior
+12;TEC-012;Informática;Sênior
+13;TEC-013;Informática;Pleno
+14;TEC-014;Informática;Júnior
+15;TEC-015;Áudio e vídeo;Sênior
+16;TEC-016;Áudio e vídeo;Sênior
+17;TEC-017;Informática;Pleno
+18;TEC-018;Áudio e vídeo;Pleno
+19;TEC-019;Redes;Pleno
+20;TEC-020;Redes;Júnior
+21;TEC-021;Redes;Sênior
+22;TEC-022;Mobile;Pleno
+23;TEC-023;Áudio e vídeo;Pleno
+24;TEC-024;Áudio e vídeo;Júnior
+25;TEC-025;Informática;Sênior
+17;TEC-017;Informática;Pleno
+23;TEC-023;Áudio e vídeo;Pleno
+3;TEC-003;Mobile;Júnior

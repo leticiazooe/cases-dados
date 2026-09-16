@@ -1,0 +1,5 @@
+medicao_id,calibracao_id,ponto,erro,tolerancia,motivo_rejeicao
+ME08842,CA03943,100%,0.1957,0.378,pk_duplicada
+ME01578,CA06001,75%,-0.117,0.456,pk_duplicada
+ME16520,CA00265,75%,0.0462,0.386,pk_duplicada
+ERRO_medicoes_1,CA00318,25%,-0.2212,-999.0,valor_negativo:tolerancia

@@ -1,0 +1,12 @@
+Total Pedidos = COUNTROWS(fato_pedido)
+Pedidos Entregues = CALCULATE([Total Pedidos], fato_pedido[status] = "Entregue")
+Receita = SUM(fato_venda[receita])
+Custo Estimado = SUM(fato_venda[custo_estimado])
+Margem Estimada = [Receita] - [Custo Estimado]
+Margem % = DIVIDE([Margem Estimada], [Receita])
+Tempo Médio Produção = AVERAGE(fato_producao[tempo_producao_dias])
+Taxa Aprovação CQ = AVERAGE(fato_controle_qualidade[liberado])
+Entregas no Prazo = AVERAGE(fato_entrega[no_prazo])
+Lotes a Vencer = CALCULATE(COUNTROWS(fato_lote_insumo), fato_lote_insumo[validade] <= TODAY()+90, fato_lote_insumo[saldo_atual] > 0)
+Ticket Médio = DIVIDE([Receita], COUNTROWS(fato_venda))
+Pedidos com Desvio = CALCULATE(COUNTROWS(fato_producao), fato_producao[desvio] <> "Sem desvio")

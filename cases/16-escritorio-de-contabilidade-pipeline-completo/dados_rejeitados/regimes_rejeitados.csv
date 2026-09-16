@@ -1,0 +1,4 @@
+regime_id,regime_tributario,motivo_rejeicao
+3,Lucro Real,pk_duplicada
+4,MEI,pk_duplicada
+2,Lucro Presumido,pk_duplicada

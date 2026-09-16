@@ -1,0 +1,5 @@
+os_id,codigo_os,equipamento_id,tecnico_id,data_abertura,data_prometida,data_fechamento,status,dentro_sla,canal,motivo_rejeicao
+1017,OS-001017,1017,7,2026-03-14,2026-03-16,,Orçamento recusado,0,Balcão,pk_duplicada
+2254,OS-002254,2254,9,2025-11-19,2025-11-24,2025-11-24,Concluída,1,Balcão,pk_duplicada
+244,OS-000244,244,2,2025-09-22,2025-10-02,2025-09-23,Concluída,1,Balcão,pk_duplicada
+4102,OS-000001,1,4,,2025-09-04,2025-09-04,Concluída,1,Coleta,data_invalida:data_abertura

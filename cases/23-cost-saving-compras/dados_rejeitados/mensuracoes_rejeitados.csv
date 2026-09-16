@@ -1,0 +1,5 @@
+mensuracao_id,projeto_id,competencia,valor_realizado,saving_validado,status,motivo_rejeicao
+MN00850,CS02135,2025-05-01,17199.81,374.29,Pendente,pk_duplicada
+MN03593,CS01661,2024-06-01,3580.04,844.73,Pendente,pk_duplicada
+MN04894,CS00953,2024-11-01,5107.96,820.25,Validado,pk_duplicada
+ERRO_mensuracoes_1,CS03123,,5613.29,163.21,Validado,data_invalida:competencia

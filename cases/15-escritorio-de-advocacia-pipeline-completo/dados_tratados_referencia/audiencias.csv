@@ -1,0 +1,1547 @@
+audiencia_id,processo_id,data_audiencia,tipo,modalidade,status,resultado
+1,1,2026-10-05,Instrução,Presencial,Cancelada,Acordo
+2,3,2026-06-05,Conciliação,Virtual,Realizada,Adiada
+3,4,2026-07-24,Julgamento,Virtual,Realizada,Sem acordo
+4,5,2026-12-03,Instrução,Presencial,Agendada,Pendente
+5,7,2026-03-09,Conciliação,Presencial,Realizada,Adiada
+6,9,2026-03-24,Julgamento,Virtual,Cancelada,Sem acordo
+7,10,2025-10-28,Conciliação,Virtual,Cancelada,Sem acordo
+8,11,2026-11-29,Instrução,Presencial,Cancelada,Sem acordo
+9,13,2026-04-15,Instrução,Virtual,Realizada,Acordo
+10,14,2026-06-09,Conciliação,Virtual,Cancelada,Acordo
+11,15,2026-09-30,Instrução,Virtual,Agendada,Pendente
+12,17,2027-03-10,Conciliação,Presencial,Agendada,Pendente
+13,18,2026-03-29,Instrução,Virtual,Agendada,Pendente
+14,19,2026-07-29,Julgamento,Presencial,Realizada,Adiada
+15,21,2026-05-29,Julgamento,Virtual,Cancelada,Pendente
+16,22,2026-07-13,Instrução,Virtual,Realizada,Sem acordo
+17,23,2027-04-14,Conciliação,Presencial,Realizada,Sem acordo
+18,26,2026-03-02,Julgamento,Presencial,Agendada,Acordo
+19,27,2026-08-16,Instrução,Virtual,Realizada,Adiada
+20,28,2027-01-29,Conciliação,Virtual,Realizada,Sem acordo
+21,29,2026-01-24,Conciliação,Presencial,Realizada,Sem acordo
+22,30,2026-10-27,Instrução,Virtual,Realizada,Adiada
+23,31,2026-08-01,Julgamento,Presencial,Agendada,Adiada
+24,32,2027-03-23,Conciliação,Virtual,Realizada,Pendente
+25,34,2026-12-07,Conciliação,Presencial,Cancelada,Acordo
+26,36,2026-12-30,Instrução,Virtual,Agendada,Sem acordo
+27,38,2027-03-02,Julgamento,Presencial,Realizada,Acordo
+28,39,2027-01-24,Instrução,Virtual,Agendada,Sem acordo
+29,41,2026-07-14,Julgamento,Virtual,Realizada,Pendente
+30,42,2027-04-13,Julgamento,Presencial,Realizada,Sem acordo
+31,43,2026-07-23,Instrução,Presencial,Realizada,Pendente
+32,44,2026-06-15,Conciliação,Presencial,Realizada,Pendente
+33,45,2027-04-13,Julgamento,Presencial,Agendada,Sem acordo
+34,47,2026-05-21,Conciliação,Virtual,Agendada,Acordo
+35,50,2026-01-17,Julgamento,Virtual,Realizada,Adiada
+36,52,2026-04-08,Julgamento,Virtual,Agendada,Sem acordo
+37,55,2027-04-04,Julgamento,Virtual,Agendada,Sem acordo
+38,56,2026-11-26,Conciliação,Virtual,Cancelada,Acordo
+39,58,2026-12-11,Instrução,Presencial,Realizada,Adiada
+40,60,2025-09-23,Julgamento,Presencial,Realizada,Sem acordo
+41,62,2026-07-26,Julgamento,Presencial,Agendada,Sem acordo
+42,63,2026-12-18,Conciliação,Presencial,Realizada,Pendente
+43,64,2026-07-30,Instrução,Presencial,Agendada,Acordo
+44,66,2025-11-27,Julgamento,Presencial,Cancelada,Pendente
+45,67,2027-02-14,Instrução,Virtual,Cancelada,Adiada
+46,69,2027-05-18,Conciliação,Virtual,Agendada,Sem acordo
+47,72,2027-06-08,Instrução,Presencial,Agendada,Pendente
+48,73,2026-07-04,Instrução,Virtual,Realizada,Acordo
+49,74,2026-08-29,Instrução,Virtual,Agendada,Sem acordo
+50,75,2027-03-21,Instrução,Presencial,Realizada,Acordo
+51,76,2027-02-25,Instrução,Virtual,Agendada,Acordo
+52,77,2026-06-29,Instrução,Presencial,Cancelada,Adiada
+53,80,2026-07-19,Instrução,Presencial,Realizada,Acordo
+54,81,2027-04-25,Instrução,Presencial,Agendada,Pendente
+55,82,2027-02-26,Instrução,Presencial,Agendada,Sem acordo
+56,84,2027-04-01,Julgamento,Virtual,Cancelada,Adiada
+57,85,2026-06-02,Julgamento,Virtual,Realizada,Acordo
+58,86,2027-03-11,Julgamento,Presencial,Realizada,Acordo
+59,87,2026-12-31,Conciliação,Presencial,Realizada,Adiada
+60,88,2026-07-11,Julgamento,Virtual,Agendada,Sem acordo
+61,91,2026-01-24,Instrução,Virtual,Cancelada,Acordo
+62,92,2025-12-30,Julgamento,Virtual,Realizada,Sem acordo
+63,93,2026-04-27,Julgamento,Virtual,Cancelada,Acordo
+64,95,2027-02-05,Julgamento,Virtual,Cancelada,Sem acordo
+65,97,2027-05-06,Conciliação,Presencial,Cancelada,Adiada
+66,99,2027-05-06,Instrução,Presencial,Realizada,Pendente
+67,100,2026-11-01,Conciliação,Presencial,Agendada,Pendente
+68,101,2026-10-17,Conciliação,Presencial,Cancelada,Acordo
+69,102,2026-12-18,Instrução,Presencial,Agendada,Acordo
+70,104,2027-01-06,Julgamento,Presencial,Cancelada,Sem acordo
+71,105,2026-09-07,Instrução,Presencial,Cancelada,Pendente
+72,108,2026-04-02,Instrução,Presencial,Cancelada,Pendente
+73,109,2026-03-24,Julgamento,Virtual,Realizada,Acordo
+74,110,2026-02-27,Conciliação,Presencial,Cancelada,Pendente
+75,111,2027-05-04,Conciliação,Presencial,Agendada,Acordo
+76,112,2027-10-15,Julgamento,Virtual,Cancelada,Adiada
+77,113,2025-09-26,Conciliação,Presencial,Realizada,Pendente
+78,114,2026-05-11,Julgamento,Virtual,Agendada,Adiada
+79,117,2026-05-15,Julgamento,Presencial,Cancelada,Sem acordo
+80,118,2026-07-12,Conciliação,Presencial,Agendada,Pendente
+81,119,2027-02-26,Instrução,Presencial,Agendada,Pendente
+82,122,2025-11-24,Instrução,Virtual,Realizada,Sem acordo
+83,124,2027-05-19,Julgamento,Presencial,Agendada,Acordo
+84,125,2026-07-02,Julgamento,Presencial,Realizada,Pendente
+85,127,2026-08-20,Conciliação,Virtual,Realizada,Adiada
+86,128,2026-11-27,Conciliação,Virtual,Realizada,Adiada
+87,129,2026-08-21,Conciliação,Virtual,Agendada,Adiada
+88,131,2026-12-10,Julgamento,Presencial,Realizada,Pendente
+89,132,2026-01-02,Julgamento,Virtual,Realizada,Sem acordo
+90,134,2026-12-10,Julgamento,Presencial,Agendada,Sem acordo
+91,135,2026-09-27,Instrução,Virtual,Cancelada,Pendente
+92,136,2025-11-29,Conciliação,Virtual,Agendada,Acordo
+93,137,2026-12-19,Julgamento,Presencial,Cancelada,Sem acordo
+94,138,2027-01-07,Conciliação,Virtual,Cancelada,Acordo
+95,139,2027-08-31,Instrução,Virtual,Cancelada,Pendente
+96,141,2027-05-04,Conciliação,Presencial,Cancelada,Pendente
+97,143,2026-06-16,Julgamento,Virtual,Cancelada,Acordo
+98,144,2026-05-27,Conciliação,Virtual,Agendada,Acordo
+99,145,2026-05-03,Conciliação,Virtual,Realizada,Acordo
+100,147,2026-10-16,Conciliação,Presencial,Realizada,Pendente
+101,154,2026-03-06,Julgamento,Virtual,Cancelada,Pendente
+102,158,2026-05-02,Conciliação,Virtual,Cancelada,Pendente
+103,159,2027-07-05,Instrução,Presencial,Agendada,Pendente
+104,160,2026-06-12,Instrução,Presencial,Realizada,Pendente
+105,161,2026-05-06,Conciliação,Presencial,Realizada,Pendente
+106,162,2027-02-24,Julgamento,Virtual,Cancelada,Adiada
+107,164,2025-11-30,Conciliação,Presencial,Agendada,Pendente
+108,165,2026-11-25,Instrução,Presencial,Cancelada,Adiada
+109,166,2026-03-27,Conciliação,Virtual,Agendada,Adiada
+110,167,2026-08-03,Instrução,Virtual,Cancelada,Pendente
+111,168,2027-06-16,Conciliação,Virtual,Cancelada,Acordo
+112,170,2026-02-16,Instrução,Presencial,Cancelada,Pendente
+113,171,2025-12-11,Instrução,Virtual,Realizada,Sem acordo
+114,172,2027-05-15,Julgamento,Presencial,Cancelada,Pendente
+115,173,2026-09-27,Conciliação,Presencial,Realizada,Sem acordo
+116,175,2027-06-26,Julgamento,Presencial,Realizada,Pendente
+117,176,2026-12-24,Conciliação,Presencial,Agendada,Sem acordo
+118,177,2027-04-05,Conciliação,Presencial,Realizada,Adiada
+119,178,2027-03-15,Julgamento,Presencial,Cancelada,Pendente
+120,179,2026-11-19,Instrução,Presencial,Agendada,Acordo
+121,180,2027-01-28,Instrução,Virtual,Cancelada,Pendente
+122,181,2027-01-11,Conciliação,Virtual,Cancelada,Pendente
+123,182,2027-02-06,Conciliação,Presencial,Cancelada,Adiada
+124,183,2026-11-30,Julgamento,Presencial,Agendada,Acordo
+125,184,2026-04-22,Instrução,Presencial,Agendada,Adiada
+126,185,2027-01-03,Julgamento,Presencial,Cancelada,Sem acordo
+127,186,2026-04-09,Instrução,Virtual,Cancelada,Adiada
+128,188,2026-10-29,Julgamento,Presencial,Agendada,Adiada
+129,190,2027-03-07,Conciliação,Presencial,Realizada,Acordo
+130,191,2027-04-18,Conciliação,Virtual,Agendada,Pendente
+131,195,2026-05-16,Instrução,Presencial,Realizada,Pendente
+132,196,2026-11-22,Conciliação,Presencial,Cancelada,Adiada
+133,197,2026-12-20,Conciliação,Presencial,Agendada,Acordo
+134,198,2025-09-20,Conciliação,Presencial,Cancelada,Pendente
+135,199,2027-02-09,Conciliação,Virtual,Cancelada,Adiada
+136,200,2026-07-23,Instrução,Virtual,Cancelada,Adiada
+137,201,2026-11-24,Julgamento,Virtual,Realizada,Acordo
+138,202,2025-12-23,Instrução,Virtual,Agendada,Sem acordo
+139,203,2026-07-31,Julgamento,Presencial,Cancelada,Adiada
+140,206,2026-12-07,Instrução,Virtual,Agendada,Adiada
+141,207,2026-12-25,Instrução,Presencial,Agendada,Sem acordo
+142,208,2025-09-19,Julgamento,Presencial,Agendada,Sem acordo
+143,209,2026-11-19,Instrução,Presencial,Agendada,Acordo
+144,211,2026-02-19,Conciliação,Presencial,Agendada,Pendente
+145,212,2026-08-20,Instrução,Presencial,Cancelada,Sem acordo
+146,213,2026-03-17,Julgamento,Presencial,Cancelada,Adiada
+147,217,2026-03-29,Instrução,Virtual,Cancelada,Sem acordo
+148,219,2026-07-17,Conciliação,Presencial,Cancelada,Sem acordo
+149,220,2025-12-29,Instrução,Presencial,Cancelada,Pendente
+150,222,2027-05-20,Conciliação,Virtual,Cancelada,Acordo
+151,223,2026-02-18,Conciliação,Virtual,Cancelada,Sem acordo
+152,224,2026-07-11,Julgamento,Virtual,Cancelada,Acordo
+153,226,2026-11-10,Instrução,Virtual,Realizada,Adiada
+154,227,2027-02-02,Conciliação,Presencial,Realizada,Pendente
+155,229,2026-05-30,Conciliação,Virtual,Agendada,Sem acordo
+156,230,2025-11-17,Julgamento,Presencial,Cancelada,Acordo
+157,231,2026-07-26,Instrução,Presencial,Agendada,Sem acordo
+158,233,2027-01-21,Julgamento,Presencial,Realizada,Pendente
+159,234,2025-12-05,Julgamento,Virtual,Agendada,Pendente
+160,235,2026-08-09,Conciliação,Presencial,Agendada,Adiada
+161,237,2026-10-13,Julgamento,Presencial,Agendada,Acordo
+162,239,2026-06-22,Conciliação,Presencial,Agendada,Pendente
+163,240,2027-02-15,Conciliação,Presencial,Cancelada,Adiada
+164,242,2027-01-09,Julgamento,Presencial,Realizada,Adiada
+165,245,2026-08-19,Julgamento,Presencial,Cancelada,Acordo
+166,246,2026-11-08,Instrução,Presencial,Agendada,Pendente
+167,247,2025-09-30,Julgamento,Presencial,Agendada,Adiada
+168,248,2026-04-16,Julgamento,Presencial,Realizada,Pendente
+169,249,2027-04-25,Conciliação,Presencial,Realizada,Pendente
+170,252,2026-03-10,Conciliação,Virtual,Agendada,Acordo
+171,253,2026-01-16,Julgamento,Virtual,Cancelada,Adiada
+172,255,2026-10-28,Instrução,Virtual,Agendada,Sem acordo
+173,256,2027-05-29,Instrução,Virtual,Realizada,Adiada
+174,259,2027-05-14,Julgamento,Virtual,Cancelada,Acordo
+175,260,2026-08-05,Julgamento,Virtual,Cancelada,Pendente
+176,261,2026-09-24,Conciliação,Virtual,Cancelada,Adiada
+177,262,2027-04-01,Instrução,Presencial,Cancelada,Sem acordo
+178,263,2026-12-16,Conciliação,Presencial,Agendada,Pendente
+179,264,2027-08-08,Instrução,Virtual,Realizada,Acordo
+180,265,2027-04-29,Julgamento,Virtual,Agendada,Adiada
+181,266,2026-12-14,Conciliação,Virtual,Cancelada,Acordo
+182,268,2025-10-19,Instrução,Presencial,Realizada,Sem acordo
+183,269,2027-08-07,Conciliação,Virtual,Agendada,Adiada
+184,270,2027-03-15,Julgamento,Virtual,Agendada,Acordo
+185,272,2026-10-28,Julgamento,Presencial,Agendada,Acordo
+186,273,2026-10-29,Julgamento,Virtual,Cancelada,Acordo
+187,274,2026-02-06,Instrução,Virtual,Cancelada,Adiada
+188,276,2027-08-16,Julgamento,Virtual,Agendada,Acordo
+189,277,2026-09-20,Conciliação,Virtual,Realizada,Sem acordo
+190,280,2026-07-24,Conciliação,Virtual,Cancelada,Acordo
+191,281,2025-09-26,Julgamento,Presencial,Agendada,Adiada
+192,283,2025-08-19,Julgamento,Virtual,Cancelada,Pendente
+193,284,2026-07-16,Instrução,Virtual,Agendada,Sem acordo
+194,285,2026-09-13,Julgamento,Virtual,Agendada,Pendente
+195,286,2026-06-09,Julgamento,Presencial,Cancelada,Adiada
+196,287,2026-01-05,Instrução,Presencial,Agendada,Adiada
+197,288,2026-07-16,Instrução,Virtual,Realizada,Adiada
+198,292,2026-09-10,Conciliação,Virtual,Realizada,Adiada
+199,297,2026-08-11,Julgamento,Virtual,Agendada,Pendente
+200,298,2026-12-19,Instrução,Virtual,Agendada,Pendente
+201,299,2026-05-04,Conciliação,Virtual,Agendada,Pendente
+202,300,2026-08-11,Instrução,Presencial,Realizada,Sem acordo
+203,301,2027-01-25,Julgamento,Presencial,Realizada,Acordo
+204,302,2027-01-23,Conciliação,Virtual,Agendada,Adiada
+205,305,2027-04-22,Julgamento,Virtual,Agendada,Sem acordo
+206,306,2027-05-08,Conciliação,Virtual,Cancelada,Pendente
+207,308,2027-01-01,Julgamento,Virtual,Cancelada,Pendente
+208,312,2026-10-15,Julgamento,Presencial,Cancelada,Adiada
+209,313,2027-09-30,Julgamento,Presencial,Realizada,Adiada
+210,314,2026-07-29,Julgamento,Virtual,Cancelada,Acordo
+211,315,2026-01-05,Instrução,Presencial,Agendada,Pendente
+212,316,2026-01-06,Julgamento,Presencial,Realizada,Sem acordo
+213,317,2026-12-09,Julgamento,Presencial,Cancelada,Pendente
+214,319,2026-09-20,Conciliação,Presencial,Cancelada,Sem acordo
+215,320,2026-03-13,Conciliação,Virtual,Agendada,Adiada
+216,321,2026-02-19,Instrução,Presencial,Agendada,Adiada
+217,322,2026-09-04,Instrução,Virtual,Agendada,Pendente
+218,323,2026-12-08,Conciliação,Presencial,Realizada,Adiada
+219,325,2026-10-24,Julgamento,Virtual,Agendada,Adiada
+220,326,2026-09-15,Conciliação,Virtual,Cancelada,Sem acordo
+221,327,2026-10-18,Conciliação,Presencial,Cancelada,Acordo
+222,328,2026-08-08,Conciliação,Virtual,Agendada,Acordo
+223,330,2026-12-04,Julgamento,Presencial,Cancelada,Sem acordo
+224,332,2027-02-03,Julgamento,Virtual,Realizada,Adiada
+225,333,2027-08-22,Instrução,Virtual,Cancelada,Pendente
+226,334,2026-09-18,Julgamento,Presencial,Realizada,Pendente
+227,336,2026-10-19,Conciliação,Virtual,Agendada,Acordo
+228,337,2027-05-07,Julgamento,Presencial,Cancelada,Adiada
+229,338,2027-01-05,Conciliação,Virtual,Agendada,Adiada
+230,339,2026-09-25,Julgamento,Presencial,Realizada,Acordo
+231,340,2027-01-08,Julgamento,Presencial,Agendada,Sem acordo
+232,341,2026-09-23,Instrução,Presencial,Realizada,Sem acordo
+233,342,2026-07-03,Conciliação,Presencial,Cancelada,Acordo
+234,343,2027-06-09,Julgamento,Virtual,Agendada,Pendente
+235,344,2026-08-16,Conciliação,Presencial,Realizada,Pendente
+236,345,2026-06-12,Julgamento,Presencial,Realizada,Acordo
+237,346,2026-03-13,Julgamento,Virtual,Cancelada,Sem acordo
+238,347,2027-02-23,Julgamento,Virtual,Realizada,Sem acordo
+239,348,2026-04-16,Julgamento,Virtual,Realizada,Sem acordo
+240,350,2026-07-18,Julgamento,Virtual,Realizada,Sem acordo
+241,352,2027-03-22,Instrução,Virtual,Realizada,Pendente
+242,356,2026-05-06,Instrução,Presencial,Realizada,Pendente
+243,357,2026-05-23,Conciliação,Virtual,Realizada,Acordo
+244,358,2026-05-29,Conciliação,Virtual,Agendada,Pendente
+245,359,2026-09-03,Julgamento,Presencial,Realizada,Sem acordo
+246,360,2026-09-19,Conciliação,Virtual,Cancelada,Adiada
+247,361,2026-10-14,Conciliação,Presencial,Agendada,Acordo
+248,362,2027-05-05,Instrução,Presencial,Realizada,Adiada
+249,364,2026-11-04,Julgamento,Virtual,Agendada,Acordo
+250,365,2025-09-17,Conciliação,Presencial,Realizada,Adiada
+251,366,2026-04-30,Julgamento,Presencial,Realizada,Sem acordo
+252,367,2026-08-12,Conciliação,Presencial,Realizada,Pendente
+253,369,2026-06-12,Julgamento,Presencial,Agendada,Pendente
+254,370,2026-01-26,Conciliação,Presencial,Realizada,Sem acordo
+255,371,2026-05-24,Instrução,Virtual,Realizada,Acordo
+256,373,2026-10-23,Conciliação,Virtual,Cancelada,Pendente
+257,374,2027-07-03,Instrução,Presencial,Cancelada,Sem acordo
+258,375,2026-03-07,Conciliação,Virtual,Agendada,Adiada
+259,376,2027-02-13,Conciliação,Virtual,Realizada,Adiada
+260,377,2026-12-21,Julgamento,Virtual,Agendada,Pendente
+261,378,2026-05-27,Conciliação,Virtual,Realizada,Adiada
+262,381,2026-09-10,Conciliação,Virtual,Agendada,Pendente
+263,383,2026-11-15,Instrução,Virtual,Realizada,Pendente
+264,384,2027-04-14,Conciliação,Virtual,Realizada,Adiada
+265,385,2026-01-03,Instrução,Presencial,Realizada,Adiada
+266,386,2026-09-27,Conciliação,Presencial,Realizada,Sem acordo
+267,388,2026-03-27,Julgamento,Virtual,Realizada,Acordo
+268,389,2026-04-07,Conciliação,Presencial,Agendada,Pendente
+269,390,2027-01-20,Instrução,Presencial,Agendada,Adiada
+270,391,2026-06-28,Instrução,Presencial,Realizada,Pendente
+271,392,2027-04-25,Conciliação,Presencial,Agendada,Pendente
+272,394,2026-12-07,Julgamento,Virtual,Agendada,Pendente
+273,395,2026-02-21,Conciliação,Virtual,Cancelada,Pendente
+274,396,2027-01-11,Conciliação,Virtual,Agendada,Sem acordo
+275,400,2025-12-07,Conciliação,Virtual,Agendada,Sem acordo
+276,401,2026-05-24,Julgamento,Presencial,Realizada,Acordo
+277,404,2026-08-03,Conciliação,Virtual,Agendada,Sem acordo
+278,405,2026-06-13,Julgamento,Virtual,Realizada,Adiada
+279,406,2027-04-10,Julgamento,Virtual,Cancelada,Pendente
+280,407,2027-01-09,Instrução,Virtual,Agendada,Adiada
+281,408,2026-07-22,Instrução,Virtual,Agendada,Sem acordo
+282,409,2027-08-27,Conciliação,Virtual,Cancelada,Pendente
+283,411,2025-11-03,Julgamento,Virtual,Cancelada,Acordo
+284,412,2026-07-06,Julgamento,Presencial,Agendada,Adiada
+285,413,2027-02-23,Julgamento,Virtual,Agendada,Pendente
+286,416,2027-04-28,Julgamento,Presencial,Realizada,Acordo
+287,417,2026-11-08,Instrução,Presencial,Agendada,Sem acordo
+288,419,2027-03-31,Instrução,Virtual,Realizada,Acordo
+289,420,2025-12-16,Julgamento,Virtual,Cancelada,Adiada
+290,421,2027-03-17,Conciliação,Virtual,Realizada,Acordo
+291,422,2027-06-16,Instrução,Presencial,Cancelada,Adiada
+292,423,2026-08-15,Instrução,Presencial,Cancelada,Pendente
+293,424,2026-05-17,Instrução,Virtual,Agendada,Adiada
+294,426,2026-03-19,Instrução,Virtual,Realizada,Pendente
+295,427,2026-12-27,Conciliação,Virtual,Agendada,Adiada
+296,429,2026-05-24,Instrução,Virtual,Realizada,Pendente
+297,430,2026-07-01,Conciliação,Virtual,Cancelada,Adiada
+298,432,2027-07-27,Julgamento,Presencial,Cancelada,Pendente
+299,434,2026-03-09,Julgamento,Presencial,Cancelada,Adiada
+300,435,2026-12-19,Julgamento,Virtual,Realizada,Acordo
+301,437,2025-11-28,Julgamento,Virtual,Realizada,Acordo
+302,438,2026-10-27,Conciliação,Virtual,Cancelada,Acordo
+303,439,2026-02-03,Julgamento,Presencial,Agendada,Pendente
+304,440,2026-09-14,Julgamento,Presencial,Realizada,Adiada
+305,441,2027-09-04,Conciliação,Presencial,Cancelada,Sem acordo
+306,442,2027-01-04,Conciliação,Virtual,Realizada,Sem acordo
+307,443,2026-03-07,Julgamento,Presencial,Agendada,Pendente
+308,444,2026-10-02,Instrução,Virtual,Cancelada,Sem acordo
+309,445,2026-04-25,Instrução,Presencial,Cancelada,Pendente
+310,447,2025-11-29,Julgamento,Presencial,Cancelada,Acordo
+311,448,2026-08-26,Julgamento,Presencial,Realizada,Pendente
+312,449,2027-06-28,Julgamento,Presencial,Agendada,Pendente
+313,450,2026-11-17,Julgamento,Presencial,Agendada,Sem acordo
+314,451,2026-10-22,Instrução,Virtual,Realizada,Acordo
+315,452,2027-08-04,Julgamento,Virtual,Realizada,Sem acordo
+316,453,2027-06-03,Instrução,Presencial,Cancelada,Acordo
+317,454,2026-08-08,Julgamento,Virtual,Cancelada,Pendente
+318,455,2026-01-20,Instrução,Presencial,Cancelada,Adiada
+319,456,2026-12-27,Julgamento,Presencial,Agendada,Sem acordo
+320,457,2026-01-03,Julgamento,Virtual,Agendada,Pendente
+321,460,2026-01-16,Julgamento,Presencial,Cancelada,Adiada
+322,461,2027-02-07,Instrução,Presencial,Agendada,Sem acordo
+323,462,2027-03-01,Conciliação,Virtual,Agendada,Sem acordo
+324,465,2026-01-02,Julgamento,Presencial,Agendada,Acordo
+325,466,2027-03-16,Conciliação,Virtual,Cancelada,Sem acordo
+326,467,2026-04-07,Instrução,Virtual,Cancelada,Sem acordo
+327,469,2027-07-04,Instrução,Presencial,Agendada,Acordo
+328,471,2026-08-01,Instrução,Presencial,Agendada,Acordo
+329,474,2027-02-03,Julgamento,Virtual,Cancelada,Acordo
+330,475,2025-09-27,Julgamento,Virtual,Cancelada,Adiada
+331,476,2026-08-06,Instrução,Presencial,Agendada,Pendente
+332,479,2026-12-28,Conciliação,Virtual,Cancelada,Adiada
+333,480,2027-10-03,Conciliação,Presencial,Agendada,Adiada
+334,481,2026-06-12,Julgamento,Virtual,Agendada,Adiada
+335,482,2026-04-10,Instrução,Presencial,Cancelada,Acordo
+336,483,2026-08-24,Julgamento,Virtual,Cancelada,Acordo
+337,484,2026-04-30,Conciliação,Virtual,Agendada,Pendente
+338,485,2027-02-12,Julgamento,Presencial,Cancelada,Acordo
+339,486,2026-03-22,Julgamento,Virtual,Agendada,Sem acordo
+340,487,2026-11-29,Instrução,Presencial,Cancelada,Sem acordo
+341,489,2025-11-18,Instrução,Presencial,Agendada,Acordo
+342,490,2025-11-03,Instrução,Virtual,Cancelada,Acordo
+343,491,2027-02-12,Julgamento,Presencial,Realizada,Sem acordo
+344,492,2026-04-16,Conciliação,Presencial,Cancelada,Adiada
+345,493,2027-03-22,Julgamento,Presencial,Realizada,Sem acordo
+346,494,2026-06-03,Julgamento,Presencial,Realizada,Adiada
+347,495,2027-02-18,Conciliação,Presencial,Realizada,Acordo
+348,496,2027-02-12,Instrução,Presencial,Realizada,Sem acordo
+349,497,2025-12-29,Instrução,Presencial,Cancelada,Sem acordo
+350,498,2026-10-22,Julgamento,Presencial,Cancelada,Adiada
+351,499,2027-07-03,Instrução,Presencial,Agendada,Acordo
+352,501,2026-06-02,Instrução,Presencial,Agendada,Pendente
+353,502,2026-02-12,Instrução,Presencial,Realizada,Adiada
+354,503,2027-01-27,Instrução,Presencial,Realizada,Pendente
+355,504,2026-10-16,Conciliação,Presencial,Agendada,Sem acordo
+356,505,2027-02-04,Instrução,Presencial,Cancelada,Adiada
+357,506,2026-11-30,Julgamento,Virtual,Cancelada,Sem acordo
+358,507,2027-03-20,Julgamento,Presencial,Agendada,Pendente
+359,508,2026-09-05,Conciliação,Virtual,Agendada,Acordo
+360,510,2026-12-27,Instrução,Presencial,Realizada,Adiada
+361,511,2026-10-11,Instrução,Presencial,Agendada,Acordo
+362,512,2027-03-11,Conciliação,Virtual,Agendada,Sem acordo
+363,513,2027-06-03,Conciliação,Virtual,Realizada,Pendente
+364,514,2026-12-01,Conciliação,Presencial,Cancelada,Pendente
+365,515,2026-02-07,Julgamento,Virtual,Agendada,Acordo
+366,516,2027-01-23,Julgamento,Virtual,Realizada,Adiada
+367,517,2026-05-23,Conciliação,Virtual,Cancelada,Acordo
+368,518,2027-01-01,Conciliação,Presencial,Realizada,Acordo
+369,520,2026-04-09,Instrução,Presencial,Cancelada,Sem acordo
+370,522,2026-02-18,Conciliação,Presencial,Realizada,Sem acordo
+371,523,2027-09-14,Instrução,Presencial,Agendada,Sem acordo
+372,524,2027-06-18,Julgamento,Presencial,Agendada,Sem acordo
+373,526,2026-11-15,Instrução,Presencial,Agendada,Acordo
+374,527,2026-09-23,Instrução,Presencial,Agendada,Sem acordo
+375,528,2025-11-07,Conciliação,Virtual,Realizada,Sem acordo
+376,529,2026-11-07,Instrução,Presencial,Cancelada,Acordo
+377,530,2026-09-29,Julgamento,Presencial,Agendada,Sem acordo
+378,531,2026-12-04,Instrução,Virtual,Cancelada,Sem acordo
+379,533,2025-11-30,Instrução,Presencial,Agendada,Adiada
+380,534,2027-02-06,Instrução,Presencial,Cancelada,Acordo
+381,535,2026-09-24,Julgamento,Presencial,Agendada,Pendente
+382,536,2026-07-11,Julgamento,Presencial,Cancelada,Sem acordo
+383,540,2027-01-03,Julgamento,Virtual,Cancelada,Sem acordo
+384,542,2026-05-18,Instrução,Virtual,Agendada,Adiada
+385,543,2026-08-20,Julgamento,Virtual,Cancelada,Acordo
+386,545,2025-11-28,Conciliação,Presencial,Cancelada,Pendente
+387,546,2026-10-06,Conciliação,Virtual,Agendada,Pendente
+388,547,2026-02-21,Julgamento,Presencial,Realizada,Adiada
+389,548,2027-03-26,Instrução,Presencial,Agendada,Pendente
+390,551,2026-06-25,Conciliação,Virtual,Realizada,Adiada
+391,552,2027-05-06,Conciliação,Virtual,Realizada,Adiada
+392,553,2027-04-23,Julgamento,Presencial,Cancelada,Acordo
+393,554,2026-03-10,Julgamento,Presencial,Cancelada,Sem acordo
+394,556,2027-05-11,Conciliação,Virtual,Cancelada,Pendente
+395,558,2026-08-31,Julgamento,Virtual,Agendada,Acordo
+396,559,2027-07-15,Instrução,Presencial,Agendada,Adiada
+397,560,2026-07-23,Conciliação,Presencial,Realizada,Pendente
+398,561,2025-10-15,Julgamento,Virtual,Agendada,Sem acordo
+399,562,2026-04-14,Instrução,Virtual,Agendada,Pendente
+400,563,2027-04-10,Julgamento,Presencial,Agendada,Sem acordo
+401,566,2025-09-21,Conciliação,Virtual,Cancelada,Pendente
+402,568,2026-08-02,Conciliação,Presencial,Agendada,Pendente
+403,569,2026-11-11,Conciliação,Presencial,Realizada,Adiada
+404,571,2026-10-27,Instrução,Virtual,Cancelada,Adiada
+405,572,2026-03-30,Instrução,Virtual,Realizada,Sem acordo
+406,573,2026-05-15,Julgamento,Presencial,Agendada,Pendente
+407,575,2025-10-20,Conciliação,Presencial,Realizada,Pendente
+408,576,2026-11-25,Instrução,Presencial,Realizada,Sem acordo
+409,578,2026-05-11,Instrução,Virtual,Agendada,Adiada
+410,579,2026-05-27,Conciliação,Virtual,Cancelada,Pendente
+411,580,2026-03-11,Conciliação,Presencial,Cancelada,Pendente
+412,582,2026-08-02,Julgamento,Presencial,Cancelada,Sem acordo
+413,583,2026-11-20,Instrução,Presencial,Agendada,Adiada
+414,584,2026-01-20,Julgamento,Virtual,Cancelada,Sem acordo
+415,585,2026-04-23,Conciliação,Presencial,Agendada,Adiada
+416,587,2027-06-27,Conciliação,Presencial,Agendada,Sem acordo
+417,588,2026-01-09,Julgamento,Presencial,Realizada,Pendente
+418,589,2027-01-19,Conciliação,Presencial,Agendada,Adiada
+419,590,2026-02-01,Julgamento,Virtual,Agendada,Sem acordo
+420,591,2026-05-15,Conciliação,Virtual,Cancelada,Pendente
+421,592,2026-07-23,Conciliação,Virtual,Cancelada,Adiada
+422,593,2027-05-08,Conciliação,Presencial,Agendada,Adiada
+423,598,2026-02-16,Julgamento,Virtual,Realizada,Acordo
+424,599,2026-07-20,Instrução,Presencial,Agendada,Adiada
+425,600,2027-04-19,Instrução,Presencial,Realizada,Sem acordo
+426,601,2026-01-22,Instrução,Virtual,Agendada,Sem acordo
+427,602,2026-04-16,Conciliação,Presencial,Agendada,Pendente
+428,603,2026-06-22,Instrução,Virtual,Cancelada,Pendente
+429,604,2026-11-07,Conciliação,Presencial,Agendada,Acordo
+430,605,2027-05-12,Instrução,Virtual,Cancelada,Sem acordo
+431,606,2026-04-15,Conciliação,Virtual,Realizada,Sem acordo
+432,608,2027-05-18,Julgamento,Presencial,Agendada,Acordo
+433,610,2026-07-02,Julgamento,Presencial,Cancelada,Adiada
+434,611,2026-06-27,Julgamento,Virtual,Realizada,Sem acordo
+435,612,2026-08-26,Instrução,Virtual,Realizada,Acordo
+436,613,2027-07-05,Instrução,Virtual,Realizada,Pendente
+437,614,2026-08-09,Instrução,Presencial,Agendada,Adiada
+438,615,2026-02-21,Julgamento,Virtual,Agendada,Pendente
+439,616,2027-03-06,Julgamento,Presencial,Agendada,Adiada
+440,617,2027-05-06,Instrução,Virtual,Agendada,Adiada
+441,618,2027-09-09,Julgamento,Virtual,Cancelada,Pendente
+442,621,2026-08-31,Conciliação,Virtual,Realizada,Sem acordo
+443,622,2027-07-12,Conciliação,Virtual,Realizada,Adiada
+444,623,2026-02-19,Conciliação,Presencial,Agendada,Adiada
+445,624,2025-11-19,Instrução,Presencial,Cancelada,Adiada
+446,625,2027-03-29,Conciliação,Presencial,Agendada,Adiada
+447,626,2027-04-20,Conciliação,Presencial,Agendada,Sem acordo
+448,628,2026-11-25,Instrução,Presencial,Realizada,Sem acordo
+449,629,2026-10-02,Julgamento,Presencial,Cancelada,Pendente
+450,630,2026-08-13,Conciliação,Presencial,Cancelada,Pendente
+451,631,2027-05-30,Instrução,Presencial,Realizada,Sem acordo
+452,632,2027-05-02,Julgamento,Presencial,Agendada,Sem acordo
+453,633,2026-08-03,Julgamento,Presencial,Agendada,Pendente
+454,634,2027-05-19,Julgamento,Presencial,Realizada,Acordo
+455,635,2026-04-05,Instrução,Presencial,Realizada,Adiada
+456,636,2025-10-19,Instrução,Virtual,Agendada,Acordo
+457,637,2026-09-14,Conciliação,Presencial,Cancelada,Acordo
+458,639,2026-10-21,Conciliação,Presencial,Realizada,Acordo
+459,642,2026-02-18,Conciliação,Virtual,Cancelada,Adiada
+460,643,2026-09-20,Julgamento,Virtual,Realizada,Acordo
+461,645,2025-12-18,Instrução,Presencial,Cancelada,Sem acordo
+462,647,2026-06-15,Conciliação,Presencial,Agendada,Sem acordo
+463,649,2026-02-09,Instrução,Presencial,Cancelada,Adiada
+464,650,2027-03-26,Julgamento,Virtual,Agendada,Adiada
+465,651,2026-10-09,Conciliação,Presencial,Cancelada,Sem acordo
+466,652,2026-01-15,Julgamento,Virtual,Realizada,Sem acordo
+467,653,2027-02-16,Conciliação,Virtual,Realizada,Sem acordo
+468,654,2027-01-11,Instrução,Virtual,Realizada,Pendente
+469,655,2026-06-10,Conciliação,Virtual,Agendada,Sem acordo
+470,656,2026-08-03,Instrução,Presencial,Agendada,Adiada
+471,659,2026-12-01,Conciliação,Presencial,Realizada,Adiada
+472,660,2026-05-31,Conciliação,Virtual,Cancelada,Sem acordo
+473,667,2026-10-31,Instrução,Virtual,Agendada,Pendente
+474,668,2026-06-22,Julgamento,Presencial,Cancelada,Sem acordo
+475,669,2027-09-04,Conciliação,Presencial,Agendada,Sem acordo
+476,670,2026-04-08,Conciliação,Virtual,Realizada,Adiada
+477,672,2026-03-26,Instrução,Presencial,Realizada,Sem acordo
+478,673,2026-07-01,Julgamento,Virtual,Agendada,Sem acordo
+479,674,2026-04-24,Julgamento,Presencial,Realizada,Sem acordo
+480,677,2027-02-27,Conciliação,Presencial,Realizada,Pendente
+481,678,2026-04-11,Conciliação,Presencial,Cancelada,Acordo
+482,679,2027-02-07,Julgamento,Presencial,Realizada,Sem acordo
+483,682,2027-01-10,Conciliação,Virtual,Cancelada,Adiada
+484,683,2026-06-06,Instrução,Virtual,Cancelada,Acordo
+485,684,2027-01-12,Conciliação,Virtual,Cancelada,Adiada
+486,685,2026-11-29,Julgamento,Virtual,Cancelada,Pendente
+487,687,2026-06-15,Instrução,Presencial,Cancelada,Acordo
+488,688,2027-05-18,Conciliação,Presencial,Cancelada,Sem acordo
+489,689,2026-10-27,Instrução,Virtual,Agendada,Pendente
+490,691,2026-10-13,Instrução,Presencial,Realizada,Pendente
+491,692,2026-07-07,Conciliação,Virtual,Agendada,Pendente
+492,693,2026-11-15,Conciliação,Presencial,Realizada,Adiada
+493,696,2026-03-29,Instrução,Presencial,Cancelada,Acordo
+494,700,2027-03-11,Conciliação,Presencial,Cancelada,Acordo
+495,701,2026-06-28,Conciliação,Virtual,Cancelada,Acordo
+496,702,2027-02-01,Instrução,Presencial,Realizada,Sem acordo
+497,703,2027-06-15,Conciliação,Virtual,Agendada,Acordo
+498,706,2026-12-29,Conciliação,Presencial,Realizada,Pendente
+499,707,2026-04-01,Instrução,Virtual,Cancelada,Adiada
+500,708,2027-03-27,Julgamento,Virtual,Agendada,Acordo
+501,709,2026-06-15,Instrução,Presencial,Cancelada,Sem acordo
+502,710,2027-09-23,Julgamento,Virtual,Cancelada,Sem acordo
+503,711,2027-02-17,Conciliação,Presencial,Cancelada,Pendente
+504,713,2026-06-29,Julgamento,Virtual,Agendada,Adiada
+505,717,2026-02-25,Instrução,Virtual,Agendada,Sem acordo
+506,718,2027-02-07,Julgamento,Presencial,Realizada,Sem acordo
+507,720,2026-11-24,Instrução,Virtual,Cancelada,Pendente
+508,721,2026-07-31,Conciliação,Virtual,Realizada,Acordo
+509,723,2026-08-28,Conciliação,Presencial,Cancelada,Sem acordo
+510,724,2025-10-28,Instrução,Presencial,Realizada,Pendente
+511,725,2026-09-26,Instrução,Virtual,Agendada,Adiada
+512,726,2026-09-02,Instrução,Virtual,Realizada,Acordo
+513,727,2026-12-22,Julgamento,Virtual,Realizada,Acordo
+514,728,2026-02-22,Instrução,Virtual,Agendada,Pendente
+515,730,2026-08-15,Conciliação,Presencial,Realizada,Acordo
+516,731,2026-03-23,Julgamento,Virtual,Agendada,Acordo
+517,733,2026-11-23,Julgamento,Presencial,Cancelada,Acordo
+518,735,2027-08-24,Conciliação,Virtual,Agendada,Acordo
+519,736,2026-10-21,Conciliação,Virtual,Agendada,Pendente
+520,737,2027-01-08,Instrução,Presencial,Cancelada,Adiada
+521,738,2027-08-13,Instrução,Virtual,Cancelada,Sem acordo
+522,739,2027-02-27,Conciliação,Presencial,Cancelada,Adiada
+523,741,2026-08-28,Conciliação,Presencial,Cancelada,Adiada
+524,742,2025-12-07,Instrução,Virtual,Cancelada,Sem acordo
+525,743,2026-07-07,Conciliação,Presencial,Cancelada,Adiada
+526,744,2027-02-17,Julgamento,Presencial,Cancelada,Sem acordo
+527,745,2025-12-08,Conciliação,Virtual,Realizada,Acordo
+528,747,2026-11-27,Julgamento,Virtual,Realizada,Pendente
+529,748,2027-04-18,Conciliação,Presencial,Realizada,Acordo
+530,749,2027-05-15,Julgamento,Presencial,Realizada,Sem acordo
+531,750,2026-10-06,Instrução,Presencial,Realizada,Sem acordo
+532,751,2027-01-19,Instrução,Virtual,Agendada,Pendente
+533,752,2027-03-22,Instrução,Virtual,Realizada,Acordo
+534,753,2025-09-27,Conciliação,Presencial,Cancelada,Pendente
+535,754,2027-05-16,Conciliação,Virtual,Agendada,Adiada
+536,757,2027-06-14,Instrução,Presencial,Agendada,Adiada
+537,758,2027-09-14,Conciliação,Virtual,Agendada,Acordo
+538,760,2026-05-02,Instrução,Virtual,Agendada,Sem acordo
+539,761,2026-04-17,Conciliação,Presencial,Agendada,Adiada
+540,762,2026-07-08,Conciliação,Virtual,Cancelada,Pendente
+541,764,2026-10-01,Julgamento,Presencial,Realizada,Pendente
+542,765,2026-06-01,Instrução,Virtual,Agendada,Sem acordo
+543,766,2027-03-21,Instrução,Virtual,Agendada,Acordo
+544,767,2026-07-05,Instrução,Virtual,Realizada,Adiada
+545,768,2027-01-24,Julgamento,Presencial,Cancelada,Sem acordo
+546,769,2026-07-10,Instrução,Presencial,Agendada,Adiada
+547,770,2027-06-01,Conciliação,Virtual,Cancelada,Adiada
+548,772,2027-07-18,Julgamento,Presencial,Agendada,Pendente
+549,776,2026-04-17,Instrução,Presencial,Realizada,Adiada
+550,777,2025-12-31,Julgamento,Presencial,Agendada,Acordo
+551,778,2027-02-12,Conciliação,Virtual,Realizada,Adiada
+552,779,2027-05-16,Conciliação,Virtual,Realizada,Adiada
+553,780,2026-09-19,Instrução,Virtual,Agendada,Pendente
+554,781,2026-02-19,Julgamento,Virtual,Realizada,Pendente
+555,782,2027-06-24,Julgamento,Virtual,Cancelada,Sem acordo
+556,784,2027-03-02,Julgamento,Presencial,Agendada,Acordo
+557,785,2026-05-11,Julgamento,Virtual,Realizada,Acordo
+558,786,2025-12-30,Conciliação,Virtual,Realizada,Sem acordo
+559,787,2026-05-31,Instrução,Virtual,Agendada,Acordo
+560,788,2026-06-24,Julgamento,Presencial,Agendada,Acordo
+561,789,2026-10-12,Julgamento,Presencial,Agendada,Acordo
+562,790,2026-04-16,Conciliação,Presencial,Agendada,Pendente
+563,791,2027-05-25,Conciliação,Virtual,Agendada,Acordo
+564,792,2027-05-06,Conciliação,Presencial,Agendada,Sem acordo
+565,793,2026-11-12,Instrução,Presencial,Realizada,Acordo
+566,797,2026-08-02,Instrução,Presencial,Agendada,Sem acordo
+567,798,2026-07-01,Julgamento,Virtual,Agendada,Acordo
+568,799,2026-12-31,Conciliação,Presencial,Agendada,Acordo
+569,800,2026-03-27,Julgamento,Virtual,Realizada,Acordo
+570,801,2026-12-30,Instrução,Virtual,Realizada,Pendente
+571,802,2026-08-23,Julgamento,Virtual,Cancelada,Acordo
+572,803,2025-11-05,Instrução,Virtual,Agendada,Sem acordo
+573,804,2027-02-08,Conciliação,Presencial,Realizada,Acordo
+574,805,2026-06-19,Conciliação,Virtual,Realizada,Adiada
+575,809,2026-07-31,Instrução,Virtual,Agendada,Adiada
+576,810,2026-09-20,Julgamento,Virtual,Cancelada,Pendente
+577,812,2027-09-16,Julgamento,Presencial,Cancelada,Pendente
+578,814,2026-04-25,Conciliação,Presencial,Agendada,Adiada
+579,815,2026-12-16,Julgamento,Presencial,Agendada,Pendente
+580,816,2027-02-06,Instrução,Presencial,Cancelada,Adiada
+581,817,2026-12-19,Instrução,Presencial,Realizada,Sem acordo
+582,818,2027-06-16,Julgamento,Presencial,Cancelada,Sem acordo
+583,819,2026-01-12,Instrução,Virtual,Agendada,Acordo
+584,820,2025-12-10,Instrução,Presencial,Agendada,Acordo
+585,821,2026-07-24,Julgamento,Virtual,Realizada,Acordo
+586,824,2027-05-12,Instrução,Presencial,Agendada,Pendente
+587,825,2026-08-02,Julgamento,Virtual,Realizada,Adiada
+588,826,2027-04-22,Julgamento,Presencial,Agendada,Sem acordo
+589,828,2026-09-29,Conciliação,Presencial,Realizada,Adiada
+590,829,2027-06-28,Conciliação,Presencial,Realizada,Adiada
+591,830,2027-07-15,Conciliação,Presencial,Agendada,Pendente
+592,831,2026-05-30,Conciliação,Presencial,Realizada,Sem acordo
+593,832,2027-03-16,Instrução,Presencial,Cancelada,Pendente
+594,833,2026-08-08,Instrução,Virtual,Cancelada,Pendente
+595,835,2027-02-10,Julgamento,Presencial,Cancelada,Sem acordo
+596,838,2027-04-15,Instrução,Virtual,Realizada,Pendente
+597,839,2026-06-01,Julgamento,Presencial,Cancelada,Sem acordo
+598,840,2026-11-04,Conciliação,Presencial,Cancelada,Sem acordo
+599,842,2027-05-28,Instrução,Virtual,Agendada,Pendente
+600,844,2027-03-10,Julgamento,Presencial,Agendada,Pendente
+601,845,2026-05-19,Julgamento,Virtual,Realizada,Adiada
+602,846,2026-06-22,Conciliação,Virtual,Cancelada,Adiada
+603,847,2027-02-05,Conciliação,Presencial,Agendada,Adiada
+604,848,2026-10-24,Julgamento,Presencial,Realizada,Sem acordo
+605,849,2027-05-07,Conciliação,Virtual,Cancelada,Sem acordo
+606,850,2026-10-26,Conciliação,Presencial,Cancelada,Pendente
+607,851,2026-12-07,Conciliação,Presencial,Cancelada,Sem acordo
+608,852,2027-05-13,Conciliação,Presencial,Cancelada,Pendente
+609,853,2025-12-01,Julgamento,Presencial,Realizada,Pendente
+610,855,2027-03-11,Julgamento,Virtual,Realizada,Pendente
+611,856,2027-03-09,Julgamento,Presencial,Realizada,Sem acordo
+612,857,2026-06-21,Conciliação,Presencial,Cancelada,Sem acordo
+613,858,2026-07-09,Julgamento,Presencial,Agendada,Pendente
+614,859,2027-03-05,Julgamento,Virtual,Agendada,Adiada
+615,860,2026-03-19,Conciliação,Presencial,Agendada,Acordo
+616,861,2026-08-25,Julgamento,Virtual,Agendada,Sem acordo
+617,862,2026-02-02,Julgamento,Virtual,Realizada,Sem acordo
+618,863,2025-09-15,Conciliação,Virtual,Cancelada,Sem acordo
+619,864,2026-09-03,Instrução,Virtual,Agendada,Adiada
+620,866,2027-05-13,Julgamento,Presencial,Agendada,Acordo
+621,867,2025-12-05,Instrução,Presencial,Agendada,Adiada
+622,868,2026-12-28,Julgamento,Virtual,Realizada,Pendente
+623,869,2027-01-26,Conciliação,Presencial,Cancelada,Acordo
+624,870,2026-10-06,Conciliação,Virtual,Agendada,Sem acordo
+625,871,2026-05-05,Julgamento,Presencial,Realizada,Sem acordo
+626,872,2026-08-18,Instrução,Presencial,Realizada,Acordo
+627,873,2026-11-05,Instrução,Presencial,Realizada,Pendente
+628,875,2026-09-14,Julgamento,Virtual,Cancelada,Sem acordo
+629,876,2027-03-14,Instrução,Presencial,Agendada,Acordo
+630,877,2026-09-04,Instrução,Virtual,Agendada,Pendente
+631,878,2026-09-03,Conciliação,Virtual,Agendada,Acordo
+632,879,2026-12-20,Conciliação,Presencial,Realizada,Sem acordo
+633,881,2027-08-05,Conciliação,Presencial,Agendada,Acordo
+634,883,2026-05-30,Instrução,Presencial,Cancelada,Acordo
+635,884,2026-09-03,Conciliação,Presencial,Realizada,Acordo
+636,885,2027-01-17,Instrução,Virtual,Agendada,Pendente
+637,888,2026-08-18,Conciliação,Presencial,Realizada,Pendente
+638,890,2026-02-10,Conciliação,Presencial,Realizada,Adiada
+639,891,2026-07-30,Julgamento,Presencial,Realizada,Acordo
+640,892,2026-09-02,Instrução,Virtual,Agendada,Sem acordo
+641,893,2027-02-26,Julgamento,Virtual,Agendada,Sem acordo
+642,894,2026-09-17,Conciliação,Presencial,Realizada,Acordo
+643,896,2026-07-12,Conciliação,Virtual,Cancelada,Sem acordo
+644,898,2026-01-12,Instrução,Presencial,Realizada,Adiada
+645,899,2027-02-12,Instrução,Presencial,Realizada,Pendente
+646,902,2026-03-01,Instrução,Virtual,Agendada,Acordo
+647,904,2026-04-14,Instrução,Presencial,Cancelada,Pendente
+648,905,2026-03-04,Julgamento,Virtual,Realizada,Adiada
+649,906,2025-08-12,Julgamento,Virtual,Realizada,Acordo
+650,907,2027-04-19,Conciliação,Virtual,Cancelada,Adiada
+651,910,2027-07-08,Julgamento,Presencial,Realizada,Pendente
+652,911,2027-01-24,Instrução,Presencial,Cancelada,Adiada
+653,912,2027-04-12,Conciliação,Presencial,Realizada,Pendente
+654,913,2026-09-24,Instrução,Virtual,Cancelada,Sem acordo
+655,916,2026-10-07,Instrução,Virtual,Realizada,Adiada
+656,918,2026-04-25,Conciliação,Presencial,Agendada,Pendente
+657,919,2027-11-02,Instrução,Presencial,Agendada,Sem acordo
+658,920,2026-01-26,Conciliação,Presencial,Agendada,Adiada
+659,921,2026-11-24,Instrução,Presencial,Cancelada,Adiada
+660,923,2026-12-27,Instrução,Presencial,Agendada,Pendente
+661,924,2026-05-12,Conciliação,Presencial,Agendada,Sem acordo
+662,927,2026-04-20,Julgamento,Presencial,Cancelada,Acordo
+663,931,2027-04-21,Instrução,Presencial,Agendada,Acordo
+664,932,2026-09-30,Julgamento,Presencial,Agendada,Acordo
+665,933,2027-01-12,Instrução,Virtual,Cancelada,Acordo
+666,934,2027-06-22,Conciliação,Virtual,Agendada,Sem acordo
+667,935,2026-06-21,Julgamento,Presencial,Cancelada,Pendente
+668,936,2026-11-11,Instrução,Presencial,Realizada,Sem acordo
+669,938,2026-07-18,Conciliação,Presencial,Agendada,Sem acordo
+670,939,2027-05-06,Instrução,Presencial,Realizada,Acordo
+671,941,2026-08-06,Instrução,Presencial,Agendada,Adiada
+672,942,2026-05-15,Conciliação,Virtual,Cancelada,Sem acordo
+673,943,2027-03-17,Instrução,Presencial,Agendada,Pendente
+674,945,2027-02-28,Julgamento,Presencial,Agendada,Pendente
+675,946,2026-01-18,Instrução,Presencial,Realizada,Sem acordo
+676,947,2026-06-20,Conciliação,Presencial,Agendada,Sem acordo
+677,950,2025-10-02,Julgamento,Virtual,Cancelada,Sem acordo
+678,952,2026-12-15,Instrução,Presencial,Realizada,Sem acordo
+679,953,2026-05-13,Julgamento,Virtual,Cancelada,Adiada
+680,954,2026-08-29,Julgamento,Presencial,Agendada,Sem acordo
+681,955,2027-02-06,Julgamento,Virtual,Agendada,Acordo
+682,956,2026-07-21,Instrução,Presencial,Cancelada,Pendente
+683,957,2026-07-16,Instrução,Virtual,Realizada,Pendente
+684,958,2027-02-22,Instrução,Virtual,Realizada,Adiada
+685,963,2026-04-29,Conciliação,Presencial,Agendada,Adiada
+686,964,2027-01-07,Conciliação,Virtual,Cancelada,Adiada
+687,965,2026-07-29,Conciliação,Presencial,Cancelada,Pendente
+688,966,2027-02-01,Julgamento,Presencial,Realizada,Acordo
+689,967,2026-06-16,Conciliação,Virtual,Agendada,Sem acordo
+690,968,2026-08-06,Julgamento,Presencial,Agendada,Pendente
+691,969,2027-06-30,Julgamento,Virtual,Agendada,Sem acordo
+692,970,2025-08-14,Julgamento,Virtual,Agendada,Pendente
+693,971,2026-12-11,Instrução,Virtual,Agendada,Sem acordo
+694,972,2027-05-18,Conciliação,Presencial,Realizada,Pendente
+695,973,2026-07-17,Instrução,Virtual,Agendada,Adiada
+696,976,2025-11-27,Instrução,Presencial,Realizada,Acordo
+697,977,2026-09-25,Julgamento,Presencial,Realizada,Pendente
+698,978,2026-11-01,Instrução,Presencial,Cancelada,Sem acordo
+699,979,2026-10-24,Julgamento,Virtual,Cancelada,Acordo
+700,980,2026-10-12,Conciliação,Virtual,Cancelada,Adiada
+701,982,2025-09-10,Julgamento,Presencial,Cancelada,Adiada
+702,983,2026-12-27,Julgamento,Presencial,Realizada,Acordo
+703,984,2026-10-26,Conciliação,Presencial,Agendada,Sem acordo
+704,985,2026-07-08,Instrução,Virtual,Realizada,Sem acordo
+705,987,2027-05-11,Conciliação,Virtual,Realizada,Sem acordo
+706,988,2026-07-25,Instrução,Presencial,Cancelada,Sem acordo
+707,989,2026-07-30,Instrução,Virtual,Agendada,Adiada
+708,991,2025-12-29,Conciliação,Virtual,Realizada,Adiada
+709,994,2026-12-27,Instrução,Presencial,Cancelada,Pendente
+710,995,2027-01-07,Julgamento,Presencial,Realizada,Adiada
+711,996,2026-06-25,Instrução,Virtual,Agendada,Acordo
+712,1000,2026-03-19,Conciliação,Presencial,Realizada,Pendente
+713,1001,2026-07-12,Instrução,Virtual,Cancelada,Acordo
+714,1005,2025-12-10,Julgamento,Presencial,Agendada,Pendente
+715,1006,2026-06-25,Julgamento,Virtual,Agendada,Sem acordo
+716,1007,2026-03-18,Julgamento,Virtual,Realizada,Sem acordo
+717,1008,2026-02-15,Conciliação,Presencial,Agendada,Adiada
+718,1011,2025-11-12,Conciliação,Presencial,Cancelada,Sem acordo
+719,1012,2026-10-01,Instrução,Presencial,Agendada,Acordo
+720,1013,2027-07-05,Julgamento,Virtual,Realizada,Pendente
+721,1015,2026-10-20,Conciliação,Presencial,Agendada,Acordo
+722,1016,2026-03-16,Instrução,Virtual,Cancelada,Acordo
+723,1018,2027-03-10,Conciliação,Presencial,Realizada,Pendente
+724,1019,2026-09-22,Instrução,Presencial,Realizada,Adiada
+725,1020,2026-09-07,Instrução,Virtual,Agendada,Pendente
+726,1022,2026-12-03,Instrução,Presencial,Realizada,Sem acordo
+727,1023,2025-08-13,Conciliação,Presencial,Cancelada,Acordo
+728,1024,2027-07-20,Conciliação,Virtual,Cancelada,Acordo
+729,1025,2026-02-12,Instrução,Presencial,Cancelada,Adiada
+730,1028,2026-09-05,Instrução,Presencial,Agendada,Acordo
+731,1032,2027-07-13,Julgamento,Presencial,Realizada,Adiada
+732,1034,2026-03-23,Conciliação,Virtual,Cancelada,Acordo
+733,1035,2025-09-17,Julgamento,Virtual,Agendada,Acordo
+734,1037,2027-01-20,Instrução,Presencial,Agendada,Pendente
+735,1038,2026-08-15,Julgamento,Presencial,Realizada,Pendente
+736,1039,2025-12-01,Julgamento,Virtual,Cancelada,Sem acordo
+737,1040,2026-04-18,Julgamento,Presencial,Cancelada,Acordo
+738,1042,2026-07-08,Julgamento,Virtual,Agendada,Sem acordo
+739,1044,2027-05-09,Julgamento,Virtual,Cancelada,Acordo
+740,1045,2026-06-13,Julgamento,Presencial,Cancelada,Acordo
+741,1046,2026-10-29,Julgamento,Presencial,Cancelada,Adiada
+742,1047,2027-02-02,Julgamento,Virtual,Realizada,Acordo
+743,1048,2026-10-11,Conciliação,Presencial,Cancelada,Pendente
+744,1049,2026-11-20,Julgamento,Presencial,Agendada,Acordo
+745,1050,2026-09-12,Instrução,Virtual,Agendada,Pendente
+746,1053,2027-02-21,Instrução,Presencial,Cancelada,Pendente
+747,1054,2027-08-22,Julgamento,Presencial,Agendada,Adiada
+748,1056,2026-10-30,Julgamento,Presencial,Realizada,Sem acordo
+749,1057,2027-01-31,Julgamento,Virtual,Cancelada,Adiada
+750,1058,2027-05-07,Julgamento,Virtual,Realizada,Sem acordo
+751,1060,2026-10-19,Instrução,Presencial,Agendada,Pendente
+752,1061,2026-12-12,Conciliação,Presencial,Cancelada,Acordo
+753,1062,2027-01-04,Julgamento,Presencial,Cancelada,Acordo
+754,1065,2026-06-05,Instrução,Presencial,Realizada,Acordo
+755,1067,2026-09-02,Conciliação,Virtual,Cancelada,Pendente
+756,1068,2027-03-13,Instrução,Presencial,Cancelada,Acordo
+757,1069,2026-04-05,Instrução,Virtual,Agendada,Pendente
+758,1071,2026-12-10,Julgamento,Presencial,Realizada,Sem acordo
+759,1072,2026-04-20,Conciliação,Virtual,Realizada,Acordo
+760,1073,2026-04-17,Conciliação,Virtual,Cancelada,Adiada
+761,1074,2026-08-22,Conciliação,Presencial,Realizada,Pendente
+762,1075,2026-05-07,Conciliação,Presencial,Cancelada,Acordo
+763,1076,2025-11-21,Instrução,Presencial,Realizada,Acordo
+764,1077,2026-12-31,Conciliação,Presencial,Realizada,Sem acordo
+765,1078,2027-01-22,Instrução,Presencial,Agendada,Sem acordo
+766,1079,2026-03-01,Julgamento,Presencial,Cancelada,Acordo
+767,1082,2027-01-12,Julgamento,Presencial,Realizada,Acordo
+768,1083,2026-10-16,Instrução,Presencial,Agendada,Adiada
+769,1085,2027-06-05,Instrução,Virtual,Agendada,Adiada
+770,1086,2026-08-09,Julgamento,Presencial,Cancelada,Adiada
+771,1087,2025-11-13,Conciliação,Virtual,Realizada,Adiada
+772,1088,2027-06-11,Julgamento,Virtual,Agendada,Pendente
+773,1090,2025-11-29,Julgamento,Presencial,Cancelada,Pendente
+774,1091,2026-12-10,Instrução,Presencial,Cancelada,Pendente
+775,1092,2026-12-10,Instrução,Virtual,Cancelada,Acordo
+776,1096,2027-02-15,Instrução,Presencial,Cancelada,Adiada
+777,1100,2027-06-12,Instrução,Presencial,Cancelada,Sem acordo
+778,1102,2026-10-03,Instrução,Virtual,Agendada,Sem acordo
+779,1103,2026-03-29,Conciliação,Virtual,Realizada,Pendente
+780,1105,2026-12-22,Julgamento,Virtual,Cancelada,Pendente
+781,1106,2026-05-06,Conciliação,Presencial,Cancelada,Sem acordo
+782,1107,2026-07-06,Conciliação,Virtual,Realizada,Acordo
+783,1108,2026-09-23,Instrução,Presencial,Agendada,Pendente
+784,1109,2027-04-06,Instrução,Presencial,Cancelada,Sem acordo
+785,1110,2027-04-03,Julgamento,Presencial,Realizada,Acordo
+786,1114,2025-12-13,Instrução,Presencial,Cancelada,Adiada
+787,1115,2026-08-15,Julgamento,Presencial,Cancelada,Sem acordo
+788,1117,2027-06-11,Julgamento,Virtual,Agendada,Pendente
+789,1119,2027-05-24,Instrução,Presencial,Cancelada,Pendente
+790,1120,2026-05-01,Julgamento,Presencial,Agendada,Acordo
+791,1121,2027-10-10,Conciliação,Presencial,Realizada,Sem acordo
+792,1123,2026-01-24,Conciliação,Presencial,Realizada,Sem acordo
+793,1124,2026-10-27,Julgamento,Presencial,Cancelada,Pendente
+794,1125,2026-10-24,Instrução,Presencial,Cancelada,Pendente
+795,1126,2027-03-02,Julgamento,Presencial,Cancelada,Adiada
+796,1127,2027-02-03,Conciliação,Presencial,Cancelada,Adiada
+797,1129,2026-05-12,Instrução,Presencial,Agendada,Adiada
+798,1132,2025-10-22,Conciliação,Virtual,Realizada,Sem acordo
+799,1133,2026-03-24,Julgamento,Presencial,Realizada,Pendente
+800,1135,2026-10-14,Conciliação,Presencial,Realizada,Adiada
+801,1136,2026-12-14,Conciliação,Presencial,Agendada,Sem acordo
+802,1140,2026-10-11,Conciliação,Virtual,Cancelada,Acordo
+803,1142,2026-11-16,Instrução,Presencial,Realizada,Acordo
+804,1143,2026-04-12,Conciliação,Presencial,Realizada,Acordo
+805,1144,2026-12-17,Julgamento,Virtual,Agendada,Sem acordo
+806,1145,2026-09-12,Julgamento,Virtual,Realizada,Pendente
+807,1146,2027-01-23,Conciliação,Virtual,Cancelada,Acordo
+808,1147,2026-03-01,Julgamento,Presencial,Agendada,Acordo
+809,1149,2026-03-23,Instrução,Presencial,Cancelada,Acordo
+810,1150,2027-02-23,Conciliação,Virtual,Cancelada,Acordo
+811,1154,2027-06-05,Julgamento,Virtual,Realizada,Adiada
+812,1156,2025-10-31,Julgamento,Virtual,Realizada,Adiada
+813,1158,2026-01-15,Julgamento,Presencial,Realizada,Sem acordo
+814,1159,2027-03-08,Conciliação,Presencial,Cancelada,Adiada
+815,1162,2026-01-18,Instrução,Virtual,Agendada,Sem acordo
+816,1163,2026-01-28,Julgamento,Virtual,Realizada,Adiada
+817,1165,2025-09-02,Julgamento,Virtual,Cancelada,Pendente
+818,1166,2026-10-29,Instrução,Virtual,Realizada,Sem acordo
+819,1168,2027-02-19,Instrução,Virtual,Cancelada,Adiada
+820,1169,2027-01-03,Conciliação,Presencial,Realizada,Sem acordo
+821,1170,2026-07-26,Instrução,Virtual,Cancelada,Pendente
+822,1171,2027-04-11,Julgamento,Presencial,Realizada,Acordo
+823,1172,2027-03-10,Instrução,Virtual,Cancelada,Pendente
+824,1173,2026-07-22,Julgamento,Virtual,Cancelada,Adiada
+825,1174,2026-11-11,Conciliação,Presencial,Cancelada,Sem acordo
+826,1175,2026-07-19,Conciliação,Virtual,Agendada,Acordo
+827,1176,2026-10-05,Conciliação,Presencial,Realizada,Acordo
+828,1177,2027-03-09,Conciliação,Virtual,Realizada,Sem acordo
+829,1179,2027-07-14,Julgamento,Virtual,Cancelada,Pendente
+830,1180,2026-10-27,Instrução,Presencial,Realizada,Sem acordo
+831,1181,2026-11-12,Julgamento,Virtual,Realizada,Acordo
+832,1182,2026-09-11,Julgamento,Virtual,Realizada,Sem acordo
+833,1183,2027-06-25,Instrução,Presencial,Agendada,Adiada
+834,1184,2026-05-17,Julgamento,Presencial,Realizada,Adiada
+835,1187,2027-05-01,Julgamento,Presencial,Agendada,Sem acordo
+836,1189,2026-07-12,Conciliação,Presencial,Realizada,Adiada
+837,1190,2026-07-18,Julgamento,Virtual,Realizada,Sem acordo
+838,1191,2027-04-29,Julgamento,Virtual,Realizada,Acordo
+839,1192,2026-12-29,Conciliação,Virtual,Cancelada,Acordo
+840,1196,2027-09-13,Conciliação,Virtual,Realizada,Acordo
+841,1198,2027-01-12,Instrução,Presencial,Realizada,Sem acordo
+842,1202,2027-03-19,Conciliação,Presencial,Agendada,Acordo
+843,1203,2027-01-22,Instrução,Presencial,Agendada,Acordo
+844,1204,2025-10-15,Instrução,Presencial,Agendada,Sem acordo
+845,1206,2026-11-17,Instrução,Virtual,Cancelada,Acordo
+846,1207,2025-10-17,Julgamento,Presencial,Cancelada,Sem acordo
+847,1208,2026-06-24,Conciliação,Virtual,Cancelada,Sem acordo
+848,1209,2026-06-27,Instrução,Virtual,Cancelada,Sem acordo
+849,1210,2026-04-20,Conciliação,Presencial,Agendada,Adiada
+850,1211,2027-03-25,Instrução,Virtual,Realizada,Adiada
+851,1213,2026-09-06,Julgamento,Presencial,Realizada,Adiada
+852,1214,2026-03-14,Conciliação,Virtual,Cancelada,Pendente
+853,1215,2025-10-28,Julgamento,Virtual,Agendada,Adiada
+854,1216,2026-11-18,Instrução,Virtual,Realizada,Pendente
+855,1217,2026-07-21,Julgamento,Virtual,Cancelada,Acordo
+856,1220,2026-09-07,Conciliação,Virtual,Agendada,Pendente
+857,1222,2026-05-18,Julgamento,Presencial,Realizada,Adiada
+858,1223,2027-03-10,Julgamento,Virtual,Realizada,Adiada
+859,1224,2026-01-18,Conciliação,Virtual,Cancelada,Pendente
+860,1225,2027-03-20,Conciliação,Virtual,Realizada,Adiada
+861,1226,2026-03-13,Instrução,Virtual,Agendada,Acordo
+862,1227,2026-05-24,Instrução,Presencial,Realizada,Sem acordo
+863,1228,2026-04-17,Instrução,Presencial,Agendada,Pendente
+864,1229,2027-01-20,Instrução,Presencial,Realizada,Acordo
+865,1230,2027-07-22,Instrução,Presencial,Realizada,Sem acordo
+866,1231,2027-01-01,Conciliação,Presencial,Cancelada,Sem acordo
+867,1232,2027-04-27,Instrução,Presencial,Realizada,Sem acordo
+868,1234,2026-12-31,Instrução,Virtual,Agendada,Adiada
+869,1235,2026-04-27,Julgamento,Presencial,Cancelada,Acordo
+870,1237,2026-11-13,Instrução,Presencial,Realizada,Pendente
+871,1239,2026-08-24,Julgamento,Virtual,Cancelada,Adiada
+872,1240,2027-02-24,Conciliação,Virtual,Realizada,Pendente
+873,1241,2027-01-23,Julgamento,Presencial,Realizada,Acordo
+874,1242,2025-11-26,Julgamento,Presencial,Realizada,Acordo
+875,1243,2027-04-01,Conciliação,Virtual,Agendada,Adiada
+876,1244,2026-11-13,Julgamento,Virtual,Cancelada,Sem acordo
+877,1245,2026-11-08,Instrução,Virtual,Realizada,Pendente
+878,1246,2026-05-20,Instrução,Virtual,Realizada,Acordo
+879,1248,2026-04-26,Conciliação,Presencial,Realizada,Acordo
+880,1250,2027-03-12,Conciliação,Presencial,Agendada,Acordo
+881,1252,2027-09-02,Conciliação,Virtual,Agendada,Acordo
+882,1253,2027-06-21,Conciliação,Virtual,Realizada,Adiada
+883,1254,2026-07-05,Julgamento,Presencial,Agendada,Pendente
+884,1255,2027-02-23,Julgamento,Presencial,Agendada,Adiada
+885,1258,2026-05-26,Instrução,Virtual,Realizada,Sem acordo
+886,1259,2026-11-16,Conciliação,Virtual,Cancelada,Pendente
+887,1260,2026-03-18,Instrução,Presencial,Realizada,Adiada
+888,1261,2027-08-08,Conciliação,Presencial,Realizada,Sem acordo
+889,1262,2027-01-30,Conciliação,Presencial,Cancelada,Sem acordo
+890,1263,2026-06-24,Julgamento,Virtual,Cancelada,Pendente
+891,1264,2026-03-14,Conciliação,Presencial,Realizada,Adiada
+892,1265,2026-07-19,Instrução,Presencial,Cancelada,Acordo
+893,1266,2026-12-09,Instrução,Presencial,Realizada,Sem acordo
+894,1267,2027-04-21,Julgamento,Virtual,Agendada,Adiada
+895,1270,2026-06-28,Julgamento,Virtual,Agendada,Adiada
+896,1271,2026-08-11,Instrução,Virtual,Realizada,Acordo
+897,1273,2026-06-23,Julgamento,Virtual,Realizada,Sem acordo
+898,1274,2027-11-18,Julgamento,Virtual,Agendada,Pendente
+899,1275,2026-10-11,Conciliação,Virtual,Cancelada,Pendente
+900,1276,2026-05-15,Instrução,Presencial,Agendada,Adiada
+901,1278,2026-11-17,Conciliação,Presencial,Cancelada,Sem acordo
+902,1279,2027-01-13,Instrução,Virtual,Cancelada,Sem acordo
+903,1281,2026-05-21,Conciliação,Presencial,Realizada,Pendente
+904,1284,2026-09-11,Conciliação,Virtual,Agendada,Acordo
+905,1287,2026-08-20,Conciliação,Presencial,Cancelada,Acordo
+906,1289,2025-12-20,Julgamento,Presencial,Cancelada,Acordo
+907,1290,2026-04-08,Conciliação,Virtual,Realizada,Adiada
+908,1291,2026-06-11,Conciliação,Virtual,Realizada,Acordo
+909,1292,2026-01-16,Instrução,Presencial,Realizada,Acordo
+910,1293,2026-11-03,Conciliação,Presencial,Agendada,Sem acordo
+911,1296,2027-01-21,Julgamento,Presencial,Realizada,Pendente
+912,1298,2027-05-14,Julgamento,Virtual,Agendada,Pendente
+913,1299,2026-07-17,Instrução,Presencial,Cancelada,Adiada
+914,1302,2026-07-02,Conciliação,Virtual,Realizada,Sem acordo
+915,1303,2026-12-17,Conciliação,Presencial,Realizada,Adiada
+916,1304,2026-10-25,Conciliação,Presencial,Agendada,Pendente
+917,1305,2027-02-17,Instrução,Presencial,Realizada,Acordo
+918,1307,2025-10-24,Instrução,Virtual,Cancelada,Acordo
+919,1308,2026-08-26,Instrução,Virtual,Realizada,Sem acordo
+920,1310,2026-10-08,Instrução,Presencial,Cancelada,Sem acordo
+921,1311,2026-06-12,Conciliação,Presencial,Agendada,Sem acordo
+922,1312,2027-07-04,Julgamento,Virtual,Realizada,Sem acordo
+923,1313,2027-06-26,Conciliação,Virtual,Cancelada,Adiada
+924,1314,2025-09-30,Conciliação,Virtual,Cancelada,Sem acordo
+925,1315,2026-06-22,Instrução,Virtual,Agendada,Adiada
+926,1317,2026-08-17,Instrução,Presencial,Cancelada,Acordo
+927,1318,2026-02-28,Julgamento,Virtual,Agendada,Pendente
+928,1319,2026-08-26,Conciliação,Virtual,Realizada,Pendente
+929,1321,2026-02-01,Julgamento,Virtual,Realizada,Acordo
+930,1322,2026-10-11,Instrução,Virtual,Realizada,Acordo
+931,1324,2026-10-06,Instrução,Presencial,Realizada,Pendente
+932,1325,2027-01-05,Julgamento,Presencial,Agendada,Sem acordo
+933,1326,2026-04-17,Conciliação,Virtual,Cancelada,Adiada
+934,1330,2027-02-01,Instrução,Virtual,Agendada,Adiada
+935,1331,2026-12-18,Conciliação,Virtual,Realizada,Pendente
+936,1332,2026-02-13,Julgamento,Presencial,Cancelada,Pendente
+937,1333,2026-10-24,Conciliação,Presencial,Cancelada,Sem acordo
+938,1334,2025-12-24,Julgamento,Presencial,Agendada,Adiada
+939,1336,2027-08-14,Conciliação,Presencial,Cancelada,Adiada
+940,1337,2026-10-20,Conciliação,Presencial,Realizada,Sem acordo
+941,1339,2026-04-29,Julgamento,Virtual,Agendada,Sem acordo
+942,1341,2027-03-03,Conciliação,Virtual,Cancelada,Adiada
+943,1342,2026-08-16,Julgamento,Presencial,Agendada,Acordo
+944,1343,2027-02-11,Conciliação,Presencial,Realizada,Pendente
+945,1344,2026-12-22,Julgamento,Presencial,Agendada,Pendente
+946,1345,2026-07-10,Instrução,Virtual,Cancelada,Sem acordo
+947,1347,2026-02-05,Instrução,Virtual,Cancelada,Pendente
+948,1348,2027-02-07,Instrução,Virtual,Cancelada,Sem acordo
+949,1349,2027-01-05,Instrução,Virtual,Agendada,Adiada
+950,1351,2027-06-25,Instrução,Virtual,Cancelada,Sem acordo
+951,1352,2025-12-04,Instrução,Virtual,Realizada,Pendente
+952,1353,2026-09-21,Conciliação,Virtual,Agendada,Pendente
+953,1354,2026-07-31,Julgamento,Presencial,Agendada,Acordo
+954,1355,2025-12-08,Julgamento,Virtual,Realizada,Acordo
+955,1356,2025-12-08,Conciliação,Virtual,Cancelada,Pendente
+956,1357,2026-07-09,Instrução,Virtual,Cancelada,Sem acordo
+957,1358,2026-04-01,Conciliação,Virtual,Realizada,Adiada
+958,1359,2026-04-23,Instrução,Presencial,Cancelada,Adiada
+959,1360,2026-11-13,Julgamento,Presencial,Realizada,Adiada
+960,1361,2026-11-16,Julgamento,Presencial,Cancelada,Sem acordo
+961,1363,2026-10-27,Instrução,Presencial,Realizada,Acordo
+962,1364,2027-07-02,Conciliação,Virtual,Cancelada,Sem acordo
+963,1365,2026-02-18,Instrução,Presencial,Cancelada,Sem acordo
+964,1366,2026-01-21,Julgamento,Virtual,Agendada,Acordo
+965,1367,2026-09-23,Conciliação,Presencial,Realizada,Pendente
+966,1369,2026-10-22,Julgamento,Virtual,Cancelada,Sem acordo
+967,1370,2026-05-02,Julgamento,Virtual,Realizada,Adiada
+968,1372,2026-08-18,Conciliação,Presencial,Realizada,Sem acordo
+969,1373,2027-01-01,Conciliação,Presencial,Cancelada,Acordo
+970,1374,2026-11-03,Julgamento,Virtual,Agendada,Sem acordo
+971,1375,2026-03-12,Instrução,Virtual,Agendada,Sem acordo
+972,1376,2027-10-04,Conciliação,Virtual,Cancelada,Acordo
+973,1377,2026-11-15,Julgamento,Virtual,Realizada,Pendente
+974,1378,2025-10-17,Instrução,Presencial,Realizada,Sem acordo
+975,1380,2026-12-11,Julgamento,Virtual,Cancelada,Adiada
+976,1382,2026-04-08,Instrução,Presencial,Agendada,Adiada
+977,1385,2026-09-18,Conciliação,Virtual,Cancelada,Acordo
+978,1386,2026-08-25,Instrução,Virtual,Agendada,Sem acordo
+979,1387,2027-07-26,Julgamento,Presencial,Agendada,Sem acordo
+980,1388,2026-03-27,Instrução,Virtual,Agendada,Sem acordo
+981,1389,2026-02-03,Julgamento,Presencial,Realizada,Adiada
+982,1390,2026-12-01,Conciliação,Presencial,Agendada,Acordo
+983,1391,2026-10-26,Instrução,Virtual,Cancelada,Acordo
+984,1392,2026-03-01,Conciliação,Presencial,Realizada,Acordo
+985,1393,2026-12-14,Julgamento,Presencial,Realizada,Sem acordo
+986,1394,2026-04-24,Julgamento,Virtual,Agendada,Pendente
+987,1395,2026-09-14,Julgamento,Virtual,Agendada,Adiada
+988,1397,2025-12-14,Instrução,Presencial,Realizada,Pendente
+989,1398,2026-08-12,Instrução,Presencial,Realizada,Acordo
+990,1399,2027-07-14,Instrução,Virtual,Realizada,Pendente
+991,1400,2027-01-14,Instrução,Presencial,Cancelada,Adiada
+992,1401,2027-04-19,Instrução,Presencial,Agendada,Acordo
+993,1402,2026-02-18,Instrução,Virtual,Realizada,Acordo
+994,1403,2026-05-10,Julgamento,Virtual,Cancelada,Pendente
+995,1404,2026-12-08,Conciliação,Presencial,Agendada,Pendente
+996,1407,2026-07-10,Julgamento,Virtual,Realizada,Pendente
+997,1408,2026-04-13,Instrução,Virtual,Cancelada,Pendente
+998,1409,2027-02-21,Instrução,Virtual,Realizada,Acordo
+999,1410,2027-09-10,Instrução,Presencial,Agendada,Acordo
+1000,1411,2027-07-01,Instrução,Presencial,Cancelada,Sem acordo
+1001,1412,2026-03-31,Julgamento,Presencial,Cancelada,Adiada
+1002,1413,2026-03-19,Instrução,Presencial,Realizada,Adiada
+1003,1414,2026-10-19,Instrução,Presencial,Realizada,Sem acordo
+1004,1416,2026-08-11,Conciliação,Presencial,Realizada,Pendente
+1005,1418,2026-10-14,Conciliação,Presencial,Cancelada,Sem acordo
+1006,1419,2026-09-27,Conciliação,Presencial,Realizada,Adiada
+1007,1421,2026-08-10,Instrução,Presencial,Cancelada,Acordo
+1008,1422,2026-08-19,Instrução,Presencial,Agendada,Adiada
+1009,1423,2027-05-21,Julgamento,Presencial,Realizada,Acordo
+1010,1424,2026-01-29,Instrução,Virtual,Cancelada,Sem acordo
+1011,1425,2027-03-03,Julgamento,Virtual,Agendada,Adiada
+1012,1426,2026-01-17,Julgamento,Virtual,Agendada,Pendente
+1013,1427,2027-01-30,Julgamento,Presencial,Agendada,Acordo
+1014,1428,2026-08-04,Conciliação,Virtual,Agendada,Pendente
+1015,1429,2026-11-10,Julgamento,Presencial,Agendada,Adiada
+1016,1431,2026-06-18,Conciliação,Virtual,Realizada,Adiada
+1017,1432,2026-04-26,Julgamento,Presencial,Cancelada,Pendente
+1018,1434,2026-05-17,Julgamento,Virtual,Cancelada,Pendente
+1019,1435,2026-09-21,Julgamento,Presencial,Realizada,Adiada
+1020,1436,2027-07-05,Julgamento,Presencial,Realizada,Adiada
+1021,1438,2026-11-22,Julgamento,Virtual,Agendada,Pendente
+1022,1440,2026-06-24,Conciliação,Presencial,Realizada,Adiada
+1023,1441,2026-10-26,Instrução,Presencial,Realizada,Sem acordo
+1024,1442,2027-03-26,Instrução,Presencial,Cancelada,Sem acordo
+1025,1444,2026-11-03,Julgamento,Presencial,Realizada,Pendente
+1026,1445,2026-05-22,Conciliação,Presencial,Agendada,Sem acordo
+1027,1446,2025-10-31,Julgamento,Virtual,Realizada,Acordo
+1028,1447,2027-05-04,Julgamento,Presencial,Agendada,Pendente
+1029,1448,2026-09-15,Instrução,Presencial,Cancelada,Pendente
+1030,1450,2026-09-17,Conciliação,Presencial,Cancelada,Pendente
+1031,1451,2027-04-04,Julgamento,Virtual,Realizada,Acordo
+1032,1452,2027-03-04,Instrução,Presencial,Agendada,Pendente
+1033,1454,2027-07-11,Julgamento,Presencial,Realizada,Pendente
+1034,1457,2026-05-21,Conciliação,Presencial,Cancelada,Sem acordo
+1035,1458,2027-02-08,Conciliação,Virtual,Cancelada,Adiada
+1036,1459,2027-02-08,Conciliação,Presencial,Realizada,Adiada
+1037,1460,2027-02-02,Instrução,Virtual,Cancelada,Sem acordo
+1038,1461,2026-09-15,Conciliação,Presencial,Agendada,Pendente
+1039,1462,2027-01-23,Conciliação,Virtual,Agendada,Sem acordo
+1040,1463,2027-07-04,Conciliação,Virtual,Realizada,Adiada
+1041,1464,2026-02-13,Instrução,Presencial,Agendada,Acordo
+1042,1467,2026-08-24,Julgamento,Virtual,Cancelada,Acordo
+1043,1468,2026-07-26,Instrução,Presencial,Realizada,Pendente
+1044,1469,2026-10-31,Instrução,Presencial,Cancelada,Sem acordo
+1045,1470,2027-01-24,Instrução,Virtual,Agendada,Sem acordo
+1046,1472,2025-09-26,Instrução,Virtual,Agendada,Sem acordo
+1047,1473,2027-02-05,Instrução,Virtual,Cancelada,Acordo
+1048,1475,2027-07-17,Conciliação,Virtual,Cancelada,Pendente
+1049,1476,2027-01-19,Instrução,Virtual,Realizada,Adiada
+1050,1477,2026-06-14,Julgamento,Presencial,Realizada,Sem acordo
+1051,1478,2027-01-20,Conciliação,Virtual,Cancelada,Adiada
+1052,1480,2026-05-04,Instrução,Presencial,Realizada,Sem acordo
+1053,1482,2026-02-01,Instrução,Virtual,Cancelada,Pendente
+1054,1483,2027-04-14,Instrução,Virtual,Realizada,Pendente
+1055,1484,2027-04-21,Julgamento,Presencial,Cancelada,Acordo
+1056,1485,2027-09-15,Instrução,Presencial,Realizada,Sem acordo
+1057,1486,2027-01-26,Instrução,Virtual,Realizada,Sem acordo
+1058,1487,2026-08-14,Conciliação,Virtual,Realizada,Pendente
+1059,1489,2026-06-03,Instrução,Virtual,Agendada,Acordo
+1060,1490,2026-10-12,Instrução,Virtual,Realizada,Adiada
+1061,1491,2027-09-26,Conciliação,Presencial,Realizada,Acordo
+1062,1492,2026-12-21,Instrução,Virtual,Cancelada,Sem acordo
+1063,1493,2026-03-27,Conciliação,Virtual,Cancelada,Pendente
+1064,1494,2025-12-11,Conciliação,Presencial,Cancelada,Sem acordo
+1065,1496,2026-12-04,Conciliação,Virtual,Realizada,Pendente
+1066,1497,2026-03-06,Instrução,Virtual,Cancelada,Pendente
+1067,1498,2026-10-22,Instrução,Virtual,Cancelada,Acordo
+1068,1501,2027-09-17,Julgamento,Virtual,Agendada,Acordo
+1069,1503,2026-08-05,Instrução,Virtual,Cancelada,Pendente
+1070,1504,2027-07-27,Instrução,Virtual,Agendada,Sem acordo
+1071,1505,2027-03-15,Julgamento,Virtual,Realizada,Sem acordo
+1072,1506,2026-01-30,Julgamento,Virtual,Agendada,Acordo
+1073,1507,2026-06-15,Instrução,Presencial,Cancelada,Acordo
+1074,1508,2026-09-12,Instrução,Presencial,Agendada,Pendente
+1075,1509,2026-04-26,Instrução,Presencial,Realizada,Sem acordo
+1076,1510,2027-03-08,Instrução,Presencial,Agendada,Sem acordo
+1077,1512,2027-02-02,Julgamento,Presencial,Cancelada,Acordo
+1078,1513,2026-06-24,Instrução,Presencial,Agendada,Sem acordo
+1079,1515,2026-04-30,Instrução,Presencial,Cancelada,Acordo
+1080,1516,2026-03-26,Julgamento,Virtual,Agendada,Adiada
+1081,1518,2026-09-19,Julgamento,Virtual,Cancelada,Adiada
+1082,1519,2025-10-31,Julgamento,Virtual,Realizada,Adiada
+1083,1520,2027-01-11,Conciliação,Virtual,Cancelada,Adiada
+1084,1521,2027-01-15,Julgamento,Virtual,Realizada,Pendente
+1085,1522,2027-02-05,Julgamento,Presencial,Agendada,Adiada
+1086,1523,2026-08-23,Conciliação,Virtual,Realizada,Sem acordo
+1087,1524,2026-04-16,Conciliação,Virtual,Realizada,Acordo
+1088,1525,2027-01-30,Instrução,Presencial,Agendada,Acordo
+1089,1526,2026-09-09,Instrução,Presencial,Agendada,Sem acordo
+1090,1527,2026-09-15,Instrução,Virtual,Agendada,Sem acordo
+1091,1530,2026-10-04,Julgamento,Virtual,Agendada,Sem acordo
+1092,1531,2025-11-13,Instrução,Presencial,Agendada,Adiada
+1093,1532,2027-01-01,Conciliação,Virtual,Realizada,Sem acordo
+1094,1533,2027-01-31,Conciliação,Virtual,Realizada,Sem acordo
+1095,1534,2026-06-06,Julgamento,Virtual,Agendada,Sem acordo
+1096,1535,2026-06-20,Julgamento,Virtual,Agendada,Acordo
+1097,1537,2026-10-17,Conciliação,Virtual,Agendada,Adiada
+1098,1539,2027-03-07,Conciliação,Presencial,Agendada,Pendente
+1099,1542,2026-10-02,Julgamento,Presencial,Agendada,Sem acordo
+1100,1543,2026-08-11,Instrução,Presencial,Cancelada,Adiada
+1101,1544,2026-12-26,Conciliação,Virtual,Agendada,Pendente
+1102,1547,2025-11-27,Julgamento,Presencial,Cancelada,Acordo
+1103,1549,2026-04-11,Julgamento,Virtual,Realizada,Pendente
+1104,1550,2026-12-03,Instrução,Presencial,Agendada,Acordo
+1105,1551,2025-11-24,Instrução,Virtual,Realizada,Acordo
+1106,1552,2027-01-10,Conciliação,Virtual,Realizada,Adiada
+1107,1556,2026-09-23,Instrução,Virtual,Realizada,Acordo
+1108,1558,2026-04-10,Instrução,Presencial,Cancelada,Acordo
+1109,1559,2027-02-07,Conciliação,Presencial,Agendada,Acordo
+1110,1561,2026-09-13,Instrução,Presencial,Cancelada,Sem acordo
+1111,1562,2026-10-30,Instrução,Presencial,Realizada,Acordo
+1112,1563,2026-10-28,Instrução,Presencial,Realizada,Sem acordo
+1113,1564,2026-11-23,Conciliação,Presencial,Agendada,Acordo
+1114,1565,2026-12-24,Conciliação,Virtual,Cancelada,Acordo
+1115,1566,2026-05-18,Julgamento,Virtual,Cancelada,Adiada
+1116,1567,2026-08-03,Conciliação,Virtual,Cancelada,Adiada
+1117,1569,2027-06-17,Julgamento,Virtual,Agendada,Sem acordo
+1118,1570,2026-04-20,Conciliação,Presencial,Cancelada,Pendente
+1119,1571,2026-06-27,Instrução,Virtual,Agendada,Acordo
+1120,1574,2026-08-20,Instrução,Presencial,Realizada,Pendente
+1121,1575,2027-05-22,Julgamento,Virtual,Cancelada,Sem acordo
+1122,1576,2025-12-26,Julgamento,Virtual,Agendada,Sem acordo
+1123,1578,2027-08-08,Conciliação,Presencial,Cancelada,Adiada
+1124,1579,2026-06-23,Julgamento,Presencial,Cancelada,Pendente
+1125,1580,2027-07-16,Instrução,Presencial,Realizada,Sem acordo
+1126,1582,2027-02-18,Julgamento,Virtual,Cancelada,Acordo
+1127,1583,2026-10-20,Conciliação,Presencial,Cancelada,Pendente
+1128,1584,2025-11-23,Julgamento,Virtual,Realizada,Acordo
+1129,1585,2026-11-23,Instrução,Presencial,Agendada,Pendente
+1130,1586,2027-03-27,Instrução,Virtual,Cancelada,Adiada
+1131,1588,2027-03-15,Instrução,Virtual,Cancelada,Pendente
+1132,1589,2026-10-03,Conciliação,Virtual,Realizada,Acordo
+1133,1590,2027-03-27,Conciliação,Presencial,Agendada,Acordo
+1134,1591,2026-09-24,Julgamento,Presencial,Agendada,Adiada
+1135,1592,2026-04-25,Conciliação,Presencial,Cancelada,Sem acordo
+1136,1593,2026-04-14,Conciliação,Virtual,Agendada,Acordo
+1137,1594,2027-01-02,Conciliação,Presencial,Realizada,Acordo
+1138,1595,2027-04-17,Julgamento,Presencial,Agendada,Pendente
+1139,1597,2026-02-01,Conciliação,Presencial,Cancelada,Adiada
+1140,1599,2026-10-03,Instrução,Virtual,Cancelada,Acordo
+1141,1600,2025-12-08,Conciliação,Presencial,Realizada,Pendente
+1142,1601,2026-01-05,Instrução,Presencial,Agendada,Pendente
+1143,1602,2026-06-30,Julgamento,Presencial,Cancelada,Pendente
+1144,1603,2026-08-07,Conciliação,Virtual,Cancelada,Acordo
+1145,1604,2026-12-01,Conciliação,Presencial,Cancelada,Acordo
+1146,1605,2026-06-17,Instrução,Virtual,Agendada,Acordo
+1147,1606,2026-06-16,Julgamento,Virtual,Agendada,Acordo
+1148,1608,2027-06-27,Conciliação,Virtual,Realizada,Sem acordo
+1149,1609,2026-10-10,Instrução,Presencial,Realizada,Pendente
+1150,1610,2026-04-13,Conciliação,Virtual,Realizada,Sem acordo
+1151,1611,2026-11-23,Instrução,Virtual,Cancelada,Pendente
+1152,1612,2026-10-01,Conciliação,Virtual,Agendada,Adiada
+1153,1613,2027-07-04,Instrução,Presencial,Realizada,Adiada
+1154,1614,2026-06-20,Instrução,Virtual,Agendada,Sem acordo
+1155,1615,2026-05-31,Conciliação,Virtual,Agendada,Acordo
+1156,1616,2026-07-28,Conciliação,Virtual,Agendada,Pendente
+1157,1617,2026-10-31,Julgamento,Virtual,Realizada,Sem acordo
+1158,1618,2026-08-26,Instrução,Virtual,Agendada,Adiada
+1159,1619,2026-06-25,Conciliação,Virtual,Realizada,Acordo
+1160,1620,2026-08-04,Julgamento,Presencial,Cancelada,Acordo
+1161,1621,2026-06-02,Julgamento,Presencial,Agendada,Acordo
+1162,1624,2026-09-01,Instrução,Presencial,Realizada,Pendente
+1163,1626,2026-07-08,Instrução,Virtual,Agendada,Pendente
+1164,1627,2027-02-27,Conciliação,Presencial,Realizada,Adiada
+1165,1628,2026-06-01,Instrução,Virtual,Cancelada,Acordo
+1166,1630,2026-09-09,Instrução,Presencial,Agendada,Adiada
+1167,1634,2027-07-01,Instrução,Presencial,Realizada,Sem acordo
+1168,1635,2027-02-21,Conciliação,Presencial,Realizada,Adiada
+1169,1638,2026-08-24,Julgamento,Virtual,Realizada,Pendente
+1170,1639,2026-02-20,Instrução,Virtual,Cancelada,Acordo
+1171,1640,2026-12-26,Julgamento,Virtual,Agendada,Pendente
+1172,1641,2026-09-01,Conciliação,Virtual,Realizada,Adiada
+1173,1642,2026-09-02,Instrução,Virtual,Agendada,Adiada
+1174,1643,2027-01-04,Instrução,Virtual,Agendada,Pendente
+1175,1644,2026-04-14,Julgamento,Presencial,Agendada,Adiada
+1176,1645,2027-01-05,Conciliação,Virtual,Realizada,Acordo
+1177,1646,2026-01-24,Instrução,Presencial,Realizada,Acordo
+1178,1647,2026-07-20,Julgamento,Virtual,Agendada,Pendente
+1179,1648,2026-12-18,Julgamento,Virtual,Agendada,Adiada
+1180,1649,2026-08-07,Conciliação,Presencial,Cancelada,Sem acordo
+1181,1650,2027-02-19,Conciliação,Presencial,Agendada,Pendente
+1182,1651,2026-10-05,Conciliação,Virtual,Agendada,Sem acordo
+1183,1652,2026-01-26,Conciliação,Virtual,Realizada,Adiada
+1184,1653,2025-08-03,Julgamento,Virtual,Agendada,Pendente
+1185,1656,2025-11-05,Instrução,Presencial,Cancelada,Acordo
+1186,1657,2027-06-17,Instrução,Virtual,Realizada,Adiada
+1187,1661,2025-11-04,Julgamento,Presencial,Cancelada,Sem acordo
+1188,1662,2025-11-23,Julgamento,Presencial,Realizada,Adiada
+1189,1663,2026-06-17,Conciliação,Virtual,Agendada,Adiada
+1190,1665,2026-04-08,Julgamento,Presencial,Agendada,Sem acordo
+1191,1666,2027-02-16,Conciliação,Virtual,Realizada,Sem acordo
+1192,1667,2026-09-08,Julgamento,Presencial,Agendada,Acordo
+1193,1668,2026-10-26,Conciliação,Presencial,Cancelada,Pendente
+1194,1669,2026-03-17,Instrução,Presencial,Cancelada,Acordo
+1195,1670,2026-12-20,Julgamento,Virtual,Cancelada,Sem acordo
+1196,1671,2026-12-24,Julgamento,Virtual,Agendada,Sem acordo
+1197,1672,2026-10-09,Julgamento,Presencial,Realizada,Adiada
+1198,1673,2026-10-13,Instrução,Presencial,Agendada,Adiada
+1199,1674,2026-03-12,Conciliação,Virtual,Agendada,Sem acordo
+1200,1676,2026-08-16,Conciliação,Virtual,Agendada,Adiada
+1201,1677,2026-10-05,Julgamento,Presencial,Agendada,Pendente
+1202,1678,2027-01-24,Conciliação,Virtual,Agendada,Adiada
+1203,1682,2026-03-29,Instrução,Presencial,Cancelada,Pendente
+1204,1683,2027-01-12,Instrução,Virtual,Cancelada,Acordo
+1205,1684,2026-04-26,Instrução,Presencial,Realizada,Pendente
+1206,1687,2027-09-05,Conciliação,Virtual,Agendada,Acordo
+1207,1688,2027-01-16,Conciliação,Virtual,Realizada,Acordo
+1208,1689,2026-03-31,Julgamento,Virtual,Agendada,Pendente
+1209,1690,2026-05-18,Conciliação,Presencial,Agendada,Adiada
+1210,1691,2027-07-28,Conciliação,Virtual,Agendada,Pendente
+1211,1692,2026-06-18,Conciliação,Presencial,Agendada,Adiada
+1212,1694,2025-11-19,Instrução,Virtual,Agendada,Adiada
+1213,1696,2026-07-26,Instrução,Presencial,Agendada,Acordo
+1214,1697,2026-07-31,Instrução,Presencial,Realizada,Acordo
+1215,1700,2027-02-16,Julgamento,Virtual,Realizada,Adiada
+1216,1701,2025-12-28,Julgamento,Presencial,Agendada,Sem acordo
+1217,1702,2026-08-31,Julgamento,Virtual,Realizada,Pendente
+1218,1703,2027-02-15,Conciliação,Virtual,Realizada,Acordo
+1219,1704,2026-06-21,Julgamento,Presencial,Agendada,Acordo
+1220,1706,2027-02-25,Instrução,Virtual,Cancelada,Pendente
+1221,1707,2027-09-14,Conciliação,Presencial,Cancelada,Adiada
+1222,1708,2027-01-02,Instrução,Presencial,Realizada,Sem acordo
+1223,1709,2027-03-03,Conciliação,Virtual,Cancelada,Acordo
+1224,1710,2026-01-14,Conciliação,Virtual,Cancelada,Pendente
+1225,1712,2026-09-03,Conciliação,Virtual,Realizada,Acordo
+1226,1713,2026-07-02,Instrução,Presencial,Cancelada,Sem acordo
+1227,1718,2026-03-08,Conciliação,Presencial,Cancelada,Adiada
+1228,1721,2026-01-27,Conciliação,Virtual,Cancelada,Pendente
+1229,1722,2027-03-05,Conciliação,Presencial,Cancelada,Sem acordo
+1230,1724,2025-11-15,Instrução,Virtual,Realizada,Acordo
+1231,1725,2026-08-13,Julgamento,Presencial,Agendada,Adiada
+1232,1726,2027-06-08,Conciliação,Presencial,Agendada,Sem acordo
+1233,1727,2027-07-06,Instrução,Virtual,Agendada,Pendente
+1234,1729,2026-07-08,Instrução,Presencial,Agendada,Pendente
+1235,1730,2026-11-14,Conciliação,Presencial,Agendada,Sem acordo
+1236,1731,2026-08-10,Conciliação,Virtual,Realizada,Pendente
+1237,1733,2025-11-05,Conciliação,Virtual,Realizada,Pendente
+1238,1734,2026-09-02,Instrução,Virtual,Agendada,Acordo
+1239,1740,2026-05-02,Julgamento,Virtual,Realizada,Adiada
+1240,1744,2026-01-05,Conciliação,Virtual,Cancelada,Pendente
+1241,1746,2026-09-12,Conciliação,Virtual,Cancelada,Sem acordo
+1242,1748,2026-06-16,Conciliação,Virtual,Cancelada,Adiada
+1243,1752,2025-08-31,Julgamento,Virtual,Agendada,Pendente
+1244,1753,2027-03-05,Conciliação,Presencial,Realizada,Sem acordo
+1245,1754,2025-11-08,Julgamento,Presencial,Cancelada,Adiada
+1246,1756,2026-05-12,Julgamento,Virtual,Realizada,Sem acordo
+1247,1760,2026-07-24,Julgamento,Virtual,Realizada,Acordo
+1248,1761,2027-06-19,Julgamento,Virtual,Realizada,Acordo
+1249,1762,2026-03-24,Instrução,Presencial,Agendada,Acordo
+1250,1763,2026-10-23,Julgamento,Presencial,Cancelada,Adiada
+1251,1764,2026-02-06,Conciliação,Virtual,Agendada,Sem acordo
+1252,1765,2026-10-11,Instrução,Presencial,Agendada,Sem acordo
+1253,1766,2026-12-15,Julgamento,Virtual,Agendada,Adiada
+1254,1767,2027-03-11,Instrução,Virtual,Agendada,Pendente
+1255,1768,2026-10-05,Julgamento,Presencial,Realizada,Pendente
+1256,1769,2026-07-29,Instrução,Virtual,Cancelada,Adiada
+1257,1770,2026-10-23,Conciliação,Virtual,Cancelada,Sem acordo
+1258,1773,2027-03-16,Instrução,Virtual,Cancelada,Adiada
+1259,1774,2026-09-23,Julgamento,Virtual,Agendada,Acordo
+1260,1775,2026-08-27,Julgamento,Virtual,Cancelada,Adiada
+1261,1776,2026-07-16,Julgamento,Virtual,Cancelada,Pendente
+1262,1779,2027-01-14,Instrução,Presencial,Cancelada,Sem acordo
+1263,1780,2025-11-24,Julgamento,Presencial,Agendada,Adiada
+1264,1781,2026-12-29,Conciliação,Presencial,Cancelada,Acordo
+1265,1782,2026-07-15,Julgamento,Presencial,Agendada,Pendente
+1266,1784,2027-04-12,Julgamento,Presencial,Cancelada,Sem acordo
+1267,1785,2026-05-23,Instrução,Virtual,Realizada,Pendente
+1268,1787,2026-10-27,Conciliação,Virtual,Realizada,Sem acordo
+1269,1789,2026-08-31,Conciliação,Presencial,Realizada,Pendente
+1270,1790,2027-05-09,Instrução,Virtual,Agendada,Acordo
+1271,1791,2027-03-13,Conciliação,Presencial,Agendada,Sem acordo
+1272,1792,2025-08-13,Conciliação,Virtual,Agendada,Sem acordo
+1273,1793,2026-03-11,Julgamento,Virtual,Agendada,Acordo
+1274,1794,2026-06-05,Instrução,Presencial,Cancelada,Acordo
+1275,1795,2026-08-03,Conciliação,Presencial,Cancelada,Pendente
+1276,1796,2027-01-08,Julgamento,Virtual,Cancelada,Adiada
+1277,1798,2027-04-24,Instrução,Virtual,Agendada,Acordo
+1278,1799,2027-05-05,Conciliação,Virtual,Cancelada,Adiada
+1279,1801,2027-04-30,Instrução,Presencial,Agendada,Adiada
+1280,1802,2027-02-04,Julgamento,Presencial,Realizada,Adiada
+1281,1804,2025-10-24,Conciliação,Presencial,Agendada,Sem acordo
+1282,1806,2026-03-28,Conciliação,Virtual,Agendada,Pendente
+1283,1807,2027-01-24,Instrução,Virtual,Cancelada,Adiada
+1284,1808,2027-01-21,Conciliação,Virtual,Cancelada,Sem acordo
+1285,1810,2027-01-15,Conciliação,Presencial,Cancelada,Acordo
+1286,1811,2025-08-30,Instrução,Presencial,Agendada,Pendente
+1287,1812,2026-11-09,Conciliação,Virtual,Agendada,Sem acordo
+1288,1813,2026-08-19,Julgamento,Presencial,Realizada,Acordo
+1289,1814,2026-02-03,Julgamento,Presencial,Realizada,Pendente
+1290,1815,2026-11-23,Julgamento,Virtual,Agendada,Acordo
+1291,1816,2027-09-29,Instrução,Virtual,Cancelada,Acordo
+1292,1817,2026-09-06,Instrução,Presencial,Realizada,Sem acordo
+1293,1819,2026-07-23,Instrução,Presencial,Cancelada,Pendente
+1294,1820,2027-03-29,Instrução,Presencial,Agendada,Acordo
+1295,1821,2027-06-11,Conciliação,Virtual,Realizada,Adiada
+1296,1822,2026-09-28,Julgamento,Virtual,Cancelada,Pendente
+1297,1823,2026-10-21,Julgamento,Virtual,Agendada,Sem acordo
+1298,1825,2026-08-04,Instrução,Presencial,Agendada,Pendente
+1299,1826,2026-03-29,Conciliação,Presencial,Agendada,Sem acordo
+1300,1827,2027-02-22,Instrução,Virtual,Cancelada,Adiada
+1301,1830,2026-10-18,Conciliação,Presencial,Agendada,Adiada
+1302,1831,2026-02-18,Conciliação,Presencial,Agendada,Acordo
+1303,1832,2027-06-18,Instrução,Virtual,Realizada,Sem acordo
+1304,1835,2026-09-07,Conciliação,Presencial,Agendada,Acordo
+1305,1836,2026-01-11,Conciliação,Presencial,Cancelada,Sem acordo
+1306,1838,2027-01-18,Conciliação,Presencial,Cancelada,Adiada
+1307,1841,2027-01-23,Julgamento,Virtual,Agendada,Acordo
+1308,1842,2026-07-19,Instrução,Presencial,Agendada,Sem acordo
+1309,1845,2025-12-26,Conciliação,Virtual,Realizada,Sem acordo
+1310,1847,2027-01-21,Conciliação,Presencial,Realizada,Pendente
+1311,1848,2026-10-08,Julgamento,Presencial,Cancelada,Acordo
+1312,1849,2027-01-14,Conciliação,Presencial,Agendada,Sem acordo
+1313,1852,2026-03-29,Julgamento,Virtual,Cancelada,Adiada
+1314,1853,2026-03-06,Instrução,Presencial,Cancelada,Adiada
+1315,1854,2026-12-28,Julgamento,Virtual,Agendada,Adiada
+1316,1855,2027-07-11,Instrução,Virtual,Cancelada,Acordo
+1317,1861,2025-09-01,Instrução,Virtual,Cancelada,Sem acordo
+1318,1864,2026-06-09,Conciliação,Presencial,Agendada,Acordo
+1319,1865,2026-05-02,Instrução,Presencial,Agendada,Acordo
+1320,1866,2026-06-23,Conciliação,Presencial,Cancelada,Adiada
+1321,1867,2027-05-29,Julgamento,Presencial,Realizada,Pendente
+1322,1870,2027-04-30,Julgamento,Virtual,Realizada,Acordo
+1323,1871,2027-06-26,Conciliação,Virtual,Realizada,Sem acordo
+1324,1872,2026-04-01,Conciliação,Presencial,Realizada,Adiada
+1325,1875,2026-08-22,Conciliação,Presencial,Realizada,Sem acordo
+1326,1876,2027-03-08,Conciliação,Presencial,Agendada,Pendente
+1327,1877,2026-09-15,Julgamento,Virtual,Agendada,Acordo
+1328,1878,2027-01-11,Instrução,Virtual,Realizada,Sem acordo
+1329,1879,2025-12-14,Instrução,Virtual,Realizada,Sem acordo
+1330,1880,2026-08-16,Julgamento,Presencial,Cancelada,Sem acordo
+1331,1882,2027-03-23,Julgamento,Virtual,Cancelada,Adiada
+1332,1885,2026-09-08,Instrução,Presencial,Agendada,Adiada
+1333,1886,2027-05-27,Instrução,Presencial,Realizada,Adiada
+1334,1890,2027-02-24,Julgamento,Virtual,Realizada,Adiada
+1335,1891,2026-11-22,Instrução,Virtual,Cancelada,Acordo
+1336,1892,2026-05-14,Julgamento,Virtual,Cancelada,Pendente
+1337,1894,2026-08-21,Julgamento,Presencial,Realizada,Acordo
+1338,1895,2027-05-13,Julgamento,Presencial,Realizada,Adiada
+1339,1896,2027-01-16,Julgamento,Virtual,Agendada,Adiada
+1340,1897,2026-05-05,Julgamento,Virtual,Cancelada,Adiada
+1341,1898,2026-12-19,Julgamento,Virtual,Realizada,Sem acordo
+1342,1902,2026-11-08,Conciliação,Presencial,Agendada,Acordo
+1343,1903,2027-03-13,Conciliação,Virtual,Realizada,Sem acordo
+1344,1905,2027-01-20,Conciliação,Virtual,Realizada,Pendente
+1345,1906,2026-09-07,Julgamento,Virtual,Realizada,Sem acordo
+1346,1907,2027-02-21,Conciliação,Presencial,Realizada,Acordo
+1347,1908,2027-01-25,Conciliação,Virtual,Agendada,Pendente
+1348,1909,2026-11-27,Conciliação,Virtual,Cancelada,Adiada
+1349,1910,2026-01-22,Conciliação,Presencial,Agendada,Acordo
+1350,1911,2027-05-08,Conciliação,Presencial,Agendada,Adiada
+1351,1914,2026-04-23,Julgamento,Presencial,Realizada,Acordo
+1352,1915,2026-03-16,Conciliação,Virtual,Cancelada,Acordo
+1353,1917,2026-06-15,Instrução,Virtual,Agendada,Acordo
+1354,1918,2026-08-06,Julgamento,Virtual,Realizada,Acordo
+1355,1919,2025-12-20,Julgamento,Presencial,Cancelada,Acordo
+1356,1920,2027-08-01,Instrução,Presencial,Realizada,Adiada
+1357,1923,2026-01-18,Instrução,Virtual,Agendada,Pendente
+1358,1924,2026-11-23,Conciliação,Virtual,Realizada,Pendente
+1359,1925,2027-04-30,Conciliação,Presencial,Realizada,Pendente
+1360,1928,2026-02-08,Instrução,Presencial,Realizada,Pendente
+1361,1929,2026-11-25,Instrução,Virtual,Realizada,Acordo
+1362,1930,2025-12-23,Julgamento,Virtual,Agendada,Sem acordo
+1363,1931,2027-04-08,Conciliação,Presencial,Realizada,Pendente
+1364,1932,2026-11-29,Conciliação,Presencial,Cancelada,Pendente
+1365,1933,2026-04-22,Julgamento,Virtual,Agendada,Acordo
+1366,1934,2026-03-01,Julgamento,Virtual,Realizada,Acordo
+1367,1936,2026-05-12,Instrução,Virtual,Realizada,Adiada
+1368,1937,2026-02-27,Conciliação,Presencial,Cancelada,Acordo
+1369,1938,2026-12-22,Julgamento,Virtual,Realizada,Adiada
+1370,1940,2026-06-18,Conciliação,Presencial,Agendada,Pendente
+1371,1941,2026-05-13,Instrução,Presencial,Realizada,Acordo
+1372,1942,2026-12-05,Julgamento,Presencial,Agendada,Acordo
+1373,1943,2027-03-06,Julgamento,Virtual,Cancelada,Pendente
+1374,1945,2026-01-20,Instrução,Presencial,Cancelada,Adiada
+1375,1947,2027-05-24,Julgamento,Virtual,Realizada,Adiada
+1376,1948,2027-01-05,Instrução,Presencial,Cancelada,Pendente
+1377,1949,2026-04-19,Instrução,Presencial,Agendada,Sem acordo
+1378,1951,2027-04-24,Julgamento,Virtual,Agendada,Sem acordo
+1379,1954,2026-01-30,Conciliação,Presencial,Agendada,Adiada
+1380,1955,2027-03-30,Julgamento,Virtual,Agendada,Pendente
+1381,1956,2026-03-15,Conciliação,Presencial,Agendada,Pendente
+1382,1959,2026-07-16,Instrução,Virtual,Realizada,Sem acordo
+1383,1960,2026-06-09,Conciliação,Virtual,Agendada,Adiada
+1384,1962,2026-12-12,Conciliação,Virtual,Realizada,Pendente
+1385,1964,2026-06-20,Conciliação,Virtual,Agendada,Adiada
+1386,1965,2027-03-01,Conciliação,Presencial,Realizada,Pendente
+1387,1966,2026-09-26,Julgamento,Presencial,Agendada,Adiada
+1388,1967,2026-08-19,Conciliação,Virtual,Realizada,Acordo
+1389,1968,2026-08-13,Instrução,Presencial,Cancelada,Sem acordo
+1390,1969,2026-06-15,Instrução,Virtual,Cancelada,Pendente
+1391,1972,2027-03-29,Instrução,Presencial,Cancelada,Adiada
+1392,1973,2026-11-15,Instrução,Presencial,Realizada,Sem acordo
+1393,1975,2027-05-07,Instrução,Presencial,Agendada,Acordo
+1394,1976,2026-02-24,Julgamento,Presencial,Agendada,Sem acordo
+1395,1977,2027-04-02,Instrução,Virtual,Realizada,Sem acordo
+1396,1978,2026-05-07,Instrução,Virtual,Cancelada,Adiada
+1397,1979,2027-07-17,Instrução,Virtual,Realizada,Sem acordo
+1398,1981,2026-04-15,Instrução,Presencial,Realizada,Sem acordo
+1399,1982,2027-08-28,Conciliação,Presencial,Agendada,Acordo
+1400,1987,2026-01-19,Conciliação,Presencial,Cancelada,Acordo
+1401,1989,2027-06-03,Julgamento,Presencial,Realizada,Sem acordo
+1402,1990,2026-01-06,Conciliação,Virtual,Agendada,Adiada
+1403,1991,2026-06-15,Instrução,Presencial,Cancelada,Pendente
+1404,1992,2026-10-05,Instrução,Virtual,Realizada,Sem acordo
+1405,1993,2026-09-14,Instrução,Virtual,Agendada,Adiada
+1406,1994,2026-04-07,Conciliação,Virtual,Cancelada,Sem acordo
+1407,1995,2025-11-24,Instrução,Virtual,Cancelada,Acordo
+1408,1996,2026-05-15,Julgamento,Presencial,Cancelada,Sem acordo
+1409,1997,2025-08-21,Julgamento,Presencial,Realizada,Sem acordo
+1410,1998,2027-03-19,Conciliação,Virtual,Realizada,Pendente
+1411,2000,2026-01-01,Instrução,Presencial,Cancelada,Sem acordo
+1412,2001,2026-07-03,Conciliação,Virtual,Agendada,Acordo
+1413,2002,2026-11-05,Instrução,Virtual,Cancelada,Acordo
+1414,2003,2026-06-15,Instrução,Presencial,Agendada,Sem acordo
+1415,2004,2027-06-09,Conciliação,Virtual,Agendada,Pendente
+1416,2006,2027-04-12,Conciliação,Presencial,Cancelada,Sem acordo
+1417,2007,2026-04-07,Instrução,Presencial,Cancelada,Adiada
+1418,2009,2027-01-18,Julgamento,Presencial,Cancelada,Pendente
+1419,2010,2026-01-01,Conciliação,Virtual,Agendada,Pendente
+1420,2012,2026-05-09,Conciliação,Virtual,Agendada,Pendente
+1421,2013,2027-07-13,Julgamento,Virtual,Cancelada,Pendente
+1422,2014,2025-10-30,Conciliação,Presencial,Agendada,Sem acordo
+1423,2017,2026-09-11,Julgamento,Virtual,Agendada,Adiada
+1424,2018,2026-05-15,Julgamento,Presencial,Cancelada,Acordo
+1425,2022,2025-11-22,Instrução,Presencial,Agendada,Sem acordo
+1426,2023,2027-02-16,Conciliação,Virtual,Cancelada,Sem acordo
+1427,2026,2026-04-24,Conciliação,Presencial,Realizada,Adiada
+1428,2027,2026-12-20,Conciliação,Virtual,Realizada,Sem acordo
+1429,2029,2026-11-10,Julgamento,Virtual,Agendada,Pendente
+1430,2030,2027-03-11,Julgamento,Virtual,Agendada,Sem acordo
+1431,2032,2026-12-16,Conciliação,Presencial,Cancelada,Sem acordo
+1432,2034,2026-06-05,Instrução,Presencial,Realizada,Sem acordo
+1433,2036,2027-08-17,Julgamento,Presencial,Cancelada,Pendente
+1434,2037,2026-10-28,Instrução,Presencial,Cancelada,Adiada
+1435,2038,2026-12-12,Instrução,Presencial,Agendada,Sem acordo
+1436,2039,2027-06-21,Julgamento,Virtual,Realizada,Sem acordo
+1437,2040,2027-02-03,Instrução,Presencial,Agendada,Acordo
+1438,2041,2027-04-02,Instrução,Virtual,Realizada,Adiada
+1439,2043,2026-09-27,Julgamento,Presencial,Cancelada,Adiada
+1440,2044,2026-06-04,Conciliação,Presencial,Realizada,Adiada
+1441,2046,2026-01-30,Conciliação,Presencial,Agendada,Pendente
+1442,2047,2026-05-20,Conciliação,Virtual,Cancelada,Acordo
+1443,2048,2026-08-20,Instrução,Presencial,Agendada,Acordo
+1444,2050,2026-03-26,Conciliação,Virtual,Agendada,Adiada
+1445,2051,2025-12-16,Conciliação,Presencial,Cancelada,Adiada
+1446,2053,2026-09-21,Conciliação,Presencial,Realizada,Acordo
+1447,2055,2026-08-23,Instrução,Presencial,Cancelada,Pendente
+1448,2056,2026-03-27,Instrução,Virtual,Agendada,Acordo
+1449,2057,2027-02-12,Julgamento,Presencial,Cancelada,Adiada
+1450,2058,2026-05-27,Julgamento,Virtual,Cancelada,Pendente
+1451,2060,2027-06-17,Julgamento,Presencial,Agendada,Sem acordo
+1452,2063,2027-02-20,Instrução,Presencial,Realizada,Acordo
+1453,2066,2027-04-08,Julgamento,Virtual,Cancelada,Adiada
+1454,2067,2026-08-27,Conciliação,Virtual,Agendada,Sem acordo
+1455,2069,2027-04-19,Instrução,Presencial,Realizada,Adiada
+1456,2070,2026-11-03,Conciliação,Virtual,Agendada,Adiada
+1457,2071,2026-12-03,Julgamento,Virtual,Agendada,Sem acordo
+1458,2072,2026-03-20,Instrução,Presencial,Agendada,Sem acordo
+1459,2073,2026-09-17,Conciliação,Presencial,Agendada,Sem acordo
+1460,2075,2026-07-19,Conciliação,Virtual,Realizada,Acordo
+1461,2076,2026-09-26,Conciliação,Presencial,Realizada,Adiada
+1462,2079,2027-06-12,Julgamento,Presencial,Cancelada,Sem acordo
+1463,2080,2026-12-17,Conciliação,Presencial,Realizada,Adiada
+1464,2081,2027-03-20,Julgamento,Virtual,Agendada,Adiada
+1465,2082,2026-01-04,Instrução,Virtual,Realizada,Acordo
+1466,2083,2026-11-30,Conciliação,Virtual,Cancelada,Adiada
+1467,2084,2026-11-06,Instrução,Virtual,Realizada,Pendente
+1468,2086,2026-10-14,Julgamento,Presencial,Realizada,Adiada
+1469,2088,2026-05-02,Julgamento,Virtual,Cancelada,Sem acordo
+1470,2090,2026-02-20,Julgamento,Presencial,Cancelada,Sem acordo
+1471,2091,2026-10-25,Instrução,Virtual,Cancelada,Acordo
+1472,2092,2026-09-16,Julgamento,Virtual,Realizada,Acordo
+1473,2093,2027-06-29,Conciliação,Presencial,Cancelada,Pendente
+1474,2094,2026-06-13,Julgamento,Presencial,Realizada,Acordo
+1475,2096,2025-12-20,Conciliação,Virtual,Cancelada,Sem acordo
+1476,2098,2026-06-01,Julgamento,Virtual,Cancelada,Sem acordo
+1477,2100,2026-12-13,Instrução,Virtual,Cancelada,Adiada
+1478,2102,2026-03-12,Instrução,Virtual,Agendada,Acordo
+1479,2104,2026-09-18,Instrução,Virtual,Cancelada,Sem acordo
+1480,2105,2027-04-10,Conciliação,Virtual,Agendada,Sem acordo
+1481,2106,2025-11-10,Conciliação,Presencial,Realizada,Pendente
+1482,2108,2026-07-05,Julgamento,Virtual,Cancelada,Adiada
+1483,2109,2026-10-26,Conciliação,Virtual,Cancelada,Adiada
+1484,2113,2026-03-24,Conciliação,Presencial,Realizada,Sem acordo
+1485,2114,2027-06-14,Instrução,Virtual,Cancelada,Pendente
+1486,2115,2026-11-16,Julgamento,Presencial,Agendada,Adiada
+1487,2116,2027-01-02,Instrução,Presencial,Cancelada,Sem acordo
+1488,2117,2026-07-21,Julgamento,Virtual,Agendada,Adiada
+1489,2118,2026-09-18,Instrução,Presencial,Realizada,Sem acordo
+1490,2119,2027-09-08,Julgamento,Presencial,Realizada,Pendente
+1491,2120,2026-04-08,Conciliação,Virtual,Realizada,Pendente
+1492,2121,2025-08-21,Conciliação,Presencial,Cancelada,Acordo
+1493,2123,2027-05-21,Conciliação,Virtual,Agendada,Sem acordo
+1494,2126,2027-05-24,Conciliação,Virtual,Realizada,Acordo
+1495,2127,2027-05-27,Instrução,Presencial,Agendada,Sem acordo
+1496,2129,2026-11-10,Julgamento,Virtual,Agendada,Sem acordo
+1497,2131,2027-01-31,Julgamento,Virtual,Agendada,Acordo
+1498,2132,2026-06-12,Conciliação,Virtual,Cancelada,Sem acordo
+1499,2134,2026-11-17,Julgamento,Presencial,Cancelada,Acordo
+1500,2135,2026-10-26,Conciliação,Virtual,Agendada,Acordo
+1501,2136,2027-08-02,Conciliação,Virtual,Agendada,Pendente
+1502,2137,2027-02-16,Julgamento,Virtual,Cancelada,Acordo
+1503,2138,2025-11-11,Instrução,Virtual,Cancelada,Pendente
+1504,2140,2026-07-09,Conciliação,Presencial,Realizada,Pendente
+1505,2141,2027-04-08,Instrução,Presencial,Realizada,Acordo
+1506,2144,2027-04-21,Instrução,Virtual,Agendada,Acordo
+1507,2145,2026-09-03,Instrução,Virtual,Cancelada,Acordo
+1508,2146,2026-12-02,Conciliação,Presencial,Agendada,Adiada
+1509,2147,2026-03-27,Julgamento,Presencial,Cancelada,Adiada
+1510,2148,2027-03-27,Instrução,Virtual,Realizada,Adiada
+1511,2149,2027-10-21,Conciliação,Presencial,Cancelada,Acordo
+1512,2151,2027-01-24,Instrução,Presencial,Agendada,Pendente
+1513,2152,2026-06-23,Conciliação,Virtual,Realizada,Pendente
+1514,2153,2026-08-22,Instrução,Virtual,Realizada,Adiada
+1515,2154,2027-01-31,Julgamento,Presencial,Agendada,Acordo
+1516,2155,2025-08-13,Julgamento,Virtual,Agendada,Acordo
+1517,2156,2027-01-25,Conciliação,Presencial,Cancelada,Sem acordo
+1518,2157,2026-12-06,Conciliação,Virtual,Cancelada,Pendente
+1519,2158,2027-06-12,Conciliação,Virtual,Cancelada,Adiada
+1520,2159,2026-11-25,Instrução,Presencial,Realizada,Sem acordo
+1521,2160,2026-02-05,Julgamento,Presencial,Agendada,Adiada
+1522,2161,2026-08-17,Instrução,Virtual,Cancelada,Adiada
+1523,2162,2026-12-08,Julgamento,Virtual,Cancelada,Acordo
+1524,2163,2027-01-11,Conciliação,Presencial,Agendada,Sem acordo
+1525,2165,2026-07-27,Conciliação,Presencial,Agendada,Sem acordo
+1526,2167,2027-05-31,Julgamento,Presencial,Cancelada,Acordo
+1527,2170,2026-07-27,Instrução,Presencial,Agendada,Pendente
+1528,2171,2027-06-21,Julgamento,Presencial,Realizada,Acordo
+1529,2172,2027-02-01,Instrução,Presencial,Realizada,Acordo
+1530,2173,2025-12-01,Conciliação,Virtual,Cancelada,Pendente
+1531,2174,2026-08-05,Conciliação,Virtual,Cancelada,Adiada
+1532,2177,2027-09-02,Julgamento,Presencial,Agendada,Acordo
+1533,2178,2025-12-09,Instrução,Presencial,Agendada,Adiada
+1534,2179,2027-06-03,Instrução,Virtual,Realizada,Acordo
+1535,2181,2027-02-20,Julgamento,Presencial,Cancelada,Adiada
+1536,2183,2026-04-08,Conciliação,Presencial,Agendada,Sem acordo
+1537,2186,2026-08-12,Instrução,Virtual,Cancelada,Adiada
+1538,2188,2026-12-01,Julgamento,Presencial,Realizada,Acordo
+1539,2189,2026-07-20,Instrução,Virtual,Cancelada,Sem acordo
+1540,2190,2026-12-01,Conciliação,Virtual,Realizada,Acordo
+1541,2191,2026-06-29,Julgamento,Presencial,Cancelada,Adiada
+1542,2192,2026-12-24,Instrução,Presencial,Realizada,Sem acordo
+1543,2193,2025-08-25,Conciliação,Presencial,Cancelada,Acordo
+1544,2196,2027-01-30,Instrução,Virtual,Realizada,Pendente
+1545,2197,2027-07-07,Instrução,Presencial,Agendada,Sem acordo
+1546,2198,2026-12-02,Instrução,Virtual,Realizada,Acordo

@@ -1,0 +1,426 @@
+{
+  "case": "Case_15_Escritorio_de_Advocacia",
+  "database": "case_escritorio_advocacia.db",
+  "tables": {
+    "advogados": {
+      "primary_key": "advogado_id",
+      "columns": [
+        "advogado_id",
+        "codigo_advogado",
+        "area_id",
+        "senioridade",
+        "valor_hora"
+      ],
+      "date_columns": [],
+      "numeric_columns": [
+        "advogado_id",
+        "area_id",
+        "valor_hora"
+      ],
+      "nonnegative_columns": [
+        "valor_hora"
+      ],
+      "required_columns": [
+        "advogado_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "area_id",
+          "parent_table": "areas_juridicas",
+          "parent_column": "area_id"
+        }
+      ],
+      "expected_rows": 40,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "valor_negativo",
+          1
+        ]
+      ]
+    },
+    "areas_juridicas": {
+      "primary_key": "area_id",
+      "columns": [
+        "area_id",
+        "area_juridica"
+      ],
+      "date_columns": [],
+      "numeric_columns": [
+        "area_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "area_id"
+      ],
+      "foreign_keys": [],
+      "expected_rows": 8,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ]
+      ]
+    },
+    "audiencias": {
+      "primary_key": "audiencia_id",
+      "columns": [
+        "audiencia_id",
+        "processo_id",
+        "data_audiencia",
+        "tipo",
+        "modalidade",
+        "status",
+        "resultado"
+      ],
+      "date_columns": [
+        "data_audiencia"
+      ],
+      "numeric_columns": [
+        "audiencia_id",
+        "processo_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "audiencia_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "processo_id",
+          "parent_table": "processos",
+          "parent_column": "processo_id"
+        }
+      ],
+      "expected_rows": 1546,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ]
+      ]
+    },
+    "clientes": {
+      "primary_key": "cliente_id",
+      "columns": [
+        "cliente_id",
+        "codigo_cliente",
+        "tipo_pessoa",
+        "uf",
+        "data_cadastro",
+        "status"
+      ],
+      "date_columns": [
+        "data_cadastro"
+      ],
+      "numeric_columns": [
+        "cliente_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "cliente_id"
+      ],
+      "foreign_keys": [],
+      "expected_rows": 700,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ]
+      ]
+    },
+    "honorarios": {
+      "primary_key": "honorario_id",
+      "columns": [
+        "honorario_id",
+        "processo_id",
+        "modelo_cobranca",
+        "valor_contratado",
+        "percentual_exito",
+        "data_contrato",
+        "status"
+      ],
+      "date_columns": [
+        "data_contrato"
+      ],
+      "numeric_columns": [
+        "honorario_id",
+        "processo_id",
+        "valor_contratado",
+        "percentual_exito"
+      ],
+      "nonnegative_columns": [
+        "valor_contratado",
+        "percentual_exito"
+      ],
+      "required_columns": [
+        "honorario_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "processo_id",
+          "parent_table": "processos",
+          "parent_column": "processo_id"
+        }
+      ],
+      "expected_rows": 2200,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ],
+        [
+          "valor_negativo",
+          1
+        ]
+      ]
+    },
+    "movimentacoes": {
+      "primary_key": "movimentacao_id",
+      "columns": [
+        "movimentacao_id",
+        "processo_id",
+        "data_movimentacao",
+        "tipo",
+        "origem"
+      ],
+      "date_columns": [
+        "data_movimentacao"
+      ],
+      "numeric_columns": [
+        "movimentacao_id",
+        "processo_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "movimentacao_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "processo_id",
+          "parent_table": "processos",
+          "parent_column": "processo_id"
+        }
+      ],
+      "expected_rows": 7664,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ]
+      ]
+    },
+    "pagamentos": {
+      "primary_key": "pagamento_id",
+      "columns": [
+        "pagamento_id",
+        "honorario_id",
+        "parcela",
+        "valor",
+        "data_vencimento",
+        "data_pagamento",
+        "status"
+      ],
+      "date_columns": [
+        "data_vencimento",
+        "data_pagamento"
+      ],
+      "numeric_columns": [
+        "pagamento_id",
+        "honorario_id",
+        "parcela",
+        "valor"
+      ],
+      "nonnegative_columns": [
+        "parcela",
+        "valor"
+      ],
+      "required_columns": [
+        "pagamento_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "honorario_id",
+          "parent_table": "honorarios",
+          "parent_column": "honorario_id"
+        }
+      ],
+      "expected_rows": 6540,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ],
+        [
+          "valor_negativo",
+          1
+        ]
+      ]
+    },
+    "prazos": {
+      "primary_key": "prazo_id",
+      "columns": [
+        "prazo_id",
+        "processo_id",
+        "tipo_prazo",
+        "data_vencimento",
+        "data_conclusao",
+        "status",
+        "prioridade"
+      ],
+      "date_columns": [
+        "data_vencimento",
+        "data_conclusao"
+      ],
+      "numeric_columns": [
+        "prazo_id",
+        "processo_id"
+      ],
+      "nonnegative_columns": [],
+      "required_columns": [
+        "prazo_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "processo_id",
+          "parent_table": "processos",
+          "parent_column": "processo_id"
+        }
+      ],
+      "expected_rows": 5529,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ]
+      ]
+    },
+    "processos": {
+      "primary_key": "processo_id",
+      "columns": [
+        "processo_id",
+        "codigo_processo",
+        "cliente_id",
+        "area_id",
+        "advogado_id",
+        "data_abertura",
+        "data_encerramento",
+        "status",
+        "risco",
+        "valor_causa",
+        "desfecho"
+      ],
+      "date_columns": [
+        "data_abertura",
+        "data_encerramento"
+      ],
+      "numeric_columns": [
+        "processo_id",
+        "cliente_id",
+        "area_id",
+        "advogado_id",
+        "valor_causa"
+      ],
+      "nonnegative_columns": [
+        "valor_causa"
+      ],
+      "required_columns": [
+        "processo_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "advogado_id",
+          "parent_table": "advogados",
+          "parent_column": "advogado_id"
+        },
+        {
+          "column": "area_id",
+          "parent_table": "areas_juridicas",
+          "parent_column": "area_id"
+        },
+        {
+          "column": "cliente_id",
+          "parent_table": "clientes",
+          "parent_column": "cliente_id"
+        }
+      ],
+      "expected_rows": 2200,
+      "issues_injected": [
+        [
+          "duplicidade_pk",
+          3
+        ],
+        [
+          "espacos_texto",
+          4
+        ],
+        [
+          "data_invalida",
+          1
+        ],
+        [
+          "valor_negativo",
+          1
+        ]
+      ]
+    }
+  }
+}

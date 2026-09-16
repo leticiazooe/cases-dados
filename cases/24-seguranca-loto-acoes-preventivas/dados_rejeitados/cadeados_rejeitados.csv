@@ -1,0 +1,5 @@
+cadeado_id,pessoa_id,cor,status,motivo_rejeicao
+CD0144,P00935,Amarelo,Disponível,pk_duplicada
+CD0105,P00463,Amarelo,Em uso,pk_duplicada
+CD0265,P00653,Azul,Disponível,pk_duplicada
+,P00251,Vermelho,Em uso,pk_nula

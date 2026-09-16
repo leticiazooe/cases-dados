@@ -1,0 +1,12 @@
+﻿tabela,linhas_brutas,linhas_tratadas,linhas_rejeitadas,status
+alunos,2205,2200,5,RECUPERADO
+aulas,1805,1800,5,RECUPERADO
+avaliacoes_fisicas,4418,4413,5,RECUPERADO
+cancelamentos,469,465,7,RECUPERADO
+frequencias,12128,12123,5,RECUPERADO
+matriculas,2205,2200,5,RECUPERADO
+modalidades,15,12,3,RECUPERADO
+pagamentos,26405,26400,7666,RECUPERADO
+planos,12,8,4,RECUPERADO
+profissionais,44,40,4,RECUPERADO
+reservas_aula,8103,8100,8086,RECUPERADO

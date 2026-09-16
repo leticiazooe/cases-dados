@@ -1,0 +1,5 @@
+documento_id,terceiro_id,tipo,validade,status,motivo_rejeicao
+DO07548,TE01385,ASO,2024-04-04,Válido,pk_duplicada
+DO05992,TE01928,Seguro,2024-06-16,Válido,pk_duplicada
+DO07962,TE01901,NR-35,2025-05-09,Válido,pk_duplicada
+ERRO_documentos_1,TE00427,NR-10,,Válido,data_invalida:validade

@@ -1,0 +1,5 @@
+despesa_id,viagem_id,tipo,valor,data_despesa,status,motivo_rejeicao
+DE05710,VG03284,Pedágio,129.19,2024-09-01,Aprovada,pk_duplicada
+DE10890,VG02479,Aéreo,391.26,2024-11-15,Aprovada,pk_duplicada
+DE07687,VG03361,Pedágio,185.13,2024-07-05,Aprovada,pk_duplicada
+ERRO_despesas_1,VG00302,Pedágio,49.96,,Aprovada,data_invalida:data_despesa

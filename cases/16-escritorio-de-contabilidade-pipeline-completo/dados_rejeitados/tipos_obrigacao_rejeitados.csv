@@ -1,0 +1,4 @@
+tipo_obrigacao_id,obrigacao,periodicidade,motivo_rejeicao
+12,IRPJ/CSLL,Trimestral,pk_duplicada
+7,ECF,Anual,pk_duplicada
+3,eSocial,Mensal,pk_duplicada

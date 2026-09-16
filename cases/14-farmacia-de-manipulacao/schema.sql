@@ -1,0 +1,17 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE dim_filial(filial_id INTEGER PRIMARY KEY,filial TEXT,cidade TEXT,uf TEXT);
+CREATE TABLE dim_medico(medico_id INTEGER PRIMARY KEY,codigo TEXT,nome_ficticio TEXT,especialidade TEXT,registro_ficticio TEXT,conselho TEXT);
+CREATE TABLE dim_paciente(paciente_id INTEGER PRIMARY KEY,codigo_anonimo TEXT UNIQUE,idade INTEGER,genero TEXT,regiao TEXT,alergia_declarada INTEGER);
+CREATE TABLE dim_fornecedor(fornecedor_id INTEGER PRIMARY KEY,fornecedor TEXT,categoria TEXT,status_homologacao TEXT,score_qualidade REAL);
+CREATE TABLE dim_insumo(insumo_id INTEGER PRIMARY KEY,insumo TEXT,categoria TEXT,unidade_medida TEXT,armazenamento TEXT,validade_meses INTEGER);
+CREATE TABLE fato_lote_insumo(lote_id INTEGER PRIMARY KEY,insumo_id INTEGER,fornecedor_id INTEGER,codigo_lote TEXT UNIQUE,recebimento TEXT,validade TEXT,quantidade_recebida REAL,saldo_atual REAL,status TEXT,resultado_identidade TEXT,FOREIGN KEY(insumo_id) REFERENCES dim_insumo,FOREIGN KEY(fornecedor_id) REFERENCES dim_fornecedor);
+CREATE TABLE dim_formula(formula_id INTEGER PRIMARY KEY,formula TEXT,forma_farmaceutica TEXT,quantidade_padrao INTEGER,validade_dias INTEGER);
+CREATE TABLE fato_componente_formula(componente_id INTEGER PRIMARY KEY,formula_id INTEGER,insumo_id INTEGER,quantidade REAL,unidade TEXT,FOREIGN KEY(formula_id) REFERENCES dim_formula,FOREIGN KEY(insumo_id) REFERENCES dim_insumo);
+CREATE TABLE fato_prescricao(prescricao_id INTEGER PRIMARY KEY,codigo TEXT UNIQUE,paciente_id INTEGER,medico_id INTEGER,formula_id INTEGER,data_emissao TEXT,validade_receita TEXT,quantidade INTEGER,status TEXT,via_uso TEXT,FOREIGN KEY(paciente_id) REFERENCES dim_paciente,FOREIGN KEY(medico_id) REFERENCES dim_medico,FOREIGN KEY(formula_id) REFERENCES dim_formula);
+CREATE TABLE fato_pedido(pedido_id INTEGER PRIMARY KEY,codigo TEXT UNIQUE,prescricao_id INTEGER,filial_id INTEGER,data_recebimento TEXT,data_prometida TEXT,status TEXT,valor_bruto REAL,desconto REAL,valor_liquido REAL,canal TEXT,FOREIGN KEY(prescricao_id) REFERENCES fato_prescricao,FOREIGN KEY(filial_id) REFERENCES dim_filial);
+CREATE TABLE fato_producao(producao_id INTEGER PRIMARY KEY,pedido_id INTEGER UNIQUE,lote_manipulado TEXT UNIQUE,inicio TEXT,fim TEXT,farmaceutico_ficticio TEXT,status TEXT,tempo_producao_dias INTEGER,desvio TEXT,FOREIGN KEY(pedido_id) REFERENCES fato_pedido);
+CREATE TABLE fato_controle_qualidade(controle_id INTEGER PRIMARY KEY,producao_id INTEGER UNIQUE,data_controle TEXT,resultado TEXT,observacao TEXT,responsavel_ficticio TEXT,liberado INTEGER,FOREIGN KEY(producao_id) REFERENCES fato_producao);
+CREATE TABLE fato_venda(venda_id INTEGER PRIMARY KEY,pedido_id INTEGER UNIQUE,data_venda TEXT,receita REAL,custo_estimado REAL,tipo TEXT,FOREIGN KEY(pedido_id) REFERENCES fato_pedido);
+CREATE TABLE fato_entrega(entrega_id INTEGER PRIMARY KEY,pedido_id INTEGER UNIQUE,data_prometida TEXT,data_entrega TEXT,modalidade TEXT,status TEXT,no_prazo INTEGER,FOREIGN KEY(pedido_id) REFERENCES fato_pedido);
+CREATE TABLE fato_pagamento(pagamento_id INTEGER PRIMARY KEY,pedido_id INTEGER UNIQUE,forma_pagamento TEXT,valor REAL,data_pagamento TEXT,status TEXT,FOREIGN KEY(pedido_id) REFERENCES fato_pedido);
+CREATE INDEX idx_pedido_data ON fato_pedido(data_recebimento);CREATE INDEX idx_lote_validade ON fato_lote_insumo(validade);CREATE INDEX idx_qualidade_resultado ON fato_controle_qualidade(resultado);

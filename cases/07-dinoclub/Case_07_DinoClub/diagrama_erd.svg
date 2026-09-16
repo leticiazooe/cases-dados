@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="790"><rect width="100%" height="100%" fill="#F7FAF5"/><text x="35" y="30" font-family="Arial" font-size="22" font-weight="700" fill="#244A35">ERD - DinoClub</text><g stroke="#8AA398" stroke-width="2" fill="none">
+<path d="M 315 92 C 362.5 92, 362.5 92, 410 92"/>
+<path d="M 315 287 C 362.5 287, 362.5 92, 410 92"/>
+<path d="M 315 92 C 362.5 92, 362.5 272, 410 272"/>
+<path d="M 315 482 C 362.5 482, 362.5 272, 410 272"/>
+<path d="M 315 482 C 362.5 482, 362.5 472, 410 472"/>
+<path d="M 315 92 C 552.5 92, 552.5 92, 790 92"/>
+<path d="M 315 482 C 552.5 482, 552.5 92, 790 92"/>
+<path d="M 690 472 C 740.0 472, 740.0 292, 790 292"/>
+<path d="M 315 92 C 552.5 92, 552.5 292, 790 292"/>
+<path d="M 1070 92 C 930.0 92, 930.0 502, 790 502"/>
+<path d="M 315 652 C 552.5 652, 552.5 502, 790 502"/>
+<path d="M 1440 92 C 1300.0 92, 1300.0 302, 1160 302"/>
+<path d="M 315 92 C 737.5 92, 737.5 302, 1160 302"/>
+<path d="M 690 272 C 925.0 272, 925.0 542, 1160 542"/>
+<path d="M 315 92 C 737.5 92, 737.5 542, 1160 542"/>
+</g>
+<rect x="35" y="50" width="280" height="140" rx="8" fill="white" stroke="#A7B8AE"/>
+<rect x="35" y="50" width="280" height="36" rx="8" fill="#244A35"/>
+<text x="47" y="74" font-family="Arial" font-size="14" font-weight="700" fill="white">dim_cliente</text>
+<text x="47" y="106" font-family="Arial" font-size="12" fill="#C65D1E">PK cliente_id</text>
+<text x="47" y="131" font-family="Arial" font-size="12" fill="#334155">nome</text>
+<text x="47" y="156" font-family="Arial" font-size="12" fill="#334155">cidade</text>
+<text x="47" y="181" font-family="Arial" font-size="12" fill="#334155">data_cadastro</text>
+<rect x="35" y="245" width="280" height="115" rx="8" fill="white" stroke="#A7B8AE"/>
+<rect x="35" y="245" width="280" height="36" rx="8" fill="#244A35"/>
+<text x="47" y="269" font-family="Arial" font-size="14" font-weight="700" fill="white">dim_plano</text>
+<text x="47" y="301" font-family="Arial" font-size="12" fill="#C65D1E">PK plano_id</text>
+<text x="47" y="326" font-family="Arial" font-size="12" fill="#334155">nome</text>
+<text x="47" y="351" font-family="Arial" font-size="12" fill="#334155">valor_mensal</text>
+<rect x="35" y="440" width="280" height="115" rx="8" fill="white" stroke="#A7B8AE"/>
+<rect x="35" y="440" width="280" height="36" rx="8" fill="#244A35"/>
+<text x="47" y="464" font-family="Arial" font-size="14" font-weight="700" fill="white">dim_unidade</text>
+<text x="47" y="496" font-family="Arial" font-size="12" fill="#C65D1E">PK unidade_id</text>
+<text x="47" y="521" font-family="Arial" font-size="12" fill="#334155">nome</text>
+<text x="47" y="546" font-family="Arial" font-size="12" fill="#334155">capacidade_dia</text>
+<rect x="35" y="610" width="280" height="140" rx="8" fill="white" stroke="#A7B8AE"/>
+<rect x="35" y="610" width="280" height="36" rx="8" fill="#244A35"/>
+<text x="47" y="634" font-family="Arial" font-size="14" font-weight="700" fill="white">dim_produto</text>
+<text x="47" y="666" font-family="Arial" font-size="12" fill="#C65D1E">PK produto_id</text>
+<text x="47" y="691" font-family="Arial" font-size="12" fill="#334155">nome</text>
+<text x="47" y="716" font-family="Arial" font-size="12" fill="#334155">preco</text>
+<text x="47" y="741" font-family="Arial" font-size="12" fill="#334155">custo</text>
+<rect x="410" y="50" width="280" height="140" rx="8" fill="white" stroke="#A7B8AE"/>
+<rect x="410" y="50" width="280" height="36" rx="8" fill="#244A35"/>
+<text x="422" y="74" font-family="Arial" font-size="14" font-weight="700" fill="white">fato_membro</text>
+<text x="422" y="106" font-family="Arial" font-size="12" fill="#C65D1E">PK membro_id</text>
+<text x="422" y="131" font-family="Arial" font-size="12" fill="#2E75B6">FK cliente_id</text>
+<text x="422" y="156" font-family="Arial" font-size="12" fill="#2E75B6">FK plano_id</text>
+<text x="422" y="181" font-family="Arial" font-size="12" fill="#334155">status</text>
+<rect x="410" y="230" width="280" height="165" rx="8" fill="white" stroke="#A7B8AE"/>
+<rect x="410" y="230" width="280" height="36" rx="8" fill="#244A35"/>
+<text x="422" y="254" font-family="Arial" font-size="14" font-weight="700" fill="white">fato_visita</text>
+<text x="422" y="286" font-family="Arial" font-size="12" fill="#C65D1E">PK visita_id</text>
+<text x="422" y="311" font-family="Arial" font-size="12" fill="#2E75B6">FK cliente_id</text>
+<text x="422" y="336" font-family="Arial" font-size="12" fill="#2E75B6">FK unidade_id</text>
+<text x="422" y="361" font-family="Arial" font-size="12" fill="#334155">data</text>
+<text x="422" y="386" font-family="Arial" font-size="12" fill="#334155">valor</text>
+<rect x="410" y="430" width="280" height="140" rx="8" fill="white" stroke="#A7B8AE"/>
+<rect x="410" y="430" width="280" height="36" rx="8" fill="#244A35"/>
+<text x="422" y="454" font-family="Arial" font-size="14" font-weight="700" fill="white">dim_evento</text>
+<text x="422" y="486" font-family="Arial" font-size="12" fill="#C65D1E">PK evento_id</text>
+<text x="422" y="511" font-family="Arial" font-size="12" fill="#2E75B6">FK unidade_id</text>
+<text x="422" y="536" font-family="Arial" font-size="12" fill="#334155">data</text>
+<text x="422" y="561" font-family="Arial" font-size="12" fill="#334155">capacidade</text>
+<rect x="790" y="50" width="280" height="140" rx="8" fill="white" stroke="#A7B8AE"/>
+<rect x="790" y="50" width="280" height="36" rx="8" fill="#244A35"/>
+<text x="802" y="74" font-family="Arial" font-size="14" font-weight="700" fill="white">fato_venda</text>
+<text x="802" y="106" font-family="Arial" font-size="12" fill="#C65D1E">PK venda_id</text>
+<text x="802" y="131" font-family="Arial" font-size="12" fill="#2E75B6">FK cliente_id</text>
+<text x="802" y="156" font-family="Arial" font-size="12" fill="#2E75B6">FK unidade_id</text>
+<text x="802" y="181" font-family="Arial" font-size="12" fill="#334155">valor_liquido</text>
+<rect x="790" y="250" width="280" height="140" rx="8" fill="white" stroke="#A7B8AE"/>
+<rect x="790" y="250" width="280" height="36" rx="8" fill="#244A35"/>
+<text x="802" y="274" font-family="Arial" font-size="14" font-weight="700" fill="white">fato_ingresso_evento</text>
+<text x="802" y="306" font-family="Arial" font-size="12" fill="#C65D1E">PK ingresso_id</text>
+<text x="802" y="331" font-family="Arial" font-size="12" fill="#2E75B6">FK evento_id</text>
+<text x="802" y="356" font-family="Arial" font-size="12" fill="#2E75B6">FK cliente_id</text>
+<text x="802" y="381" font-family="Arial" font-size="12" fill="#334155">quantidade</text>
+<rect x="790" y="460" width="280" height="140" rx="8" fill="white" stroke="#A7B8AE"/>
+<rect x="790" y="460" width="280" height="36" rx="8" fill="#244A35"/>
+<text x="802" y="484" font-family="Arial" font-size="14" font-weight="700" fill="white">fato_item_venda</text>
+<text x="802" y="516" font-family="Arial" font-size="12" fill="#C65D1E">PK item_id</text>
+<text x="802" y="541" font-family="Arial" font-size="12" fill="#2E75B6">FK venda_id</text>
+<text x="802" y="566" font-family="Arial" font-size="12" fill="#2E75B6">FK produto_id</text>
+<text x="802" y="591" font-family="Arial" font-size="12" fill="#334155">quantidade</text>
+<rect x="1160" y="50" width="280" height="115" rx="8" fill="white" stroke="#A7B8AE"/>
+<rect x="1160" y="50" width="280" height="36" rx="8" fill="#244A35"/>
+<text x="1172" y="74" font-family="Arial" font-size="14" font-weight="700" fill="white">dim_campanha</text>
+<text x="1172" y="106" font-family="Arial" font-size="12" fill="#C65D1E">PK campanha_id</text>
+<text x="1172" y="131" font-family="Arial" font-size="12" fill="#334155">nome</text>
+<text x="1172" y="156" font-family="Arial" font-size="12" fill="#334155">investimento</text>
+<rect x="1160" y="260" width="280" height="140" rx="8" fill="white" stroke="#A7B8AE"/>
+<rect x="1160" y="260" width="280" height="36" rx="8" fill="#244A35"/>
+<text x="1172" y="284" font-family="Arial" font-size="14" font-weight="700" fill="white">fato_interacao_campanha</text>
+<text x="1172" y="316" font-family="Arial" font-size="12" fill="#C65D1E">PK interacao_id</text>
+<text x="1172" y="341" font-family="Arial" font-size="12" fill="#2E75B6">FK campanha_id</text>
+<text x="1172" y="366" font-family="Arial" font-size="12" fill="#2E75B6">FK cliente_id</text>
+<text x="1172" y="391" font-family="Arial" font-size="12" fill="#334155">conversao</text>
+<rect x="1160" y="500" width="280" height="165" rx="8" fill="white" stroke="#A7B8AE"/>
+<rect x="1160" y="500" width="280" height="36" rx="8" fill="#244A35"/>
+<text x="1172" y="524" font-family="Arial" font-size="14" font-weight="700" fill="white">fato_avaliacao</text>
+<text x="1172" y="556" font-family="Arial" font-size="12" fill="#C65D1E">PK avaliacao_id</text>
+<text x="1172" y="581" font-family="Arial" font-size="12" fill="#2E75B6">FK visita_id</text>
+<text x="1172" y="606" font-family="Arial" font-size="12" fill="#2E75B6">FK cliente_id</text>
+<text x="1172" y="631" font-family="Arial" font-size="12" fill="#334155">nps</text>
+<text x="1172" y="656" font-family="Arial" font-size="12" fill="#334155">nota</text>
+</svg>

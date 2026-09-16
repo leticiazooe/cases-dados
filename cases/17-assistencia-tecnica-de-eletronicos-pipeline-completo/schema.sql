@@ -1,0 +1,13 @@
+CREATE TABLE "tipos_equipamento"("tipo_id" INTEGER PRIMARY KEY,"tipo_equipamento" TEXT);
+CREATE TABLE "marcas"("marca_id" INTEGER PRIMARY KEY,"marca" TEXT);
+CREATE TABLE "clientes"("cliente_id" INTEGER PRIMARY KEY,"codigo_cliente" TEXT,"tipo_cliente" TEXT,"uf" TEXT);
+CREATE TABLE "tecnicos"("tecnico_id" INTEGER PRIMARY KEY,"codigo_tecnico" TEXT,"especialidade" TEXT,"senioridade" TEXT);
+CREATE TABLE "pecas"("peca_id" INTEGER PRIMARY KEY,"peca" TEXT,"categoria" TEXT,"custo_unitario" REAL,"estoque_atual" INTEGER);
+CREATE TABLE "equipamentos"("equipamento_id" INTEGER PRIMARY KEY,"cliente_id" INTEGER,"tipo_id" INTEGER,"marca_id" INTEGER,"modelo" TEXT,"numero_serie_ficticio" TEXT,"ano_fabricacao" INTEGER,FOREIGN KEY("cliente_id") REFERENCES "clientes"("cliente_id"),FOREIGN KEY("tipo_id") REFERENCES "tipos_equipamento"("tipo_id"),FOREIGN KEY("marca_id") REFERENCES "marcas"("marca_id"));
+CREATE TABLE "ordens_servico"("os_id" INTEGER PRIMARY KEY,"codigo_os" TEXT,"equipamento_id" INTEGER,"tecnico_id" INTEGER,"data_abertura" TEXT,"data_prometida" TEXT,"data_fechamento" TEXT,"status" TEXT,"dentro_sla" INTEGER,"canal" TEXT,FOREIGN KEY("equipamento_id") REFERENCES "equipamentos"("equipamento_id"),FOREIGN KEY("tecnico_id") REFERENCES "tecnicos"("tecnico_id"));
+CREATE TABLE "diagnosticos"("diagnostico_id" INTEGER PRIMARY KEY,"os_id" INTEGER,"defeito_relatado" TEXT,"causa" TEXT,"taxa_diagnostico" REAL,"data_diagnostico" TEXT,FOREIGN KEY("os_id") REFERENCES "ordens_servico"("os_id"));
+CREATE TABLE "orcamentos"("orcamento_id" INTEGER PRIMARY KEY,"os_id" INTEGER,"valor_pecas" REAL,"valor_mao_obra" REAL,"valor_total" REAL,"data_orcamento" TEXT,"status" TEXT,FOREIGN KEY("os_id") REFERENCES "ordens_servico"("os_id"));
+CREATE TABLE "reparos"("reparo_id" INTEGER PRIMARY KEY,"os_id" INTEGER,"data_inicio" TEXT,"data_fim" TEXT,"solucao" TEXT,"horas_tecnicas" REAL,"resultado" TEXT,FOREIGN KEY("os_id") REFERENCES "ordens_servico"("os_id"));
+CREATE TABLE "pecas_utilizadas"("uso_id" INTEGER PRIMARY KEY,"reparo_id" INTEGER,"peca_id" INTEGER,"quantidade" INTEGER,"custo_total" REAL,FOREIGN KEY("reparo_id") REFERENCES "reparos"("reparo_id"),FOREIGN KEY("peca_id") REFERENCES "pecas"("peca_id"));
+CREATE TABLE "garantias"("garantia_id" INTEGER PRIMARY KEY,"reparo_id" INTEGER,"inicio" TEXT,"fim" TEXT,"status" TEXT,"retorno" INTEGER,FOREIGN KEY("reparo_id") REFERENCES "reparos"("reparo_id"));
+CREATE TABLE "avaliacoes"("avaliacao_id" INTEGER PRIMARY KEY,"os_id" INTEGER,"nota_atendimento" INTEGER,"nota_servico" INTEGER,"comentario_categoria" TEXT,"data_avaliacao" TEXT,FOREIGN KEY("os_id") REFERENCES "ordens_servico"("os_id"));

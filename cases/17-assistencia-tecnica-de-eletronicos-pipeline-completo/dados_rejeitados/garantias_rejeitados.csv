@@ -1,0 +1,5 @@
+garantia_id,reparo_id,inicio,fim,status,retorno,motivo_rejeicao
+1822,2257,2025-12-27,2026-03-27,Vigente,0,pk_duplicada
+248,323,2026-02-16,2026-05-17,Vigente,0,pk_duplicada
+1910,2361,2026-04-05,2026-07-04,Vigente,0,pk_duplicada
+3327,1,,2025-12-03,Expirada,0,data_invalida:inicio

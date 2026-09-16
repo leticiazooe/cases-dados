@@ -1,0 +1,2 @@
+Total Registros = COUNTROWS('Tabela Fato')
+Taxa Conclusão = DIVIDE([Concluídos], [Total Registros])

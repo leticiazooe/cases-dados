@@ -1,0 +1,5 @@
+prazo_id,processo_id,tipo_prazo,data_vencimento,data_conclusao,status,prioridade,motivo_rejeicao
+277,107,Manifestação,2026-07-27,2026-07-18,Concluído,Baixa,pk_duplicada
+3733,1468,Manifestação,2027-03-12,,Aberto,Alta,pk_duplicada
+3110,1220,Manifestação,2027-01-06,,Aberto,Alta,pk_duplicada
+5631,1,Documento,,,Vencido,Alta,data_invalida:data_vencimento

@@ -1,0 +1,5 @@
+pendencia_id,cliente_id,responsavel_id,data_abertura,tipo,prioridade,status,motivo_rejeicao
+1622,595,30,2026-01-11,Cadastro desatualizado,Baixa,Aberta,pk_duplicada
+914,345,10,2025-10-29,Guia vencida,Alta,Aberta,pk_duplicada
+996,370,3,2025-12-05,Cadastro desatualizado,Média,Aberta,pk_duplicada
+1737,1,16,,Documento ausente,Baixa,Aberta,data_invalida:data_abertura

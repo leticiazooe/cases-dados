@@ -1,0 +1,5 @@
+projeto_id,comprador_id,fornecedor_id,data_abertura,categoria,baseline,meta_saving_pct,status,motivo_rejeicao
+CS03288,CB014,FO0098,2024-02-28,Bidding,1431.01,0.1611,Concluído,pk_duplicada
+CS00078,CB037,FO0158,2025-03-18,Otimização,34218.84,0.0572,Cancelado,pk_duplicada
+CS03448,CB024,FO0224,2024-03-19,Otimização,11193.49,0.0226,Em mensuração,pk_duplicada
+ERRO_projetos_saving_1,CB029,FO0272,,Otimização,3879.11,0.0359,Cancelado,data_invalida:data_abertura

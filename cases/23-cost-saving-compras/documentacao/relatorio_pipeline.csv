@@ -1,0 +1,6 @@
+tabela,brutas,tratadas,rejeitadas,esperadas,reconciliado
+compradores,44,40,4,40,True
+fornecedores,324,320,4,320,True
+projetos_saving,3804,3800,4,3800,True
+mensuracoes,7604,7600,4,7600,True
+pedidos_compra,10004,10000,4,10000,True

@@ -1,0 +1,5 @@
+documento_id,cliente_id,competencia,tipo_documento,data_solicitacao,data_recebimento,status,motivo_rejeicao
+1098,92,2025-11-01,Folha,2025-12-10,2025-11-30,Recebido,pk_duplicada
+6925,578,2025-07-01,Extratos,2025-07-10,2025-07-12,Recebido,pk_duplicada
+7043,587,2026-04-01,Documentos societários,2026-04-28,2026-04-21,Recebido,pk_duplicada
+7302,1,,Notas fiscais,2025-07-06,2025-06-29,Recebido,data_invalida:competencia

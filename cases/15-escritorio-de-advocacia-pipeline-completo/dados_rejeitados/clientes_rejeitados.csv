@@ -1,0 +1,5 @@
+cliente_id,codigo_cliente,tipo_pessoa,uf,data_cadastro,status,motivo_rejeicao
+39,CLI-00039,Pessoa Física,MG,2025-01-03,Ativo,pk_duplicada
+176,CLI-00176,Pessoa Física,SC,2021-06-04,Ativo,pk_duplicada
+650,CLI-00650,Pessoa Física,RJ,2022-07-16,Ativo,pk_duplicada
+802,CLI-00001,Pessoa Jurídica,MG,,Ativo,data_invalida:data_cadastro

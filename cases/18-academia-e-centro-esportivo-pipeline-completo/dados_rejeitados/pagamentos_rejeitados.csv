@@ -1,0 +1,6 @@
+pagamento_id,matricula_id,competencia,valor,data_vencimento,data_pagamento,status,motivo_rejeicao
+4159,347,2025-12-01,35,2025-12-28,2025-12-29,Pago,pk_duplicada
+18540,1545,2026-05-01,399,2026-05-28,2026-06-12,Pago,pk_duplicada
+6656,555,2026-01-01,699,2026-01-31,2026-02-17,Pago,pk_duplicada
+26502,1,,199,2025-07-01,2025-07-09,Pago,data_invalida:competencia
+26503,1,2025-07-01,-999,2025-07-01,2025-07-09,Pago,negativo:valor

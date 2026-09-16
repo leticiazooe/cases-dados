@@ -1,0 +1,5 @@
+empresa_id,segmento,risco,status,motivo_rejeicao
+EM126,Manutenção,Baixo,Homologada,pk_duplicada
+EM020,Serviços,Baixo,Homologada,pk_duplicada
+EM064,Consultoria,Alto,Homologada,pk_duplicada
+,Manutenção,Médio,Homologada,pk_nula

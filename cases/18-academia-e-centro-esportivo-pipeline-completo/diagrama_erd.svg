@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="920" viewBox="0 0 1020 920">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="35" font-family="Arial" font-size="24" font-weight="bold">Academia e Centro Esportivo</text>
+<rect x="30" y="60" width="300" height="180" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="30" y="60" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="40" y="81" font-family="Arial" font-size="15" font-weight="bold">alunos</text>
+<text x="42" y="110" font-family="Arial" font-size="12">aluno_id</text>
+<text x="42" y="128" font-family="Arial" font-size="12">codigo_aluno</text>
+<text x="42" y="146" font-family="Arial" font-size="12">idade</text>
+<text x="42" y="164" font-family="Arial" font-size="12">genero</text>
+<text x="42" y="182" font-family="Arial" font-size="12">regiao</text>
+<text x="42" y="200" font-family="Arial" font-size="12">data_cadastro</text>
+<rect x="360" y="60" width="300" height="180" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="360" y="60" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="370" y="81" font-family="Arial" font-size="15" font-weight="bold">aulas</text>
+<text x="372" y="110" font-family="Arial" font-size="12">aula_id</text>
+<text x="372" y="128" font-family="Arial" font-size="12">modalidade_id</text>
+<text x="372" y="146" font-family="Arial" font-size="12">profissional_id</text>
+<text x="372" y="164" font-family="Arial" font-size="12">data_aula</text>
+<text x="372" y="182" font-family="Arial" font-size="12">horario</text>
+<text x="372" y="200" font-family="Arial" font-size="12">capacidade</text>
+<text x="372" y="218" font-family="Arial" font-size="12">participantes</text>
+<text x="372" y="236" font-family="Arial" font-size="12">status</text>
+<rect x="690" y="60" width="300" height="180" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="690" y="60" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="700" y="81" font-family="Arial" font-size="15" font-weight="bold">avaliacoes_fisicas</text>
+<text x="702" y="110" font-family="Arial" font-size="12">avaliacao_id</text>
+<text x="702" y="128" font-family="Arial" font-size="12">matricula_id</text>
+<text x="702" y="146" font-family="Arial" font-size="12">profissional_id</text>
+<text x="702" y="164" font-family="Arial" font-size="12">data_avaliacao</text>
+<text x="702" y="182" font-family="Arial" font-size="12">imc</text>
+<text x="702" y="200" font-family="Arial" font-size="12">gordura_pct</text>
+<text x="702" y="218" font-family="Arial" font-size="12">peso_kg</text>
+<text x="702" y="236" font-family="Arial" font-size="12">objetivo</text>
+<rect x="30" y="270" width="300" height="180" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="30" y="270" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="40" y="291" font-family="Arial" font-size="15" font-weight="bold">cancelamentos</text>
+<text x="42" y="320" font-family="Arial" font-size="12">cancelamento_id</text>
+<text x="42" y="338" font-family="Arial" font-size="12">matricula_id</text>
+<text x="42" y="356" font-family="Arial" font-size="12">data_cancelamento</text>
+<text x="42" y="374" font-family="Arial" font-size="12">motivo</text>
+<text x="42" y="392" font-family="Arial" font-size="12">tentativa_retencao</text>
+<rect x="360" y="270" width="300" height="180" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="360" y="270" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="370" y="291" font-family="Arial" font-size="15" font-weight="bold">frequencias</text>
+<text x="372" y="320" font-family="Arial" font-size="12">frequencia_id</text>
+<text x="372" y="338" font-family="Arial" font-size="12">matricula_id</text>
+<text x="372" y="356" font-family="Arial" font-size="12">data_acesso</text>
+<text x="372" y="374" font-family="Arial" font-size="12">hora_acesso</text>
+<text x="372" y="392" font-family="Arial" font-size="12">modalidade_id</text>
+<text x="372" y="410" font-family="Arial" font-size="12">duracao_minutos</text>
+<rect x="690" y="270" width="300" height="180" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="690" y="270" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="700" y="291" font-family="Arial" font-size="15" font-weight="bold">matriculas</text>
+<text x="702" y="320" font-family="Arial" font-size="12">matricula_id</text>
+<text x="702" y="338" font-family="Arial" font-size="12">aluno_id</text>
+<text x="702" y="356" font-family="Arial" font-size="12">plano_id</text>
+<text x="702" y="374" font-family="Arial" font-size="12">data_inicio</text>
+<text x="702" y="392" font-family="Arial" font-size="12">data_fim</text>
+<text x="702" y="410" font-family="Arial" font-size="12">status</text>
+<text x="702" y="428" font-family="Arial" font-size="12">canal_aquisicao</text>
+<rect x="30" y="480" width="300" height="180" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="30" y="480" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="40" y="501" font-family="Arial" font-size="15" font-weight="bold">modalidades</text>
+<text x="42" y="530" font-family="Arial" font-size="12">modalidade_id</text>
+<text x="42" y="548" font-family="Arial" font-size="12">modalidade</text>
+<rect x="360" y="480" width="300" height="180" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="360" y="480" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="370" y="501" font-family="Arial" font-size="15" font-weight="bold">pagamentos</text>
+<text x="372" y="530" font-family="Arial" font-size="12">pagamento_id</text>
+<text x="372" y="548" font-family="Arial" font-size="12">matricula_id</text>
+<text x="372" y="566" font-family="Arial" font-size="12">competencia</text>
+<text x="372" y="584" font-family="Arial" font-size="12">valor</text>
+<text x="372" y="602" font-family="Arial" font-size="12">data_vencimento</text>
+<text x="372" y="620" font-family="Arial" font-size="12">data_pagamento</text>
+<text x="372" y="638" font-family="Arial" font-size="12">status</text>
+<rect x="690" y="480" width="300" height="180" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="690" y="480" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="700" y="501" font-family="Arial" font-size="15" font-weight="bold">planos</text>
+<text x="702" y="530" font-family="Arial" font-size="12">plano_id</text>
+<text x="702" y="548" font-family="Arial" font-size="12">plano</text>
+<text x="702" y="566" font-family="Arial" font-size="12">valor_referencia</text>
+<rect x="30" y="690" width="300" height="180" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="30" y="690" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="40" y="711" font-family="Arial" font-size="15" font-weight="bold">profissionais</text>
+<text x="42" y="740" font-family="Arial" font-size="12">profissional_id</text>
+<text x="42" y="758" font-family="Arial" font-size="12">codigo_profissional</text>
+<text x="42" y="776" font-family="Arial" font-size="12">modalidade_id</text>
+<text x="42" y="794" font-family="Arial" font-size="12">funcao</text>
+<rect x="360" y="690" width="300" height="180" rx="8" fill="#f7f7f7" stroke="#222"/>
+<rect x="360" y="690" width="300" height="30" rx="8" fill="#e5e7eb" stroke="#222"/>
+<text x="370" y="711" font-family="Arial" font-size="15" font-weight="bold">reservas_aula</text>
+<text x="372" y="740" font-family="Arial" font-size="12">reserva_id</text>
+<text x="372" y="758" font-family="Arial" font-size="12">aula_id</text>
+<text x="372" y="776" font-family="Arial" font-size="12">aluno_id</text>
+<text x="372" y="794" font-family="Arial" font-size="12">status</text>
+</svg>
