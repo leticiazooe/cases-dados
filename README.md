@@ -1,6 +1,6 @@
 # Cases de Dados
 
-Coleção de 24 projetos para estudo e portfólio em análise de dados, engenharia de dados, SQL, Power BI, Excel e Python.
+Coleção de 25 projetos para estudo e portfólio em análise de dados, engenharia de dados, SQL, Power BI, Excel e Python.
 
 Os cases estão organizados em pastas navegáveis diretamente pelo GitHub. Cada projeto reúne, conforme o tema, bases em CSV/Excel, bancos SQLite, scripts SQL, medidas DAX, documentação, diagramas ERD, relatórios de qualidade e materiais de pipeline.
 
@@ -32,6 +32,7 @@ Os cases estão organizados em pastas navegáveis diretamente pelo GitHub. Cada 
 | 22 | Terceiros, Visitantes e Acessos | [Abrir](cases/22-terceiros-visitantes-acessos/) |
 | 23 | Cost Saving e Compras | [Abrir](cases/23-cost-saving-compras/) |
 | 24 | Segurança, LOTO e Ações Preventivas | [Abrir](cases/24-seguranca-loto-acoes-preventivas/) |
+| 25 | Auditoria de Cópias Controladas | [Abrir](cases/25-auditoria-copias-controladas/) |
 
 Veja também o [índice detalhado dos cases](cases/README.md).
 
@@ -46,6 +47,7 @@ Veja também o [índice detalhado dos cases](cases/README.md).
 
 - Os dados sintéticos são destinados a estudo e demonstração.
 - O Case 11 utiliza dados públicos reais e inclui as fontes no próprio projeto.
+- O Case 25 nasceu de um problema real e, na fase atual, contém estrutura analítica, modelo de coleta e documentação sem dados reais ou sintéticos preenchidos.
 - Os Cases 15 a 18 incluem materiais de pipeline mais completos.
 - Os Cases 18 e 21 possuem `RECOVERY.md`, documentando a recuperação dos pacotes históricos que estavam truncados.
 - Não utilize dados fictícios destes projetos para decisões clínicas, jurídicas, financeiras ou operacionais reais.
