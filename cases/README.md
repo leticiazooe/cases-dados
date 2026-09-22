@@ -28,3 +28,4 @@ Coleção recuperada e descompactada para navegação direta no GitHub.
 | 22 | [Terceiros Visitantes Acessos](22-terceiros-visitantes-acessos) | 38 | 12.5 MB |
 | 23 | [Cost Saving Compras](23-cost-saving-compras) | 38 | 6.0 MB |
 | 24 | [Seguranca Loto Acoes Preventivas](24-seguranca-loto-acoes-preventivas) | 42 | 6.2 MB |
+| 25 | [Auditoria Copias Controladas](25-auditoria-copias-controladas) | 8 | <0.1 MB |
