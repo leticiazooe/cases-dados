@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Case 25 — Auditoria de Cópias Controladas</title>
+<style>
+:root{--bg:#f7f5ef;--surface:#fff;--text:#0b1324;--muted:#667085;--border:#e5e1d8;--risk:#b33a3a;--warn:#9a6510;--ok:#287a56;--lilac:#ddd9ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 Inter,Arial,sans-serif}
+main{max-width:1250px;margin:auto;padding:32px}.eyebrow{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--lilac);font-weight:700}
+h1{font-size:32px;margin:12px 0 4px}.muted{color:var(--muted)}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px}.stat b{display:block;font-size:26px;margin-top:5px}
+.layout{display:grid;grid-template-columns:2fr 1fr;gap:14px}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:11px;border-bottom:1px solid var(--border);vertical-align:top}
+th{font-size:11px;color:var(--muted);text-transform:uppercase}.pill{display:inline-block;border-radius:999px;padding:4px 8px;font-size:11px;font-weight:700}
+.critical,.risk{background:#fceaea;color:var(--risk)}.high,.pending{background:#fff4d8;color:var(--warn)}.ok{background:#eaf6f0;color:var(--ok)}
+.note{background:#fbfaff;border:1px solid #e7e3ff;border-radius:12px;padding:14px}@media(max-width:850px){.stats,.layout{grid-template-columns:1fr}}
+</style>
+</head>
+<body><main>
+<span class="eyebrow">CLARA • CASE 25</span>
+<h1>Auditoria de Cópias Controladas</h1>
+<p class="muted">Protótipo de investigação para rastreabilidade, revisão, responsabilidade, localização e validade documental.</p>
+<section class="stats">
+<div class="card stat"><span>Perguntas críticas</span><b>6</b></div>
+<div class="card stat"><span>Eixos de controle</span><b>5</b></div>
+<div class="card stat"><span>KPIs propostos</span><b>10</b></div>
+<div class="card stat"><span>Status da base</span><b style="font-size:18px">A coletar</b></div>
+</section>
+<section class="layout">
+<div class="card">
+<h2>Matriz de auditoria</h2>
+<table>
+<thead><tr><th>Pergunta</th><th>Prioridade</th><th>Evidência</th></tr></thead>
+<tbody>
+<tr><td>Toda cópia pode ser rastreada?</td><td><span class="pill critical">Crítica</span></td><td>ID, documento, revisão, responsável e localização</td></tr>
+<tr><td>A revisão em uso é a vigente?</td><td><span class="pill critical">Crítica</span></td><td>Revisão da cópia x revisão vigente</td></tr>
+<tr><td>Existem cópias obsoletas circulando?</td><td><span class="pill critical">Crítica</span></td><td>Status e baixa/recolhimento</td></tr>
+<tr><td>Quem é responsável?</td><td><span class="pill critical">Crítica</span></td><td>Custodiante atual</td></tr>
+<tr><td>Onde a cópia está?</td><td><span class="pill critical">Crítica</span></td><td>Localização e última movimentação</td></tr>
+<tr><td>O que ocorre após nova revisão?</td><td><span class="pill critical">Crítica</span></td><td>Substituição, invalidação ou recolhimento</td></tr>
+</tbody></table>
+</div>
+<aside class="card"><h2>Clara</h2><p class="muted">Data Analysis & Diagnostic Strategist</p>
+<div class="note"><b>Leitura analítica</b><br>O maior risco não é a quantidade de cópias. É não conseguir provar qual revisão está em uso, quem responde pela cópia e onde ela está.</div>
+<h3>Próximos passos</h3><ol><li>Mapear fontes.</li><li>Validar campos existentes.</li><li>Medir lacunas.</li><li>Construir base analítica.</li><li>Executar auditoria.</li></ol>
+</aside>
+</section>
+</main></body></html>
